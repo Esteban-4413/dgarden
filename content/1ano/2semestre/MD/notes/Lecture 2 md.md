@@ -50,45 +50,10 @@ $$n = p_1^{\alpha_1} p_2^{\alpha_2} \dots p_k^{\alpha_k}$$
 Existem infinitos números primos.
 
 ---
-
-# Lecture 3: Máximo Divisor Comum e Mínimo Múltiplo Comum
-
-## 1. Máximo Divisor Comum (MDC)
-
-**Definição:**
-Sejam $a$ e $b$ dois inteiros, com pelo menos um deles não nulo. O **máximo divisor comum** de $a$ e $b$, denotado por $\text{mdc}(a, b)$ ou simplesmente $(a, b)$, é o inteiro $d$ tal que:
-1.  $d | a$ e $d | b$ ($d$ é divisor comum).
-2.  Se $c | a$ e $c | b$, então $c \leq d$ ($d$ é o maior de todos os divisores comuns).
-
-> **Nota:** $\text{mdc}(a, b) = \text{mdc}(|a|, |b|)$, por isso geralmente trabalhamos com inteiros não negativos.
-
-**Primos entre si (Coprimos):**
-Dois inteiros $a$ e $b$ dizem-se **primos entre si** se $\text{mdc}(a, b) = 1$.
-
-**Propriedades do MDC:**
-* $\text{mdc}(a, b) = \text{mdc}(b, a)$
-* $\text{mdc}(a, 0) = |a|$ (pois $a$ divide 0 e é o maior divisor de si mesmo).
-* Se $a | b$, então $\text{mdc}(a, b) = |a|$.
-
+**O Crivo de Eratóstenes:**
+É um algoritmo simples e prático para encontrar todos os números primos até um determinado limite $N$. 
+* **Método:** Escreve-se uma lista de números de 2 até $N$. O primeiro número (2) é primo. De seguida, riscam-se todos os seus múltiplos. O próximo número não riscado (3) é primo. Riscam-se os seus múltiplos, e assim sucessivamente, até atingir a raiz quadrada de $N$ ($\sqrt{N}$). Os números que sobrarem sem ser riscados são todos primos.
 ---
 
-## 2. Mínimo Múltiplo Comum (mmc)
-
-**Definição:**
-Sejam $a, b \in \mathbb{Z} \setminus \{0\}$. O **mínimo múltiplo comum** de $a$ e $b$, denotado por $\text{mmc}(a, b)$, é o menor inteiro positivo que é múltiplo de $a$ e de $b$.
-
----
-
-## 3. Relação entre MDC e mmc
-
-Existe uma relação fundamental que conecta estes dois conceitos, permitindo calcular um a partir do outro.
-
-**Teorema:**
-Para quaisquer inteiros positivos $a$ e $b$:
-$$\text{mdc}(a, b) \cdot \text{mmc}(a, b) = a \cdot b$$
-
-Para inteiros gerais (podendo ser negativos):
-$$\text{mdc}(a, b) \cdot \text{mmc}(a, b) = |a \cdot b|$$
-
-
----
+## Links 
+- [[Lecture 1 md]]

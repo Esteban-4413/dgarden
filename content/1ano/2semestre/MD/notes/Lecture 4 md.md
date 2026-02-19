@@ -77,4 +77,26 @@ Calcular o **mdc(252, 198)**.
     $$198 = 54 \cdot 3 + \mathbf{36}$$
     *(O resto é 36. Agora fazemos mdc(54, 36))*
 
-3.  Dividir 54 por
+3.  Dividir 54 por 36:
+    $$54 = 36 \cdot 1 + \mathbf{18}$$
+    *(O resto é 18. Agora fazemos mdc(36, 18))*
+
+4.  Dividir 36 por 18:
+    $$36 = 18 \cdot 2 + \mathbf{0}$$
+    *(Resto zero! O processo termina).*
+
+**Resultado:**
+O último resto não nulo foi **18**.
+Logo, $\text{mdc}(252, 198) = 18$.
+
+---
+
+### Nota para o futuro (Algoritmo Estendido)
+Este processo pode ser "invertido" para escrever o m.d.c. como uma combinação linear dos números originais:
+$$18 = 252x + 198y$$
+Isto será fundamental para resolver **Equações Diofantinas** e calcular **Inversos Modulares**.
+
+## Links
+- [[Lecture 1 md]]
+- [[Lecture 2 md]]
+- [[Lecture 3 md]]

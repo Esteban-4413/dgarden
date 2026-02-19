@@ -1,0 +1,9 @@
+---
+title: "Sc"
+---
+
+# Sc
+
+Bienvenido a la sección de **Sc**. Aquí tienes el material disponible:
+
+*(Aún no hay archivos PDF cargados en esta carpeta)*
