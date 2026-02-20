@@ -4,6 +4,8 @@ title: "Universidade"
 
 # Universidade
 
-Bienvenido a la sección de **Universidade**. Aquí tienes el material disponible:
+Contenido de la carpeta **Universidade**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

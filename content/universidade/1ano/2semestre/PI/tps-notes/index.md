@@ -4,6 +4,8 @@ title: "Tps notes"
 
 # Tps notes
 
-Bienvenido a la sección de **Tps notes**. Aquí tienes el material disponible:
+Contenido de la carpeta **Tps notes**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

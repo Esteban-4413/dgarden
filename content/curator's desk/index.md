@@ -4,6 +4,8 @@ title: "Curator's desk"
 
 # Curator's desk
 
-Bienvenido a la sección de **Curator's desk**. Aquí tienes el material disponible:
+Contenido de la carpeta **Curator's desk**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

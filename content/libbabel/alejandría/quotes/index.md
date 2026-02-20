@@ -4,6 +4,8 @@ title: "Quotes"
 
 # Quotes
 
-Bienvenido a la sección de **Quotes**. Aquí tienes el material disponible:
+Contenido de la carpeta **Quotes**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

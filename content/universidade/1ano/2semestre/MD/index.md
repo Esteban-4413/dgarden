@@ -4,6 +4,8 @@ title: "Md"
 
 # Md
 
-Bienvenido a la sección de **Md**. Aquí tienes el material disponible:
+Contenido de la carpeta **Md**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

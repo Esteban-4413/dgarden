@@ -4,6 +4,8 @@ title: "Alejandría"
 
 # Alejandría
 
-Bienvenido a la sección de **Alejandría**. Aquí tienes el material disponible:
+Contenido de la carpeta **Alejandría**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

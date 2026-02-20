@@ -4,6 +4,8 @@ title: "Ficha1"
 
 # Ficha1
 
-Bienvenido a la sección de **Ficha1**. Aquí tienes el material disponible:
+Contenido de la carpeta **Ficha1**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

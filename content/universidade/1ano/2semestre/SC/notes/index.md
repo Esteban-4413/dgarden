@@ -4,6 +4,8 @@ title: "Notes"
 
 # Notes
 
-Bienvenido a la sección de **Notes**. Aquí tienes el material disponible:
+Contenido de la carpeta **Notes**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

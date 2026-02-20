@@ -4,6 +4,8 @@ title: "Guioes"
 
 # Guioes
 
-Bienvenido a la sección de **Guioes**. Aquí tienes el material disponible:
+Contenido de la carpeta **Guioes**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

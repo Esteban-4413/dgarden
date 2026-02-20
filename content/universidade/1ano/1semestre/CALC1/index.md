@@ -4,6 +4,8 @@ title: "Calc1"
 
 # Calc1
 
-Bienvenido a la sección de **Calc1**. Aquí tienes el material disponible:
+Contenido de la carpeta **Calc1**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

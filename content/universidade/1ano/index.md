@@ -4,6 +4,8 @@ title: "1ano"
 
 # 1ano
 
-Bienvenido a la sección de **1ano**. Aquí tienes el material disponible:
+Contenido de la carpeta **1ano**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

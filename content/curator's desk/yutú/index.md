@@ -4,6 +4,8 @@ title: "Yutú"
 
 # Yutú
 
-Bienvenido a la sección de **Yutú**. Aquí tienes el material disponible:
+Contenido de la carpeta **Yutú**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

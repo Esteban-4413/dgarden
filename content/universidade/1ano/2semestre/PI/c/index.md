@@ -4,6 +4,8 @@ title: "C"
 
 # C
 
-Bienvenido a la sección de **C**. Aquí tienes el material disponible:
+Contenido de la carpeta **C**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

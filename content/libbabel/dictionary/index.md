@@ -4,6 +4,8 @@ title: "Dictionary"
 
 # Dictionary
 
-Bienvenido a la sección de **Dictionary**. Aquí tienes el material disponible:
+Contenido de la carpeta **Dictionary**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

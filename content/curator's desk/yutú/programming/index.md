@@ -4,6 +4,8 @@ title: "Programming"
 
 # Programming
 
-Bienvenido a la sección de **Programming**. Aquí tienes el material disponible:
+Contenido de la carpeta **Programming**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

@@ -4,13 +4,12 @@ title: "Bibliografías"
 
 # Bibliografías
 
-Bienvenido a la sección de **Bibliografías**. Aquí tienes el material disponible:
+Contenido de la carpeta **Bibliografías**.
 
-## 📚 Documentos y Recursos
+## 📁 Archivos disponibles
 
-- 📄 [Descargar Lang-linear-algebra.pdf](Lang-linear-algebra.pdf)
-- 📄 [Descargar basic-linear-algebra-t-s-blyth-and-e-h-robertson1.pdf](basic-linear-algebra-t-s-blyth-and-e-h-robertson1.pdf)
+- 📄 [Lang-linear-algebra.pdf](Lang-linear-algebra.pdf)
+- 📄 [basic-linear-algebra-t-s-blyth-and-e-h-robertson1.pdf](basic-linear-algebra-t-s-blyth-and-e-h-robertson1.pdf)
 
 
-> [!TIP]
-> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.
+---

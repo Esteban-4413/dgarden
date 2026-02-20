@@ -4,12 +4,11 @@ title: "Info"
 
 # Info
 
-Bienvenido a la sección de **Info**. Aquí tienes el material disponible:
+Contenido de la carpeta **Info**.
 
-## 📚 Documentos y Recursos
+## 📁 Archivos disponibles
 
-- 📄 [Descargar Informacoes.pdf](Informacoes.pdf)
+- 📄 [Informacoes.pdf](Informacoes.pdf)
 
 
-> [!TIP]
-> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.
+---

@@ -4,6 +4,8 @@ title: "Raw notes"
 
 # Raw notes
 
-Bienvenido a la sección de **Raw notes**. Aquí tienes el material disponible:
+Contenido de la carpeta **Raw notes**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

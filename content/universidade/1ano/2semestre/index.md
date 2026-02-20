@@ -4,6 +4,8 @@ title: "2semestre"
 
 # 2semestre
 
-Bienvenido a la sección de **2semestre**. Aquí tienes el material disponible:
+Contenido de la carpeta **2semestre**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

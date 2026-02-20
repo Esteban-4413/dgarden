@@ -4,6 +4,8 @@ title: "Music"
 
 # Music
 
-Bienvenido a la sección de **Music**. Aquí tienes el material disponible:
+Contenido de la carpeta **Music**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

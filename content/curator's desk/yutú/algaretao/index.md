@@ -4,6 +4,8 @@ title: "Algaretao"
 
 # Algaretao
 
-Bienvenido a la sección de **Algaretao**. Aquí tienes el material disponible:
+Contenido de la carpeta **Algaretao**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---

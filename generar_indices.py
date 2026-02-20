@@ -1,40 +1,39 @@
 import os
 
-def crear_indices_con_materiales(ruta_base):
+def restaurar_todo(ruta_base):
     for raiz, carpetas, archivos in os.walk(ruta_base):
-        # Saltamos la carpeta raíz de content
+        # Saltamos la raíz de 'content'
         if raiz == ruta_base:
             continue
 
         nombre_carpeta = os.path.basename(raiz)
         titulo = nombre_carpeta.replace('-', ' ').replace('_', ' ').capitalize()
         
-        # Buscamos todos los archivos PDF en esta carpeta específica
-        pdfs = [f for f in archivos if f.lower().endswith('.pdf')]
+        # Buscamos materiales (PDF, SVG, etc.) por si los hay
+        recursos = [f for f in archivos if f.lower().endswith(('.pdf', '.svg', '.excalidraw'))]
         
         ruta_index = os.path.join(raiz, 'index.md')
         
         with open(ruta_index, 'w', encoding='utf-8') as f:
-            # Metadatos para Quartz
             f.write(f'---\ntitle: "{titulo}"\n---\n\n')
             f.write(f'# {titulo}\n\n')
-            f.write(f'Bienvenido a la sección de **{titulo}**. Aquí tienes el material disponible:\n\n')
+            f.write(f'Contenido de la carpeta **{titulo}**.\n\n')
             
-            if pdfs:
-                f.write('## 📚 Documentos y Recursos\n\n')
-                for pdf in sorted(pdfs):
-                    # Creamos un enlace de descarga para cada PDF encontrado
-                    f.write(f'- 📄 [Descargar {pdf}]({pdf})\n')
-                
-                f.write('\n\n> [!TIP]\n> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.')
+            if recursos:
+                f.write('## 📁 Archivos disponibles\n\n')
+                for res in sorted(recursos):
+                    icono = "📄" if res.lower().endswith('.pdf') else "🎨"
+                    f.write(f'- {icono} [{res}]({res})\n')
             else:
-                f.write('*(Aún no hay archivos PDF cargados en esta carpeta)*')
+                f.write('*(Esta carpeta es para organización o contiene notas de texto)*')
             
-        print(f"✅ Procesado: {nombre_carpeta} ({len(pdfs)} PDFs listados)")
+            f.write('\n\n---')
+            
+        print(f"✅ Restaurado: {nombre_carpeta}")
 
 if __name__ == "__main__":
-    # Verifica que estás ejecutando esto desde la carpeta raíz del proyecto
     if os.path.exists('content'):
-        crear_indices_con_materiales('content')
+        restaurar_todo('content')
+        print("\n✨ ¡Listo! Todos los índices han sido restaurados.")
     else:
-        print("❌ Error: No se encontró la carpeta 'content'. Asegúrate de estar en la raíz de tu proyecto Quartz.")
+        print("❌ Error: No se encontró la carpeta 'content'.")

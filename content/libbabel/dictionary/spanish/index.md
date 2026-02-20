@@ -4,6 +4,8 @@ title: "Spanish"
 
 # Spanish
 
-Bienvenido a la sección de **Spanish**. Aquí tienes el material disponible:
+Contenido de la carpeta **Spanish**.
 
-*(Aún no hay archivos PDF cargados en esta carpeta)*
+*(Esta carpeta es para organización o contiene notas de texto)*
+
+---
