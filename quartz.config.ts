@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Mis Apuntes", // <--- Cámbialo por el nombre que quieras
+    pageTitle: "Mis Apuntes", 
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "es-ES", // <--- Cambiado a Español [cite: 2026-01-23]
+    locale: "es-ES", 
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",

@@ -1,3 +1,74 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// 1. Variables Globales de Anuppuccin
+:root {
+  --border-radius: 16px; // Tu config: anp-border-radius
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --bold-weight: 700; // Tu config: bold-weight
+}
+
+// 2. Estilo de Encabezados (Headers)
+h1 {
+  font-weight: 900 !important; // Tu config: h1-weight
+  line-height: 1.2;
+  margin-top: 2rem;
+  // Divisor opcional como tienes en Obsidian
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-weight: 100 !important; // Tu config: h2-weight (un contraste elegante)
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-weight: 700 !important; // Tu config: h3-weight
+  color: var(--secondary) !important; // Usa el Teal que configuramos en el config.ts
+}
+
+// 3. Efecto "Card Layout" para el contenido principal
+.center {
+  & > article {
+    background-color: var(--light);
+    border: 1px solid var(--lightgray);
+    border-radius: var(--border-radius);
+    padding: 2.5rem;
+    margin-top: 1rem;
+    box-shadow: var(--card-shadow);
+    
+    // Suavizar transiciones de color
+    transition: background-color 0.3s ease; 
+  }
+}
+
+// 4. Callouts estilo "Sleek"
+.callout {
+  border-radius: 8px !important; // Tu config: anp-safari-tab-radius aproximado
+  border-left-width: 4px !important;
+  mix-blend-mode: normal;
+  
+  &[data-callout] {
+    background-color: var(--highlight);
+  }
+}
+
+// 5. Ajustes de la Barra Lateral (Explorer)
+.explorer-container {
+  font-family: var(--bodyFont);
+  
+  // Iconos de archivos y carpetas
+  .folder-icon {
+    color: var(--secondary);
+  }
+}
+
+// 6. Tipografía General
+body {
+  -webkit-font-smoothing: antialiased;
+  font-variant-ligatures: common-ligatures;
+}
+
+b, strong {
+  font-weight: var(--bold-weight);
+}
