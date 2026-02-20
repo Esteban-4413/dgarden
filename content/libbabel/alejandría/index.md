@@ -4,8 +4,6 @@ title: "Alejandría"
 
 # Alejandría
 
-Contenido de la carpeta **Alejandría**.
+Contenido disponible en la carpeta **Alejandría**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

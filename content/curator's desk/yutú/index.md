@@ -4,8 +4,6 @@ title: "Yutú"
 
 # Yutú
 
-Contenido de la carpeta **Yutú**.
+Contenido disponible en la carpeta **Yutú**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

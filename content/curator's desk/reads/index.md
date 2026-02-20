@@ -4,8 +4,6 @@ title: "Reads"
 
 # Reads
 
-Contenido de la carpeta **Reads**.
+Contenido disponible en la carpeta **Reads**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

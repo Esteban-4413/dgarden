@@ -4,8 +4,6 @@ title: "Universidade"
 
 # Universidade
 
-Contenido de la carpeta **Universidade**.
+Contenido disponible en la carpeta **Universidade**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

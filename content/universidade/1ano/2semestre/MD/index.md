@@ -4,8 +4,6 @@ title: "Md"
 
 # Md
 
-Contenido de la carpeta **Md**.
+Contenido disponible en la carpeta **Md**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

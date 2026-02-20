@@ -4,8 +4,6 @@ title: "Lpii"
 
 # Lpii
 
-Contenido de la carpeta **Lpii**.
+Contenido disponible en la carpeta **Lpii**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

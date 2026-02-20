@@ -4,12 +4,9 @@ title: "Solucoes"
 
 # Solucoes
 
-Contenido de la carpeta **Solucoes**.
+Contenido disponible en la carpeta **Solucoes**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [solucoes-ficha1.pdf](solucoes-ficha1.pdf)
 - 📄 [solucoes-ficha2.pdf](solucoes-ficha2.pdf)
-
-
----

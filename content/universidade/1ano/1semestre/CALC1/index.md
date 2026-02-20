@@ -4,8 +4,6 @@ title: "Calc1"
 
 # Calc1
 
-Contenido de la carpeta **Calc1**.
+Contenido disponible en la carpeta **Calc1**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

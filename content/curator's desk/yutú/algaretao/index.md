@@ -4,8 +4,6 @@ title: "Algaretao"
 
 # Algaretao
 
-Contenido de la carpeta **Algaretao**.
+Contenido disponible en la carpeta **Algaretao**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

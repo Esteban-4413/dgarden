@@ -4,8 +4,6 @@ title: "Dictionary"
 
 # Dictionary
 
-Contenido de la carpeta **Dictionary**.
+Contenido disponible en la carpeta **Dictionary**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

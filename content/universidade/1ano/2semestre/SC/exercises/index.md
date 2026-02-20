@@ -4,8 +4,6 @@ title: "Exercises"
 
 # Exercises
 
-Contenido de la carpeta **Exercises**.
+Contenido disponible en la carpeta **Exercises**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

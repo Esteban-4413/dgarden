@@ -4,8 +4,6 @@ title: "Cats"
 
 # Cats
 
-Contenido de la carpeta **Cats**.
+Contenido disponible en la carpeta **Cats**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

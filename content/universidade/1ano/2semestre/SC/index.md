@@ -4,8 +4,6 @@ title: "Sc"
 
 # Sc
 
-Contenido de la carpeta **Sc**.
+Contenido disponible en la carpeta **Sc**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

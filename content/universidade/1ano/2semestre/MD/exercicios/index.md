@@ -4,11 +4,8 @@ title: "Exercicios"
 
 # Exercicios
 
-Contenido de la carpeta **Exercicios**.
+Contenido disponible en la carpeta **Exercicios**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [exercicios_TN.pdf](exercicios_TN.pdf)
-
-
----

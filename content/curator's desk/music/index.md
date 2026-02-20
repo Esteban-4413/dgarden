@@ -4,8 +4,6 @@ title: "Music"
 
 # Music
 
-Contenido de la carpeta **Music**.
+Contenido disponible en la carpeta **Music**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

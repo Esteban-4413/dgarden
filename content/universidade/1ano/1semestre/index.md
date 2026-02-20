@@ -4,8 +4,6 @@ title: "1semestre"
 
 # 1semestre
 
-Contenido de la carpeta **1semestre**.
+Contenido disponible en la carpeta **1semestre**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

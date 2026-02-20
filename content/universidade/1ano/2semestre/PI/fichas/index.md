@@ -4,13 +4,10 @@ title: "Fichas"
 
 # Fichas
 
-Contenido de la carpeta **Fichas**.
+Contenido disponible en la carpeta **Fichas**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [Ficha1.pdf](Ficha1.pdf)
 - 📄 [Ficha2.pdf](Ficha2.pdf)
 - 📄 [Q1.pdf](Q1.pdf)
-
-
----

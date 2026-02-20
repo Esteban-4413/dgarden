@@ -4,8 +4,6 @@ title: "Pi"
 
 # Pi
 
-Contenido de la carpeta **Pi**.
+Contenido disponible en la carpeta **Pi**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

@@ -4,8 +4,6 @@ title: "Guioes"
 
 # Guioes
 
-Contenido de la carpeta **Guioes**.
+Contenido disponible en la carpeta **Guioes**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

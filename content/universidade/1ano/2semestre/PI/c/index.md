@@ -4,8 +4,6 @@ title: "C"
 
 # C
 
-Contenido de la carpeta **C**.
+Contenido disponible en la carpeta **C**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

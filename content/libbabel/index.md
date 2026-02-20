@@ -4,8 +4,6 @@ title: "Libbabel"
 
 # Libbabel
 
-Contenido de la carpeta **Libbabel**.
+Contenido disponible en la carpeta **Libbabel**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

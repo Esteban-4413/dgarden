@@ -4,11 +4,8 @@ title: "Info"
 
 # Info
 
-Contenido de la carpeta **Info**.
+Contenido disponible en la carpeta **Info**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [Informacoes.pdf](Informacoes.pdf)
-
-
----

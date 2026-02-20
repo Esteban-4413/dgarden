@@ -4,8 +4,6 @@ title: "Notes"
 
 # Notes
 
-Contenido de la carpeta **Notes**.
+Contenido disponible en la carpeta **Notes**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

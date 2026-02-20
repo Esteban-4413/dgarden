@@ -4,12 +4,9 @@ title: "Slides"
 
 # Slides
 
-Contenido de la carpeta **Slides**.
+Contenido disponible en la carpeta **Slides**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [Slides1.pdf](Slides1.pdf)
 - 📄 [Slides2.pdf](Slides2.pdf)
-
-
----

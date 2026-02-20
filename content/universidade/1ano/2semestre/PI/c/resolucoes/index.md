@@ -4,8 +4,6 @@ title: "Resolucoes"
 
 # Resolucoes
 
-Contenido de la carpeta **Resolucoes**.
+Contenido disponible en la carpeta **Resolucoes**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

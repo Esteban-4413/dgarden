@@ -4,8 +4,6 @@ title: "Curator's desk"
 
 # Curator's desk
 
-Contenido de la carpeta **Curator's desk**.
+Contenido disponible en la carpeta **Curator's desk**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

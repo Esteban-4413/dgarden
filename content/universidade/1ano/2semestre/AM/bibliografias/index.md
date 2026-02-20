@@ -4,11 +4,8 @@ title: "Bibliografias"
 
 # Bibliografias
 
-Contenido de la carpeta **Bibliografias**.
+Contenido disponible en la carpeta **Bibliografias**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [calculusIII.pdf](calculusIII.pdf)
-
-
----

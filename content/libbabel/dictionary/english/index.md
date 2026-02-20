@@ -4,8 +4,6 @@ title: "English"
 
 # English
 
-Contenido de la carpeta **English**.
+Contenido disponible en la carpeta **English**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

@@ -4,9 +4,9 @@ title: "Slides"
 
 # Slides
 
-Contenido de la carpeta **Slides**.
+Contenido disponible en la carpeta **Slides**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [Derivadas.pdf](Derivadas.pdf)
 - 📄 [Funcoes.pdf](Funcoes.pdf)
@@ -15,6 +15,3 @@ Contenido de la carpeta **Slides**.
 - 📄 [RetaReal.pdf](RetaReal.pdf)
 - 📄 [SucessoesSeries.pdf](SucessoesSeries.pdf)
 - 📄 [TrigonometricasHiperbolicas.pdf](TrigonometricasHiperbolicas.pdf)
-
-
----

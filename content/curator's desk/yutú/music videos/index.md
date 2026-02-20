@@ -4,8 +4,6 @@ title: "Music videos"
 
 # Music videos
 
-Contenido de la carpeta **Music videos**.
+Contenido disponible en la carpeta **Music videos**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

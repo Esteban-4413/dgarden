@@ -4,12 +4,9 @@ title: "Formularios"
 
 # Formularios
 
-Contenido de la carpeta **Formularios**.
+Contenido disponible en la carpeta **Formularios**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [Conicas.pdf](Conicas.pdf)
 - 📄 [Quadricas.pdf](Quadricas.pdf)
-
-
----

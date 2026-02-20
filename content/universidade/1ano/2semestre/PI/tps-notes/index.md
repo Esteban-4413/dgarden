@@ -4,8 +4,6 @@ title: "Tps notes"
 
 # Tps notes
 
-Contenido de la carpeta **Tps notes**.
+Contenido disponible en la carpeta **Tps notes**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

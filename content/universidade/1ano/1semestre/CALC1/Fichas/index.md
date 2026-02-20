@@ -4,9 +4,9 @@ title: "Fichas"
 
 # Fichas
 
-Contenido de la carpeta **Fichas**.
+Contenido disponible en la carpeta **Fichas**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
 - 📄 [CalculoEng_folha4_AL2.pdf](CalculoEng_folha4_AL2.pdf)
 - 📄 [Calculo_folha1.pdf](Calculo_folha1.pdf)
@@ -17,6 +17,3 @@ Contenido de la carpeta **Fichas**.
 - 📄 [Calculo_folha6.pdf](Calculo_folha6.pdf)
 - 📄 [Calculo_folha7.pdf](Calculo_folha7.pdf)
 - 📄 [Solucoes_FolhaEx6.pdf](Solucoes_FolhaEx6.pdf)
-
-
----

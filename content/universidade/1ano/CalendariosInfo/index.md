@@ -4,13 +4,10 @@ title: "Calendariosinfo"
 
 # Calendariosinfo
 
-Contenido de la carpeta **Calendariosinfo**.
+Contenido disponible en la carpeta **Calendariosinfo**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
-- 📄 [0-Despacho RT-51_2025-Anexo1_1º_semestre.pdf](0-Despacho RT-51_2025-Anexo1_1º_semestre.pdf)
-- 📄 [Calendario Escolar EC 2025_2026_Anexo.pdf](Calendario Escolar EC 2025_2026_Anexo.pdf)
-- 📄 [Calendário da 2025_26_signed.pdf](Calendário da 2025_26_signed.pdf)
-
-
----
+- 📄 [0-Despacho RT-51_2025-Anexo1_1º_semestre.pdf](0-Despacho%20RT-51_2025-Anexo1_1%C2%BA_semestre.pdf)
+- 📄 [Calendario Escolar EC 2025_2026_Anexo.pdf](Calendario%20Escolar%20EC%202025_2026_Anexo.pdf)
+- 📄 [Calendário da 2025_26_signed.pdf](Calenda%CC%81rio%20da%202025_26_signed.pdf)

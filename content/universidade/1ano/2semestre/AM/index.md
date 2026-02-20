@@ -4,8 +4,6 @@ title: "Am"
 
 # Am
 
-Contenido de la carpeta **Am**.
+Contenido disponible en la carpeta **Am**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

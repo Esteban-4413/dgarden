@@ -4,11 +4,8 @@ title: "Apuntes"
 
 # Apuntes
 
-Contenido de la carpeta **Apuntes**.
+Contenido disponible en la carpeta **Apuntes**:
 
-## 📁 Archivos disponibles
+## 📁 Archivos y Documentos
 
-- 📄 [ALGEBRA_LINEAR(1).pdf](ALGEBRA_LINEAR(1).pdf)
-
-
----
+- 📄 [ALGEBRA_LINEAR(1).pdf](ALGEBRA_LINEAR%281%29.pdf)

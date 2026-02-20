@@ -4,8 +4,6 @@ title: "Spanish"
 
 # Spanish
 
-Contenido de la carpeta **Spanish**.
+Contenido disponible en la carpeta **Spanish**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*

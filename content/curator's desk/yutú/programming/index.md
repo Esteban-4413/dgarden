@@ -4,8 +4,6 @@ title: "Programming"
 
 # Programming
 
-Contenido de la carpeta **Programming**.
+Contenido disponible en la carpeta **Programming**:
 
-*(Esta carpeta es para organización o contiene notas de texto)*
-
----
+*(Carpeta de organización o apuntes)*
