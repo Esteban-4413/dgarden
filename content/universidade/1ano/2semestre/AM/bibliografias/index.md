@@ -8,5 +8,6 @@ Contenido disponible en la carpeta **Bibliografias**:
 
 ## 📁 Archivos y Documentos
 
-- 📄 [Calculo_Vectorial_Marsden.pdf](Calculo_Vectorial_Marsden.pdf)
+- 📄 [calculusII.pdf](calculusII.pdf)
 - 📄 [calculusIII.pdf](calculusIII.pdf)
+- 📄 [vectorial_calculus.pdf](vectorial_calculus.pdf)
