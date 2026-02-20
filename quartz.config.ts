@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Mis Apuntes", // <--- Cámbialo por el nombre que quieras
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "es-ES", // <--- Cambiado a Español [cite: 2026-01-23]
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -23,31 +23,31 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "New York, Georgia, serif", // Tu fuente de Obsidian
+        body: "Inter, sans-serif",
+        code: "JetBrains Mono, monospace",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#faf4ed",         // Rosé Pine Light bg
+          lightgray: "#f2e9e1",     // Bordes y UI
+          gray: "#9893a5",          // Texto secundario
+          darkgray: "#575279",      // Texto principal
+          dark: "#286983",          // Títulos
+          secondary: "#1A7DA4",     // Tu Teal personalizado (Light)
+          tertiary: "#d7827e",      // Acento secundario (Rose)
+          highlight: "rgba(26, 125, 164, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#303446",         // Catppuccin Frappé bg
+          lightgray: "#414559",     // Bordes y UI
+          gray: "#838ba7",          // Texto secundario
+          darkgray: "#c6d0f5",      // Texto principal
+          dark: "#eebebe",          // Títulos (Rosewater)
+          secondary: "#11B7C5",     // Tu Teal personalizado (Dark)
+          tertiary: "#81c8be",      // Acento secundario (Teal suave)
+          highlight: "rgba(17, 183, 197, 0.15)",
           textHighlight: "#b3aa0288",
         },
       },
@@ -88,7 +88,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
   },

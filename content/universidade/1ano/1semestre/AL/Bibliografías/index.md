@@ -1,10 +1,10 @@
 ---
-title: "Bibliografías"
+title: "Bibliografías"
 ---
 
-# Bibliografías
+# Bibliografías
 
-Contenido disponible en la carpeta **Bibliografías**:
+Contenido disponible en la carpeta **Bibliografías**:
 
 ## 📁 Archivos y Documentos
 
