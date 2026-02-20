@@ -1,6 +1,9 @@
-# 📺 Visual Gallery
-*Selección de videos para aprender y perderse un rato.*
+---
+title: "Yutú"
+---
 
-Soy de los que cree que si un video está bien hecho, te puede enseñar más que un libro entero. Aquí guardo los canales y videos que mejor explican los temas que me apasionan.
+# Yutú
 
-Y va no solo los vídeos que te enseñan algo sino también los que son una buena compañía para esos momentos donde no se puede hacer más nada que dejar el tiempo correr.  
+Bienvenido a la sección de **Yutú**. Aquí tienes el material disponible:
+
+*(Aún no hay archivos PDF cargados en esta carpeta)*

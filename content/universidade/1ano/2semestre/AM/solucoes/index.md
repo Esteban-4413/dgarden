@@ -4,13 +4,13 @@ title: "Solucoes"
 
 # Solucoes
 
-Recursos disponibles en **Solucoes**:
+Bienvenido a la sección de **Solucoes**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [solucoes-ficha1.pdf](solucoes-ficha1.pdf)
-- 📄 [solucoes-ficha2.pdf](solucoes-ficha2.pdf)
+- 📄 [Descargar solucoes-ficha1.pdf](solucoes-ficha1.pdf)
+- 📄 [Descargar solucoes-ficha2.pdf](solucoes-ficha2.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

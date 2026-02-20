@@ -4,12 +4,12 @@ title: "Apuntes"
 
 # Apuntes
 
-Recursos disponibles en **Apuntes**:
+Bienvenido a la sección de **Apuntes**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [Apontamentos-Calculo-I-2025-26 .pdf](Apontamentos-Calculo-I-2025-26 .pdf)
+- 📄 [Descargar Apontamentos-Calculo-I-2025-26 .pdf](Apontamentos-Calculo-I-2025-26 .pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

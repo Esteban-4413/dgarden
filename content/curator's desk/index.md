@@ -1,11 +1,9 @@
-#  The Curator's Desk
-*Una selección de recursos que han pasado el filtro de la señal vs. el ruido.*
+---
+title: "Curator's desk"
+---
 
-###  [[curator's desk/yutú/index|Visual Gallery]]
-*Videos sobre cualquier tema realmente hahaha.*
+# Curator's desk
 
-###  [[curator's desk/music/index|The Soundscape]]
-*Piezas sonoras curadas para el enfoque y la apreciación técnica.*
+Bienvenido a la sección de **Curator's desk**. Aquí tienes el material disponible:
 
-###  [[curator's desk/reads/index|Long Reads]]
-*Artículos y ensayos que merecen ser leídos más de una vez.*
+*(Aún no hay archivos PDF cargados en esta carpeta)*

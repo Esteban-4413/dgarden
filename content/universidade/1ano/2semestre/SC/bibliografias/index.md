@@ -4,13 +4,13 @@ title: "Bibliografias"
 
 # Bibliografias
 
-Recursos disponibles en **Bibliografias**:
+Bienvenido a la sección de **Bibliografias**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [Essentials-of-computing-systems.pdf](Essentials-of-computing-systems.pdf)
-- 📄 [Structured Computer Organization, Sixth Edition -- Andrew S_ Tanenbaum; Todd Austin -- 6th, 2012 -- Pearson -- 9780132916523 -- a18a13a2428fa833ba336d44e9952e00 -- Anna’s Archive.pdf](Structured Computer Organization, Sixth Edition -- Andrew S_ Tanenbaum; Todd Austin -- 6th, 2012 -- Pearson -- 9780132916523 -- a18a13a2428fa833ba336d44e9952e00 -- Anna’s Archive.pdf)
+- 📄 [Descargar Essentials-of-computing-systems.pdf](Essentials-of-computing-systems.pdf)
+- 📄 [Descargar Structured Computer Organization, Sixth Edition -- Andrew S_ Tanenbaum; Todd Austin -- 6th, 2012 -- Pearson -- 9780132916523 -- a18a13a2428fa833ba336d44e9952e00 -- Anna’s Archive.pdf](Structured Computer Organization, Sixth Edition -- Andrew S_ Tanenbaum; Todd Austin -- 6th, 2012 -- Pearson -- 9780132916523 -- a18a13a2428fa833ba336d44e9952e00 -- Anna’s Archive.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

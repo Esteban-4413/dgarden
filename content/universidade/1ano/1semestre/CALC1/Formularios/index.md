@@ -4,14 +4,14 @@ title: "Formularios"
 
 # Formularios
 
-Recursos disponibles en **Formularios**:
+Bienvenido a la sección de **Formularios**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [FormularioDerivadas.pdf](FormularioDerivadas.pdf)
-- 📄 [FormularioPrimitivasImediatas.pdf](FormularioPrimitivasImediatas.pdf)
-- 📄 [FormularioTrigonometricasHiperbolicas.pdf](FormularioTrigonometricasHiperbolicas.pdf)
+- 📄 [Descargar FormularioDerivadas.pdf](FormularioDerivadas.pdf)
+- 📄 [Descargar FormularioPrimitivasImediatas.pdf](FormularioPrimitivasImediatas.pdf)
+- 📄 [Descargar FormularioTrigonometricasHiperbolicas.pdf](FormularioTrigonometricasHiperbolicas.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

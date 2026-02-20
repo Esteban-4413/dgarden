@@ -4,12 +4,12 @@ title: "Bibliografias"
 
 # Bibliografias
 
-Recursos disponibles en **Bibliografias**:
+Bienvenido a la sección de **Bibliografias**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [calculusIII.pdf](calculusIII.pdf)
+- 📄 [Descargar calculusIII.pdf](calculusIII.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

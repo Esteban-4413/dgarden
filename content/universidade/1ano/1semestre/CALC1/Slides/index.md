@@ -4,18 +4,18 @@ title: "Slides"
 
 # Slides
 
-Recursos disponibles en **Slides**:
+Bienvenido a la sección de **Slides**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [Derivadas.pdf](Derivadas.pdf)
-- 📄 [Funcoes.pdf](Funcoes.pdf)
-- 📄 [LimitesContinuidade.pdf](LimitesContinuidade.pdf)
-- 📄 [Primitivas.pdf](Primitivas.pdf)
-- 📄 [RetaReal.pdf](RetaReal.pdf)
-- 📄 [SucessoesSeries.pdf](SucessoesSeries.pdf)
-- 📄 [TrigonometricasHiperbolicas.pdf](TrigonometricasHiperbolicas.pdf)
+- 📄 [Descargar Derivadas.pdf](Derivadas.pdf)
+- 📄 [Descargar Funcoes.pdf](Funcoes.pdf)
+- 📄 [Descargar LimitesContinuidade.pdf](LimitesContinuidade.pdf)
+- 📄 [Descargar Primitivas.pdf](Primitivas.pdf)
+- 📄 [Descargar RetaReal.pdf](RetaReal.pdf)
+- 📄 [Descargar SucessoesSeries.pdf](SucessoesSeries.pdf)
+- 📄 [Descargar TrigonometricasHiperbolicas.pdf](TrigonometricasHiperbolicas.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

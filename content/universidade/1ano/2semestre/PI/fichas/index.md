@@ -4,14 +4,14 @@ title: "Fichas"
 
 # Fichas
 
-Recursos disponibles en **Fichas**:
+Bienvenido a la sección de **Fichas**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [Ficha1.pdf](Ficha1.pdf)
-- 📄 [Ficha2.pdf](Ficha2.pdf)
-- 📄 [Q1.pdf](Q1.pdf)
+- 📄 [Descargar Ficha1.pdf](Ficha1.pdf)
+- 📄 [Descargar Ficha2.pdf](Ficha2.pdf)
+- 📄 [Descargar Q1.pdf](Q1.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

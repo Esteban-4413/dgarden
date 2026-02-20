@@ -4,13 +4,13 @@ title: "Formularios"
 
 # Formularios
 
-Recursos disponibles en **Formularios**:
+Bienvenido a la sección de **Formularios**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [Conicas.pdf](Conicas.pdf)
-- 📄 [Quadricas.pdf](Quadricas.pdf)
+- 📄 [Descargar Conicas.pdf](Conicas.pdf)
+- 📄 [Descargar Quadricas.pdf](Quadricas.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.

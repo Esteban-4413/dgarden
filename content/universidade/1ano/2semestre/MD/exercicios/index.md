@@ -4,12 +4,12 @@ title: "Exercicios"
 
 # Exercicios
 
-Recursos disponibles en **Exercicios**:
+Bienvenido a la sección de **Exercicios**. Aquí tienes el material disponible:
 
-## 📁 Materiales
+## 📚 Documentos y Recursos
 
-- 📄 [exercicios_TN.pdf](exercicios_TN.pdf)
+- 📄 [Descargar exercicios_TN.pdf](exercicios_TN.pdf)
 
 
-> [!INFO]
-> Esta lista se actualiza automáticamente.
+> [!TIP]
+> Si quieres ver un archivo sin descargarlo, puedes hacer clic en el enlace.
