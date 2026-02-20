@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "es-ES", 
+    locale: "es-ES", // Idioma preferido
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -88,7 +88,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(), // Desactivado para evitar errores de despliegue
     ],
   },
 }
