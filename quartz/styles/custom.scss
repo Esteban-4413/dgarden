@@ -1,36 +1,37 @@
 @use "./base.scss";
 
-// 1. Variables Globales corregidas
-$mobile-breakpoint: 750px; // Definimos la variable para evitar el error anterior
+// 1. VARIABLES DE ENTORNO Y BREAKPOINTS [cite: 2026-02-20]
+$mobile-breakpoint: 750px; 
 
 :root {
-  --border-radius: 16px; // Tu config de Obsidian
-  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --border-radius: 16px; // anp-border-radius
+  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); // anp-card-shadows
   --bold-weight: 700;    // bold-weight
 }
 
-// 2. Estilo de Encabezados con fuente New York
+// 2. TIPOGRAFÍA (Headers)
 h1 {
   font-weight: 900 !important; // h1-weight
   line-height: 1.2;
   margin-top: 2rem;
-  border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray); // anp-h1-divider
   padding-bottom: 0.5rem;
-  font-family: "New York", Georgia, serif;
+  font-family: "New York", Georgia, serif; // anp-editor-font-lp
 }
 
 h2 {
   font-weight: 100 !important; // h2-weight
-  font-size: 1.9rem;
+  font-size: 1.9rem;            // h2-size
   font-family: "New York", Georgia, serif;
 }
 
 h3 {
   font-weight: 700 !important; // h3-weight
-  color: var(--secondary) !important; // Tu Teal personalizado
+  font-size: 1.6rem;            // h3-size
+  color: var(--secondary) !important; // Acento Teal
 }
 
-// 3. Efecto Card Layout
+// 3. DISEÑO DE TARJETAS (Card Layout)
 .center {
   & > article {
     background-color: var(--light);
@@ -39,9 +40,8 @@ h3 {
     padding: 2.5rem;
     margin-top: 1.5rem;
     box-shadow: var(--card-shadow);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 
-    // Ajuste para móviles usando la variable corregida
     @media all and (max-width: $mobile-breakpoint) {
       padding: 1.5rem;
       border-radius: 8px;
@@ -49,14 +49,73 @@ h3 {
   }
 }
 
-// 4. Otros detalles estéticos (Tags y Callouts)
-.tag {
-  border-radius: 2px !important; // tag-radius
-  background-color: var(--highlight) !important;
-  color: var(--secondary) !important;
+// 4. EXPLORADOR CON CARPETAS NEUTRAS
+.explorer {
+  .folder-container {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin: 2px 0;
+    transition: background-color 0.2s ease;
+
+    .folder-icon {
+      margin-right: 8px;
+    }
+
+    &:hover {
+      background-color: var(--highlight) !important;
+    }
+  }
+
+  // Ciclo de 3 Colores Neutros (Teal, Rose, Lavender)
+  li:nth-of-type(3n+1) > .folder-outer > .folder-container {
+    background-color: rgba(26, 125, 164, 0.12); 
+    .folder-icon { color: var(--secondary); }
+  }
+
+  li:nth-of-type(3n+2) > .folder-outer > .folder-container {
+    background-color: rgba(215, 130, 126, 0.12); 
+    .folder-icon { color: var(--tertiary); }
+  }
+
+  li:nth-of-type(3n+3) > .folder-outer > .folder-container {
+    background-color: rgba(186, 187, 241, 0.12); 
+    .folder-icon { color: #babbf1; }
+  }
 }
 
+// 5. CALLOUTS MATEMÁTICOS (Sleek Style)
 .callout {
   border-radius: 8px !important;
   border-left-width: 5px !important;
+  background-color: var(--highlight) !important;
+
+  &[data-callout="teorema"] {
+    --color: #a6d189; // Green
+    border-left-color: var(--color) !important;
+    .callout-title { color: var(--color) !important; font-weight: 900; }
+  }
+
+  &[data-callout="demostracion"] {
+    --color: #babbf1; // Lavender
+    border-left-color: var(--color) !important;
+    font-style: italic;
+    .callout-title { color: var(--color) !important; }
+  }
+}
+
+// 6. ETIQUETAS (Tags)
+.tag {
+  background-color: var(--highlight) !important;
+  color: var(--secondary) !important;
+  border-radius: 2px !important; // tag-radius
+  padding: 0.1rem 0.4rem;
+  font-weight: 600;
+}
+
+// 7. MATEMÁTICAS (LaTeX) [cite: 2026-02-02]
+.katex-display {
+  padding: 1rem;
+  overflow-x: auto;
+  background: rgba(var(--secondary), 0.03);
+  border-radius: 8px;
 }
