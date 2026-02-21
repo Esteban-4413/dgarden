@@ -1,7 +1,5 @@
 ---
-title: "📁 music"
+title: " music"
 ---
 
-# Contenido de music
-
-### 📄 Archivos y Notas
+###  Archivos y Notas

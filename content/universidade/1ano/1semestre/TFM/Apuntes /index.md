@@ -1,10 +1,8 @@
 ---
-title: "📁 Apuntes "
+title: " Apuntes "
 ---
 
-# Contenido de Apuntes 
-
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [Cardinalidade.md](Cardinalidade.md)
 - [Numerabilidade.md](Numerabilidade.md)
 - [prepTeste2TFM.md](prepTeste2TFM.md)

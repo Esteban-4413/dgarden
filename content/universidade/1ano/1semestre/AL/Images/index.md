@@ -1,10 +1,8 @@
 ---
-title: "📁 Images"
+title: " Images"
 ---
 
-# Contenido de Images
-
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [Pasted image 20251212202824.png](Pasted%20image%2020251212202824.png)
 - [Pasted image 20251212202902.png](Pasted%20image%2020251212202902.png)
 - [Pasted image 20251212203133.png](Pasted%20image%2020251212203133.png)

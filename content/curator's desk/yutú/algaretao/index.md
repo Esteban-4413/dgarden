@@ -1,7 +1,5 @@
 ---
-title: "📁 algaretao"
+title: " algaretao"
 ---
 
-# Contenido de algaretao
-
-### 📄 Archivos y Notas
+###  Archivos y Notas

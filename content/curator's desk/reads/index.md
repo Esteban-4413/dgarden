@@ -1,7 +1,5 @@
 ---
-title: "📁 reads"
+title: " reads"
 ---
 
-# Contenido de reads
-
-### 📄 Archivos y Notas
+###  Archivos y Notas

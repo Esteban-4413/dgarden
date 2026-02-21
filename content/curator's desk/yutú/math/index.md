@@ -1,10 +1,8 @@
 ---
-title: "📁 math"
+title: " math"
 ---
 
-# Contenido de math
-
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [Calculus.md](Calculus.md)
 - [Integrales.md](Integrales.md)
 - [Linear algebra.md](Linear%20algebra.md)

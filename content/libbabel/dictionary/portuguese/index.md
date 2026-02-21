@@ -1,7 +1,5 @@
 ---
-title: "📁 portuguese"
+title: " portuguese"
 ---
 
-# Contenido de portuguese
-
-### 📄 Archivos y Notas
+###  Archivos y Notas
