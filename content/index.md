@@ -2,25 +2,27 @@
 title: "currently working on the name of this thing..."
 ---
 
+// (FIXME)
 # Welcome to my... 
 ## ammm 
 ### idk
 #### but still
 ##### please
 ###### be welcomed
+// (TODO)
 ---
 
 > [!CAUTION]
 > Como se puede apreciar ver por el inexistente título de esta cosa, el presupuesto de creatividad se me acabó configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
-> - [LinkedIn](TU_LINK) — Para sugerencias serias, corporativas y con mucha sinergia.
-> - [Instagram](https://www.instagram.com/esteban_ypz23/) - (confieso que soy bastante inactivo por ahí)
+> - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) — via dm(¿?) (am si linkedin porque soy una persona seria wtv) 
+> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv (confieso que soy bastante inactivo por ahí)
 > - [GitHub](https://github.com/Esteban-4413) - via pull request
-> - [Email](mailto:estebanyepez2309@gmail.com) — Si tienes una propuesta tan buena que merece un hilo de correos infinito.
+> - [Email](mailto:estebanyepez2309@gmail.com) — via mail (duh) 
 
 ---
 
 > [!QUOTE] **Un pequeño mensaje...**
-> Ya fuera de bromas este es un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda o le pueden parecer interesantes a alguien más. No quería hacer algo aburrido, así que intenté hacer algo divertido ¿?
+> Ya fuera de bromas este es un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda o le pueden parecer interesantes a alguien más. Ya sean palabras que voy aprendiendo cada día o apuntes de mis clases o vídeos en youtube que me parecen chéveres o álbumes (coming soon) que me gustan, o opiniones que tengo sobre temas random, etc... No sé solo sé que no quería esto fuera una cosa aburrida y espero que no lo sea. 
 
 ---
 
@@ -47,7 +49,7 @@ Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tan
 
 * **Editor:** [Obsidian](https://obsidian.md) (Anuppuccin).
 * **Engine:** [Quartz 4.0](https://quartz.jzhao.xyz).
-* **Automation:** Script de **Python** para gestión de índices y status [cite: 2026-02-21].
+* **Automation:** Script de **Python** para gestión de índices y status.
 
 ---
 
