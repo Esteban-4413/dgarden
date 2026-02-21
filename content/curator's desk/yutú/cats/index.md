@@ -1,6 +1,8 @@
 ---
-title: " cats"
+title: "📁 cats"
 ---
 
-###  Archivos y Notas
+# Contenido de cats
+
+### 📄 Archivos y Notas
 - [cats.md](cats.md)

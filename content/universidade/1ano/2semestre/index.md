@@ -1,5 +1,14 @@
 ---
-title: " 2semestre"
+title: "📁 2semestre"
 ---
 
-###  Archivos y Notas
+# Contenido de 2semestre
+
+### 📂 Subcarpetas
+- [[AM/index|AM]]
+- [[LPII/index|LPII]]
+- [[MD/index|MD]]
+- [[PI/index|PI]]
+- [[SC/index|SC]]
+
+### 📄 Archivos y Notas

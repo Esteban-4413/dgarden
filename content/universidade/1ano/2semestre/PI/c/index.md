@@ -1,8 +1,13 @@
 ---
-title: " c"
+title: "📁 c"
 ---
 
-###  Archivos y Notas
+# Contenido de c
+
+### 📂 Subcarpetas
+- [[resolucoes/index|resolucoes]]
+
+### 📄 Archivos y Notas
 - [ficha2](ficha2)
 - [primeiro](primeiro)
 - [primeiro.c](primeiro.c)

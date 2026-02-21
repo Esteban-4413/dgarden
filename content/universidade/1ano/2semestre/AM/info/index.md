@@ -1,6 +1,8 @@
 ---
-title: " info"
+title: "📁 info"
 ---
 
-###  Archivos y Notas
+# Contenido de info
+
+### 📄 Archivos y Notas
 - [Informacoes.pdf](Informacoes.pdf)

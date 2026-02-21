@@ -1,8 +1,13 @@
 ---
-title: " notes"
+title: "📁 notes"
 ---
 
-###  Archivos y Notas
+# Contenido de notes
+
+### 📂 Subcarpetas
+- [[imgs/index|imgs]]
+
+### 📄 Archivos y Notas
 - [Essentials of computing systems.md](Essentials%20of%20computing%20systems.md)
 - [Putting the "You" in CPU.md](Putting%20the%20%22You%22%20in%20CPU.md)
 - [sc lecture 4.md](sc%20lecture%204.md)

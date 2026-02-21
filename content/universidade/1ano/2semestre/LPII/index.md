@@ -1,5 +1,11 @@
 ---
-title: " LPII"
+title: "📁 LPII"
 ---
 
-###  Archivos y Notas
+# Contenido de LPII
+
+### 📂 Subcarpetas
+- [[guioes/index|guioes]]
+- [[raw-notes/index|raw-notes]]
+
+### 📄 Archivos y Notas

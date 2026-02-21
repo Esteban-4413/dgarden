@@ -1,8 +1,10 @@
 ---
-title: " Slides"
+title: "📁 Slides"
 ---
 
-###  Archivos y Notas
+# Contenido de Slides
+
+### 📄 Archivos y Notas
 - [cap1.pdf](cap1.pdf)
 - [cap2.pdf](cap2.pdf)
 - [cap3.pdf](cap3.pdf)

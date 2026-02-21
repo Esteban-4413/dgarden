@@ -1,8 +1,10 @@
 ---
-title: " Slides"
+title: "📁 Slides"
 ---
 
-###  Archivos y Notas
+# Contenido de Slides
+
+### 📄 Archivos y Notas
 - [Derivadas.pdf](Derivadas.pdf)
 - [Funcoes.pdf](Funcoes.pdf)
 - [LimitesContinuidade.pdf](LimitesContinuidade.pdf)

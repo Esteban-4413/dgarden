@@ -1,6 +1,8 @@
 ---
-title: " english"
+title: "📁 english"
 ---
 
-###  Archivos y Notas
+# Contenido de english
+
+### 📄 Archivos y Notas
 - [20-02-26eng.md](20-02-26eng.md)

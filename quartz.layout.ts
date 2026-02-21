@@ -1,20 +1,20 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
+// Componentes compartidos en todas las páginas
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/Esteban-4413/dgarden", // Tu repo actualizado [cite: 2026-02-21]
+      GitHub: "https://github.com/Esteban-4413/dgarden",
       "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// Configuración para páginas de contenido (notas individuales)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -44,17 +44,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    // NUEVO: Bloque de Notas Recientes (Tipo "Git Status") [cite: 2026-02-20]
+    // Sección de Actualizaciones Recientes gestionada por Quartz
     Component.RecentNotes({
-      title: "Recent Updates",
+      title: "Últimas Novedades",
       limit: 5,
       showTags: false,
-      filter: (f) => f.slug !== "index", // No mostrar la home en la lista
+      filter: (f) => f.slug !== "index",
     }),
   ],
 }
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// Configuración para páginas de lista (carpetas o etiquetas)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [

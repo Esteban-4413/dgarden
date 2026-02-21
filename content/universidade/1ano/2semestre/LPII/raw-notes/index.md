@@ -1,5 +1,7 @@
 ---
-title: " raw-notes"
+title: "📁 raw-notes"
 ---
 
-###  Archivos y Notas
+# Contenido de raw-notes
+
+### 📄 Archivos y Notas

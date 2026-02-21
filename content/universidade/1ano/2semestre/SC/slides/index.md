@@ -1,8 +1,10 @@
 ---
-title: " slides"
+title: "📁 slides"
 ---
 
-###  Archivos y Notas
+# Contenido de slides
+
+### 📄 Archivos y Notas
 - [SC-slidesEN-chap0-Presentation-SC-LCC-LEI-LEFIS-26.pdf](SC-slidesEN-chap0-Presentation-SC-LCC-LEI-LEFIS-26.pdf)
 - [SC-slidesEN-chap1-ComputerSystems.pdf](SC-slidesEN-chap1-ComputerSystems.pdf)
 - [SC-slidesEN-chap2-RepresentationInformation.pdf](SC-slidesEN-chap2-RepresentationInformation.pdf)

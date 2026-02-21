@@ -1,8 +1,10 @@
 ---
-title: " Fichas"
+title: "📁 Fichas"
 ---
 
-###  Archivos y Notas
+# Contenido de Fichas
+
+### 📄 Archivos y Notas
 - [ficha1.pdf](ficha1.pdf)
 - [ficha2.pdf](ficha2.pdf)
 - [ficha3.pdf](ficha3.pdf)
