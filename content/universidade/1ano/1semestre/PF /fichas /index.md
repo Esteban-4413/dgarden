@@ -1,10 +1,10 @@
 ---
-title: "Fichas"
+title: "Fichas "
 ---
 
-# Fichas
+# Fichas 
 
-Contenido disponible en la carpeta **Fichas**:
+Contenido disponible en la carpeta **Fichas **:
 
 ## 📁 Archivos y Documentos
 
@@ -16,3 +16,4 @@ Contenido disponible en la carpeta **Fichas**:
 - 📄 [ficha6.pdf](ficha6.pdf)
 - 📄 [ficha7.pdf](ficha7.pdf)
 - 📄 [ficha8.pdf](ficha8.pdf)
+- 📄 [ficha9.pdf](ficha9.pdf)

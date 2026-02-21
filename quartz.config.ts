@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "dgarden", 
+    pageTitle: "cool stuff, ig?", 
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "es-ES", // Idioma preferido
+    locale: "en-US", // Idioma preferido
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -34,7 +34,7 @@ const config: QuartzConfig = {
           gray: "#9893a5",          // Texto secundario
           darkgray: "#575279",      // Texto principal
           dark: "#286983",          // Títulos
-          secondary: "#1A7DA4",     // Tu Teal personalizado (Light)
+          secondary: "#1A7DA4",     
           tertiary: "#d7827e",      // Acento secundario (Rose)
           highlight: "rgba(26, 125, 164, 0.15)",
           textHighlight: "#fff23688",
@@ -45,7 +45,7 @@ const config: QuartzConfig = {
           gray: "#838ba7",          // Texto secundario
           darkgray: "#c6d0f5",      // Texto principal
           dark: "#eebebe",          // Títulos (Rosewater)
-          secondary: "#11B7C5",     // Tu Teal personalizado (Dark)
+          secondary: "#11B7C5",     
           tertiary: "#81c8be",      // Acento secundario (Teal suave)
           highlight: "rgba(17, 183, 197, 0.15)",
           textHighlight: "#b3aa0288",
