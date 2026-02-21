@@ -1,11 +1,26 @@
 ---
-title: "honestly dont know what to name this"
+title: "currently working on the name of this thing..."
 ---
 
-# Welcome to my Workspace
+# Welcome to my... 
+## ammm 
+### idk
+#### but still
+##### please
+###### be welcomed
+---
+
+> [!CAUTION]
+> Como se puede apreciar ver por el inexistente título de esta cosa, el presupuesto de creatividad se me acabó configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
+> - [LinkedIn](TU_LINK) — Para sugerencias serias, corporativas y con mucha sinergia.
+> - [Instagram](https://www.instagram.com/esteban_ypz23/) - (confieso que soy bastante inactivo por ahí)
+> - [GitHub](https://github.com/Esteban-4413) - via pull request
+> - [Email](mailto:estebanyepez2309@gmail.com) — Si tienes una propuesta tan buena que merece un hilo de correos infinito.
+
+---
 
 > [!QUOTE] **Un pequeño mensaje...**
-> Realmente esto no es un workspace, sino un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda para alguien más. No quería hacer algo aburrido, así que intenté hacer algo divertido, por lo que espero que tu tiempo aquí sea **de lo más entretenido**.
+> Ya fuera de bromas este es un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda o le pueden parecer interesantes a alguien más. No quería hacer algo aburrido, así que intenté hacer algo divertido ¿?
 
 ---
 
@@ -37,4 +52,4 @@ Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tan
 ---
 
 > [!QUOTE] 
-> *"[quote que va dura de cojones]"*
+> *"[tengo que poner una quote impactante aquí lol]"*
