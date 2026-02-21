@@ -1,9 +1,13 @@
 ---
-title: "Md"
+title: "📁 MD"
 ---
 
-# Md
+# Contenido de MD
 
-Contenido disponible en la carpeta **Md**:
+### 📂 Subcarpetas
+- [[bibliografias/index|bibliografias]]
+- [[exercicios/index|exercicios]]
+- [[notes/index|notes]]
+- [[resolucoes/index|resolucoes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

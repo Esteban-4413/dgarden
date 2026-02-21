@@ -1,9 +1,10 @@
 ---
-title: "Apuntes "
+title: "📁 Apuntes "
 ---
 
-# Apuntes 
+# Contenido de Apuntes 
 
-Contenido disponible en la carpeta **Apuntes **:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [Cardinalidade.md](Cardinalidade.md)
+- [Numerabilidade.md](Numerabilidade.md)
+- [prepTeste2TFM.md](prepTeste2TFM.md)

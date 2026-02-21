@@ -1,9 +1,11 @@
 ---
-title: "Lpii"
+title: "📁 LPII"
 ---
 
-# Lpii
+# Contenido de LPII
 
-Contenido disponible en la carpeta **Lpii**:
+### 📂 Subcarpetas
+- [[guioes/index|guioes]]
+- [[raw-notes/index|raw-notes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

@@ -1,12 +1,9 @@
 ---
-title: "Formularios"
+title: "📁 formularios"
 ---
 
-# Formularios
+# Contenido de formularios
 
-Contenido disponible en la carpeta **Formularios**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [Conicas.pdf](Conicas.pdf)
-- 📄 [Quadricas.pdf](Quadricas.pdf)
+### 📄 Archivos y Notas
+- [Conicas.pdf](Conicas.pdf)
+- [Quadricas.pdf](Quadricas.pdf)

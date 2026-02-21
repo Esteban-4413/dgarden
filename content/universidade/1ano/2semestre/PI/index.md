@@ -1,9 +1,13 @@
 ---
-title: "Pi"
+title: "📁 PI"
 ---
 
-# Pi
+# Contenido de PI
 
-Contenido disponible en la carpeta **Pi**:
+### 📂 Subcarpetas
+- [[c/index|c]]
+- [[fichas/index|fichas]]
+- [[resolucoes/index|resolucoes]]
+- [[tps-notes/index|tps-notes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

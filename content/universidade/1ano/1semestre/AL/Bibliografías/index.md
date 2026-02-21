@@ -1,12 +1,9 @@
 ---
-title: "Bibliografías"
+title: "📁 Bibliografías"
 ---
 
-# Bibliografías
+# Contenido de Bibliografías
 
-Contenido disponible en la carpeta **Bibliografías**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [biblio1.pdf](biblio1.pdf)
-- 📄 [biblio2.pdf](biblio2.pdf)
+### 📄 Archivos y Notas
+- [biblio1.pdf](biblio1.pdf)
+- [biblio2.pdf](biblio2.pdf)

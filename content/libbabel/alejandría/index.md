@@ -1,9 +1,10 @@
 ---
-title: "Alejandría"
+title: "📁 alejandría"
 ---
 
-# Alejandría
+# Contenido de alejandría
 
-Contenido disponible en la carpeta **Alejandría**:
+### 📂 Subcarpetas
+- [[quotes/index|quotes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

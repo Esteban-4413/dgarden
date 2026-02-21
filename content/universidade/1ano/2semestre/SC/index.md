@@ -1,9 +1,13 @@
 ---
-title: "Sc"
+title: "📁 SC"
 ---
 
-# Sc
+# Contenido de SC
 
-Contenido disponible en la carpeta **Sc**:
+### 📂 Subcarpetas
+- [[bibliografias/index|bibliografias]]
+- [[exercises/index|exercises]]
+- [[notes/index|notes]]
+- [[slides/index|slides]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

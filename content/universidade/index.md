@@ -1,9 +1,10 @@
 ---
-title: "Universidade"
+title: "📁 universidade"
 ---
 
-# Universidade
+# Contenido de universidade
 
-Contenido disponible en la carpeta **Universidade**:
+### 📂 Subcarpetas
+- [[1ano/index|1ano]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

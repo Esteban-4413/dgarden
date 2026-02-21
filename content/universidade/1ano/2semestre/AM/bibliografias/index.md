@@ -1,13 +1,10 @@
 ---
-title: "Bibliografias"
+title: "📁 bibliografias"
 ---
 
-# Bibliografias
+# Contenido de bibliografias
 
-Contenido disponible en la carpeta **Bibliografias**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [calculusII.pdf](calculusII.pdf)
-- 📄 [calculusIII.pdf](calculusIII.pdf)
-- 📄 [vectorial_calculus.pdf](vectorial_calculus.pdf)
+### 📄 Archivos y Notas
+- [calculusII.pdf](calculusII.pdf)
+- [calculusIII.pdf](calculusIII.pdf)
+- [vectorial_calculus.pdf](vectorial_calculus.pdf)

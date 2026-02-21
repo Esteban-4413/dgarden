@@ -1,9 +1,7 @@
 ---
-title: "Portuguese"
+title: "📁 portuguese"
 ---
 
-# Portuguese
+# Contenido de portuguese
 
-Contenido disponible en la carpeta **Portuguese**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

@@ -1,13 +1,10 @@
 ---
-title: "Formularios"
+title: "📁 Formularios"
 ---
 
-# Formularios
+# Contenido de Formularios
 
-Contenido disponible en la carpeta **Formularios**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [FormularioDerivadas.pdf](FormularioDerivadas.pdf)
-- 📄 [FormularioPrimitivasImediatas.pdf](FormularioPrimitivasImediatas.pdf)
-- 📄 [FormularioTrigonometricasHiperbolicas.pdf](FormularioTrigonometricasHiperbolicas.pdf)
+### 📄 Archivos y Notas
+- [FormularioDerivadas.pdf](FormularioDerivadas.pdf)
+- [FormularioPrimitivasImediatas.pdf](FormularioPrimitivasImediatas.pdf)
+- [FormularioTrigonometricasHiperbolicas.pdf](FormularioTrigonometricasHiperbolicas.pdf)

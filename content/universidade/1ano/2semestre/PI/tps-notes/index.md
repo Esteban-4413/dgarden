@@ -1,9 +1,9 @@
 ---
-title: "Tps notes"
+title: "📁 tps-notes"
 ---
 
-# Tps notes
+# Contenido de tps-notes
 
-Contenido disponible en la carpeta **Tps notes**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [pi tp 1.md](pi%20tp%201.md)
+- [pi tp 2.md](pi%20tp%202.md)

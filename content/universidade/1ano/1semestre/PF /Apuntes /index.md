@@ -1,9 +1,9 @@
 ---
-title: "Apuntes "
+title: "📁 Apuntes "
 ---
 
-# Apuntes 
+# Contenido de Apuntes 
 
-Contenido disponible en la carpeta **Apuntes **:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [Notas para o segundo teste.md](Notas%20para%20o%20segundo%20teste.md)
+- [prepTeste2PF.md](prepTeste2PF.md)

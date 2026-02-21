@@ -1,11 +1,8 @@
 ---
-title: "Exercicios"
+title: "📁 exercicios"
 ---
 
-# Exercicios
+# Contenido de exercicios
 
-Contenido disponible en la carpeta **Exercicios**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [exercicios_TN.pdf](exercicios_TN.pdf)
+### 📄 Archivos y Notas
+- [exercicios_TN.pdf](exercicios_TN.pdf)

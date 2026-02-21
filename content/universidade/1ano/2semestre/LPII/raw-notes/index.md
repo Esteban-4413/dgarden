@@ -1,9 +1,7 @@
 ---
-title: "Raw notes"
+title: "📁 raw-notes"
 ---
 
-# Raw notes
+# Contenido de raw-notes
 
-Contenido disponible en la carpeta **Raw notes**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

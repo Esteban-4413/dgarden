@@ -1,9 +1,14 @@
 ---
-title: "Al"
+title: "📁 AL"
 ---
 
-# Al
+# Contenido de AL
 
-Contenido disponible en la carpeta **Al**:
+### 📂 Subcarpetas
+- [[Apuntes/index|Apuntes]]
+- [[Bibliografías/index|Bibliografías]]
+- [[Fichas/index|Fichas]]
+- [[Images/index|Images]]
+- [[Slides/index|Slides]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

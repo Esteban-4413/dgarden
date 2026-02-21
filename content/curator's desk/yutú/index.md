@@ -1,9 +1,14 @@
 ---
-title: "Yutú"
+title: "📁 yutú"
 ---
 
-# Yutú
+# Contenido de yutú
 
-Contenido disponible en la carpeta **Yutú**:
+### 📂 Subcarpetas
+- [[algaretao/index|algaretao]]
+- [[cats/index|cats]]
+- [[math/index|math]]
+- [[music videos/index|music videos]]
+- [[programming/index|programming]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

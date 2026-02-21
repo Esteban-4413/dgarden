@@ -1,9 +1,8 @@
 ---
-title: "Spanish"
+title: "📁 spanish"
 ---
 
-# Spanish
+# Contenido de spanish
 
-Contenido disponible en la carpeta **Spanish**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [20-02-26esp.md](20-02-26esp.md)

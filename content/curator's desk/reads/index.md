@@ -1,9 +1,7 @@
 ---
-title: "Reads"
+title: "📁 reads"
 ---
 
-# Reads
+# Contenido de reads
 
-Contenido disponible en la carpeta **Reads**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

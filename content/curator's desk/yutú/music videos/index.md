@@ -1,9 +1,8 @@
 ---
-title: "Music videos"
+title: "📁 music videos"
 ---
 
-# Music videos
+# Contenido de music videos
 
-Contenido disponible en la carpeta **Music videos**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [music videos.md](music%20videos.md)

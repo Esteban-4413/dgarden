@@ -1,12 +1,9 @@
 ---
-title: "Testes"
+title: "📁 Testes"
 ---
 
-# Testes
+# Contenido de Testes
 
-Contenido disponible en la carpeta **Testes**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [teste1.pdf](teste1.pdf)
-- 📄 [teste2.pdf](teste2.pdf)
+### 📄 Archivos y Notas
+- [teste1.pdf](teste1.pdf)
+- [teste2.pdf](teste2.pdf)

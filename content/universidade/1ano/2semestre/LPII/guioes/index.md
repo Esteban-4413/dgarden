@@ -1,9 +1,8 @@
 ---
-title: "Guioes"
+title: "📁 guioes"
 ---
 
-# Guioes
+# Contenido de guioes
 
-Contenido disponible en la carpeta **Guioes**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [Guião 1.md](Gui%C3%A3o%201.md)

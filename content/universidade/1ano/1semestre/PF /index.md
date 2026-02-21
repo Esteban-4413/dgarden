@@ -1,9 +1,13 @@
 ---
-title: "Pf "
+title: "📁 PF "
 ---
 
-# Pf 
+# Contenido de PF 
 
-Contenido disponible en la carpeta **Pf **:
+### 📂 Subcarpetas
+- [[Apuntes /index|Apuntes ]]
+- [[Images /index|Images ]]
+- [[Slides /index|Slides ]]
+- [[fichas /index|fichas ]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

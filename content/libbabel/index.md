@@ -1,9 +1,11 @@
 ---
-title: "Libbabel"
+title: "📁 libbabel"
 ---
 
-# Libbabel
+# Contenido de libbabel
 
-Contenido disponible en la carpeta **Libbabel**:
+### 📂 Subcarpetas
+- [[alejandría/index|alejandría]]
+- [[dictionary/index|dictionary]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

@@ -1,9 +1,13 @@
 ---
-title: "C"
+title: "📁 c"
 ---
 
-# C
+# Contenido de c
 
-Contenido disponible en la carpeta **C**:
+### 📂 Subcarpetas
+- [[resolucoes/index|resolucoes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [ficha2](ficha2)
+- [primeiro](primeiro)
+- [primeiro.c](primeiro.c)

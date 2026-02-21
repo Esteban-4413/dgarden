@@ -1,9 +1,9 @@
 ---
-title: "Quotes"
+title: "📁 quotes"
 ---
 
-# Quotes
+# Contenido de quotes
 
-Contenido disponible en la carpeta **Quotes**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [epicuro.md](epicuro.md)
+- [logos mathematica.md](logos%20mathematica.md)

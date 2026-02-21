@@ -1,9 +1,12 @@
 ---
-title: "Curator's desk"
+title: "📁 curator's desk"
 ---
 
-# Curator's desk
+# Contenido de curator's desk
 
-Contenido disponible en la carpeta **Curator's desk**:
+### 📂 Subcarpetas
+- [[music/index|music]]
+- [[reads/index|reads]]
+- [[yutú/index|yutú]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

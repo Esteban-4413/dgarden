@@ -1,9 +1,14 @@
 ---
-title: "2semestre"
+title: "📁 2semestre"
 ---
 
-# 2semestre
+# Contenido de 2semestre
 
-Contenido disponible en la carpeta **2semestre**:
+### 📂 Subcarpetas
+- [[AM/index|AM]]
+- [[LPII/index|LPII]]
+- [[MD/index|MD]]
+- [[PI/index|PI]]
+- [[SC/index|SC]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

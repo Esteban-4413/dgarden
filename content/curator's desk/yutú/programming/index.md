@@ -1,9 +1,9 @@
 ---
-title: "Programming"
+title: "📁 programming"
 ---
 
-# Programming
+# Contenido de programming
 
-Contenido disponible en la carpeta **Programming**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [C.md](C.md)
+- [haskell.md](haskell.md)

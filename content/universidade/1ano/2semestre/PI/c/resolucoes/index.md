@@ -1,9 +1,10 @@
 ---
-title: "Resolucoes"
+title: "📁 resolucoes"
 ---
 
-# Resolucoes
+# Contenido de resolucoes
 
-Contenido disponible en la carpeta **Resolucoes**:
+### 📂 Subcarpetas
+- [[ficha1/index|ficha1]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

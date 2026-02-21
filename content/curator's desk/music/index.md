@@ -1,9 +1,7 @@
 ---
-title: "Music"
+title: "📁 music"
 ---
 
-# Music
+# Contenido de music
 
-Contenido disponible en la carpeta **Music**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

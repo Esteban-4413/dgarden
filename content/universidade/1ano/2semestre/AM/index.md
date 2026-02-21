@@ -1,9 +1,16 @@
 ---
-title: "Am"
+title: "📁 AM"
 ---
 
-# Am
+# Contenido de AM
 
-Contenido disponible en la carpeta **Am**:
+### 📂 Subcarpetas
+- [[bibliografias/index|bibliografias]]
+- [[exercicios/index|exercicios]]
+- [[formularios/index|formularios]]
+- [[info/index|info]]
+- [[notes/index|notes]]
+- [[slides/index|slides]]
+- [[solucoes/index|solucoes]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

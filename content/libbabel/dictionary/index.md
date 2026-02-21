@@ -1,9 +1,13 @@
 ---
-title: "Dictionary"
+title: "📁 dictionary"
 ---
 
-# Dictionary
+# Contenido de dictionary
 
-Contenido disponible en la carpeta **Dictionary**:
+### 📂 Subcarpetas
+- [[english/index|english]]
+- [[portuguese/index|portuguese]]
+- [[spanish/index|spanish]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [vocabulario.canvas](vocabulario.canvas)

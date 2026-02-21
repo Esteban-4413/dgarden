@@ -1,11 +1,8 @@
 ---
-title: "Info"
+title: "📁 info"
 ---
 
-# Info
+# Contenido de info
 
-Contenido disponible en la carpeta **Info**:
-
-## 📁 Archivos y Documentos
-
-- 📄 [Informacoes.pdf](Informacoes.pdf)
+### 📄 Archivos y Notas
+- [Informacoes.pdf](Informacoes.pdf)

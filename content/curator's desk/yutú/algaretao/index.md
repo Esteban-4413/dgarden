@@ -1,9 +1,7 @@
 ---
-title: "Algaretao"
+title: "📁 algaretao"
 ---
 
-# Algaretao
+# Contenido de algaretao
 
-Contenido disponible en la carpeta **Algaretao**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

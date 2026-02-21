@@ -1,9 +1,8 @@
 ---
-title: "Resolucoes"
+title: "📁 resolucoes"
 ---
 
-# Resolucoes
+# Contenido de resolucoes
 
-Contenido disponible en la carpeta **Resolucoes**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [PI ficha 1.md](PI%20ficha%201.md)

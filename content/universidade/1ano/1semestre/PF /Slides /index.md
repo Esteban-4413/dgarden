@@ -1,11 +1,8 @@
 ---
-title: "Slides "
+title: "📁 Slides "
 ---
 
-# Slides 
+# Contenido de Slides 
 
-Contenido disponible en la carpeta **Slides **:
-
-## 📁 Archivos y Documentos
-
-- 📄 [slides.pdf](slides.pdf)
+### 📄 Archivos y Notas
+- [slides.pdf](slides.pdf)

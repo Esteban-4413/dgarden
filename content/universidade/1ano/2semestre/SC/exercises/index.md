@@ -1,9 +1,8 @@
 ---
-title: "Exercises"
+title: "📁 exercises"
 ---
 
-# Exercises
+# Contenido de exercises
 
-Contenido disponible en la carpeta **Exercises**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [Essentials of computing systems.md](Essentials%20of%20computing%20systems.md)

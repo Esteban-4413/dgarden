@@ -1,9 +1,8 @@
 ---
-title: "English"
+title: "📁 english"
 ---
 
-# English
+# Contenido de english
 
-Contenido disponible en la carpeta **English**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [20-02-26eng.md](20-02-26eng.md)

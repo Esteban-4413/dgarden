@@ -1,9 +1,13 @@
 ---
-title: "Tfm"
+title: "📁 TFM"
 ---
 
-# Tfm
+# Contenido de TFM
 
-Contenido disponible en la carpeta **Tfm**:
+### 📂 Subcarpetas
+- [[Apuntes /index|Apuntes ]]
+- [[Exercícios /index|Exercícios ]]
+- [[Slides/index|Slides]]
+- [[images/index|images]]
 
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas

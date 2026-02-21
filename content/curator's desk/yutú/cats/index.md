@@ -1,9 +1,8 @@
 ---
-title: "Cats"
+title: "📁 cats"
 ---
 
-# Cats
+# Contenido de cats
 
-Contenido disponible en la carpeta **Cats**:
-
-*(Carpeta de organización o apuntes)*
+### 📄 Archivos y Notas
+- [cats.md](cats.md)
