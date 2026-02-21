@@ -1,15 +1,15 @@
 ---
-title: "Esteban's Digital Garden"
+title: "honestly dont know what to name this"
 ---
 
-# 🧑‍💻 Welcome to my Workspace
+# Welcome to my Workspace
 
 > [!QUOTE] **Un pequeño mensaje...**
 > Realmente esto no es un workspace, sino un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda para alguien más. No quería hacer algo aburrido, así que intenté hacer algo divertido, por lo que espero que tu tiempo aquí sea **de lo más entretenido**.
 
 ---
 
-Aquí encontrarás mis apuntes universitarios y recursos personales sincronizados automáticamente [cite: 2026-02-02, 2026-02-21].
+Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tanto recursos en sí hahahah) personales sincronizados "automáticamente" (wink wink).
 
 ## Quick Access.
 
@@ -22,16 +22,13 @@ Aquí encontrarás mis apuntes universitarios y recursos personales sincronizado
 
 > [!TIP] **Curator's Desk**
 > Mis colecciones personales.
-> - [[curator's desk/index| 📂 Ir al Escritorio]]
+> - [[curator's desk/index| Ir al Escritorio]]
 
 </div>
 
 ---
 
-> [!INFO] Esperando actualización de Git...
----
-
-## 🛠️ My Stack (Herramientas)
+## My Stack 
 
 * **Editor:** [Obsidian](https://obsidian.md) (Anuppuccin).
 * **Engine:** [Quartz 4.0](https://quartz.jzhao.xyz).
@@ -40,4 +37,4 @@ Aquí encontrarás mis apuntes universitarios y recursos personales sincronizado
 ---
 
 > [!QUOTE] 
-> *"The best way to predict the future is to invent it."*
+> *"[quote que va dura de cojones]"*
