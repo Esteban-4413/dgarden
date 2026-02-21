@@ -9,13 +9,13 @@ title: "currently working on the name of this thing..."
 #### but still
 ##### please
 ###### be welcomed
-// (TODO)
+
 ---
 
 > [!CAUTION]
 > Como se puede apreciar ver por el inexistente título de esta cosa, el presupuesto de creatividad se me acabó configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
 > - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) — via dm(¿?) (am si linkedin porque soy una persona seria wtv) 
-> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv (confieso que soy bastante inactivo por ahí)
+> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv (confieso que soy bastante inactivo por ahí tho)
 > - [GitHub](https://github.com/Esteban-4413) - via pull request
 > - [Email](mailto:estebanyepez2309@gmail.com) — via mail (duh) 
 
@@ -26,7 +26,12 @@ title: "currently working on the name of this thing..."
 
 ---
 
-Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tanto recursos en sí hahahah) personales sincronizados "automáticamente" (wink wink).
+> [!QUOTE] **How does it work??**
+> Buena pregunta porque ni yo sé aún **but the idea** es mantener esto vivo actualizandolo semana a semana con lo que voy recogiendo y aprendiendo, viendo y cualquier otro verbo que termino en -endo.
+> 
+> Btw, prepárate para el caos lingüístico: aquí conviven el español, português, english y o caraças, pero é o que é, né? No obstante la mayoría de material disponibilizado puede que esté en inglés, pero oh men (jbb moment): si lo que quieres no esta en tu idioma descárgate Duolingo y ponte a aprender inglés (ou português, o español), que a mí no me cuentes tus vainas.
+
+---
 
 ## Quick Access.
 
@@ -39,7 +44,7 @@ Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tan
 
 > [!TIP] **Curator's Desk**
 > Mis colecciones personales.
-> - [[curator's desk/index| Ir al Escritorio]]
+> - [[curator's desk/index| da desk]]
 
 </div>
 
@@ -53,5 +58,6 @@ Aquí encontrarás mis apuntes universitarios y recursos (y cosas que no son tan
 
 ---
 
+//TODO
 > [!QUOTE] 
 > *"[tengo que poner una quote impactante aquí lol]"*
