@@ -6,11 +6,11 @@ title: "📁 CALC1"
 
 ### 📂 Subcarpetas
 - [[Apuntes/index|Apuntes]]
-- [[Bibliografías /index|Bibliografías ]]
 - [[Fichas/index|Fichas]]
 - [[Formularios/index|Formularios]]
 - [[Images/index|Images]]
 - [[Slides/index|Slides]]
 - [[Testes/index|Testes]]
+- [[bibliografias/index|bibliografias]]
 
 ### 📄 Archivos y Notas

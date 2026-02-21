@@ -1,8 +1,8 @@
 ---
-title: "📁 Exercícios "
+title: "📁 exercicios"
 ---
 
-# Contenido de Exercícios 
+# Contenido de exercicios
 
 ### 📄 Archivos y Notas
 - [exercicios.pdf](exercicios.pdf)

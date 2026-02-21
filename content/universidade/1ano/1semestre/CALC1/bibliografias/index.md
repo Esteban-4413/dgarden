@@ -1,8 +1,8 @@
 ---
-title: "📁 Bibliografías "
+title: "📁 bibliografias"
 ---
 
-# Contenido de Bibliografías 
+# Contenido de bibliografias
 
 ### 📄 Archivos y Notas
 - [biblio1.pdf](biblio1.pdf)
