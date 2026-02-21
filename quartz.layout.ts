@@ -8,7 +8,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
+      GitHub: "https://github.com/Esteban-4413/dgarden", // Tu repo actualizado [cite: 2026-02-21]
       "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
@@ -44,10 +44,17 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    // NUEVO: Bloque de Notas Recientes (Tipo "Git Status") [cite: 2026-02-20]
+    Component.RecentNotes({
+      title: "Recent Updates",
+      limit: 5,
+      showTags: false,
+      filter: (f) => f.slug !== "index", // No mostrar la home en la lista
+    }),
   ],
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// components for pages that display lists of pages (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [

@@ -1,5 +1,5 @@
 ---
-title: "🌿 Esteban's Digital Garden"
+title: "Esteban's Digital Garden"
 ---
 
 #  Welcome to my Workspace
@@ -21,6 +21,13 @@ Aquí no solo encontrarás apuntes universitarios sino una extensa variedad de c
 > - [[2semestre/index| Segundo Semestre]]
 
 </div>
+
+---
+
+> [!ABSTRACT] **Git Status**
+> ```git
+> # 
+> ```
 
 ---
 

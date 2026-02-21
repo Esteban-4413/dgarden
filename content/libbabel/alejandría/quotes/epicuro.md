@@ -5,7 +5,6 @@ tags:
   - quotes
   - alejandría
 ---
-
 #  El Jardín de las Palabras
 
 > "La brevedad es el alma del ingenio." — *William Shakespeare*
@@ -83,3 +82,9 @@ tags:
 > [!quote] 
 > "Yo no hablo de venganza ni de perdones, el olvido es la única venganza y el único perdón"
 > — **Jorge Luis Borges**
+
+---
+
+> [!quote] 
+> "Time stays long enough for anyone who will use it."
+> — **Leonardo Da Vinci**
