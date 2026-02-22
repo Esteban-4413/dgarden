@@ -17,7 +17,6 @@ const config: QuartzConfig = {
     },
     locale: "en-US", // Idioma preferido
     baseUrl: "esteban-4413.github.io/dgarden",
-    useAbsoluteUrls: false,
     ignorePatterns: ["private", "templates", ".obsidian", "**/excalidraw.md", "**/*.excalidraw.md",],
     defaultDateType: "modified",
     theme: {
