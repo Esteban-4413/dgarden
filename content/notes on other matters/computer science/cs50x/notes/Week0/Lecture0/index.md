@@ -4,7 +4,7 @@ title: " Lecture0"
 
 # Contenido de Lecture0
 
-###  Subcarpetas
+### Subcarpetas
 - [[slides/index|slides]]
 
-###  Archivos y Notas
+### Archivos y Notas

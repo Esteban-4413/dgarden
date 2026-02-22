@@ -4,10 +4,7 @@ title: " PI"
 
 # Contenido de PI
 
-###  Subcarpetas
-- [[c/index|c]]
+### Subcarpetas
 - [[fichas/index|fichas]]
-- [[resolucoes/index|resolucoes]]
-- [[tps-notes/index|tps-notes]]
 
-###  Archivos y Notas
+### Archivos y Notas

@@ -4,8 +4,7 @@ title: " computer science"
 
 # Contenido de computer science
 
-###  Subcarpetas
+### Subcarpetas
 - [[cs50x/index|cs50x]]
-- [[js-notes/index|js-notes]]
 
-###  Archivos y Notas
+### Archivos y Notas

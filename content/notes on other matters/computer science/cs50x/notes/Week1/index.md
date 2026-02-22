@@ -4,9 +4,8 @@ title: " Week1"
 
 # Contenido de Week1
 
-###  Subcarpetas
-- [[imgs/index|imgs]]
+### Subcarpetas
 - [[slides/index|slides]]
 
-###  Archivos y Notas
+### Archivos y Notas
 - [C.md](C.md)

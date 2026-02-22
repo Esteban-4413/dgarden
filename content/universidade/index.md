@@ -4,7 +4,7 @@ title: " universidade"
 
 # Contenido de universidade
 
-###  Subcarpetas
+### Subcarpetas
 - [[1ano/index|1ano]]
 
-###  Archivos y Notas
+### Archivos y Notas

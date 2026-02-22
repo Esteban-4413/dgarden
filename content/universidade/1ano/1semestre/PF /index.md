@@ -4,11 +4,8 @@ title: " PF "
 
 # Contenido de PF 
 
-###  Subcarpetas
-- [[Apuntes /index|Apuntes ]]
-- [[Images /index|Images ]]
+### Subcarpetas
 - [[Slides /index|Slides ]]
-- [[code/index|code]]
 - [[fichas /index|fichas ]]
 
-###  Archivos y Notas
+### Archivos y Notas

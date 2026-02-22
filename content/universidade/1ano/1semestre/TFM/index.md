@@ -4,10 +4,8 @@ title: " TFM"
 
 # Contenido de TFM
 
-###  Subcarpetas
-- [[Apuntes /index|Apuntes ]]
+### Subcarpetas
 - [[Slides/index|Slides]]
 - [[exercicios/index|exercicios]]
-- [[images/index|images]]
 
-###  Archivos y Notas
+### Archivos y Notas
