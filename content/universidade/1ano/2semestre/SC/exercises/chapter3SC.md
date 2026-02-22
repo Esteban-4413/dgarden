@@ -4,7 +4,6 @@ excalidraw-plugin: parsed
 tags: [excalidraw]
 
 ---
-![[excercises chapter 3 (ecs).svg]]
 
 
 
