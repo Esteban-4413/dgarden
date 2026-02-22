@@ -42,7 +42,7 @@ title: "currently working on the name of this thing..."
 > - [[universidade/1ano/index| Primer Año]]
 > - [[universidade/2semestre/index| Segundo Semestre]]
 
-> [!ABSTRACT] **Other (maybe) relevant**
+> [!ABSTRACT] **Other (maybe) relevant matters**
 > Notas sobre sobre otros asuntos quizás importantes.
 > - [[notes on other matters| Otros asuntos]]
 

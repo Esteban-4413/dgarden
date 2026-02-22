@@ -8,12 +8,15 @@ void linhas_xadrez(int n); // exercicio 3.2
 void xadrez(int n); 
 void xadrez2(int n);
 
+int elipse(int a, int b);
+
 int main() {
     int l;
     scanf("%d", &l);
     //cuadrado(5); 
     //xadrex(5);
-    xadrez2(l);
+    //xadrez2(l);
+    elipse(8, 4);
 
     return 0 ; 
 }
@@ -106,12 +109,34 @@ inspeccione os resultados obtidos em algumas experiências.
 
 int circulo(int r) {
     int x, y; 
+    int contador = 0;
     for (y = r; y >= -1 * r; y --){
         for (x = (-1) * r; x <= r; x ++){
-            if (x * x + y * y <= r * r) putchar ('#');
+            if (x * x + y * y <= r * r){
+                putchar ('#');
+                contador ++;
+            }
             else putchar(' ');
-            putchar('\n');
         }
+        putchar('\n');
     }
+    return contador;
 }
 
+int elipse(int a, int b) {
+    int x, y;
+    int contador = 0; 
+    for (y = b; y >= - b; y --) {
+        for (x = -a; x <= a; x ++){
+            if ((x * x * b * b) + (y * y * a * a) <= (a * a * b * b)) {
+                putchar('#');
+                contador++;
+            } 
+            else {
+                putchar(' ');
+            }
+        }
+        putchar('\n');
+    }
+    return contador;
+}
