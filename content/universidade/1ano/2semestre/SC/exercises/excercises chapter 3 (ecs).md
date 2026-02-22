@@ -35,7 +35,7 @@ c091f31bc853a920b0b80c7b22c64ff19bbec9b0: [[Essentials-of-computing-systems.pdf#
 
 4be9f414fbe3f611fd8ec3f60d587663fe693b62: [[Essentials-of-computing-systems.pdf#page=55]]
 
-%%
+
 ## Drawing
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebR4ABniaOiCEfQQOKGZuAG1wMFAwYogSbghNTAApAHkAdQAZAGsAMxTiyFhEcsDsKI5lYPaSzG4ARgBmCe0xgBZZngAOAHZZ
