@@ -1,12 +1,12 @@
 ---
-title: "📁 1ano"
+title: " 1ano"
 ---
 
 # Contenido de 1ano
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[1semestre/index|1semestre]]
 - [[2semestre/index|2semestre]]
 - [[CalendariosInfo/index|CalendariosInfo]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

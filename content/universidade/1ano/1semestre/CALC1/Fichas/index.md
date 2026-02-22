@@ -1,10 +1,10 @@
 ---
-title: "📁 Fichas"
+title: " Fichas"
 ---
 
 # Contenido de Fichas
 
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [extra.pdf](extra.pdf)
 - [folha1.pdf](folha1.pdf)
 - [folha2.pdf](folha2.pdf)

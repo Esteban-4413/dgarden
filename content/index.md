@@ -5,7 +5,7 @@ title: "currently working on the name of this thing..."
 // (FIXME)
 # Welcome to my... 
 ## ammm 
-### idk
+### idk the name of this
 #### but still
 ##### please
 ###### be welcomed
@@ -41,6 +41,11 @@ title: "currently working on the name of this thing..."
 > Notas organizadas por semestres.
 > - [[universidade/1ano/index| Primer Año]]
 > - [[universidade/2semestre/index| Segundo Semestre]]
+
+> [!ABSTRACT] **Other (maybe) relevant**
+> Notas sobre sobre otros asuntos quizás importantes.
+> - [[notes on other matters| Otros asuntos]]
+
 
 > [!TIP] **Curator's Desk**
 > Mis colecciones personales.

@@ -1,10 +1,10 @@
 ---
-title: "📁 CALC1"
+title: " CALC1"
 ---
 
 # Contenido de CALC1
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[Apuntes/index|Apuntes]]
 - [[Fichas/index|Fichas]]
 - [[Formularios/index|Formularios]]
@@ -13,4 +13,4 @@ title: "📁 CALC1"
 - [[Testes/index|Testes]]
 - [[bibliografias/index|bibliografias]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

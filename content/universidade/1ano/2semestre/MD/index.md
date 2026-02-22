@@ -1,13 +1,13 @@
 ---
-title: "📁 MD"
+title: " MD"
 ---
 
 # Contenido de MD
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[bibliografias/index|bibliografias]]
 - [[exercicios/index|exercicios]]
 - [[notes/index|notes]]
 - [[resolucoes/index|resolucoes]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

@@ -1,10 +1,10 @@
 ---
-title: "📁 ficha1"
+title: " ficha1"
 ---
 
 # Contenido de ficha1
 
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [ficha1.c](ficha1.c)
 - [horizontal.c](horizontal.c)
 - [horizontal.o](horizontal.o)

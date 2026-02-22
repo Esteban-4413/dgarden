@@ -1,11 +1,11 @@
 ---
-title: "📁 libbabel"
+title: " libbabel"
 ---
 
 # Contenido de libbabel
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[alejandría/index|alejandría]]
 - [[dictionary/index|dictionary]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

@@ -1,10 +1,10 @@
 ---
-title: "📁 resolucoes"
+title: " resolucoes"
 ---
 
 # Contenido de resolucoes
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[ficha1/index|ficha1]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

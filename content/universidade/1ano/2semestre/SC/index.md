@@ -1,13 +1,13 @@
 ---
-title: "📁 SC"
+title: " SC"
 ---
 
 # Contenido de SC
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[bibliografias/index|bibliografias]]
 - [[exercises/index|exercises]]
 - [[notes/index|notes]]
 - [[slides/index|slides]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

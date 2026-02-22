@@ -1,13 +1,13 @@
 ---
-title: "📁 PI"
+title: " PI"
 ---
 
 # Contenido de PI
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[c/index|c]]
 - [[fichas/index|fichas]]
 - [[resolucoes/index|resolucoes]]
 - [[tps-notes/index|tps-notes]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

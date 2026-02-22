@@ -1,10 +1,10 @@
 ---
-title: "📁 alejandría"
+title: " alejandría"
 ---
 
 # Contenido de alejandría
 
-### 📂 Subcarpetas
+###  Subcarpetas
 - [[quotes/index|quotes]]
 
-### 📄 Archivos y Notas
+###  Archivos y Notas

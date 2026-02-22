@@ -1,8 +1,8 @@
 ---
-title: "📁 Slides "
+title: " Slides "
 ---
 
 # Contenido de Slides 
 
-### 📄 Archivos y Notas
+###  Archivos y Notas
 - [slides.pdf](slides.pdf)
