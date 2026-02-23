@@ -49,11 +49,10 @@ export async function fetchCanonical(url: URL): Promise<Response> {
 
 export function renderExcalidrawLinks(theme: "dark" | "light") {
   const currentTheme = theme === "dark" ? "light" : "dark"
+  // Buscamos todas las imágenes para cambiarlas si el usuario toca el botón de tema
   const images = document.getElementsByTagName("img")
-  
   Object.values(images).forEach(img => {
-    // Busca archivos que sigan el patrón nombre.excalidraw.light.svg
-    if (img.src.endsWith(`.excalidraw.${currentTheme}.svg`)) {
+    if (img.src.includes(".excalidraw.") && img.src.endsWith(`.${currentTheme}.svg`)) {
       const srcParts = img.src.split(".")
       srcParts.splice(-2, 1, theme)
       img.src = srcParts.join(".")
@@ -67,16 +66,18 @@ export function getUserPreferredColorScheme() {
 
 document.addEventListener("nav", () => {
   const theme = (localStorage.getItem("theme") as "light" | "dark") ?? getUserPreferredColorScheme()
-  const article = document.querySelector("article") // Cambiado a querySelector por seguridad
+  const article = document.querySelector("article")
   
-  // Si no hay artículo en esta página, no hacemos nada para evitar el error
+  // Si no hay artículo, salimos para evitar errores de "undefined"
   if (!article) return 
 
   const links = article.getElementsByTagName("a")
   Object.values(links).forEach(a => {
+    // Si el enlace es a un excalidraw, lo convertimos en imagen
     if (a.href.endsWith(".excalidraw")) {
       const img = document.createElement("img")
       img.src = `${a.href}.${theme}.svg`
+      img.style.maxWidth = "100%" // Evita que la imagen se salga del borde
       a.replaceWith(img)
     }
   })
