@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US", // Idioma preferido
     baseUrl: "esteban-4413.github.io/dgarden",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/excalidraw.md", "**/*.excalidraw.md",],
+    ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
