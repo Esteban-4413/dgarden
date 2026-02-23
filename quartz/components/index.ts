@@ -50,4 +50,7 @@ export {
   Comments,
   Flex,
   ConditionalRender,
+
 }
+
+export { default as RenderExcalidraw } from "./RenderExcalidraw"

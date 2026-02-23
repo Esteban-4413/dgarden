@@ -5,7 +5,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.RenderExcalidraw(),
+  ],
   footer: Component.Footer({
     links: {
       LinkedIn: "https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab",

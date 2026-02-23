@@ -44,3 +44,40 @@ export async function fetchCanonical(url: URL): Promise<Response> {
   const [_, redirect] = text.match(canonicalRegex) ?? []
   return redirect ? fetch(`${new URL(redirect, url)}`) : res
 }
+
+// quartz/components/scripts/util.ts
+
+export function renderExcalidrawLinks(theme: "dark" | "light") {
+  const currentTheme = theme === "dark" ? "light" : "dark"
+  const images = document.getElementsByTagName("img")
+  
+  Object.values(images).forEach(img => {
+    // Busca archivos que sigan el patrón nombre.excalidraw.light.svg
+    if (img.src.endsWith(`.excalidraw.${currentTheme}.svg`)) {
+      const srcParts = img.src.split(".")
+      srcParts.splice(-2, 1, theme)
+      img.src = srcParts.join(".")
+    }
+  })
+}
+
+export function getUserPreferredColorScheme() {
+  return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"
+}
+
+document.addEventListener("nav", () => {
+  const theme = (localStorage.getItem("theme") as "light" | "dark") ?? getUserPreferredColorScheme()
+  const article = document.querySelector("article") // Cambiado a querySelector por seguridad
+  
+  // Si no hay artículo en esta página, no hacemos nada para evitar el error
+  if (!article) return 
+
+  const links = article.getElementsByTagName("a")
+  Object.values(links).forEach(a => {
+    if (a.href.endsWith(".excalidraw")) {
+      const img = document.createElement("img")
+      img.src = `${a.href}.${theme}.svg`
+      a.replaceWith(img)
+    }
+  })
+})
