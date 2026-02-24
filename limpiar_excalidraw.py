@@ -15,7 +15,7 @@ def limpiar_archivos():
                 nuevo_md = f"---\ntitle: \"{nombre_base}\"\n---\n\n![[{nombre_base}.light.svg]]\n"
                 with open(file_path, "w", encoding="utf-8") as f:
                     f.write(nuevo_md)
-                print(f"📝 Nota limpiada: {file}")
+                print(f"Nota limpiada: {file}")
 
             # 2. Desinfectar el SVG (para quitar la fuente que da error de XML)
             if file.endswith(".svg") and ".excalidraw." in file:

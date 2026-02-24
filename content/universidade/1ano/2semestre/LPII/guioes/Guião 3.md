@@ -1,5 +1,14 @@
-# Guião 3
-
+---
+topic: C
+date: 2026-02-24
+course: LPII
+tags:
+  - Universidade
+  - C
+  - programming
+  - guioes
+  - LPII
+---
 ## Objetivos
 - Compreender o conceito de programa
   - conceito de programa (entrada, processamento e saída)

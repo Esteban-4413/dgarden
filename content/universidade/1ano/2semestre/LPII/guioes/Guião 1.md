@@ -1,5 +1,5 @@
 ---
-topic:
+topic: C
 date: 2026-02-13
 course: LPII
 tags:
@@ -7,6 +7,7 @@ tags:
   - programming
   - C
   - guioes
+  - LP
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---
