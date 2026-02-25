@@ -51,6 +51,7 @@ $57_{10}=11\:1001_{2}$
 
 
 ## Links
+- [[chapter3.pdf]]
 - [[Essentials-of-computing-systems.pdf]]
 - [[sc lecture 5]]
 - [[sc lecture 4]]

@@ -10,7 +10,6 @@ tags:
 ---
 # Chapter 3: Representation of numbers
 
-
 ## Key Concepts
 ### Positional numeral systems
 -  A *numeral system* is a writing system for expressing numbers, that is, a notation for expressing numbers of a given set, using digits or other symbols.

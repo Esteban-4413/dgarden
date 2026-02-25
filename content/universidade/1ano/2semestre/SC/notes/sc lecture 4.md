@@ -67,4 +67,5 @@ Quantos dias levará o caracol a sair do poço?
 7 dias e um bocado...?
 
 ## Links 
+- [[chapter2.pdf]]
 - [[Essentials-of-computing-systems.pdf#page=25|Essentials-of-computing-systems, page 25]]
