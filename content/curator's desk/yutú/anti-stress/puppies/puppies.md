@@ -14,11 +14,10 @@ literalmente solo eso, que más quieres.
 
 ### Golden retriever dad tells daughter playtime is over 
 
-https://www.youtube.com/watch?v=T5CAh-zen_M&pp=ygUHcHVwcGllcw%3D%3D
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/T5CAh-zen_M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-###  What does a tiny kitten do when he finds a sleeping golden retriever puppy
+### What does a tiny kitten do when he finds a sleeping golden retriever puppy
 
-https://www.youtube.com/watch?v=gWEN1XoE5NE&pp=ygUHcHVwcGllcw%3D%3D
-
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/gWEN1XoE5NE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
