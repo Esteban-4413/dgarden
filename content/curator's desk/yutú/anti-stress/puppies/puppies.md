@@ -1,26 +1,26 @@
 ---
 tags:
-  - curator/cats
+  - curator/puppies
   - anxiety-relief
   - desk
-  - cats
+  - puppies
   - youtube
 ---
 
-# Emergency Happiness
-*Solo videos de gatos. Sin pretensiones, sin lógica, solo paz mental inmediata.*
+*videos de cachorros.*
+literalmente solo eso, que más quieres. 
 
 ---
 
-### Kittens Nap time
+### Golden retriever dad tells daughter playtime is over 
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/Z1UWsBJ5HgU" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=T5CAh-zen_M&pp=ygUHcHVwcGllcw%3D%3D" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-###  Cat in a fish bowl
+###  What does a tiny kitten do when he finds a sleeping golden retriever puppy
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/9FjGP4t2zKY" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=gWEN1XoE5NE&pp=ygUHcHVwcGllcw%3D%3D" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -48,5 +48,8 @@ tags:
 
 ---
 
-> [!tip] Protocolo de Ansiedad
-> En caso de error de segmentación en C o de no entender una mónada en Haskell, ver tres videos de esta lista y reintentar.
+###  The two talking cats
+
+<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=z3U0udLH974&pp=ygUFY2F0cyA%3D" frameborder="0" allowfullscreen></iframe>
+
+--- 

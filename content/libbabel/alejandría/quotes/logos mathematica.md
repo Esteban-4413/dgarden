@@ -9,10 +9,16 @@ tags:
 ---
 
 #  Logos Mathematica
-
 > "La matemática es el arte de dar el mismo nombre a cosas diferentes."
 >  —**Henri Poincaré**
 
+---
+
+>[!math]
+> "The only real valuable thing is intuition"
+> — **Albert Einstein**
+
+---
 > [!math] 
 > "The introduction of numbers as coordinates is an act of violence."
 > — **Hermann Weyl**
