@@ -5,7 +5,6 @@ tags:
 excalidraw-open-md: true
 date: "2026-02-06"
 ---
-
 1. Escreva um programa que desenha no ecra (usando o caracter '#') um quadrado de dimensão 5. 
 ```c
 void linha(int y) {

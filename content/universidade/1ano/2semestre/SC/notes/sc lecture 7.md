@@ -40,18 +40,6 @@ Calculation of the decimal value of a number in a given base
 	1. If the sign are the same, add the magnitudes and use that same sign for the result;
 	2. If the signs differs, determine which operand has the larger magnitude. The sign of the result is the same as the sign of the operand with the larger magnitude, and the magnitude by subtracting the smaller one from the larger one.
 
-### One's-complement 
-- Complement numeral systems were created to make additions faster and easier. 
-- One decimal number can be subtracted from another by adding the difference of the subtrahend from all nines and adding back a carry. This is called taking the nine's-complement of the subtrahend, or more precisely, finding the diminished radix complement of the subtrahend. 
-
-
-
-
-
-
-
-
-
 ## Links
 - [[chapter3.pdf]]
 - [[Essentials-of-computing-systems.pdf]]

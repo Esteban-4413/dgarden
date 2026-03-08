@@ -9,6 +9,7 @@ tags:
 ---
 
 #  Logos Mathematica
+
 > "La matemática es el arte de dar el mismo nombre a cosas diferentes."
 >  —**Henri Poincaré**
 
@@ -18,7 +19,6 @@ tags:
 > "The only real valuable thing is intuition"
 > — **Albert Einstein**
 
----
 > [!math] 
 > "The introduction of numbers as coordinates is an act of violence."
 > — **Hermann Weyl**
@@ -30,6 +30,8 @@ tags:
 > [!math] 
 > "It is my experience that proofs involving matrices can be shortened by 50% if one throws the matrices out."
 > — **Emil Artin**
+
+---
 
 > [!math] 
 > "The purpose of computation is insight, not numbers."
@@ -47,6 +49,8 @@ tags:
 > "From [Grothendieck], I have also learned not to take glory in the difficulty of a proof: difficulty means we have not understood. The idea is to be able to paint a landscape in which the proof is obvious."
 > — **Pierre Deligne**
 
+---
+
 > [!math] 
 > "Last time, I asked: 'What does mathematics mean to you?', and some people answered: 'The manipulation of numbers, the manipulation of structures.' And if I had asked what music means to you, would you have answered: 'The manipulation of notes?"
 > — **Serge Lang**
@@ -62,6 +66,8 @@ tags:
 > [!math] 
 > "So far as the theories of mathematics are about reality, they are not certain; so far as they are certain, they are not about reality."
 > — **Albert Einstein**
+
+---
 
 > [!math] 
 > "You know, for a mathematician, he did not have enough imagination. But he has become a poet and now he is fine."
@@ -79,6 +85,8 @@ tags:
 > "Do not ask whether a statement is true until you know what it means."
 > — **Errett Bishop**
 
+---
+
 > [!math] 
 > "Calculus is all about making curvy things look straight."
 > — **Unknown**
@@ -94,6 +102,8 @@ tags:
 > [!math] 
 > "We often hear that mathematics consists mainly of "proving theorems." Is a writer's job mainly that of "writing sentences?"
 > — **Gian-Carlo Rota**
+
+---
 
 > [!math] 
 > "To many, mathematics is a collection of theorems. For me, mathematics is a collection of examples; a theorem is a statement about a collection of examples and the purpose of proving theorems is to classify and explain the examples."

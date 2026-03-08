@@ -1,0 +1,8 @@
+A sua entrega foi successful!
+Curso: 2526.J302N5_2, [25-26] Programação Imperativa [ENGINF]
+Avaliação: Mini-Teste 1
+
+Data de entrega: 04/03/26, 19:30 (WET)
+Tamanho da entrega: 0 bytes
+Requerente: Esteban Yepez Orozco .
+Número de confirmação: a942b91425ec414da331350723978bb2
