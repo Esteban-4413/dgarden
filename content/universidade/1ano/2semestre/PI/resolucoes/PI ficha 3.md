@@ -118,7 +118,7 @@ void quadrados (int q[], int N){
 # Excalidraw Data
 
 ## Text Elements
-%%
+
 ## Drawing
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebR4ABm0ANho6IIR9BA4oZm4AbXAwUDBSiBJuCAA1fAAJADkAeWcAJUaARVqALQAzAHUAFQARAZ4Aa3bCAbTSyFhESp7AhE8q

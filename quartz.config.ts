@@ -29,14 +29,14 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fbfaff",         // Fondo blanco con un toque de lavanda
-          lightgray: "#f0e7ff",     // Bordes y UI (morado muy claro)
-          gray: "#9a8bbd",          // Texto secundario y fechas
-          darkgray: "#4a3b6b",      // Texto principal (morado oscuro para lectura)
-          dark: "#2d1b4d",          // Títulos (morado profundo)
-          secondary: "#7c3aed",     // Links y acentos principales (violeta vibrante)
-          tertiary: "#a78bfa",      // Acento secundario (morado pastel)
-          highlight: "rgba(124, 58, 237, 0.1)", // Color al pasar el ratón o resaltar
+          light: "#f4f2f8",         // Fondo "lavanda ceniza" (adiós al blanco brillante)
+          lightgray: "#e5def1",     // Bordes y UI un poco más definidos
+          gray: "#8e81ad",          // Texto secundario más suave
+          darkgray: "#3c344d",      // Texto principal (morado muy oscuro, no negro)
+          dark: "#281a42",          // Títulos con más peso visual
+          secondary: "#6d28d9",     // Links (un violeta más profundo y legible)
+          tertiary: "#9061f9",      // Acento secundario
+          highlight: "rgba(109, 40, 217, 0.08)", // Resaltado sutil
           textHighlight: "#fff23688",
         },
         darkMode: {
