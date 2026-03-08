@@ -29,25 +29,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf4ed",         // Rosé Pine Light bg
-          lightgray: "#f2e9e1",     // Bordes y UI
-          gray: "#9893a5",          // Texto secundario
-          darkgray: "#575279",      // Texto principal
-          dark: "#286983",          // Títulos
-          secondary: "#1A7DA4",     
-          tertiary: "#d7827e",      // Acento secundario (Rose)
-          highlight: "rgba(26, 125, 164, 0.15)",
+          light: "#fbfaff",         // Fondo blanco con un toque de lavanda
+          lightgray: "#f0e7ff",     // Bordes y UI (morado muy claro)
+          gray: "#9a8bbd",          // Texto secundario y fechas
+          darkgray: "#4a3b6b",      // Texto principal (morado oscuro para lectura)
+          dark: "#2d1b4d",          // Títulos (morado profundo)
+          secondary: "#7c3aed",     // Links y acentos principales (violeta vibrante)
+          tertiary: "#a78bfa",      // Acento secundario (morado pastel)
+          highlight: "rgba(124, 58, 237, 0.1)", // Color al pasar el ratón o resaltar
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#303446",         // Catppuccin Frappé bg
-          lightgray: "#414559",     // Bordes y UI
-          gray: "#838ba7",          // Texto secundario
-          darkgray: "#c6d0f5",      // Texto principal
-          dark: "#eebebe",          // Títulos (Rosewater)
-          secondary: "#11B7C5",     
-          tertiary: "#81c8be",      // Acento secundario (Teal suave)
-          highlight: "rgba(17, 183, 197, 0.15)",
+          light: "#1a1625",         // Fondo "Deep Space" morado
+          lightgray: "#2d283e",     // Bordes y UI (gris morado)
+          gray: "#8071a1",          // Texto secundario
+          darkgray: "#dcd7e8",      // Texto principal (lavanda muy claro)
+          dark: "#f3f0ff",          // Títulos (casi blanco con tinte morado)
+          secondary: "#b794f4",     // Links (púrpura neón suave)
+          tertiary: "#805ad5",      // Acento secundario (amatista)
+          highlight: "rgba(183, 148, 244, 0.15)", // Resaltado de líneas
           textHighlight: "#b3aa0288",
         },
       },
