@@ -13,11 +13,11 @@ title: "currently working on the name of this thing..."
 ---
 
 > [!CAUTION]
-> Como se puede apreciar ver por el inexistente título de esta cosa, el presupuesto de creatividad se me acabó configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
+> Como se puede apreciar ver por el inexistente título de esta cosa, la creatividad se agotó  configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
 > - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) — via dm(¿?) (am si linkedin porque soy una persona seria wtv) 
-> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv (confieso que soy bastante inactivo por ahí tho)
+> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv
 > - [GitHub](https://github.com/Esteban-4413) - via pull request
-> - [Email](mailto:estebanyepez2309@gmail.com) — via mail (duh) 
+> - [Email](mailto:estebanyepez2309@gmail.com) — via mail ¿? (duh) 
 
 ---
 
@@ -55,14 +55,6 @@ title: "currently working on the name of this thing..."
 
 ---
 
-## My Stack 
-
-* **Editor:** [Obsidian](https://obsidian.md) (Anuppuccin).
-* **Engine:** [Quartz 4.0](https://quartz.jzhao.xyz).
-* **Automation:** Script de **Python** para gestión de índices y status.
-
----
-
 //TODO
 > [!QUOTE] 
-> *"[tengo que poner una quote impactante aquí lol]"*
+> *"[quote impactante aquí lol]"*
