@@ -134,3 +134,8 @@ int main(){
 }
 ```
 A recursividade ingénua (primeiro código) é catastrófica aqui. Para calcular `fib(5)`, o programa calcula `fib(3)` várias vezes de forma redundante. O tempo de execução cresce exponencialmente $(O(2^n))$. A segunda versão cria um vetor e resolve o problema de baixo para cima (bottom-up), consultando os resultados anteriores. Demora apenas $n$ passos (complexidade de tempo $O(n))$, transformando um problema que demoraria anos para um n grande num cálculo instantâneo.
+
+## Links
+- [[1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
+- [[pi tp 1]]
+- [[pi tp 2]]

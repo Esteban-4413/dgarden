@@ -119,3 +119,40 @@ h3 {
   background: rgba(var(--secondary), 0.03);
   border-radius: 8px;
 }
+
+// Contenedor de las imágenes de Excalidraw
+.internal-embed {
+  border: none !important;
+  background-color: transparent !important;
+
+  svg, img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    background-color: transparent !important; // Esto quita el fondo blanco
+    transition: all 0.3s ease-in-out;
+    cursor: zoom-in; // Indica que se puede ampliar
+
+    // Un borde sutil morado para que resalte
+    border: 1px solid var(--lightgray);
+    
+    // Efecto de sombra "glow" al pasar el ratón
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(124, 58, 237, 0.2); 
+      border-color: var(--secondary);
+    }
+  }
+}
+
+// Estilo para cuando se visualiza en pantalla completa (Lightbox)
+.medium-zoom-overlay {
+  background: var(--light) !important;
+  opacity: 0.9 !important;
+}
+
+.medium-zoom-image--opened {
+  z-index: 999;
+  border: none !important;
+  box-shadow: none !important;
+}

@@ -75,4 +75,4 @@ float mult (int x, float y){
 
 ## Links
 - [[1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
-- [[pi tp 2]]
+- [[pi tp 1]]

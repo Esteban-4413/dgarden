@@ -1,14 +1,9 @@
 ---
-title: "currently working on the name of this thing..."
+title: "not title yet"
 ---
 
-// (FIXME)
-# Welcome to my... 
-## ammm 
-### idk the name of this
-#### but still
-##### please
-###### be welcomed
+
+# Welcome!
 
 ---
 

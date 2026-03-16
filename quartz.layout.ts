@@ -5,9 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.RenderExcalidraw(),
-  ],
+  afterBody: [], // Quitamos ImageZoom de aquí para evitar el error
   footer: Component.Footer({
     links: {
       LinkedIn: "https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab",
@@ -48,7 +46,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    // Sección de Actualizaciones Recientes gestionada por Quartz
     Component.RecentNotes({
       title: "Últimas Novedades",
       limit: 5,
