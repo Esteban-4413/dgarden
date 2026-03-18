@@ -60,23 +60,14 @@ int circulo(int r) {
 ```
 
 >[!CODE] Código fuente
->Puedes ver el archivo original aquí: [ficha1.c](/1ano/2semestre/PI/code/resolucoes/ficha1/ficha1.c)
->[horizontal.c](1ano/2semestre/PI/code/resolucoes/ficha1/horizontal.c)
->[vertical.c](1ano/2semestre/PI/code/resolucoes/ficha1/vertical.c)
->[triangulo.c](1ano/2semestre/PI/code/resolucoes/ficha1/triangulo.c)
+>Puedes ver el archivo original aquí: [ficha1.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/ficha1.c)
+>[horizontal.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/horizontal.c)
+>[vertical.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/vertical.c)
+>[triangulo.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/triangulo.c)
 ## Links 
-- [[1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
+- [[/universidade/1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
 
-
-
-
-
-
-
-
-
-
-
+---
 %%
 # Excalidraw Data
 

@@ -15,16 +15,16 @@ def generar_indices_codigo():
             
             with open(index_path, "w", encoding="utf-8") as f:
                 f.write("---\n")
-                f.write(f"title: \"📂 Código Fuente: {os.path.basename(root)}\"\n")
+                f.write(f"title: \"Código Fuente: {os.path.basename(root)}\"\n")
                 f.write("tags:\n  - code-index\n")
                 f.write("---\n\n")
                 f.write(f"> [!EXAMPLE] Archivos de código en esta carpeta\n")
                 
                 for code_file in archivos_codigo:
                     # El link debe ser relativo al archivo .md que estamos creando
-                    f.write(f"> - 📄 [{code_file}]({code_file})\n")
+                    f.write(f"> - [{code_file}]({code_file})\n")
             
-            print(f"✅ Índice creado en: {root}")
+            print(f"Índice creado en: {root}")
 
 if __name__ == "__main__":
     generar_indices_codigo()
