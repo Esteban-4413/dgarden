@@ -1,30 +1,24 @@
 ---
-title: "not title yet"
+title: "Liláxx"
 ---
 
-
-# Welcome!
+# Welcome to Liláxx!
 
 ---
 
 > [!CAUTION]
-> Como se puede apreciar ver por el inexistente título de esta cosa, la creatividad se agotó  configurando el CSS. Si tienes una idea de cómo debería llamarse este sitio **acepto sugerencias**:
-> - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) — via dm(¿?) (am si linkedin porque soy una persona seria wtv) 
-> - [Instagram](https://www.instagram.com/esteban_ypz23/) - via dm or wtv
-> - [GitHub](https://github.com/Esteban-4413) - via pull request
-> - [Email](mailto:estebanyepez2309@gmail.com) — via mail ¿? (duh) 
+> 
+> - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) 
+> - [Instagram](https://www.instagram.com/esteban_ypz23/) 
+> - [GitHub](https://github.com/Esteban-4413) 
+> - [Email](mailto:estebanyepez2309@gmail.com)  
 
 ---
 
-> [!QUOTE] **Un pequeño mensaje...**
-> Ya fuera de bromas este es un lugar donde disponibilizo cosas que a mí en lo personal me parecen interesantes y que pienso que pueden ser de ayuda o le pueden parecer interesantes a alguien más. Ya sean palabras que voy aprendiendo cada día o apuntes de mis clases o vídeos en youtube que me parecen chéveres o álbumes (coming soon) que me gustan, o opiniones que tengo sobre temas random, etc... No sé solo sé que no quería esto fuera una cosa aburrida y espero que no lo sea. 
-
----
-
-> [!QUOTE] **How does it work??**
+> [!QUOTE] **What is this and how does it work?**
 > Buena pregunta porque ni yo sé aún **but the idea** es mantener esto vivo actualizandolo semana a semana con lo que voy recogiendo y aprendiendo, viendo y cualquier otro verbo que termino en -endo.
 > 
-> Btw, prepárate para el caos lingüístico: aquí conviven el español, português, english y o caraças, pero é o que é, né? No obstante la mayoría de material disponibilizado puede que esté en inglés, pero oh men (jbb moment): si lo que quieres no esta en tu idioma descárgate Duolingo y ponte a aprender inglés (ou português, o español), que a mí no me cuentes tus vainas.
+> btw, prepárate para el caos lingüístico: aquí conviven el español, português, english y o caraças, pero é o que é, né? No obstante la mayoría de material disponibilizado puede que esté en inglés, pero oh men (jbb moment): si lo que quieres no esta en tu idioma descárgate Duolingo y ponte a aprender inglés (ou português, o español), que a mí no me cuentes tus vainas.
 
 ---
 

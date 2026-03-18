@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Esteban's notes", 
-    pageTitleSuffix: "",
+    pageTitle: "My notes and whatnot", 
+    pageTitleSuffix: " x ",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -29,7 +29,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f4f2f8",         // Fondo "lavanda ceniza" (adiós al blanco brillante)
+          light: "#f4f2f8",         // Fondo "lavanda ceniza" 
           lightgray: "#e5def1",     // Bordes y UI un poco más definidos
           gray: "#8e81ad",          // Texto secundario más suave
           darkgray: "#3c344d",      // Texto principal (morado muy oscuro, no negro)

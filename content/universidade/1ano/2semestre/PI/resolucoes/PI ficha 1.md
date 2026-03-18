@@ -59,6 +59,11 @@ int circulo(int r) {
 }
 ```
 
+>[!CODE] Código fuente
+>Puedes ver el archivo original aquí: [ficha1.c](/1ano/2semestre/PI/code/resolucoes/ficha1/ficha1.c)
+>[horizontal.c](1ano/2semestre/PI/code/resolucoes/ficha1/horizontal.c)
+>[vertical.c](1ano/2semestre/PI/code/resolucoes/ficha1/vertical.c)
+>[triangulo.c](1ano/2semestre/PI/code/resolucoes/ficha1/triangulo.c)
 ## Links 
 - [[1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
 
@@ -72,14 +77,12 @@ int circulo(int r) {
 
 
 
-
+%%
 # Excalidraw Data
 
 ## Text Elements
 ## Element Links
 hbJ5tGAC: [[1ano/2semestre/PI/fichas/Ficha1.pdf]]
-
-%%
 ## Drawing
 ```compressed-json
 N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebR4ABniaOiCEfQQOKGZuAG1wMFAwYogSbggANXwACQA5AHlnACV6gEVqgC0AMwB1ABUAET6eAGtWwj6U4shYRHKuwIRPKn4S

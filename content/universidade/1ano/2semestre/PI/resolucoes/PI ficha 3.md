@@ -101,6 +101,9 @@ void quadrados (int q[], int N){
 }
 ```
 
+>[!CODE] Código fuente
+>Puedes ver el archivo original aquí: [ficha3.c](/1ano/2semestre/PI/code/resolucoes/ficha3/ficha3.c)
+
 
 
 
