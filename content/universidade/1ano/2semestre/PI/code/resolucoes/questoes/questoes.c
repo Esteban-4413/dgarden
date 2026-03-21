@@ -197,3 +197,97 @@ int qDig (unsigned int n){
     }
     return digitos;
 }
+
+//7.
+char *strcat (char s1[], char s2[]){
+    int i, j;
+    for (i = 0; s1[i] != '\0'; i ++);
+    for (j = 0; s2[j] != '\0'; j ++)
+        s1[i++] = s2[j]; 
+    s1[i] = '\0';
+    return s1;
+}
+
+//8. 
+char *strcpy (char *dest, char source[]){
+    int i;
+    for (i = 0; source[i] != '\0'; i ++){
+        dest[i] = source[i];
+    }
+    dest[i] = '\0';
+    return dest;
+}
+
+//9. 
+int strcmp (char s1[], char s2[]){
+    int i = 0;
+    while (s1[i] == s2[i] && s1[i] != '\0')
+        i ++;
+    return (s1[i] - s2[i]);
+}
+
+//10. 
+char *strstr (char s1[], char s2[]){
+    int i = 0, j = 0;
+    for (i = 0; s1[i] != '\0'; i ++){
+        j = 0;
+        while (s1[i + j] == s2[j] && s2[j] != '\0')
+            j ++;
+        if (s2[j] == '\0')
+            return s1 + i; // ou &s1[i] 
+    }
+    return NULL;
+}
+
+//11. 
+void strrev (char s[]){
+    int i = 0, inicio = 0, fim;
+    while (s[i] != '\0')
+        i ++;
+    int fim = i - 1;
+    while (inicio < fim){
+        char temp;
+        temp = s[inicio];
+        s[inicio] = s[fim];
+        s[fim] = temp;
+        inicio ++;
+        fim --;
+    }
+}
+
+//12. 
+int eVogal (char c){
+    if (c >= 'a' && c <= 'z') 
+        c = c + 'A' - 'a';
+    return (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
+}
+
+void strnoV (char s[]){
+    int i, j = 0;
+    for (i = 0; s[i] != '\0'; i ++)
+        if (! eVogal(s[i])) s[j++] = s[i];
+    s[j] = '\0';
+}
+
+//13. 
+void truncW (char t[], int n){
+    int i, j = 0, contador = 0;
+    for (i = 0; t[i] != '\0'; i ++){
+        
+        if (t[i] == ' '){
+            t[j++] = t[i];
+            contador = 0;
+        } else {
+            if (contador < n) {
+                t[j++] = t[i]; 
+                contador ++;
+            }
+        }
+    }
+    t[j] = '\0';
+}
+
+//14.
+char charMaisFreq (char s[]){
+
+}

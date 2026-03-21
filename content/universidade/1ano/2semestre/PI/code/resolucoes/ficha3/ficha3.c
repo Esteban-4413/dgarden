@@ -5,6 +5,10 @@ void swap (int v[], int i, int j);
 int soma (int v[], int N);
 void inverteArray1 (int v[], int N);
 void inverteArray2 (int v[], int N);
+int maximum (int v[], int N, int *m);
+void quadrados (int q[], int N);
+void quadrados2 (int q[], int N);
+void pascal(int p[], int n);
 
 int main(){
     //.2
@@ -96,12 +100,13 @@ void quadrados2 (int q[], int N){
 }
 
 //8. 
-void pascal (int v[], int N){
-    v[0] = 1;
+void pascal(int p[], int n){
     int i, j;
-    for (i = 0; i < N; i ++){
-        v[1] = 1;
-    for (j = i - 1; j > 0; j--) v[j] = v[j] + v[j-1];
+    p[0] = 1;
+    for(i = 0; i < n; i ++){
+        p[i + 1] = 1;
+        for(j = i; j >= 1; j--)
+            p[j] = p[j] + p[j - 1];
     }
 }
 

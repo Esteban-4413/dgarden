@@ -101,10 +101,25 @@ void quadrados (int q[], int N){
 }
 ```
 
+8. ...
+```c
+void pascal(int p[], int n){
+	int i, j;
+	p[0] = 1;
+	for(i = 0; i < n; i++){
+		p[i + 1] = 1;
+		for(j = i; j >= 1; j--);
+			p[j] = p[j] + p[j - 1];
+	}
+}
+```
+
+
 >[!CODE] Código fuente
 >Puedes ver el archivo original aquí: [ficha3.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha3/ficha3.c)
 
-
+## Links 
+- [[universidade/1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
 
 
 
