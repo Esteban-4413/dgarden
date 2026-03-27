@@ -1,7 +1,7 @@
 # 50 Questões - Resoluções em C
 
 **Arquivo original:** [[questoes.c]]
-**Links:**  [[50 questoes]]
+**Links:**  [[Q1.pdf]]
 
 ---
 
