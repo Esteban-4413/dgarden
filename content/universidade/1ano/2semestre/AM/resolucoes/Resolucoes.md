@@ -18,7 +18,8 @@ tags:
 
 # Ficha 2
 
-
+- [[ficha2AM.excalidraw]]
+- [[universidade/1ano/2semestre/AM/exercicios/folha2.pdf|folha2]]
 
 ---
 
