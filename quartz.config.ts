@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "My notes and whatnot", 
-    pageTitleSuffix: " x ",
+    pageTitle: "My notes", 
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US", // Idioma preferido
+    locale: "en-US", 
     baseUrl: "esteban-4413.github.io/dgarden",
     ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "modified",
@@ -29,12 +29,12 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f4f2f8",         // Fondo "lavanda ceniza" 
+          light: "#f4f2f8",         // Fondo 
           lightgray: "#e5def1",     // Bordes y UI un poco más definidos
           gray: "#8e81ad",          // Texto secundario más suave
-          darkgray: "#3c344d",      // Texto principal (morado muy oscuro, no negro)
-          dark: "#281a42",          // Títulos con más peso visual
-          secondary: "#6d28d9",     // Links (un violeta más profundo y legible)
+          darkgray: "#3c344d",      // Texto principal 
+          dark: "#281a42",          // Títulos 
+          secondary: "#6d28d9",     // Links 
           tertiary: "#9061f9",      // Acento secundario
           highlight: "rgba(109, 40, 217, 0.08)", // Resaltado sutil
           textHighlight: "#fff23688",

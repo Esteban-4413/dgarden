@@ -25,7 +25,8 @@ tags:
 
 # Ficha 3
 
-
+- [[ficha3AM.excalidraw]]
+- [[universidade/1ano/2semestre/AM/exercicios/folha3.pdf|folha3]]
 
 ---
 
