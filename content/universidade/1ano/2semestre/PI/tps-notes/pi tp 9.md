@@ -23,7 +23,7 @@ typedef struct lista{
 ```c
 // Função auxiliar para criar um novo nó
 LInt newLInt(int x, LInt xs){
-	LInt r = malloc(sizeof(struct list));
+	LInt r = malloc(sizeof(struct lista));
 	if(r != NULL){
 		r->valor = x;
 		r->prox = xs;
@@ -53,7 +53,7 @@ void initStack(Stack *s){
 
 ```c
 // Verifica se a pilha está vazia
-int isEmpty(Stack *s, int x){
+int isEmptyStack(Stack *s, int x){
 	return (s == NULL);
 }
 ```
@@ -80,7 +80,7 @@ int push(Stack *s, int x){
 Remover o elemento do topo. Guardamos o valor, avançamos o ponteiro da pilha para el siguiente nodo y liberamos la memoria del nodo removido.
 
 ```c
-int pop(Stack *s, int *s){
+int pop(Stack *s, int *x){
 	LInt t;
 	if(*s == NULL) return 1; // Erro: Pilha vazia
 	t = *s; // Guardamos o nó do topo
@@ -88,9 +88,78 @@ int pop(Stack *s, int *s){
 	*x = t -> valor; // Devolvemos o valor por referência
 	free(t); // Libertamos a memória do nó removido
 	return 0;
+}
 ```
 
 ---
+
+```c
+int top(Stack s, int *x){
+	if(s == NULL) return 1;
+	*x = s->valor;
+	return 0;
+}
+```
+
+---
+
+## 3. Filas (Queues) com Listas Ligadas
+
+### Definição e Inicialização
+
+```c
+typedef Struct{
+	LInt inicio, fim;
+} Queue;
+```
+
+```c
+int initQueue(Queue *q){
+	q->inicio = NULL;
+	q->fim = NULL;
+}
+```
+
+```C
+int isEmptyQueue(Queue q){
+	return(q.inicio == NULL);
+}
+```
+
+### Operações Principais (Enqueue, Dequeue)
+
+```c
+int enqueue(Queue *q, int x){
+	LInt n;
+	n = newLInt(x, NULL);
+	if(n == NULL) return 1;
+	
+	// Se a fila não está vazia, ligamos o nó ao fim atual
+	if ((*q).fim != NULL){
+		(*q).fim->prox = n;
+		(*q).fim = n;
+		
+		// Se estava vazia, o novo nó é o início e o fim
+	} else (*q).fim = (*q).inicio = n;
+	return 0;
+}
+```
+
+```c
+int dequeue(Queue *q, int *x){
+	LInt t;
+	if((*q).inicio == NULL) return 1; // Fila vazia
+	t = (*q).inicio;
+	
+	(*q).inicio = (*q).inicio->prox; // Avança o início
+	
+	// Se a fila ficou vazia após remover, o fim também tem de ser NULL
+	if((*q).inicio == NULL) (*q).fim = NULL;
+	*x = t->valor;
+	free(t);
+	return 0;
+}
+```
 
 ## Diferenças Principais: Queue vs Stack
 
@@ -108,51 +177,62 @@ int pop(Stack *s, int *s){
 
 ## Main
 Main generado por gemini para probar las funciones e tambien poder visualizarlas mejor con ayuda de python tutor.
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
 
 // ==========================================
-// [...]
+// Coloca aquí todo tu código (LInt, Stack y Queue)
 // ==========================================
 
 int main() {
-    printf("=== TESTANDO A PILHA (STACK) COM LISTAS LIGADAS ===\n");
-    
-    Stack s;        // Nuestra pila principal
-    int valor;      // Variable auxiliar para guardar lo que sacamos con pop()
+    int valor; // Variable auxiliar para los resultados
 
-    // 1. Inicializamos la pila
+    // ---------------------------------------------------------
+    // TEST 1: PILHA (STACK) - LIFO
+    // ---------------------------------------------------------
+    printf("=== TESTANDO A PILHA (STACK) ===\n");
+    Stack s;
     initStack(&s);
-    printf("Pilha inicializada. Vazia? %s\n", isEmpty(&s) ? "Sim" : "Nao");
 
-    // 2. Empilhar (Push) elementos
-    printf("\nEmpilhando (Push) os valores: 10, 20, 30...\n");
-    
     push(&s, 10);
-    printf("Inserido: 10\n");
-    
     push(&s, 20);
-    printf("Inserido: 20\n");
-    
     push(&s, 30);
-    printf("Inserido: 30\n");
+    printf("Empilhados na Stack: 10, 20, 30\n");
 
-    printf("\nA pilha esta vazia agora? %s\n", isEmpty(&s) ? "Sim" : "Nao");
-
-    // 3. Desempilhar (Pop) elementos para comprobar el orden LIFO
-    printf("\nDesempilhando (Pop) todos os valores:\n");
-    // Mientras la pila NO esté vacía, seguimos sacando elementos
-    while (!isEmpty(&s)) {
-        if (pop(&s, &valor) == 0) {
-            printf("Removido do topo: %d\n", valor);
-        }
+    printf("Ordem de saída da Stack: ");
+    while (!isEmptyStack(&s)) {
+        pop(&s, &valor);
+        printf("%d ", valor); // Debería imprimir: 30 20 10
     }
+    printf("\n\n");
 
-    // 4. Probar sacar de una pila que ya está vacía (manejo de errores)
-    printf("\nTentando desempilhar de uma pilha vazia...\n");
-    if (pop(&s, &valor) == 1) {
-        printf("Erro capturado com sucesso: A pilha ja esta vazia!\n");
+    // ---------------------------------------------------------
+    // TEST 2: FILA (QUEUE) - FIFO
+    // ---------------------------------------------------------
+    printf("=== TESTANDO A FILA (QUEUE) ===\n");
+    Queue q;
+    initQueue(&q);
+
+    enqueue(&q, 10);
+    enqueue(&q, 20);
+    enqueue(&q, 30);
+    printf("Enfileirados na Queue: 10, 20, 30\n");
+
+    
+
+    printf("Ordem de saída da Queue: ");
+    while (!isEmptyQueue(q)) {
+        dequeue(&q, &valor);
+        printf("%d ", valor); // Debería imprimir: 10 20 30
+    }
+    printf("\n\n");
+
+    // Prueba de seguridad: Fila vacía
+    printf("Tentando dequeue de uma fila vazia...\n");
+    if (dequeue(&q, &valor) == 1) {
+        printf("Erro capturado: Fila vazia!\n");
     }
 
     return 0;
@@ -163,7 +243,7 @@ int main() {
 ## Links
 - [[1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha3]]
 - [[1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha4]]
--  [[pi tp 1]]
+- [[pi tp 1]]
 - [[pi tp 2]]
 - [[pi tp 3]]
 - [[pi tp 4]]

@@ -11,3 +11,4 @@ title: " fichas"
 - [Ficha4.pdf](Ficha4.pdf)
 - [Ficha5.pdf](Ficha5.pdf)
 - [Q1.pdf](Q1.pdf)
+- [Q2.pdf](Q2.pdf)
