@@ -332,7 +332,6 @@ Estudiar $\sum \frac{(n+1)^n}{3^n n!}$.
 > $$\frac{1}{3} \cdot e \cdot 1 = \frac{e}{3} \approx 0.9$$
 > Como $\frac{e}{3} < 1$, la serie **CONVERGE**.
 
-
 #  Corrección: Teste 2 Cálculo I (2025-12-16)
 
 > [!INFO] Metadatos

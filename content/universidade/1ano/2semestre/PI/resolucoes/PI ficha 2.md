@@ -80,8 +80,5 @@ long fib2 (int n){
 >[!CODE] Código fuente
 >Puedes ver el archivo original aquí: [ficha2.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha2/ficha2m.c)
 
-
-
-
 ## Links 
 - [[1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]

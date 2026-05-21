@@ -32,13 +32,9 @@ tags:
 
 # Ficha 4
 
-
-
 ---
 
 # Ficha 5
-
-
 
 ---
 

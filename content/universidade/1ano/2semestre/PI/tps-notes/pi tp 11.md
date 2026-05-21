@@ -26,7 +26,6 @@ typedef struct nodo {
 } *ABin;
 ```
 
-
 ## 1. Operações Básicas em Árvores Binárias
 
 ### Contar Folhas (**`nFolhas`**)
@@ -329,7 +328,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Links
 - [[1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha3]]

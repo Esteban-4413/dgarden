@@ -61,7 +61,6 @@ Para encontrar o inverso de $a$ (quando $\text{mdc}(a, n) = 1$), utilizamos o Al
 > $2257 = 95 \cdot 23 + 72$
 > **Solução Final:** $x \equiv 72 \pmod{95}$.
 
-
 ## Links
 - [[Lecture 1 md]]
 - [[Lecture 2 md]]

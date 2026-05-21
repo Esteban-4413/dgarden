@@ -30,7 +30,6 @@ title: "Liláx"
 > Notas sobre sobre otros asuntos quizás importantes.
 > - [[notes on other matters| Otros asuntos]]
 
-
 > [!TIP] **Curator's Desk**
 > Mis colecciones personales.
 > - [[curator's desk/index| da desk]]

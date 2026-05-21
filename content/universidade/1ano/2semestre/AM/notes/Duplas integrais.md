@@ -17,15 +17,10 @@ excalidraw-plugin: parsed
 
 https://www.youtube.com/watch?v=x078DTRvs9U&t=5s
 
-
 ## Examples
 
-
 ## Questions
-- 
-
-
-
+-
 
 ## Links
 - [[]]

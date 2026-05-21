@@ -60,7 +60,6 @@ O TCR permite resolver sistemas de várias congruências lineares com módulos d
 > $$\begin{cases} x \equiv a_1 \pmod{m_1} \\ x \equiv a_2 \pmod{m_2} \\ \dots \\ x \equiv a_k \pmod{m_k} \end{cases}$$
 > Se os módulos $m_i$ forem **coprimos dois a dois** ($mdc(m_i, m_j) = 1$ para $i \neq j$), então o sistema tem uma **solução única** módulo $M = m_1 \cdot m_2 \dots m_k$.
 
-
 ## Lei do Corte (Cancelamento)
 
 A Lei do Corte permite-nos simplificar uma congruência dividindo ambos os lados por um fator comum, mas exige um cuidado especial com o módulo $n$ [cite: 2026-02-02].

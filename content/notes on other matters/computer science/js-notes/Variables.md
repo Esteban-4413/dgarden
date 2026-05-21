@@ -31,8 +31,7 @@ Constant [variables](https://www.codecademy.com/resources/docs/javascript/varia
 When trying to decide between which keyword to use, `let` or `const`, think about whether the variable will need to be reassigned later on. If we need to reassign the variable, use `let`; otherwise, use `const`.
 
 ### Mathematical assignment operators 
-... 
-
+...
 
 ### The increment and Decrement Operator
 The **increment operator** will increase the value of the variable by one. The **decrement operator** will decrease the value of the variable by one. 
@@ -232,8 +231,6 @@ myCity = 'Bogota';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
 ```
 
-
-
 ### typeof operator
 1. Use `console.log()` to print the `typeof newVariable`.
 ```js
@@ -260,8 +257,6 @@ newVariable = 1;
 console.log(typeof newVariable);
 ```
 
-
-
 ---
 ## Examples
 ### Create a variable: var 
@@ -284,7 +279,6 @@ meal = 'Burrito';
 console.log(meal); // Output: Burrito
 
 ```
-
 
 ```js
 let price;  
@@ -340,7 +334,6 @@ z /= 2; // Can be written as z = z / 2
 console.log(z); // Output: 4
 ```
 
-
 ### The Increment and Decrement Operator 
 ```js
 let a = 10;
@@ -353,8 +346,6 @@ let b = 20;
 b--;
 console.log(b); // Output: 19
 ```
-
-
 
 ### String Concatenation with Variables 
 ```js
@@ -393,10 +384,6 @@ const unknown3 = true;
 console.log(typeof unknown3); // Output: boolean
 ```
 Since the value `unknown1` is `'foo'`, a string, `typeof unknown1` will return `'string'`.
-
-
-
-
 
 ---
 ## Questions

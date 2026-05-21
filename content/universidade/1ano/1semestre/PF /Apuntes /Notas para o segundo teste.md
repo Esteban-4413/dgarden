@@ -13,22 +13,17 @@ excalidraw-open-md: true
 
 ## Key Concepts
 
-
 ## Important Details
 
-
 ## Examples
-
 
 ## Questions
 - 
 
 ## Summary
 
-
 ## Related Topics
 - [[]]## Preguntas
-
 
 ```haskell
 multThree :: (Num a) => a -> a -> a -> a  
@@ -74,8 +69,7 @@ mP (h:t) | h > x = (h, 0)
 ```haskell
 isLeft :: Either a b -> Bool 
 isLeft (Left _) = True 
-isLeft _ = False 
-
+isLeft _ = False
 
 separaE :: [Either a b] -> ([a], [b])
 separaE lista@(h:t) = ([a | Left a <- l], [b ])

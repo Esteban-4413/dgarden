@@ -38,7 +38,46 @@ def desinfectar_jardin():
                     with open(file_path, "w", encoding="utf-8") as f:
                         f.write(svg_data)
 
+
+def aspirador_de_markdown():
+    content_dir = "content"
+    
+    for root, dirs, files in os.walk(content_dir):
+        for file in files:
+            if file.endswith(".md"):
+                file_path = os.path.join(root, file)
+                
+                with open(file_path, "r", encoding="utf-8") as f:
+                    contenido = f.read()
+                
+                contenido_original = contenido
+                
+                # 1. Arreglar las comillas malditas para los iframes
+                contenido = contenido.replace('“', '"').replace('”', '"')
+                
+                # 2. Quitar el alt text "Exported image" de los links válidos
+                contenido = re.sub(r'!\[Exported image\]', '![', contenido, flags=re.IGNORECASE)
+                
+                # 3. Borrar la frase "Exported image" si quedó suelta como texto plano
+                contenido = re.sub(r'Exported image', '', contenido, flags=re.IGNORECASE)
+                
+                # 4. Aspirar los abismos de espacios vacíos de OneNote
+                contenido = re.sub(r'([ \t]*\n){3,}', '\n\n', contenido)
+                
+                # Guardar solo si limpiamos algo
+                if contenido != contenido_original:
+                    with open(file_path, "w", encoding="utf-8") as f:
+                        f.write(contenido)
+                    print(f"🧹 Basura aspirada en: {file}")
+
+
 if __name__ == "__main__":
-    print("Aplicando antídoto a los SVGs...")
+    print("🚀 Iniciando el mantenimiento maestro del jardín Lilás...")
+    
+    print("\n--- Fase 1: Limpiando Markdown y OneNote ---")
+    aspirador_de_markdown()
+    
+    print("\n--- Fase 2: Desinfectando y Curando SVGs ---")
     desinfectar_jardin()
-    print("SVGs curados.")
+    
+    print("\n✨ ¡Mantenimiento completado! Todo está reluciente. Ya puedes hacer el build.")

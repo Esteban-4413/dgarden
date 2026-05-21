@@ -32,8 +32,7 @@ tags:
 - From a mathematical point of view, the representation of natural numbers is an excess-0 representation.
 - ![[Pasted image 20260226094020.png]]
 ### Before yo go #5 
-Quais são as melhores afirmações erradas que consegues verbalizar para as matérias abordadas hoje? 
-
+Quais são as melhores afirmações erradas que consegues verbalizar para as matérias abordadas hoje?
 
 ## Links 
 - [[]]

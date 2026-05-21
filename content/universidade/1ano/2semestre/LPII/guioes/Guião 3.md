@@ -28,7 +28,6 @@ tags:
   - diretivas `-S` e `-g`
   - programas `gcc`, `xxd`, `objdump` e `gcc`
 
-
 ## Para antes da aula
 1. Assista o vídeo https://www.youtube.com/watch?v=RuKkePyo9zk e calcule a representação binária para 0.1 em IEEE 754.
 
@@ -65,7 +64,6 @@ Considere executar os comandos abaixo passando-os ao comando `less`.
 A título de exemplo, para o primeiro comando é preferível escrever
 
     xxd -b prog.c | less
-
 
 1. Use o comando `xxd -b prog.c` para ver o ficheiro em binário
 2. Use o comando `xxd prog.c` para ver o ficheiro em hexadecimal

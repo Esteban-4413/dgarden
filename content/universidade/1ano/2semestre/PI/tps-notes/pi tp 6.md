@@ -102,7 +102,6 @@ int ordenaPorNum(Aluno t[], int N){
 }
 ```
 
-
 #### Ordenação Indireta (Usa Índices)
 **Esta é a técnica "eficiente relativamente ao uso de memória**. Não mexemos no vetor de alunos (que pode ser gigante). Em vez disso, ordenamos um vetor de inteiros (`ind`) que aponta para as posições dos alunos.
 ```c

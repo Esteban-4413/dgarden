@@ -114,23 +114,11 @@ void pascal(int p[], int n){
 }
 ```
 
-
 >[!CODE] Código fuente
 >Puedes ver el archivo original aquí: [ficha3.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha3/ficha3.c)
 
 ## Links 
 - [[universidade/1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
-
-
-
-
-
-
-
-
-
-
-
 
 %% 
 # Excalidraw Data

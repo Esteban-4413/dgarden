@@ -37,8 +37,6 @@ int main(){
 	- ![[Pasted image 20260219093128.png]]
 ### Conversions between different bases
 
-
-
 ## Questions
 ### Before you go # 6
 Uma caixa pode ter vales de desconto de 1, 2, 4, 8, 16, 32 (euros). Só há um vale de cada montante e no total perfazem 57
@@ -46,9 +44,6 @@ Uma caixa pode ter vales de desconto de 1, 2, 4, 8, 16, 32 (euros). Só há um v
 Se forem retirados todos os vales que sejam múltiplos de 40, quanto resta? 
 
 $57_{10}=11\:1001_{2}$
-
-
-
 
 ## Links
 - [[chapter3.pdf]]

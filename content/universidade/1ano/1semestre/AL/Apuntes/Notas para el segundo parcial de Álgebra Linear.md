@@ -21,8 +21,7 @@ excalidraw-open-md: true
 
 #### Ficha 4 (Aplicações Lineares) ([[Álgebra_Linear_Exercícios_Aplicações_Lineares.pdf#page=1|Álgebra_Linear_Exercícios_Aplicações_Lineares, page 1]])
 
-4.1 
-
+4.1
 
 4.3 *Teorema da extensão linear* ([[AL_LCC_Aplicacoes_Lineares(1).pdf#page=12|AL_LCC_Aplicacoes_Lineares(1), page 12]])
 
@@ -55,13 +54,10 @@ a) F; b) V; c) F; d) F; e) F; f) F; g) V;
 
 ![[Pasted image 20251213114345.png]]
 
-
 ## Ficha 5 
 ([[Álgebra_Linear_Exercícios_Algebra_Vetorial.pdf]])
 
 5.7 [[AL_LCC_Algebra_Vetorial.pdf#page=19|AL_LCC_Algebra_Vetorial (Ortogonalidade),]]
-
-
 
 5.13 
 - [x] 

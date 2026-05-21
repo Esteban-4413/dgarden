@@ -145,7 +145,6 @@ void merge(int a[], int na, int b[], int nb, int r[]){
 }
 ```
 
-
 O bloco de comparação: 
 ```c
 for(ia = ib = ir = 0; ia < na && ib < nb; ir ++){

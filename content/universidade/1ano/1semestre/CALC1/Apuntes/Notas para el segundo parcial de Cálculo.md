@@ -11,7 +11,6 @@ excalidraw-open-md: true
 ---
 # Notas para el segundo parcial de Cálculo
 
-
 ## Fichas resolvidas
 - [x] Ficha 4 
 - [ ] Ficha 5 
@@ -22,10 +21,7 @@ excalidraw-open-md: true
 
 Definición de un límite: 
 ![[Pasted image 20251208132649.png]]
-si no existe tal L entonces se dice que f diverge o simplemente que el límite no existe 
-
-
-
+si no existe tal L entonces se dice que f diverge o simplemente que el límite no existe
 
 ### Ejercicios folha 4 
 [[Calculo_folha4.pdf#page=1|Calculo_folha4]]
@@ -143,9 +139,6 @@ Aparecen en el Ejercicio 5.10. Se expresan con logaritmos.
 3. **Argumento Tangente Hiperbólica:**
    $$\text{argth } x = \frac{1}{2} \ln\left(\frac{1+x}{1-x}\right), \quad |x| < 1$$
 
-
-
-
 # Resumen: Teoremas Fundamentales del Cálculo (Hoja 6)
 
 ## 1. Teorema de Bolzano (Existencia de Raíces)
@@ -233,8 +226,6 @@ Es la herramienta principal para demostrar **desigualdades** complejas que invol
 | Demostrar que **NO** hay más soluciones        | **Rolle**               | Supón que hay dos y busca contradicción en $f'(c)=0$.                            |
 | Demostrar una **desigualdad**                  | **Lagrange**            | Aplica $\frac{f(x)-f(0)}{x} = f'(c)$ y acota $f'(c)$.                            |
 
-
-
 *Bibliografías:
 [[LimitesContinuidade.pdf#page=1|LimitesContinuidade, page 1]]
 [[Apuntes_en_Cálculo_I (4).pdf#page=43|Apuntes_en_Cálculo_I (4), pag]]
@@ -251,6 +242,5 @@ Es la herramienta principal para demostrar **desigualdades** complejas que invol
 *Formularios*
 [[FormularioDerivadas.pdf]]
 [[FormularioTrigonometricasHiperbolicas.pdf]]
-
 
   

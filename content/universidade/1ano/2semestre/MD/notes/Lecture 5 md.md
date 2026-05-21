@@ -33,8 +33,6 @@ Não existe nenhuma outra combinação de primos que resulte em 120.
 
 O Crivo de Eratóstenes é um algoritmo eficiente para encontrar todos os números primos menores ou iguais a um determinado número inteiro $N$.
 
-
-
 **O Algoritmo:**
 1. Escrevemos uma lista de todos os inteiros de 2 até $N$.
 2. O primeiro número não marcado é o 2 (que é primo). Deixamos o 2 e riscamos da lista todos os seus múltiplos (4, 6, 8, 10...).

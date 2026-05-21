@@ -79,7 +79,6 @@ tags:
 > "Sólo existió un ser que entendía mi pintura. Mientras tanto, estos cuadros deben de confirmarlos cada vez más en su estúpido punto de vista. Y los muros de este infierno serán así, cada día más herméticos."
 > — *Página 156*
 
-
 ---
 
 ## Ernesto Sabato sobre *El Túnel*
@@ -94,9 +93,6 @@ tags:
 
 > "Pero me parece que el hombre, al final, se inclina más por la esperanza que por la desesperanza. De otro modo, todos nos habríamos ya disparado un tiro en la cabeza. Los terremotos, las guerras, los campos de concentración, las desilusiones, la miseria humana, la envidia, el resentimiento, la deslealtad, la traición, la derrota, la humillación: nada nos arredra, nada nos lleva a la muerte sino muy raramente. Todos esperamos algo, después de todo y a pesar de todo."
 > — *Página 162*
-
-
-
 
 ##  Conexiones
 

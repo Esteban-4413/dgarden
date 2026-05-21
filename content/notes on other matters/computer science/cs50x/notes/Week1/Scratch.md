@@ -139,7 +139,6 @@ for (int i = 0; i < 3; i++)
 }
 ```
 
-
 ---
 ## Abstraction & Functions
 
@@ -196,9 +195,9 @@ void meow(int n)
 
 ### Correctness, Design, Style
 - Code can be evaluated upon three axes.
-- First, _correctness_ refers to “Does the code run as intended?” 
-- Second, _design_ refers to “How well is the code designed?” 
-- Finally, _style_ refers to “How aesthetically pleasing and consistent is the code?” 
+- First, _correctness_ refers to "Does the code run as intended?" 
+- Second, _design_ refers to "How well is the code designed?" 
+- Finally, _style_ refers to "How aesthetically pleasing and consistent is the code?" 
 
 ---
 ## Operators

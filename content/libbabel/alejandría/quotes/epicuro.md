@@ -99,5 +99,4 @@ tags:
 > "Somo people care more about the money than the poor: the rich"
 > — **Oscar Wilde**
 
-
 ---

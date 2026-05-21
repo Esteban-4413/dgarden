@@ -19,8 +19,5 @@ pipi numeros e mais lululluululul
 - muitas 
 - sim
 
-
-
-
 ## Links
 - [[]]

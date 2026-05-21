@@ -68,11 +68,7 @@ topic: Computer Systems
 	- During the boot process, the operating system stores a table called an *interrupt vector table* in RAM and registers it with the CPU. 
 		- ![[Pasted image 20260210134414.png]]
 	- Then, the userland programs can use an instructions like INT which tells the processor to look up the given interrupt number in the IVT, switch to kernel mode, and the jump the instruction pointer to the memory address stored in the IVT. 
-- When this kernel code finishes, it uses an instruction like IRET (??) to tell the CPU to switch back to user mode and return the instruction pointer to where it was when the interrupt was triggered 
-
-
-
-
+- When this kernel code finishes, it uses an instruction like IRET (??) to tell the CPU to switch back to user mode and return the instruction pointer to where it was when the interrupt was triggered
 
 # Excalidraw Data
 

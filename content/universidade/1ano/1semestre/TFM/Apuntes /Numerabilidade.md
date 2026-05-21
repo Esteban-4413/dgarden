@@ -23,15 +23,12 @@ Um conjunto numerável é um conjunto equipotente ao conjunto dos naturais
 
 ## Important Details
 
-
 ## Examples
-
 
 ## Questions
 - 
 
 ## Summary
-
 
 ## Related Topics
 - [[]]

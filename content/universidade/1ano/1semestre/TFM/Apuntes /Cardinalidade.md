@@ -20,18 +20,14 @@ Teorema de Cantor-Schroder-Berstein
 
 ###### numerabilidade de conjuntos e Teorema de Cantor
 
-
 ## Important Details
 
-
 ## Examples
-
 
 ## Questions
 - 
 
 ## Summary
-
 
 ## Related Topics
 - [[]]

@@ -30,14 +30,12 @@ tags:
 - The integer part of a number is separated from its fractional part  by a *radix point*
 	- In the decimal system, the radix is called *decimal point*. 
 		- $468.51=4*1000+6*100+8*10+2*1+5*0.1+1*0.01$
-	- Binary fractions have the *binary point*. But if the computer just sees 1's and 0's how does it know if the number has a binary point? That information has to be in the program that its been written that maybe is the reason for which in the programming language C you have to declared that a variable is a float. 
-
+	- Binary fractions have the *binary point*. But if the computer just sees 1's and 0's how does it know if the number has a binary point? That information has to be in the program that its been written that maybe is the reason for which in the programming language C you have to declared that a variable is a float.
 
 ## Before you go # 5
 What is the most appropriate numeral system to represent money --plata--(Euros) in a computer? 
 
 For some reason I did not catch the answer is integer lol
-
 
 ## Related topics
 - [[Essentials-of-computing-systems.pdf#page=36|Essentials-of-computing-systems, page 36]]

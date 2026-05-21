@@ -84,7 +84,6 @@ Step-by-Step en Python Tutor:
 
 <iframe width="100%" height="600" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Cstdio.h%3E%0A%23include%20%3Cstdlib.h%3E%0A%0Atypedef%20struct%20lligada%20%7B%0A%20%20%20%20int%20valor%3B%0A%20%20%20%20struct%20lligada%20*prox%3B%0A%7D%20*LInt%3B%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20//%20Criamos%20um%20n%C3%B3%20din%C3%A2mico%0A%20%20%20%20LInt%20meuNodo%20%3D%20malloc%28sizeof%28struct%20lligada%29%29%3B%0A%20%20%20%20%0A%20%20%20%20//%20Usamos%20a%20seta%20-%3E%20para%20aceder%20aos%20campos%20do%20struct%0A%20%20%20%20meuNodo-%3Evalor%20%3D%2042%3B%0A%20%20%20%20meuNodo-%3Eprox%20%3D%20NULL%3B%0A%20%20%20%20%0A%20%20%20%20//%20Lemos%20o%20valor%20usando%20a%20seta%20-%3E%0A%20%20%20%20int%20x%20%3D%20meuNodo-%3Evalor%3B%0A%20%20%20%20%0A%20%20%20%20free%28meuNodo%29%3B%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&curInstr=0&origin=opt-frontend.js&py=c_gcc9.3.0"> </iframe>
 
-
 **Passing by Reference (Why do we need pointers in functions?)**  
 In C, when you pass a variable to a function, it normally sends a _copy_ of the value (Pass by Value). If the function changes it, the original variable remains unchanged.  
 To let a function modify our original variable, we must pass its memory address using the Address Operator `&`, and the function must receive it using a Pointer.  
@@ -180,7 +179,6 @@ A `NULL` pointer is a pointer that points to exactly nowhere (address `0x0`). It
 - In **Linked Lists**: The `prox` pointer of the last node is `NULL`.  
 - In **Binary Trees**: If a node has no left child, its `esq` pointer is `NULL` (a leaf has both as `NULL`).  
 - **Danger:** Trying to dereference a NULL pointer (e.g., asking for `l->valor` when `l` is `NULL`) will instantly crash the program with a **Segmentation Fault**. That is why we always write `while (l != NULL)`!
-
 
 [^1]: An unary operator  in C is an operator that acts on a single operand. Unlike binary operators like `+` in `a + b` unary operators streamline operations using a single variable or constant.
 

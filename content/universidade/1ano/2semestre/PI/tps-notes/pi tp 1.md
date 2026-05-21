@@ -22,7 +22,6 @@ while (i < 10){
 }
 putchar('\n');
 
-
 int main() {
 	for (int i = 1; i < 10, i ++){
 	printf("%d\n", i);
@@ -68,7 +67,6 @@ void linha(int y) {
 	putchar('\n');
 }
 
-
 int main() {
 	int x, y;
 	scanf("%d", &y);
@@ -91,7 +89,6 @@ void linha (int y) {
 	putchar('\n');
 }
 
-
 int main(){
 	int x, y; 
 	scanf("%d", &y);
@@ -99,7 +96,6 @@ int main(){
 		linha (y);
 	return 0; 
 }
-
 
 ```
 

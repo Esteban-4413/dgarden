@@ -42,7 +42,6 @@ $$a \equiv b \pmod n \iff n | (a - b)$$
 > Pela definição de divisibilidade, $a \equiv b \pmod n$ é equivalente a dizer que existe um inteiro $k$ tal que $a - b = kn$, ou seja:
 > $$a = b + kn \quad (k \in \mathbb{Z})$$
 
-
 ## 3. Aplicação Prática: Identificar Quadrados Perfeitos
 
 Uma das utilidades mais poderosas das congruências e dos restos da divisão é provar que certos números **não podem** ser quadrados perfeitos ($x^2$).

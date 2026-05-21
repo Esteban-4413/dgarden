@@ -73,8 +73,6 @@ Es **reflexiva**, **simétrica** y **transitiva**.
 > * Si el saludo implica que uno es "más importante" que el otro y no hay saludos circulares, tienes un **Orden** (una *fila* jerárquica para entrar).
 > * La **Cardinalidad** simplemente cuenta cuántos invitados hay, distinguiendo si la lista es finita, o tan larga que nunca termina de leerse, como los números naturales o los reales.
 
-
-
 # Excalidraw Data
 
 ## Text Elements

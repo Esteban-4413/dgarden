@@ -46,7 +46,6 @@ $$\text{mdc}(a, b) \cdot \text{mmc}(a, b) = a \cdot b$$
 Para inteiros gerais (podendo ser negativos):
 $$\text{mdc}(a, b) \cdot \text{mmc}(a, b) = |a \cdot b|$$
 
-
 ---
 
 ## 4. Cálculo do mdc e mmc usando Fatorização Prima

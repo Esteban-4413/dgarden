@@ -220,8 +220,6 @@ int main() {
     enqueue(&q, 30);
     printf("Enfileirados na Queue: 10, 20, 30\n");
 
-    
-
     printf("Ordem de saída da Queue: ");
     while (!isEmptyQueue(q)) {
         dequeue(&q, &valor);
@@ -238,7 +236,6 @@ int main() {
     return 0;
 }
 ```
-
 
 ## Links
 - [[1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha3]]

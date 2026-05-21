@@ -126,6 +126,5 @@ tags:
 > The algorithm stops at a remainder of 0. The greatest common divisor is the last non-zero remainder.
 > **$\gcd(1485, 1745) = 5$**
 
-
 ## Links
 - [[1ano/2semestre/MD/bibliografias/biblio1.pdf|biblio1]]

@@ -197,9 +197,8 @@ int main() {
     printf("\n");
     
     // Liberar la memoria dinámica de la fila
-    free(q.v); 
-    
-    
+    free(q.v);
+
     // ------------------------------------------
     // TEST 2: Listas Ligadas (PALAVRAS)
     // ------------------------------------------

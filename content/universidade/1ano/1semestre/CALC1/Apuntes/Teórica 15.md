@@ -15,9 +15,7 @@ tags:
 b) 
 
 ---
-# Primitivas  
-
-
+# Primitivas
 
 ## Videos about the topic 
 
@@ -35,15 +33,12 @@ b)
 
 ## Important Details
 
-
 ## Examples
-
 
 ## Questions
 - 
 
 ## Summary
-
 
 ## Related Topics
 - [[]]
