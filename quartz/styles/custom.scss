@@ -1,6 +1,6 @@
 @use "./base.scss";
 
-// 1. VARIABLES DE ENTORNO Y BREAKPOINTS [cite: 2026-02-20]
+// 1. VARIABLES DE ENTORNO Y BREAKPOINTS
 $mobile-breakpoint: 750px; 
 
 :root {
@@ -112,7 +112,7 @@ h3 {
   font-weight: 600;
 }
 
-// 7. MATEMÁTICAS (LaTeX) [cite: 2026-02-02]
+// 7. MATEMÁTICAS (LaTeX)
 .katex-display {
   padding: 1rem;
   overflow-x: auto;
@@ -120,7 +120,7 @@ h3 {
   border-radius: 8px;
 }
 
-// Contenedor de las imágenes de Excalidraw
+// 8. IMÁGENES EMBUTIDAS (Excalidraw, OneNote SVGs e Imagens Gerais)
 .internal-embed {
   border: none !important;
   background-color: transparent !important;
@@ -128,15 +128,15 @@ h3 {
   svg, img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 1.5rem auto;
     border-radius: 12px;
-    background-color: transparent !important; // Esto quita el fondo blanco
+    background-color: transparent !important; // Remove fundos brancos rígidos
     transition: all 0.3s ease-in-out;
-    cursor: zoom-in; // Indica que se puede ampliar
-
-    // Un borde sutil morado para que resalte
+    cursor: zoom-in; // Cursor de lupa para o ImageZoom
     border: 1px solid var(--lightgray);
     
-    // Efecto de sombra "glow" al pasar el ratón
+    // Efeito de elevação e sombra morada ao passar o rato
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 10px 20px rgba(124, 58, 237, 0.2); 
@@ -145,7 +145,7 @@ h3 {
   }
 }
 
-// Estilo para cuando se visualiza en pantalla completa (Lightbox)
+// Estilo para quando se visualiza em pantalla completa (Lightbox)
 .medium-zoom-overlay {
   background: var(--light) !important;
   opacity: 0.9 !important;
@@ -155,4 +155,17 @@ h3 {
   z-index: 999;
   border: none !important;
   box-shadow: none !important;
+}
+
+// 9. ADAPTACIÓN AUTOMÁTICA A MODO OSCURO (A tua versão otimizada)
+[data-theme="dark"] {
+  .internal-embed {
+    svg, img[src$=".svg"], img[src*="Ink.svg"] {
+      // Inversão suave a 85% para não magoar os olhos + rotação de cor para manter os teus roxos/lilás
+      filter: invert(0.85) hue-rotate(180deg);
+      
+      // Remove qualquer bloco branco de fundo que o OneNote tenha gerado por acidente
+      mix-blend-mode: screen; 
+    }
+  }
 }
