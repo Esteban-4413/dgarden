@@ -8,9 +8,9 @@ tags:
 ---
 # Arrays
 ---
-## Debugging 
-- **Debugging** is the process of locating and removing bugs from your code. 
-- There existe multiple debugging techniques and of them is called **rubber duck debugging** which, practically consists on talking to an inanimate object (or yourself) to help think through the code and why it is not working as intended. 
+## Debugging
+- **Debugging** is the process of locating and removing bugs from your code.
+- There existe multiple debugging techniques and of them is called **rubber duck debugging** which, practically consists on talking to an inanimate object (or yourself) to help think through the code and why it is not working as intended.
 ---
 ## Arrays
 Each data type requires a certain amount of system resources:
@@ -23,14 +23,14 @@ Each data type requires a certain amount of system resources:
 - `string` ? bytes
 
 ### Memory
-- Inside of your computer, you have a **finite** amount of memory available. 
+- Inside of your computer, you have a **finite** amount of memory available.
 	- ![[Pasted image 20260225170908.png]]
 - Physically, on the memory of your computer, you can imagine how specific types of data are stored on you computer. You might imagine that a `char`, which only requires 1 byte of memory, may look as follows:
 	- ![[Pasted image 20260225170923.png]]
-	- Similarly, an `int`, which only requires 4 bytes, might look as follows: 
+	- Similarly, an `int`, which only requires 4 bytes, might look as follows:
 		- ![[Pasted image 20260225171016.png]]
 ---
-- The following program, in fact explores this concepts. 
+- The following program, in fact explores this concepts.
 ```c
 // Averages three (hardcoded) numbers
 
@@ -48,13 +48,13 @@ int main(void)
 ```
 Notice that the number on the right is a floating point value of `3.0`, so that the calculation is rendered as a floating point value in the end.
 
-You can imagine how these variables are stored in memory: 
+You can imagine how these variables are stored in memory:
 	![[Pasted image 20260225172029.png]]
 
-Arrays are a sequence of values that are stored back-to-back in memory 
-	`int scores[3]` is a way of telling the compiler to provide you three back-to-back places in memory of size `int` to store three `scores`. 
+Arrays are a sequence of values that are stored back-to-back in memory
+	`int scores[3]` is a way of telling the compiler to provide you three back-to-back places in memory of size `int` to store three `scores`.
 
-Considering the previous program, we can revise the code like this: 
+Considering the previous program, we can revise the code like this:
 ```c
 // Averages three (hardcoded) numbers using an array
 
@@ -75,7 +75,7 @@ int main(void)
 ```
 Notice that `scores[0]` examines the value at this location of memory by `indexing into` the array called `scores` at location `0` to see what value is stored there.
 
-While the code above works, there is still an opportunity for improving our code, Revise your code as follows: 
+While the code above works, there is still an opportunity for improving our code, Revise your code as follows:
 ```c
 // Averages three numbers using an array and a loop
 
@@ -141,7 +141,7 @@ Notice that a new function called `average` is declared. Further, notice that a 
 Not only can arrays be containers: They can be passed between functions.
 
 ---
-## Strings 
+## Strings
 - A `string` is simply an array of values of type `char`: an array of characters.
 - To explore `char` and `string`, type `code hi.c` in the terminal window and write code as follows:
 ```c
@@ -279,7 +279,7 @@ Notice how the `while` loop continues to increment `n` until it encounters the `
 
 int main(void)
 {
-    string name = get_string("Name: "); 
+    string name = get_string("Name: ");
     int n = strlen(name);
     printf("%i\n", n);
 }
@@ -291,12 +291,12 @@ Notice that we must `#include <string.h>` to access this function.
 ## Command-Line Arguments
 
 - Up until now, we have been getting input inside our programs using `get_string` or `get_int`. However, we can also pass arguments to our program at the moment we run it in the terminal.
-    
+
 - To do this, we modify `int main(void)` to `int main(int argc, string argv[])`.
     - `argc` is the **argument count** (number of words typed).
     - `argv` is the **argument vector** (an array of the words themselves).
 - Create `code greet.c` and try this:
-```c 
+```c
 // Prints a command-line argument
 
 #include <cs50.h>
@@ -316,7 +316,7 @@ int main(int argc, string argv[])
 ```
 Notice that `argv[0]` is always the name of the program (e.g., `./greet`), so our first real argument is at `argv[1]`.
 - We can also iterate through all arguments:
-```c 
+```c
 // Printing command-line arguments
 
 #include <stdio.h>
@@ -330,7 +330,7 @@ int main(int argc, string argv[])
 }
 ```
 
---- 
+---
 
 ## Exit Status
 - Every time a program finishes, it returns an **exit status**. Usually, this is `0`, which means "everything went fine."
@@ -369,7 +369,7 @@ int myNumbers[] = {10, 20, 30, 40};
 int byteSize = sizeof(myNumbers); // Returns 16 (4 integers * 4 bytes each)
 
 // The Formula to find length:
-int length = sizeof(myNumbers) / sizeof(myNumbers[0]); 
+int length = sizeof(myNumbers) / sizeof(myNumbers[0]);
 printf("The array has %d elements.\n", length);
 ```
 
@@ -380,7 +380,7 @@ A multi-dimensional array is essentially an **array of arrays**. This is how we 
 int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
 
 // Accessing the element in the second row, third column (8):
-printf("%d", matrix[1][2]); 
+printf("%d", matrix[1][2]);
 
 // Looping through a 2D array:
 for (int i = 0; i < 2; i++) {
@@ -439,7 +439,7 @@ Arrays allow us to process large datasets efficiently.
 int main() {
   int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
   int length = sizeof(ages) / sizeof(ages[0]);
-  
+
   // Initialize with the first element
   int lowestAge = ages[0];
 

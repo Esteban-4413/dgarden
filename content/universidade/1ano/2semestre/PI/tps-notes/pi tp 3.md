@@ -17,17 +17,17 @@ Seja a operação $n⋅f$:
 - Se n é par: $n⋅f=\frac{2}{n}​⋅(2f)$
 - Se n é ímpar: $n⋅f=f+\frac{n}{2}⋅(2f)$
 
-```c 
+```c
 float mult(int n, float f){
 	if (n==0) return 0;
 	if (n%2==0) return (mult(n/2, f + f));
-	else return (f + mult(n+2, f + f)); 
+	else return (f + mult(n+2, f + f));
 }
 ```
 
 ```c
 float mult(int n, float r){
-	float r = 0; 
+	float r = 0;
 	while (n > 0){
 		if (n%2 ==1)
 			r += f;
@@ -59,7 +59,7 @@ float pot(int n, float f){
 float pot(int n, float f){
 	float r = 1;
 	while (n>0){
-		if (n%2 == 1) 
+		if (n%2 == 1)
 			r *=f;
 		r = f * f ; //elevamos a base ao quadrado
 		n = n/2; // Reduzimos o expoente a metade
@@ -80,7 +80,7 @@ Isto permite substituir um número grande pelo resto da sua divisão sucessivame
 O primeiro código (força bruta) procura o MDC testando todos os números menores, começando do menor entre n e m e descendo (`c--`).
 ```c
 int mdc(int n, int m){
-	int c; 
+	int c;
 	if (n<m) c = n; // ou  c = (n<m)? n:m
 	else c = m;
 	while (!(n%c == 0 && m%c == 0))
@@ -89,7 +89,7 @@ int mdc(int n, int m){
 }
 ```
 
-```c 
+```c
 int mdc(int n, int m){
 	while(n!=0 && m!=0){
 		if (n>m) n = n%m;
@@ -108,7 +108,7 @@ A sequência de Fibonacci é uma relação de recorrência clássica onde cada t
 
 ![[Pasted image 20260225200618.png]]
 
-```c 
+```c
 int fib(int n){
 	if (n<2) return n;
 	else return (fib(n-1) + fib(n-2));

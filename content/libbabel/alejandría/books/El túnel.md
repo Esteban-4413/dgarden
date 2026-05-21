@@ -21,7 +21,7 @@ tags:
 > "En realidad, siempre he pensado que no hay memoria colectiva, lo que quizá sea una forma de defensa de la especie human. La frase frase ‹‹todo tiempo pasado fue mejor›› no indica que antes sucedieran menos cosas malas, sino que —felizmente— la gente las echa al olvido."
 > — *Página 9*
 
-### II 
+### II
 > "Me hacen reír esos señores que salen con la modestia de Einstein o gente por el estilo; respuesta: *es fácil ser modesto cuando se es célebre*; quiero decir *parecer ser modesto*. Aun cuando se imagina que no existe en absoluto, se la descubre de pronto en su forma más sutil: la vanidad de la modestia."
 > — *Página 11*
 
@@ -31,18 +31,18 @@ tags:
 > "Existió una persona que podría entenderme.*Pero fue, precisamente, la persona que maté.*"
 > — *Página 13*
 
-### IX 
+### IX
 > "¿Hasta qué punto se puede decir que la mirada de un ser humano es algo físico?"
 > — *Página 40*
 
 > "¿Toda nuestra vida sería una serie de gritos anónimos en un desierto de astros indiferentes?"
 > — *Página 44*
 
-### XX 
+### XX
 > "¡Cuántas veces esta maldita división de mi consciencia ha sido culpable de hechos atroces! Mientras una parte me lleva a tomar una hermosa actitud, la otra denuncia el fraude, la hipocresía y la falsa generosidad; mientras una me lleva a insultar a un ser humano, la otra se conduele con él y me acusa a mí mismo de lo que denuncio en los otros; mientras una me hace ver la belleza del mundo, la otra me señala su fealdad y la ridiculez de todo sentimiento de felicidad."
 > — *Página 87-88*
 
-### XXI 
+### XXI
 > "Generalmente, esa sensación de estar solo en el mundo aparece mezclada a un orgulloso sentimiento de superioridad: desprecio a los hombres, los veo sucios, feos, incapaces, ávidos, groseros, mezquinos; mi soledad no me asusta, es casi olímpica."
 > — *Página 90*
 

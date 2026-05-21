@@ -33,10 +33,10 @@ Uma folha é um nó que não tem filhos (nem esquerda, nem direita).
 ```c
 int nFolhas(ABin a) {
     if (a == NULL) return 0;
-    
+   
     // Se não tem filhos, é uma folha
     if (a->esq == NULL && a->dir == NULL) return 1;
-    
+   
     // Senão, soma as folhas da esquerda com as da direita
     return nFolhas(a->esq) + nFolhas(a->dir);
 }
@@ -92,7 +92,7 @@ LInt append( LInt a, LInt b){
 	if(a == NULL) r = b;
 	while(a->prox != NULL) a = a->prox;
 	a->prox = b;
-	return r	
+	return r
 }
 
 // função principal
@@ -113,8 +113,8 @@ LInt nivelL(ABin a, int n){
 }
 ```
 
-## 3. Árvores Binárias de Procura (BST)  
-Numa Árvore Binária de Procura, tudo à esquerda é menor, e tudo à direita é maior.  
+## 3. Árvores Binárias de Procura (BST)
+Numa Árvore Binária de Procura, tudo à esquerda é menor, e tudo à direita é maior.
 
 ### Procurar um Elemento (**`procura` e `procura2`**)
 ```c
@@ -157,7 +157,7 @@ int nivel(ABin a, int x){
 }
 ```
 
-### Imprimir Elementos Menores ou Iguais a X (**`imprimeAte`**)  
+### Imprimir Elementos Menores ou Iguais a X (**`imprimeAte`**)
 Usa a propriedade da árvore de procura para não visitar ramos desnecessários.
 ```c
 void imprimeAte(Abin a, int x){
@@ -293,37 +293,37 @@ int main() {
     printf("=== CONSTRUINDO A ARVORE ===\n");
     // Montamos a árvore de baixo para cima usando a função auxiliar
     // Árvore: Raiz 10, Esquerda 5 (com filhos 2 e 7), Direita 15 (com filho 20)
-    ABin raiz = novoNodo(10, 
-                    novoNodo(5, 
-                        novoNodo(2, NULL, NULL), 
+    ABin raiz = novoNodo(10,
+                    novoNodo(5,
+                        novoNodo(2, NULL, NULL),
                         novoNodo(7, NULL, NULL)),
-                    novoNodo(15, 
-                        NULL, 
+                    novoNodo(15,
+                        NULL,
                         novoNodo(20, NULL, NULL)));
 
     printf("\n=== TESTANDO FUNCOES ===\n");
-    
+
     // Teste 1: Contar folhas (Devem ser o 2, 7 e 20 -> Total 3)
     int folhas = nFolhas(raiz);
     printf("Numero de folhas: %d\n", folhas);
-    
+
     // Teste 2: Procurar o nivel do numero 7 (A raiz 10 e nivel 0, o 5 e nivel 1, o 7 e nivel 2)
     int n = nivel(raiz, 7);
     printf("O numero 7 esta no nivel: %d\n", n);
-    
+
     // Teste 3: Imprimir todos os elementos da arvore em ordem crescente
     printf("Inorder (crescente): ");
     inorder(raiz);
     printf("\n");
-    
+
     // Teste 4: Imprimir valores ate um limite (Ex: todos os <= 8)
     printf("Imprime ate o 8: ");
     imprimeAte(raiz, 8); // Deve imprimir 2, 5 e 7
     printf("\n");
-    
+
     // Teste 5: Criar uma lista ligada com os elementos do nivel 2 (o 2, o 7 e o 20)
     LInt listaNivel2 = nivelL(raiz, 2);
-    
+
     // FIM! Acompanha os ponteiros da lista no Python Tutor
     return 0;
 }

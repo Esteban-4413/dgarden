@@ -32,7 +32,7 @@ print(response.output_text)
 ```
 **Takeaway:** Rather than thinking about AI as a way to remove the need to learn the fundamentals, consider how knowing the basics empowers you to use AI to lead to new opportunities.
 
---- 
+---
 ## Computer Science & Data Representation
 At its core, computer programming is about taking some **input** and creating some **output**. What happens in between is the **Black Box**.
 ### Binary (Base-2)
@@ -44,7 +44,7 @@ Computers count using **Binary**. Since a computer is essentially a collection o
 - **Unicode:** An expanded standard that allows for thousands of characters, including **Emojis**, by using more bits per character.
 - **RGB (Color):** Colors are represented using three bytes—one for Red, one for Green, and one for Blue. Every pixel on your screen is just a combination of these values.
 
---- 
+---
 ## Algorithms & Pseudocode
 
 An **Algorithm** is a step-by-step set of instructions to solve a problem. We measure them by their efficiency.
@@ -52,7 +52,7 @@ An **Algorithm** is a step-by-step set of instructions to solve a problem. We me
 ### Search Algorithms
 Imagine finding a name in a phone book of n names
 1. **Linear Search:** Searching page by page. Complexity: $O(n)$.
-2. **Binary Search:** Going to the middle and dividing the problem in half repeatedly. Complexity: $O(\log n)$.   
+2. **Binary Search:** Going to the middle and dividing the problem in half repeatedly. Complexity: $O(\log n)$.
 ![[Pasted image 20260222102357.png]]
 Notice that the first algorithm, highlighted in red, has a big-O of `n` because if there are 100 names in the phone book, it could take up to 100 tries to find the correct name. The second algorithm, where two pages were searched at a time, has a big-O of `n/2` because we searched twice as fast through the pages. The final algorithm has a big-O of log2n, as doubling the problem would only result in one more step to solve the problem.
 ### Pseudocode Components

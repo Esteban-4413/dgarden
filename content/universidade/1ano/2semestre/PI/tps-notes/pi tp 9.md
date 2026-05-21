@@ -11,7 +11,7 @@ tags:
 ---
 # pi tp 9
 
-## 1. Listas Inteiras (LInt) 
+## 1. Listas Inteiras (LInt)
 A base para construir estruturas dinâmicas mais complexas é a definição de um nó de lista simples.
 ```c
 typedef struct lista{
@@ -37,7 +37,7 @@ LInt newLInt(int x, LInt xs){
 ## 2. Pilhas (Stacks) com Listas Ligadas
 Uma Pilha segue o princípio **LIFO** (Last-In, First-Out). Ao usar listas ligadas, o "topo" da pilha é sempre o primeiro elemento da lista. Isso permite que as operações de inserção e remoção sejam de tempo constante O(1).
 
-```c 
+```c
 typedef LInt Stack;
 ```
 
@@ -67,7 +67,7 @@ int push(Stack *s, int x){
 	Stack r;
 	r = malloc(sizeof(struct lista));
 	if(r == NULL) return 1; // Falha na alocação
-	r->valor = x; 
+	r->valor = x;
 	r->prox = *s; // O novo nó aponta para o resto da pilha
 	*s = r; // O topo da pilha agora é o novo nó
 	return 0;
@@ -133,12 +133,12 @@ int enqueue(Queue *q, int x){
 	LInt n;
 	n = newLInt(x, NULL);
 	if(n == NULL) return 1;
-	
+
 	// Se a fila não está vazia, ligamos o nó ao fim atual
 	if ((*q).fim != NULL){
 		(*q).fim->prox = n;
 		(*q).fim = n;
-		
+
 		// Se estava vazia, o novo nó é o início e o fim
 	} else (*q).fim = (*q).inicio = n;
 	return 0;
@@ -150,9 +150,9 @@ int dequeue(Queue *q, int *x){
 	LInt t;
 	if((*q).inicio == NULL) return 1; // Fila vazia
 	t = (*q).inicio;
-	
+
 	(*q).inicio = (*q).inicio->prox; // Avança o início
-	
+
 	// Se a fila ficou vazia após remover, o fim também tem de ser NULL
 	if((*q).inicio == NULL) (*q).fim = NULL;
 	*x = t->valor;
@@ -164,13 +164,13 @@ int dequeue(Queue *q, int *x){
 ## Diferenças Principais: Queue vs Stack
 
 - **Queue (TP 8):** FIFO (Primeiro a entrar, primeiro a sair). Requer manipulação de `frente` e `comp` ou ponteiros para o início e fim.
-    
+
 - **Stack (TP 9):** LIFO (Último a entrar, primeiro a sair). Apenas precisamos de controlar o ponteiro para o topo (início da lista).
 
 ---
 
-### Notas técnicas: 
-1. **Módulo vs Punteros:** A diferencia de la Queue circular de la clase anterior, aquí no necesitas el operador `%` porque la lista ligada crece dinámicamente nodo a nodo; no hay un array fijo que "dé la vuelta". 
+### Notas técnicas:
+1. **Módulo vs Punteros:** A diferencia de la Queue circular de la clase anterior, aquí no necesitas el operador `%` porque la lista ligada crece dinámicamente nodo a nodo; no hay un array fijo que "dé la vuelta".
 2. **Indirección:** En `initStack`, `push` y `pop` pasamos `Stack *s` (un puntero a la lista). Esto es necesario porque queremos modificar el puntero original de la pila que está en el `main`. Por eso usamos `*s` dentro de las funciones.
 
 ---

@@ -27,9 +27,9 @@ Lê uma sequência terminada em 0 e calcula a média.
 
 ```c
 int average2 () {
-    int numero; 
-    int soma = 0; 
-    int contador = 0; 
+    int numero;
+    int soma = 0;
+    int contador = 0;
 
     printf("oh men lista os numeros (termina em 0)");
     scanf("%d", &numero);
@@ -51,14 +51,14 @@ Encontra o segundo maior elemento de uma sequência terminada em 0.
 ```c
 int segundo_maior2() {
     int numero;
-    int maior = 0; 
+    int maior = 0;
     int seg_maior = 0;
     printf("Escribe los números (termina con 0):\n");
     scanf("%d", &numero);
     while (numero != 0) {
         if (numero > maior) {
-            seg_maior = maior; 
-            maior = numero;   
+            seg_maior = maior;
+            maior = numero;
         }
         else if (numero > seg_maior) {
             seg_maior = numero;
@@ -90,8 +90,8 @@ Calcula o número de bits a 0 no final da representação binária de `n`.
 
 ```c
 int trailingZ (unsigned int n){
-    if (n == 0) return 32; 
-    int contador = 0; 
+    if (n == 0) return 32;
+    int contador = 0;
     while (n % 2 == 0){
         contador++;
         n = n / 2;
@@ -105,7 +105,7 @@ Calcula o número de dígitos necessários para escrever o número `n` em base d
 
 ```c
 int qDig (unsigned int n){
-    int digitos = 0; 
+    int digitos = 0;
     if (n == 0) return 1;
     while (n > 0){
         digitos++;
@@ -123,7 +123,7 @@ char *strcat (char s1[], char s2[]){
     int i, j;
     for (i = 0; s1[i] != '\0'; i ++);
     for (j = 0; s2[j] != '\0'; j ++)
-        s1[i++] = s2[j]; 
+        s1[i++] = s2[j];
     s1[i] = '\0';
     return s1;
 }
@@ -197,7 +197,7 @@ Remove todas as vogais da string `s`. Inclui função auxiliar `eVogal`.
 
 ```c
 int eVogal (char c){
-    if (c >= 'a' && c <= 'z') 
+    if (c >= 'a' && c <= 'z')
         c = c + 'A' - 'a';
     return (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
 }
@@ -222,7 +222,7 @@ void truncW (char t[], int n){
             contador = 0;
         } else {
             if (contador < n) {
-                t[j++] = t[i]; 
+                t[j++] = t[i];
                 contador ++;
             }
         }

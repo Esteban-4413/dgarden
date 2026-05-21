@@ -28,7 +28,7 @@ Um teorema fundamental para simplificar potências em módulos primos.
 > [!THEOREM] Pequeno Teorema de Fermat
 > Seja $p$ um número primo e $a$ um inteiro tal que $p \nmid a$ (p não divide a) [cite: 2026-02-02]:
 > $$a^{p-1} \equiv 1 \pmod p$$
-> 
+>
 > *Forma Geral:* Para qualquer inteiro $a$, $a^p \equiv a \pmod p$ [cite: 2026-02-02].
 
 ---

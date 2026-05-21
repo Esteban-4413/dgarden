@@ -39,7 +39,7 @@ LInt array2List(int v[], int N){
 		nova = malloc(sizeof(struct lligada));
 		nova->valor = v[i];
 		nova->prox = a; // o novo nó aponta para o resto da lista construida
-		a = nova; // O inicio da lista passa a ser o novo nó 
+		a = nova; // O inicio da lista passa a ser o novo nó
 	} return a;
 }
 ```
@@ -52,35 +52,35 @@ LInt reverseL (LInt l){
 	LInt x, r = NULL; // 'r' será a nova cabeça (e também o anterior na iteração)
 	while (l != NULL){
 		x = l; // guardamos o nó atual
-		l = l->prox; // Avançamos na lista original 
+		l = l->prox; // Avançamos na lista original
 		x->prox = r; // Damos a volta à seta do nó atual
 		r = x; // O atual passa a ser o anterior para a próxima volta
 	}
-	return r; // Retornamos a cabeça da lista invertida 
+	return r; // Retornamos a cabeça da lista invertida
 }
 ```
 
-## 4. Inserção numa Lista Ordenada (**`InsereOrd`**)  
+## 4. Inserção numa Lista Ordenada (**`InsereOrd`**)
 Insere um elemento `x` na posição correta para manter a ordenação da lista, usando a abordagem clássica de dois apontadores (`ant` e `p`). Note-se o uso do duplo apontador `LInt *l` para permitir a modificação da cabeça da lista caso o novo elemento seja o menor de todos.
 
 ```c
 void InsereOrd(LInt *l, int x){
 	// 1. Criar um novo nó
-	LInt n = malloc(sizeof(struct lligada)), p = l; 
+	LInt n = malloc(sizeof(struct lligada)), p = l;
 	n->valor = x;
-	
+
 	LInt ant = NULL;
 	LInt p = *l; // ponto de partida para procurar
-	
+
 	// 2. procurar o buraco correto
 	while(p != NULL && p->valor < x){
 		ant = p;
 		p = p->prox;
 	}
-	
+
 	//3. Conectar o novo nó ao que ficou à sua direita
 	n->prox = p;
-	
+
 	//4. Conectar o nó à sua esquerda (ou atualizar a cabeça)
 	if(ant != NULL) ant->prox = n;
 	else *l = n;
@@ -137,12 +137,12 @@ void InsereOrd(LInt *l, int x) {
     n->valor = x;
     LInt ant = NULL;
     LInt p = *l;
-    
+
     while (p != NULL && p->valor < x) {
         ant = p;
         p = p->prox;
     }
-    
+
     n->prox = p;
     if (ant != NULL) {
         ant->prox = n;
@@ -155,26 +155,26 @@ void InsereOrd(LInt *l, int x) {
 int main() {
     // Passo 1: Começamos com um array simples
     int arrayOrigem[3] = {10, 20, 30};
-    
+
     // Passo 2: Transformamos o array numa Lista Ligada
     // Vais ver as 3 caixas a serem criadas no "Heap"
     LInt minhaLista = array2List(arrayOrigem, 3);
-    
+
     // Passo 3: Inserimos elementos mantendo a ordem
     // O 25 vai entrar no meio (entre o 20 e o 30)
     InsereOrd(&minhaLista, 25);
-    
+
     // O 5 vai entrar no início (muda o apontador principal)
     InsereOrd(&minhaLista, 5);
-    
+
     // Passo 4: Damos a volta à lista!
     // Fica de olho nas setas (prox), vais vê-las a inverter a direção
     minhaLista = reverseL(minhaLista);
-    
+
     // Passo 5: Guardamos a lista final num novo array vazio
     int arrayDestino[10];
     int elementosCopiados = list2array(minhaLista, arrayDestino, 10);
-    
+
     return 0;
 }
 ```

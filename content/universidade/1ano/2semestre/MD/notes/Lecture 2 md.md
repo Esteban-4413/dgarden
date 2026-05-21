@@ -51,9 +51,9 @@ Existem infinitos números primos.
 
 ---
 **O Crivo de Eratóstenes:**
-É um algoritmo simples e prático para encontrar todos os números primos até um determinado limite $N$. 
+É um algoritmo simples e prático para encontrar todos os números primos até um determinado limite $N$.
 * **Método:** Escreve-se uma lista de números de 2 até $N$. O primeiro número (2) é primo. De seguida, riscam-se todos os seus múltiplos. O próximo número não riscado (3) é primo. Riscam-se os seus múltiplos, e assim sucessivamente, até atingir a raiz quadrada de $N$ ($\sqrt{N}$). Os números que sobrarem sem ser riscados são todos primos.
 ---
 
-## Links 
+## Links
 - [[Lecture 1 md]]

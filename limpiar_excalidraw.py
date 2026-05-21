@@ -52,23 +52,26 @@ def aspirador_de_markdown():
                 
                 contenido_original = contenido
                 
-                # 1. Arreglar las comillas malditas para los iframes
-                contenido = contenido.replace('“', '"').replace('”', '"')
+                # 1. ARREGLAR MI DESASTRE: Le devuelvo el corchete a las imágenes rotas
+                contenido = contenido.replace('![(', '![](')
                 
-                # 2. Quitar el alt text "Exported image" de los links válidos
-                contenido = re.sub(r'!\[Exported image\]', '![', contenido, flags=re.IGNORECASE)
+                # 2. Para futuras exportaciones: quitar "Exported image" CORRECTAMENTE
+                contenido = re.sub(r'!\[Exported image\]', '![]', contenido, flags=re.IGNORECASE)
                 
-                # 3. Borrar la frase "Exported image" si quedó suelta como texto plano
+                # 3. Borrar la frase "Exported image" si quedó suelta
                 contenido = re.sub(r'Exported image', '', contenido, flags=re.IGNORECASE)
                 
-                # 4. Aspirar los abismos de espacios vacíos de OneNote
-                contenido = re.sub(r'([ \t]*\n){3,}', '\n\n', contenido)
+                # 4. DESTRUCCIÓN DE ESPACIOS DE ONENOTE:
+                # Primero, eliminamos todos los espacios en blanco que estén al final de una línea
+                contenido = re.sub(r'[ \t]+\n', '\n', contenido)
+                # Segundo, colapsamos los abismos de 3 o más saltos de línea en solo 2
+                contenido = re.sub(r'\n{3,}', '\n\n', contenido)
                 
-                # Guardar solo si limpiamos algo
+                # Guardar solo si se limpió algo
                 if contenido != contenido_original:
                     with open(file_path, "w", encoding="utf-8") as f:
                         f.write(contenido)
-                    print(f"🧹 Basura aspirada en: {file}")
+                    print(f"🧹 Desastre arreglado y basura aspirada en: {file}")
 
 
 if __name__ == "__main__":

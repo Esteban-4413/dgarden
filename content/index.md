@@ -5,11 +5,11 @@ title: "Liláx"
 ---
 
 > [!CAUTION]
-> 
-> - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/) 
-> - [Instagram](https://www.instagram.com/esteban_ypz23/) 
-> - [GitHub](https://github.com/Esteban-4413) 
-> - [Email](mailto:estebanyepez2309@gmail.com)  
+>
+> - [LinkedIn](https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab/)
+> - [Instagram](https://www.instagram.com/esteban_ypz23/)
+> - [GitHub](https://github.com/Esteban-4413)
+> - [Email](mailto:estebanyepez2309@gmail.com)
 
 ---
 

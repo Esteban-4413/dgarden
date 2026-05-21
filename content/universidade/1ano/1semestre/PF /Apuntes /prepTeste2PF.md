@@ -22,7 +22,7 @@ normalizaAux (cm,gm) ((c,g):t)
 A fold takes a binary function, a starting value (I like to call it the accumulator) and a list to fold up. The binary function itself takes two parameters. The binary function is called with the accumulator and the first (or last) element and produces a new accumulator. Then, the binary function is called again with the new accumulator and the now new first (or last) element, and so on. Once we’ve walked over the whole list, only the accumulator remains, which is what we’ve reduced the list to.
 -Learn you a Haskell  ^v820S0RU
 
-sum' :: (Num a) => [a] -> a 
+sum' :: (Num a) => [a] -> a
 sum' xs = foldl (\acc x -> acc + x) 0 xs ^rrwzJXld
 
 sum' = foldl (+) 0 ^WYekD3Qp

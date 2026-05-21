@@ -52,7 +52,7 @@ Para que exista $\lim_{(x,y) \to (a,b)} f(x,y) = l$, o valor tem de ser $l$ **in
 
 ### Teorema do Enquadramento
 Sejam funções tais que $|f(x) - l| \le g(x)$.
-Se $\lim_{x \to a} g(x) = 0$, então obrigatoriamente $\lim_{x \to a} f(x) = l$. 
+Se $\lim_{x \to a} g(x) = 0$, então obrigatoriamente $\lim_{x \to a} f(x) = l$.
 *(Muito útil quando os limites por trajetórias dão todos zero, para provar formalmente que o limite é efetivamente zero).*
 
 ### Continuidade

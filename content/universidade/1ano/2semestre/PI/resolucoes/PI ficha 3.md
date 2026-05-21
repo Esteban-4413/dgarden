@@ -12,7 +12,7 @@ int swapM (int *x, int *y){
 	int empty;
 	empty = *x;
 	*x = *y;
-	*y = empty; 
+	*y = empty;
 }
 ```
 
@@ -34,7 +34,7 @@ int soma (int v[], int N){
 		resultado += v[i];
 		i ++;
 	}
-	return resultado; 
+	return resultado;
 }
 ```
 
@@ -51,7 +51,7 @@ void inverterArray (int v[], int N){
 }
 ```
 
-ou 
+ou
 
 ```c
 void inverterArray (int v[], int N){
@@ -68,7 +68,7 @@ void inverterArray (int v[], int N){
 6. ...
 ```c
 int maximum (int v[], int N, int *m){
-	int i; 
+	int i;
 	if (n <= 0) return 1;
 	*m = v[0];
 	for (i = 1; i < N; i ++){
@@ -87,7 +87,7 @@ void quadrados (int q[], int N){
 }
 ```
 
-ou 
+ou
 
 ```c
 void quadrados (int q[], int N){
@@ -117,10 +117,10 @@ void pascal(int p[], int n){
 >[!CODE] Código fuente
 >Puedes ver el archivo original aquí: [ficha3.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha3/ficha3.c)
 
-## Links 
+## Links
 - [[universidade/1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
 
-%% 
+%%
 # Excalidraw Data
 
 ## Text Elements

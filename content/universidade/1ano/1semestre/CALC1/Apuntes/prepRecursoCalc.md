@@ -9,7 +9,7 @@ tags:
 excalidraw-open-md: true
 date: 2026-01-16
 ---
-#  Cálculo I - Resumen 
+#  Cálculo I - Resumen
 
 > [!INFO] Metadatos
 > **Asignatura:** Cálculo I

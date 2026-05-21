@@ -10,13 +10,13 @@ tags:
 # sc lecture extra
 
 ## Key Concepts
-blah blah blah blah blah blah wuju 
+blah blah blah blah blah blah wuju
 
 ## Examples
 pipi numeros e mais lululluululul
 
 ## Questions
-- muitas 
+- muitas
 - sim
 
 ## Links

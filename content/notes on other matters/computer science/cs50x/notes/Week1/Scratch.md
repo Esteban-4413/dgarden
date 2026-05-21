@@ -64,7 +64,7 @@ Note that every single character above serves a purpose. If you type it incorrec
 - `\n`: An **escape character** for a new line.
 - `;`: The "period" at the end of a statement. Missing this is the most common error!
 
---- 
+---
 ## Types & Format Codes
 
 C is a **strongly typed** language. You must tell the computer exactly what kind of data you are storing.
@@ -195,9 +195,9 @@ void meow(int n)
 
 ### Correctness, Design, Style
 - Code can be evaluated upon three axes.
-- First, _correctness_ refers to "Does the code run as intended?" 
-- Second, _design_ refers to "How well is the code designed?" 
-- Finally, _style_ refers to "How aesthetically pleasing and consistent is the code?" 
+- First, _correctness_ refers to "Does the code run as intended?"
+- Second, _design_ refers to "How well is the code designed?"
+- Finally, _style_ refers to "How aesthetically pleasing and consistent is the code?"
 
 ---
 ## Operators
@@ -208,7 +208,7 @@ void meow(int n)
     - `/` for division
     - `%` for remainder
 
---- 
+---
 ## Precision & Overflow
 One of C’s challenges is that while it provides you immense control over how memory is utilized, programmers have to be very aware of the potential pitfalls of memory management.
 

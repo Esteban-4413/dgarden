@@ -23,7 +23,7 @@ tags:
 
 > [!example]- View Solution
 > By the Division Algorithm, any integer $n$ can be written as $n = bq + r$ where $0 \le r < b$. Squaring this gives $n^2 = b(bq^2 + 2qr) + r^2$. The remainder of $n^2$ divided by $b$ depends entirely on the remainder of $r^2$ divided by $b$.
-> 
+>
 > * **Divided by 3:** Possible remainders for $n$ are $0, 1, 2$.
 >     * $0^2 = 0 \implies$ Remainder 0
 >     * $1^2 = 1 \implies$ Remainder 1
@@ -77,7 +77,7 @@ tags:
 > [!check]- View Proof
 > **Forward direction ($\implies$):**
 > Assume $a|b$. Thus, $b = ak$ for some integer $k$. Multiply both sides by $m$ to get $mb = mak$. Regrouping gives $mb = (ma)k$. Therefore, $ma|mb$.
-> 
+>
 > **Backward direction ($\impliedby$):**
 > Assume $ma|mb$. Thus, $mb = (ma)k$ for some integer $k$. Since we are explicitly given that $m \neq 0$, we can mathematically cancel $m$ from both sides, leaving $b = ak$. Therefore, $a|b$. $\blacksquare$
 
@@ -96,17 +96,17 @@ tags:
 ---
 
 ### Exercise 6 (1.4): Addition of Divisibilities
-**Question:** If $a|b$ and $c|d$, must $a+c|b+d$? 
+**Question:** If $a|b$ and $c|d$, must $a+c|b+d$?
 
 > [!success]- View Solution
 > **No.** We can prove this by providing a single counterexample.
 > * Let $a = 2$ and $b = 4$ (since $2|4$).
 > * Let $c = 3$ and $d = 9$ (since $3|9$).
-> 
-> Testing the claim: 
-> * $a+c = 5$ 
+>
+> Testing the claim:
+> * $a+c = 5$
 > * $b+d = 13$
-> 
+>
 > Since 5 does not divide 13, the statement is false.
 
 ---
@@ -122,7 +122,7 @@ tags:
 > 4. $185 = 75(2) + 35$
 > 5. $75 = 35(2) + 5$
 > 6. $35 = 5(7) + 0$
-> 
+>
 > The algorithm stops at a remainder of 0. The greatest common divisor is the last non-zero remainder.
 > **$\gcd(1485, 1745) = 5$**
 

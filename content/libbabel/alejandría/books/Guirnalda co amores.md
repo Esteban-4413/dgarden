@@ -11,13 +11,13 @@ tags:
 #  Guirnalda con amores
 > [!info] Ficha Técnica
 > **Autor:** Adolfo Bioy Casares
- > **Calificación:** 
+ > **Calificación:**
 
 ---
 
 ##  Citas Favoritas
 
-### Libro primero 
+### Libro primero
 #### Encrucijada
 > "Desde luego, para quien tiene ojos, cada día trae su novedad."
 > — *Página 13*

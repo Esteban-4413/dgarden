@@ -2,7 +2,7 @@
 title: " fichas "
 ---
 
-# Contenido de fichas 
+# Contenido de fichas
 
 ### Archivos y Notas
 - [ficha1.pdf](ficha1.pdf)

@@ -14,7 +14,7 @@ tags:
 
 1
 ```c
-int i = 0; 
+int i = 0;
 while (i < 10){
 	if (i % 2 == 0) putchar('_');
 	else putchar('#');
@@ -43,7 +43,7 @@ int main(){
 }
 ```
 
-3 
+3
 ```c
 #include <stdio.h>
 int main() {
@@ -60,7 +60,7 @@ int main() {
 #include <stdio.h>
 
 void linha(int y) {
-	int x; 
+	int x;
 	for (x = 1; x <= y; x ++) {
 		putchar('#');
 	}
@@ -72,16 +72,16 @@ int main() {
 	scanf("%d", &y);
 	for (x = 1; x <= y; x ++);
 		linha (y);
-	return 0; 
+	return 0;
 }
 ```
 
-5 
+5
 ```c
 #include <stdio.h>
 
 void linha (int y) {
-	int x; 
+	int x;
 	for (x = i; x <= y; x ++){
 		if (x + y % 2 == 0) putchar('_');
 		else putchar('#');
@@ -90,14 +90,14 @@ void linha (int y) {
 }
 
 int main(){
-	int x, y; 
+	int x, y;
 	scanf("%d", &y);
 	for(x = 1; x <= y; x ++);
 		linha (y);
-	return 0; 
+	return 0;
 }
 
 ```
 
-## Links 
+## Links
 - [[1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]

@@ -35,7 +35,7 @@ Sejam $a, b \in \mathbb{Z}$ e $n \in \mathbb{N}$ (com $n > 1$). Dizemos que **$a
 $$a \equiv b \pmod n \iff n | (a - b)$$
 
 > **O que isto significa na prática?**
-> Dizer que $n | (a - b)$ é matematicamente equivalente a dizer que **$a$ e $b$ deixam exatamente o mesmo resto quando divididos por $n$**. 
+> Dizer que $n | (a - b)$ é matematicamente equivalente a dizer que **$a$ e $b$ deixam exatamente o mesmo resto quando divididos por $n$**.
 > Por exemplo, $17 \equiv 5 \pmod 4$, porque tanto o 17 como o 5 deixam resto 1 quando divididos por 4 (e repara que $17 - 5 = 12$, que é divisível por 4).
 
 > **Definição Alternativa (Muito Útil para Demonstrações):**
@@ -57,12 +57,12 @@ O que acontece se elevarmos $n$ ao quadrado? Vamos testar todos os casos:
 4. Se $n \equiv 3 \pmod 4 \implies n^2 \equiv 3^2 \equiv 9 \equiv \mathbf{1} \pmod 4$ *(pois 9 dividido por 4 dá resto 1)*
 
 **Conclusão Brilhante:**
-Um quadrado perfeito, quando dividido por 4, **só pode deixar resto 0 ou resto 1**. 
+Um quadrado perfeito, quando dividido por 4, **só pode deixar resto 0 ou resto 1**.
 $$\forall x \in \mathbb{Z}, \quad x^2 \equiv 0 \pmod 4 \quad \lor \quad x^2 \equiv 1 \pmod 4$$
 
 > [!example] Exemplo de Exame
 > **Pergunta:** O número $7957438258273932485981242$ pode ser um quadrado perfeito?
-> **Resposta:** Não! Sabemos que um número é divisível por 4 se os seus dois últimos algarismos formarem um número divisível por 4. Os dois últimos algarismos são 42. Se dividirmos 42 por 4, o resto é **2** ($42 = 4 \cdot 10 + 2$). 
+> **Resposta:** Não! Sabemos que um número é divisível por 4 se os seus dois últimos algarismos formarem um número divisível por 4. Os dois últimos algarismos são 42. Se dividirmos 42 por 4, o resto é **2** ($42 = 4 \cdot 10 + 2$).
 > Como vimos, nenhum quadrado perfeito pode deixar resto 2 quando dividido por 4. Logo, é impossível que este número gigante seja o quadrado de algum inteiro, sem precisarmos de calcular nenhuma raiz quadrada!
 
 ---
@@ -76,13 +76,13 @@ A congruência módulo $n$ comporta-se exatamente como uma relação de igualdad
 > [!check]- Ver Demonstração das 3 propriedades
 > **1. Reflexiva ($a \equiv a \pmod n$):**
 > Qualquer número divide o zero, logo $n | 0$. Como $0 = a - a$, temos que $n | (a - a)$, o que por definição significa $a \equiv a \pmod n$.
-> 
+>
 > **2. Simétrica (Se $a \equiv b \pmod n$, então $b \equiv a \pmod n$):**
 > Se $a \equiv b \pmod n$, então $n | (a - b)$. Logo, existe $k \in \mathbb{Z}$ tal que $a - b = kn$.
 > Multiplicando por $-1$, obtemos $b - a = (-k)n$. Como $-k$ também é inteiro, conclui-se que $n | (b - a)$, logo $b \equiv a \pmod n$.
-> 
+>
 > **3. Transitiva (Se $a \equiv b \pmod n$ e $b \equiv c \pmod n$, então $a \equiv c \pmod n$):**
-> Sabemos que $n | (a - b)$ e $n | (b - c)$. 
+> Sabemos que $n | (a - b)$ e $n | (b - c)$.
 > Pela propriedade da combinação linear da divisibilidade, $n$ divide a soma destes dois termos.
 > $(a - b) + (b - c) = a - c$.
 > Como $n | (a - c)$, concluímos que $a \equiv c \pmod n$. $\blacksquare$
@@ -101,11 +101,11 @@ A grande vantagem das congruências é que podemos somar, subtrair e multiplicar
 
 > [!check]- Ver Demonstração (Adição e Multiplicação)
 > **Prova da Adição:**
-> Sabemos que $n | (a - b)$ e $n | (c - d)$. 
+> Sabemos que $n | (a - b)$ e $n | (c - d)$.
 > Logo, $n$ divide a soma: $(a - b) + (c - d)$.
 > Reorganizando os termos: $(a + c) - (b + d)$.
 > Como $n | ((a + c) - (b + d))$, por definição, $a + c \equiv b + d \pmod n$. $\blacksquare$
-> 
+>
 > **Prova da Multiplicação:**
 > Usando a definição alternativa, existem inteiros $k$ e $j$ tais que:
 > $a = b + kn$ e $c = d + jn$.
