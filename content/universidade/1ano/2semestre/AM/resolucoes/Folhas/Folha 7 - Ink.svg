@@ -1,20 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="68678" height="493508" viewBox="0 0 68678 493508">
-    <style id="quartz-dark-mode-patch">
-        @media (prefers-color-scheme: dark) {
-            svg, g, path, text, line, polyline, polygon, circle { 
-                stroke: #e4e4e4 !important; 
-                fill: #e4e4e4 !important; 
-            }
-        }
-        :root[data-theme="dark"] svg,
-        :root[data-theme="dark"] g,
-        :root[data-theme="dark"] path, 
-        :root[data-theme="dark"] text, 
-        :root[data-theme="dark"] line {
-            stroke: #e4e4e4 !important;
-            fill: #e4e4e4 !important;
-        }
-    </style>
+    
     <path d="M 1744 1946 L 1726 1949 L 1712 1952 L 1712 1952 L 1747 1959 L 1774 1963 L 1825 1974 L 1880 1986 L 1939 1997 L 1997 2008 L 2058 2018 L 2097 2021 L 2136 2022 L 2184 2023 L 2232 2022 L 2275 2018 L 2315 2015 L 2368 2021 L 2392 2057 L 2389 2094 L 2379 2138 L 2363 2197 L 2345 2262 L 2331 2311 L 2317 2361 L 2304 2411 L 2285 2479 L 2269 2546 L 2255 2612 L 2243 2673 L 2231 2743 L 2223 2808 L 2218 2841 L 2215 2861 L 2212 2874 L 2212 2874" stroke="#000000" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 2096 2501 L 2143 2472 L 2187 2452 L 2234 2433 L 2274 2416 L 2316 2401 L 2377 2384 L 2436 2370 L 2490 2363 L 2533 2360 L 2549 2361 L 2549 2361" stroke="#000000" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 2761 2827 L 2782 2841 L 2800 2847 L 2824 2831 L 2821 2816 L 2781 2808 L 2721 2817 L 2660 2831 L 2621 2845 L 2626 2854 L 2649 2847 L 2689 2840" stroke="#000000" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>

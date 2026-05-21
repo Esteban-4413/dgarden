@@ -1,20 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="37149" height="203216" viewBox="0 0 37149 203216">
-    <style id="quartz-dark-mode-patch">
-        @media (prefers-color-scheme: dark) {
-            svg, g, path, text, line, polyline, polygon, circle { 
-                stroke: #e4e4e4 !important; 
-                fill: #e4e4e4 !important; 
-            }
-        }
-        :root[data-theme="dark"] svg,
-        :root[data-theme="dark"] g,
-        :root[data-theme="dark"] path, 
-        :root[data-theme="dark"] text, 
-        :root[data-theme="dark"] line {
-            stroke: #e4e4e4 !important;
-            fill: #e4e4e4 !important;
-        }
-    </style>
+    
     <path d="M 986 1782 L 1000 1796 L 1000 1813 L 997 1815 L 986 1820 L 986 1820 L 993 1782 L 1022 1717 L 1043 1667 L 1068 1616 L 1094 1570 L 1123 1529 L 1178 1482 L 1199 1507 L 1216 1551 L 1229 1603 L 1238 1661 L 1248 1734 L 1254 1808 L 1258 1867 L 1258 1914 L 1251 1935 L 1248 1929 L 1235 1865 L 1236 1812 L 1244 1745 L 1263 1701 L 1294 1680 L 1335 1712 L 1356 1743 L 1375 1779 L 1395 1829 L 1412 1884 L 1425 1936 L 1433 1987 L 1440 2061 L 1440 2123 L 1436 2141 L 1432 2160" stroke="#7030A0" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 1436 1332 L 1416 1286 L 1403 1251 L 1397 1203 L 1412 1183 L 1460 1210 L 1488 1244 L 1518 1289 L 1547 1338 L 1578 1394 L 1608 1455 L 1636 1524 L 1656 1585 L 1675 1654 L 1693 1726 L 1708 1797 L 1721 1863 L 1733 1925 L 1742 1983 L 1749 2040 L 1754 2100 L 1758 2170 L 1761 2243 L 1760 2313 L 1756 2374 L 1746 2440 L 1727 2494 L 1703 2537 L 1674 2572 L 1619 2607 L 1577 2613 L 1551 2616" stroke="#7030A0" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 2732 2258 L 2722 2301 L 2717 2328 L 2712 2340 L 2725 2345 L 2756 2332 L 2814 2292 L 2851 2253 L 2886 2206 L 2915 2162 L 2944 2112 L 2971 2061 L 2997 2007 L 3022 1950 L 3044 1891 L 3064 1827 L 3081 1760 L 3094 1693 L 3104 1627 L 3110 1560 L 3112 1495 L 3111 1438 L 3107 1384 L 3100 1331 L 3085 1255 L 3063 1188 L 3022 1126 L 2973 1131 L 2947 1168 L 2926 1221 L 2911 1275 L 2898 1336 L 2888 1400 L 2881 1456 L 2877 1514 L 2873 1574 L 2871 1633 L 2871 1694 L 2871 1756 L 2874 1817 L 2879 1877 L 2887 1951 L 2899 2023 L 2914 2090 L 2934 2165 L 2962 2228 L 2996 2272 L 3035 2302 L 3108 2313 L 3148 2306 L 3185 2291 L 3217 2268 L 3246 2239 L 3268 2208 L 3287 2176 L 3311 2122 L 3325 2072 L 3326 2113 L 3326 2182 L 3325 2239 L 3324 2298 L 3323 2349 L 3325 2391 L 3335 2419 L 3340 2430 L 3347 2413" stroke="#7030A0" stroke-width="35" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
