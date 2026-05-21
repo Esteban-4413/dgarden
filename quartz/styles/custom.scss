@@ -162,10 +162,8 @@ h3 {
   .internal-embed {
     svg, img[src$=".svg"], img[src*="Ink.svg"] {
       // Inversão suave a 85% para não magoar os olhos + rotação de cor para manter os teus roxos/lilás
-      filter: invert(0.85) hue-rotate(180deg);
-      
-      // Remove qualquer bloco branco de fundo que o OneNote tenha gerado por acidente
-      mix-blend-mode: screen; 
+      filter: invert(1) hue-rotate(180deg) !important;
+      mix-blend-mode: screen !important; 
     }
   }
 }
