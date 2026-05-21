@@ -1,0 +1,3 @@
+![Exerccio 6.1 Determine os pontos crticos de cada u...](OneNote/imgs/Exported%20image%2020260521204238-0.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ![Exerccio 6.2 Em cada uma das figuras so apresentad...](OneNote/imgs/Exported%20image%2020260521204240-1.png)
+
+![[Folha 6 - Ink.svg]]
