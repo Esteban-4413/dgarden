@@ -1,9 +1,7 @@
----
-title: " formularios"
----
+## pdf
+- [[universidade/1ano/2semestre/AM/formularios/Conicas.pdf|Conicas]]
+- [[universidade/1ano/2semestre/AM/formularios/Quadricas.pdf|Quadricas]]
 
-# Contenido de formularios
-
-### Archivos y Notas
-- [Conicas.pdf](Conicas.pdf)
-- [Quadricas.pdf](Quadricas.pdf)
+## markdown
+- [[Conicas]]
+- [[Quadricas]]

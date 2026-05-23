@@ -11,6 +11,7 @@ excalidraw-open-md: true
 ---
 # Ficha 2
 
+
 # Ficha 2: Funções recursivas sobre listas
 1) Indique como é que o interpretador de Haskell avalia as expressões das alíneas que se seguem, apresentando a cadeia de redução de cada uma dessas expressões (i.e., os vários passos intermédios até se chegar ao valor final)
 
@@ -43,7 +44,7 @@ funA [2,3,5,1]
 ```
 funB :: [Int] -> [Int]
 funB [] = []
-funB (h:t) = if mod h 2 == 0
+funB (h:t) = if mod h 2 == 0 
              then h : funB t
              else funB t
 ```
@@ -51,7 +52,7 @@ funB (h:t) = if mod h 2 == 0
  Diga, justificando, qual é o valor de `funB [8,5,2]`.
 
 ```
-funB [8,5,2]
+funB [8,5,2] 
     = funB (8:[5,2]) -- mod 8 2 = 0
     = 8 : funB [5,2]
     = 8 : funB (5:[2]) -- mod 5 2 = 1

@@ -23,16 +23,16 @@ Usando as seguintes funções pré-definidas do Haskell:
 ### Defina as seguintes funções e os respetivos tipos:
 
  a) `perimetro` - que calcula o perímetro de uma circunferência, dado o comprimento do seu raio.
-```hs
+```hs 
 perimetro :: Double -> Double
 perimetro x = 2 * pi * x
 ```
 
 b) `dist` - que calcula a distância entre dois pontos no plano Cartesiano. Cada ponto é um par de valores do tipo `Double`.
 
-```hs
+```hs 
 dist :: (Double, Double) -> (Double, Double) -> Double
-dist (x1, y1) (x2, y2) = sqrt(dx ^ 2 + dy ^ 2)
+dist (x1, y1) (x2, y2) = sqrt(dx ^ 2 + dy ^ 2) 
     where dx = x1 - x2
           dy = y1 - y2
 ```
@@ -55,7 +55,7 @@ e) `truncaImpar` – que recebe uma lista e, se o comprimento da lista for ím
 
 ```
 truncaImpar :: [a] -> [a]
-truncaImpar l = if even (length l) then l else tail l
+truncaImpar l = if even (length l) then l else tail l 
 ```
 
 f) `max2` – que calcula o maior de dois números inteiros.
@@ -78,10 +78,10 @@ a) A função nRaizes que recebe os (3) coeficientes de um polinómio de 2º gra
 
 ```
 nRaizes :: Double -> Double -> Double -> Int
-nRaizes a b c
-    | delta > 0 = 2
+nRaizes a b c 
+    | delta > 0 = 2 
     | delta == 0 = 1
-    | delta < 0 = 0
+    | delta < 0 = 0 
     where delta = b^2 - 4*a*c
 ```
 
@@ -89,10 +89,10 @@ b) A função raizes que, usando a função anterior, recebe os coeficientes do 
 
 ```
 raizes :: Double -> Double -> Double -> [Double]
-raizes a b c
-    | n == 2 = [x1, x2]
+raizes a b c 
+    | n == 2 = [x1, x2] 
     | n == 1 = [x1] -- Neste caso x1 e x2 são iguais, por isso podemos devolver apenas um dos valores
-    | n == 0 = []
+    | n == 0 = [] 
     where n = nRaizes a b c
           delta = b^2 - 4*a*c
           (x1,x2) = (((-b) + sqrt delta)/ (2*a), ((-b) - sqrt delta)/ (2*a))
@@ -319,7 +319,7 @@ area (Triangulo p1 p2 p3) =
         s = (a+b+c) / 2 -- semi-perimetro
     in sqrt (s*(s-a)*(s-b)*(s-c)) -- fórmula de Heron
 area (Circulo _ r) = pi * (r ^ 2)
-area (Retangulo p1 p2) = abs (posx p2 - posx p1) * abs (posy p2 - posy p1)
+area (Retangulo p1 p2) = abs (posx p2 - posx p1) * abs (posy p2 - posy p1) 
 ```
 
 d) Defina a função `perimetro :: Figura -> Double` que calcula o perímetro de uma figura.
@@ -379,6 +379,6 @@ intToDigit n = chr (n + 48)
  f) `digitToInt :: Char -> Int`, que converte um dígito para o respetivo inteiro.
 
 ```
-digitToInt :: Char -> Int
+digitToInt :: Char -> Int 
 digitToInt ch = ord ch - 48
 ```

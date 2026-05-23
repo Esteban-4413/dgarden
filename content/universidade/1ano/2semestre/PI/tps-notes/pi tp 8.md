@@ -54,10 +54,10 @@ int dequeue(Queue *q, int *f) {
 	if (q->comp == 0) return 1; // Erro: Fila vazia
 	*f = q->v[q->frente];
 	q->comp--;
-
+	
 	// Avança a frente de forma circular
-	q->frente = (q->frente + 1) % q->tam;
-
+	q->frente = (q->frente + 1) % q->tam; 
+	
 	return 0; // Sucesso
 }
 ```
@@ -91,17 +91,17 @@ Quando a fila enche, usamos `realloc`. Como a fila é circular, os elementos pod
 ```c
 void enqueue(Queue *q, int x){
 	int i = 0, j = q->tam;
-
+	
 	// Se a fila estiver cheia, precisamos duplicar o tamanho
 	if(q->tam == q->comp){
 		q->v = realloc(q->v, 2*q->tam*sizeof(int));
 		q->tam *=2; // Atualizamos o tamanho total
-
+		
 		// Movemos os elementos que "deram a volta" para a nova área alocada
 		while(i < q->frente)
-			q->v[j++] = q->v[i++];
-	}
-
+			q->v[j++] = q->v[i++];	 
+	} 
+	
 	// Calculamos a posição do novo elemento de forma circular
 	q->v[(q->frente + q->comp) % q->tam] = x;
 	q->comp++;
@@ -172,10 +172,10 @@ int main() {
     // ------------------------------------------
     printf("=== TESTANDO A FILA (QUEUE) ===\n");
     Queue q;
-
+    
     empty(&q); // Inicializamos la fila
     printf("Fila inicializada. Vazia? %s\n", isEmpty(&q) ? "Sim" : "Nao");
-
+    
     // Vamos a forzar el realloc. El tamaño inicial es 4, meteremos 6 elementos.
     printf("\nEncolando valores: 10, 20, 30, 40, 50, 60...\n");
     enqueue(&q, 10);
@@ -184,10 +184,10 @@ int main() {
     enqueue(&q, 40);
     enqueue(&q, 50);
     enqueue(&q, 60);
-
+    
     printf("Tamanho atual do array alocado: %d\n", q.tam); // Debería ser 8 por el realloc
     printf("Elementos atualmente na fila: %d\n", q.comp);  // Debería ser 6
-
+    
     int valor;
     printf("\nRetirando (dequeue) todos os valores da fila:\n");
     while (!isEmpty(&q)) {
@@ -195,28 +195,29 @@ int main() {
         printf("%d ", valor);
     }
     printf("\n");
-
+    
     // Liberar la memoria dinámica de la fila
-    free(q.v);
-
+    free(q.v); 
+    
+    
     // ------------------------------------------
     // TEST 2: Listas Ligadas (PALAVRAS)
     // ------------------------------------------
     printf("\n=== TESTANDO A LISTA LIGADA (PALAVRAS) ===\n");
-
-    // Para probar, crearemos 3 "celulas" (nodos) de forma estática
+    
+    // Para probar, crearemos 3 "celulas" (nodos) de forma estática 
     // y los enlazaremos manualmente desde el último hasta el primero.
     struct celula nodo3 = {"C", 1, NULL};
     struct celula nodo2 = {"em", 2, &nodo3};
     struct celula nodo1 = {"Programando", 5, &nodo2};
-
+    
     // Nuestro puntero principal apuntará al primer nodo
-    PALAVRAS lista = &nodo1;
-
+    PALAVRAS lista = &nodo1; 
+    
     // Probamos la función 'quantas'
     int cantidad = quantas(lista);
     printf("A lista tem %d palavras.\n", cantidad);
-
+    
     // Probamos la función 'ultima'
     char *ult = ultima(lista);
     if (ult != NULL) {

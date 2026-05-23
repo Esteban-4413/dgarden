@@ -33,6 +33,8 @@ Não existe nenhuma outra combinação de primos que resulte em 120.
 
 O Crivo de Eratóstenes é um algoritmo eficiente para encontrar todos os números primos menores ou iguais a um determinado número inteiro $N$.
 
+
+
 **O Algoritmo:**
 1. Escrevemos uma lista de todos os inteiros de 2 até $N$.
 2. O primeiro número não marcado é o 2 (que é primo). Deixamos o 2 e riscamos da lista todos os seus múltiplos (4, 6, 8, 10...).
@@ -51,7 +53,7 @@ O Crivo de Eratóstenes é um algoritmo eficiente para encontrar todos os númer
 
 ## 3. Teorema de Euclides (Infinitude dos Primos)
 
-**Teorema a Provar:** Existem infinitos números primos.
+**Teorema a Provar:** Existem infinitos números primos. 
 *(Dica para estudo: Usa a demonstração por redução ao absurdo construindo um número $N$).*
 
 > [!check]- Ver Demonstração Passo a Passo
@@ -61,7 +63,7 @@ O Crivo de Eratóstenes é um algoritmo eficiente para encontrar todos os númer
 > 3. **Análise de $N$:** Pelo Teorema Fundamental da Aritmética, este número $N$ deve ser divisível por algum número primo $q$.
 > 4. **A Contradição:** O primo $q$ deve estar na nossa lista finita (pois assumimos que a lista tem *todos* os primos). No entanto, se dividirmos $N$ por qualquer primo da lista ($p_1, p_2, \dots$), o resto da divisão será sempre 1.
 > 5. **Conclusão:** Logo, $q$ não pode ser nenhum dos primos da nossa lista. Isso significa que ou $N$ é um novo número primo, ou é divisível por um primo que não estava na lista. Em ambos os casos, a nossa suposição de que a lista era finita é falsa. Portanto, existem infinitos primos. $\blacksquare$
->
+> 
 > **Exemplo Prático da Construção de $N$:**
 > Se assumíssemos que os únicos primos no universo eram $\{2, 3, 5\}$.
 > Construímos $N = (2 \cdot 3 \cdot 5) + 1 = 30 + 1 = 31$.

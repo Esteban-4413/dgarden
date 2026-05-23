@@ -25,6 +25,7 @@ Eis os editores que se encontram instalados na máquina virtual:
 - https://www.youtube.com/watch?v=qgszy9GquRs
 - https://www.youtube.com/watch?v=xSnetY3eoIk
 
+
 ## Objetivos
 - Aprender a compilação separada
 - Fazer uma ```makefile``` simples

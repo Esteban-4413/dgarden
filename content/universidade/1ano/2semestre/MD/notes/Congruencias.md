@@ -28,7 +28,7 @@ Um teorema fundamental para simplificar potências em módulos primos.
 > [!THEOREM] Pequeno Teorema de Fermat
 > Seja $p$ um número primo e $a$ um inteiro tal que $p \nmid a$ (p não divide a) [cite: 2026-02-02]:
 > $$a^{p-1} \equiv 1 \pmod p$$
->
+> 
 > *Forma Geral:* Para qualquer inteiro $a$, $a^p \equiv a \pmod p$ [cite: 2026-02-02].
 
 ---
@@ -59,6 +59,7 @@ O TCR permite resolver sistemas de várias congruências lineares com módulos d
 > Seja o sistema de congruências:
 > $$\begin{cases} x \equiv a_1 \pmod{m_1} \\ x \equiv a_2 \pmod{m_2} \\ \dots \\ x \equiv a_k \pmod{m_k} \end{cases}$$
 > Se os módulos $m_i$ forem **coprimos dois a dois** ($mdc(m_i, m_j) = 1$ para $i \neq j$), então o sistema tem uma **solução única** módulo $M = m_1 \cdot m_2 \dots m_k$.
+
 
 ## Lei do Corte (Cancelamento)
 

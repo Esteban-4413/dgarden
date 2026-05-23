@@ -76,7 +76,7 @@ int retiraVogais2(char s[]){
 ## 3. Duplicar Vogais
 Este exercício é o oposto do anterior: a string vai **crescer**. Se tentarmos fazer isto _in-place_ sem cuidado, vamos escrever por cima de caracteres que ainda não lemos.
 
-```c
+```c 
 int dupVogais(char s[]){
 	int i, j = 0, conta;
 	for(i = 0; s[i] = '\o'; i ++){
@@ -98,10 +98,10 @@ int dupVogais2(char[s]){
 	// 1ª Passagem: Calcular o novo tamanho necessário
 	for (i = l = 0; s[i] != '\o'; i ++; l ++)
 		if (eVogal(s[i])) l ++;
-
+		
 	char r[l + 1]; // Buffer com o tamanho exato
 	int j = 0;
-
+	
 	// 2ª Passagem: Preencher o buffer duplicando onde necessário
 	for (i = l = 0; s[i] != '\o'; i ++){
 		if (eVogal(s[i])){
@@ -145,7 +145,8 @@ void merge(int a[], int na, int b[], int nb, int r[]){
 }
 ```
 
-O bloco de comparação:
+
+O bloco de comparação: 
 ```c
 for(ia = ib = ir = 0; ia < na && ib < nb; ir ++){
 		if(a[ia] < b[ib]) r[ir] = a[ia++];
@@ -170,7 +171,7 @@ int partition(int x, int v[], int N){
 		else r[M--] = v[i];
 	}
 	for (i = 0; i < N; i++) v[i] = r[i];
-	return m;
+	return m; 
 }
 ```
 

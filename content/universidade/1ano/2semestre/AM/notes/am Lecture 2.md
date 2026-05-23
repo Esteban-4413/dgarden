@@ -52,7 +52,7 @@ Para que exista $\lim_{(x,y) \to (a,b)} f(x,y) = l$, o valor tem de ser $l$ **in
 
 ### Teorema do Enquadramento
 Sejam funções tais que $|f(x) - l| \le g(x)$.
-Se $\lim_{x \to a} g(x) = 0$, então obrigatoriamente $\lim_{x \to a} f(x) = l$.
+Se $\lim_{x \to a} g(x) = 0$, então obrigatoriamente $\lim_{x \to a} f(x) = l$. 
 *(Muito útil quando os limites por trajetórias dão todos zero, para provar formalmente que o limite é efetivamente zero).*
 
 ### Continuidade
@@ -64,6 +64,7 @@ Uma função diz-se contínua num ponto $a \in \mathcal{D}$ se $a$ é um ponto i
 * **Geogebra 3D / CalcPlot3D:** Excelentes para plotar gráficos de funções $f(x,y)$ e visualizar interativamente as curvas e superfícies de nível alterando a constante $c$.
 * **Symbolab Multivariable Calculus:** Útil para verificar limites passo a passo, especialmente quando precisas testar múltiplas trajetórias ($y=mx$, $y=x^2$, etc.).
 * **Desmos 2D:** Ideal para desenhar o mapa de contornos (várias curvas de nível) de uma função bidimensional de forma rápida.
+
 
 ## Links
 - [[am Lecture 1]]

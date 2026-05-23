@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1778431311.05997 "/Users/estebanyepezorozco/uni/universidade/1ano/2semestre/MdC/work/firstTex.tex" "firstTex.pdf" "firstTex" 1778431311.27496 0
+  "/Users/estebanyepezorozco/uni/universidade/1ano/2semestre/MdC/work/firstTex.tex" 1778431310.8578 71 eb4e0e9640e9187d59313ae3ee4dd2db ""
+  "/usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls" 1748806692 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/base/size10.clo" 1748806692 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1761248321 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
+  "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
+  "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778325294 5573038 b99aad5e4898a9034e953632f940512b ""
+  "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778325241 3636769 ca3137695a7d5723399202f67e9e425d ""
+  "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
+  "firstTex.aux" 1778431311.2632 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "firstTex.tex" 1778431310.8578 71 eb4e0e9640e9187d59313ae3ee4dd2db ""
+  (generated)
+  "firstTex.aux"
+  "firstTex.log"
+  "firstTex.pdf"
+  (rewritten before read)

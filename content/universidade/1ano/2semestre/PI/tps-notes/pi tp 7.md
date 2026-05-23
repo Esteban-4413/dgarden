@@ -50,7 +50,7 @@ void push(STACK *s, int x){
 	v2 = malloc(2*s->tam*sizeof(int));
 	for(i = 0; i < s->tam; i++) v[i] = s->v[i];
 	s->v = v2;
-	s->tam *= 2;
+	s->tam *= 2; 
 	}
 	s->v[s->sp] = x;
 	s->sp++;

@@ -1,9 +1,9 @@
----
-title: " bibliografias"
----
+## pdf
+- [[universidade/1ano/2semestre/MD/bibliografias/apontamentos.pdf|apontamentos]]
+- [[biblio1MD.pdf]]
+- [[teoriaDeGrafos.pdf]]
 
-# Contenido de bibliografias
-
-### Archivos y Notas
-- [apontamentos.pdf](apontamentos.pdf)
-- [biblio1.pdf](biblio1.pdf)
+## Markdown
+- [[Sebenta]]
+- [[Teoría de grafos]]
+- [[Elementary Number Theory]]

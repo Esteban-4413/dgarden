@@ -9,7 +9,7 @@ tags:
 excalidraw-open-md: true
 date: 2026-01-16
 ---
-#  Cálculo I - Resumen
+#  Cálculo I - Resumen 
 
 > [!INFO] Metadatos
 > **Asignatura:** Cálculo I
@@ -331,6 +331,7 @@ Estudiar $\sum \frac{(n+1)^n}{3^n n!}$.
 > El límite es:
 > $$\frac{1}{3} \cdot e \cdot 1 = \frac{e}{3} \approx 0.9$$
 > Como $\frac{e}{3} < 1$, la serie **CONVERGE**.
+
 
 #  Corrección: Teste 2 Cálculo I (2025-12-16)
 

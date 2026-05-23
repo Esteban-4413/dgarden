@@ -1,9 +1,9 @@
----
-title: " exercicios"
----
+## pdf
+- [[universidade/1ano/2semestre/MD/exercicios/exercicios.pdf|exercicios]]
+- [[mais_TN.pdf]]
+- [[grafos.pdf]]
+- [[maisgrafos.pdf]]
 
-# Contenido de exercicios
-
-### Archivos y Notas
-- [exercicios.pdf](exercicios.pdf)
-- [mais_TN.pdf](mais_TN.pdf)
+## markdown
+- [[Exercicios TN]]
+- [[Exercicios de grafos]]

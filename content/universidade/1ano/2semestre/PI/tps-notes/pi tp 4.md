@@ -25,7 +25,7 @@ int main (){
 		printf("%d %d %d\n,
 			   x[i], *y, *z");
 		y = y + 1; z = z + 2;
-	}
+	}			  
 }
 ```
 
@@ -45,23 +45,24 @@ Output do código anterior:
 int main() {
     int x[15] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
     int *y, *z, i;
-
+    
     y = x;      // y aponta para o início do vetor (x[0])
     z = x + 3;  // z aponta para o quarto elemento (x[3])
-
+    
     printf("i | x[i] | *y | *z\n");
     printf("--|------|----|----\n");
-
+    
     for (i = 0; i < 5; i++) {
         printf("%d |   %d  | %d  | %d\n", i, x[i], *y, *z);
-
+        
         y = y + 1; // y avança para o próximo inteiro
         z = z + 2; // z salta um inteiro e avança para o seguinte
     }
-
+    
     return 0;
 }
 ```
+
 
 ---
 
@@ -80,7 +81,7 @@ void swap(int v[], int i, int j){
 void swapM (int *x, int *y){
 	int temp = *x; // Guarda o valor apontado por x
 	*x = *y; // Coloca o valor apontado por y no endereço de x
-	*y = temp; // Coloca o valor guardado no endereço de y
+	*y = temp; // Coloca o valor guardado no endereço de y 
 }
 ```
 
@@ -90,7 +91,7 @@ void swapM (int *x, int *y){
 void rev (int v[], int N){
 	int inicio = 0;
 	int fim = N - 1;
-
+	
 	// Enquanto os apontadores não se cruzarem
 	while (inicio < fim) {
 		swap(v, inicio, fim); // Troca as extremidades
@@ -104,14 +105,14 @@ void rev (int v[], int N){
 #include <string.h> // Necessário para strlen()
 
 reverse (char s[]){
-	int inicio = 0;
+	int inicio = 0; 
 	int	fim = strlen(s) - 1; // Aponta para o último caractere antes do '\0'
 	char t;
 	while(i < j){
 		t = s[inicio]; s[inicio] = s[fim]; s[fim] = t;
 		inicio++;
-		fim--;
-	}
+		fim--; 
+	} 
 }
 ```
 
@@ -127,7 +128,7 @@ int esteban(int x, int v[], int N){
 	return fernandaC;
 }
 ```
-fica como exercicio ao leitor interpretar o que o programa faz e o que cada variavel representa.
+fica como exercicio ao leitor interpretar o que o programa faz e o que cada variavel representa. 
 
 ---
 
@@ -166,23 +167,23 @@ int main() {
     int v[15] = {42, 15, 8, 99, 23, 15, 7, 8, 42, 105, 7, 8, 99, 15, 8};
     int maxVal, qtdOcorrencias;
     int a = 10, b = 20;
-
+    
     // Teste da função maximum2
     // Passamos &qtdOcorrencias para que a função possa alterar o valor desta variável local
     maxVal = maximum2(v, 15, &qtdOcorrencias);
-
+    
     printf("Teste de Máximo\n");
     printf("O valor máximo no vetor é: %d\n", maxVal);
     printf("Aparece %d vezes.\n\n", qtdOcorrencias);
-
+    
     // Teste da função swapX
     printf("Teste de SwapX\n");
     printf("Antes da troca: a = %d, b = %d\n", a, b);
-
+    
     swapX(&a, &b); // Passamos os endereços de a e b
-
+    
     printf("Depois da troca: a = %d, b = %d\n", a, b);
-
+    
     return 0;
 }
 ```

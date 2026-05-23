@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=TFaUnAtaan4&t=1167s
 
 [[2026-01-14#^0a13ac | J. W. Mellor quote]]
 
+
 # ∫ Resumen de Integrales y Primitivas
 
 ## 1. Conceptos Fundamentales
@@ -113,6 +114,11 @@ Para calcular el área de la región limitada por curvas, se utiliza la integral
 * **Por partes:** $\int x^2 e^x dx$, $\int x \ln x dx$ (usar regla ALPES).
 * **Por sustitución:** Integrales con raíces cuadradas o funciones compuestas complejas.
 * **Áreas:** Encontrar el área limitada por rectas verticales ($x=a, x=b$) y funciones ($y=f(x)$).
+
+
+
+
+
 
 # Excalidraw Data
 

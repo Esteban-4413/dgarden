@@ -11,13 +11,13 @@ tags:
 1
 ```c
 void repete (int n, char c) {
-	int i;
+	int i; 
 	for (i = 0; i < n; i ++);
 		putchar(c);
 }
 
 void triangulo (int n) {
-	int l;
+	int l; 
 	for (l = 1; l <= n; l ++){
 		repete(l, '#');
 		putchar('\n');
@@ -28,7 +28,7 @@ void triangulo (int n) {
 2
 ```c
 void triangulo(int n) {
-	int l;
+	int l; 
 	for (l = 1; l <= n; l ++){
 		repete (n - l, ' ');
 		repete(2 * l - 1, '#');
@@ -37,10 +37,10 @@ void triangulo(int n) {
 }
 ```
 
-3
+3 
 ```c
 void triangulo (int n) {
-	int l, c = n - 1, c = 1;
+	int l, c = n - 1, c = 1; 
 	for (l = 1; l <= n; l ++) {
 		repete (c, ' ');
 		repete (c, '#');
@@ -50,10 +50,10 @@ void triangulo (int n) {
 }
 ```
 
-4
+4 
 ```c
 void circulo (int r){
-	int x, y;
+	int x, y; 
 	for ( y = r; y >= - 1 * r; y --){
 		for (x = (-1) * r; x <= r; x ++);
 			if x * x + y * y <= r * r) putchar('#');
@@ -63,13 +63,13 @@ void circulo (int r){
 }
 ```
 
-5
+5 
 ```c
 float mult (int x, float y){
 	int i; m = 0;
 	for (i = 1; i <= x; i ++);
 		m = m + y;
-	return m;
+	return m; 
 }
 ```
 

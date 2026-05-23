@@ -27,7 +27,7 @@ void pascal(int p[], int n){
 	}
 }
 ```
->[!TIP]
+>[!TIP] 
 >Porquê de trás para a frente? Se atualizares da esquerda para a direita, vais somar valores
 >que já foram alterados na iteração atual, corrompendo o cálculo. Ao vir de trás, garantes que `p[j-1]` ainda é o valor da "linha de cima".
 
@@ -101,6 +101,7 @@ int ordenaPorNum(Aluno t[], int N){
 	}
 }
 ```
+
 
 #### Ordenação Indireta (Usa Índices)
 **Esta é a técnica "eficiente relativamente ao uso de memória**. Não mexemos no vetor de alunos (que pode ser gigante). Em vez disso, ordenamos um vetor de inteiros (`ind`) que aponta para as posições dos alunos.

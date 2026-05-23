@@ -9,33 +9,48 @@ tags:
   - math/calculo
   - math/analisis
 ---
-# Ficha 1
-
-- [[ficha1AM.excalidraw]]
-- [[universidade/1ano/2semestre/AM/exercicios/folha1.pdf|folha1]]
 
 ---
 
 # Ficha 2
-
-- [[ficha2AM.excalidraw]]
-- [[universidade/1ano/2semestre/AM/exercicios/folha2.pdf|folha2]]
+- [[Folha2AMres.pdf]]
+- [[folha2AM.pdf]]
 
 ---
 
 # Ficha 3
-
-- [[ficha3AM.excalidraw]]
-- [[universidade/1ano/2semestre/AM/exercicios/folha3.pdf|folha3]]
+- [[Folha3AMres.pdf]]
+- [[folha3AM.pdf]]
 
 ---
 
 # Ficha 4
+- [[Folha4AMres.pdf]]
+- [[folha4AM.pdf]]
 
 ---
 
 # Ficha 5
+- [[Folha5AMres.pdf]]
+- [[folha5AM.pdf]]
+
 
 ---
 
 # Ficha 6
+- [[Folha6AMres.pdf]]
+- [[folha6AM.pdf]]
+
+---
+
+# Ficha 7
+- [[Folha7AMres.pdf]]
+- [[folha7AM.pdf]]
+
+---
+
+# Ficha 8
+- [[Folha8AMres.pdf]]
+- [[folha8AM.pdf]]
+
+---

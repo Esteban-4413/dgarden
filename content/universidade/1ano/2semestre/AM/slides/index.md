@@ -1,12 +1,14 @@
----
-title: " slides"
----
+## pdf
+- [[Slides1AM.pdf]]
+- [[Slides2AM.pdf]]
+- [[Slides3AM.pdf]]
+- [[Slides4AM.pdf]]
+- [[Slides5AM.pdf]]
 
-# Contenido de slides
+## markdown
+- [[1. Noções Topológicas em Rn]]
+- [[2. Funções de várias variáveis]]
+- [[3. Cálculo Diferencial em Rn]]
+- [[4. Extremos absolutos, locais e condicionados de funções escalares]]
+- [[5. Integrais duplos]]
 
-### Archivos y Notas
-- [Slides1.pdf](Slides1.pdf)
-- [Slides2.pdf](Slides2.pdf)
-- [Slides3.pdf](Slides3.pdf)
-- [Slides4.pdf](Slides4.pdf)
-- [Slides5.pdf](Slides5.pdf)

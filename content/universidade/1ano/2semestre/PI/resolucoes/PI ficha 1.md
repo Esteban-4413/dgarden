@@ -5,7 +5,7 @@ tags:
 excalidraw-open-md: true
 date: "2026-02-06"
 ---
-1. Escreva um programa que desenha no ecra (usando o caracter '#') um quadrado de dimensão 5.
+1. Escreva um programa que desenha no ecra (usando o caracter '#') um quadrado de dimensão 5. 
 ```c
 void linha(int y) {
 	int x;
@@ -23,7 +23,7 @@ void cuadrado(int n) {
 }
 ```
 
-2. Escreva um programa que desenhe no ecrã (usando os caracteres #) um tabuleiro de xadrez.
+2. Escreva um programa que desenhe no ecrã (usando os caracteres #) um tabuleiro de xadrez. 
 
 ```c
 void linhas_xadrez(int n) {
@@ -35,6 +35,7 @@ void linhas_xadrez(int n) {
 putchar('\n');
 }
 
+
 void xadrez(int n) {
 	int x;
 	for (x = 1; x <= n; x ++) {
@@ -44,7 +45,7 @@ void xadrez(int n) {
 ```
 
 4. Escreva um programa que desenhe no ecrã (usando os carateres #) um circulo. O
-programa deverá começar por ler o raio do circulo pretendido.
+programa deverá começar por ler o raio do circulo pretendido. 
 ```c
 int circulo(int r) {
 	int x, y;
@@ -63,7 +64,7 @@ int circulo(int r) {
 >[horizontal.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/horizontal.c)
 >[vertical.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/vertical.c)
 >[triangulo.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/triangulo.c)
-## Links
+## Links 
 - [[/universidade/1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
 
 ---

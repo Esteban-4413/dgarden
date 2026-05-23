@@ -11,39 +11,43 @@ excalidraw-open-md: true
 ---
 # Notas para el segundo parcial de Cálculo
 
+
 ## Fichas resolvidas
-- [x] Ficha 4
-- [ ] Ficha 5
+- [x] Ficha 4 
+- [ ] Ficha 5 
 - [ ] Ficha 6
 ---
 
-***TEMA 4: Límites y continuidad  #Cálculo1 #Límites #Continuidad
+***TEMA 4: Límites y continuidad  #Cálculo1 #Límites #Continuidad 
 
-Definición de un límite:
+Definición de un límite: 
 ![[Pasted image 20251208132649.png]]
-si no existe tal L entonces se dice que f diverge o simplemente que el límite no existe
+si no existe tal L entonces se dice que f diverge o simplemente que el límite no existe 
 
-### Ejercicios folha 4
+
+
+
+### Ejercicios folha 4 
 [[Calculo_folha4.pdf#page=1|Calculo_folha4]]
 
-4.2
+4.2 
 La propiedad que es realmente verdadera es $$\lim_{x \to x_{0}}f(x)=2 \times \\lim_{x \to x_{0}} f(2x)$$
 4.5 #TeoremaDelSandwich #TeoremaDoEnquadramento
 
-Se usa el Teorema del sandwich o teorema del encuadramiento
+Se usa el Teorema del sandwich o teorema del encuadramiento 
 
 4.7 [[LimitesContinuidade.pdf#page=11|LimitesContinuidade, page 11]]
 $$\forall_{\epsilon} > 0 \text{ }  \exists \varphi \text{ } \forall_{x} \in X \text{ } \text{ } \text{ } \text{ } \text{ }|x \ - x_{0}| <\varphi \rightarrow |f(x) - f(x_{0})|<\epsilon   $$
 a) y b) ??????
 
-4.9 #Dirichlet y #Thomae
+4.9 #Dirichlet y #Thomae 
 
-Dirichlet y Thomae (funciones raras)
+Dirichlet y Thomae (funciones raras) 
 
 4.10 #Heaviside
-b)
+b) 
 
-función de heaviside
+función de heaviside 
 función matemática discontinua que vale 0 para argumentos negativos y 1 para argumentos no negativos (positivos o cero), modelando un "interruptor" que se enciende instantáneamente, usándose en ingeniería para circuitos y señales, y representando un "sí/no" o "activo/inactivo", con su derivada siendo la función delta de Dirac y clave en la transformada de Laplace para funciones por tramos
 
 [[Calculo_folha4.pdf#page=2|Calculo_folha4, page 2]]
@@ -139,6 +143,9 @@ Aparecen en el Ejercicio 5.10. Se expresan con logaritmos.
 3. **Argumento Tangente Hiperbólica:**
    $$\text{argth } x = \frac{1}{2} \ln\left(\frac{1+x}{1-x}\right), \quad |x| < 1$$
 
+
+
+
 # Resumen: Teoremas Fundamentales del Cálculo (Hoja 6)
 
 ## 1. Teorema de Bolzano (Existencia de Raíces)
@@ -226,6 +233,8 @@ Es la herramienta principal para demostrar **desigualdades** complejas que invol
 | Demostrar que **NO** hay más soluciones        | **Rolle**               | Supón que hay dos y busca contradicción en $f'(c)=0$.                            |
 | Demostrar una **desigualdad**                  | **Lagrange**            | Aplica $\frac{f(x)-f(0)}{x} = f'(c)$ y acota $f'(c)$.                            |
 
+
+
 *Bibliografías:
 [[LimitesContinuidade.pdf#page=1|LimitesContinuidade, page 1]]
 [[Apuntes_en_Cálculo_I (4).pdf#page=43|Apuntes_en_Cálculo_I (4), pag]]
@@ -233,7 +242,7 @@ Es la herramienta principal para demostrar **desigualdades** complejas que invol
 [[Funcoes.pdf]]
 [[TrigonometricasHiperbolicas.pdf]]
 
-*Ejercicios:
+*Ejercicios: 
 [[Calculo_folha4.pdf#page=1|Calculo_folha4, page 1]]
 [[Calculo_folha5.pdf]]
 [[Calculo_folha6.pdf]]
@@ -242,5 +251,6 @@ Es la herramienta principal para demostrar **desigualdades** complejas que invol
 *Formularios*
 [[FormularioDerivadas.pdf]]
 [[FormularioTrigonometricasHiperbolicas.pdf]]
+
 
   

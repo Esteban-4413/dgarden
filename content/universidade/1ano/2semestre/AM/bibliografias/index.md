@@ -1,10 +1,10 @@
----
-title: " bibliografias"
----
 
-# Contenido de bibliografias
+## pdf
+- [[biblio1AM.pdf]]
+- [[biblio2AM.pdf]]
+- [[biblio3AM.pdf]]
 
-### Archivos y Notas
-- [biblio1.pdf](biblio1.pdf)
-- [biblio2.pdf](biblio2.pdf)
-- [biblio3.pdf](biblio3.pdf)
+## Markdown
+- [[Calculus II]]
+- [[Calculus III]]
+- [[Calculus III]]
