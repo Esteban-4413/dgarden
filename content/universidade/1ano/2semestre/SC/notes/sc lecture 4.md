@@ -18,7 +18,7 @@ excalidraw-open-md: true
 - A computer program is a sequence of instructions
 - At the machine-level, each instruction is represented by a bit pattern 
 - The number of instructions in a program is finite 
-- It consists of an opcode and some additional information, such as where operands come form and whre to store the results 
+- It consists of an opcode and some additional information, such as where operands come form and where to store the results 
 	- ![[Pasted image 20260212091003.png]]
 		- IA32 example of machine-level instructions
 - On some machines, all instructions have the same length; on others there may be many different lengths. 

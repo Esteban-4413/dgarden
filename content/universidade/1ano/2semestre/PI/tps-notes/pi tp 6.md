@@ -31,6 +31,37 @@ void pascal(int p[], int n){
 >Porquê de trás para a frente? Se atualizares da esquerda para a direita, vais somar valores
 >que já foram alterados na iteração atual, corrompendo o cálculo. Ao vir de trás, garantes que `p[j-1]` ainda é o valor da "linha de cima".
 
+
+#### Versão alternativa 
+```c
+/**
+
+* Return an array of arrays of size *returnSize.
+
+* The sizes of the arrays are returned as *returnColumnSizes array.
+
+* Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
+
+*/
+
+int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
+	int i, j, columnSize;
+	*returnSize = numRows;
+	int **ans = malloc(numRows*sizeof(int*));
+	*returnColumnSizes = malloc(numRows * sizeof(int));
+	for(i = 0; i < numRows; i++){
+		ans[i] = malloc((i + 1) * sizeof(int));
+		(*returnColumnSizes)[i] = i + 1;
+	}
+	ans[0][0] = 1;
+	for(i = 1; i < numRows; i ++){
+		ans[i][0] = 1;
+		ans[i][i] = 1;
+		for(j = i - 1; j >= 1; j--) ans[i][j] = ans[i - 1][j] + ans[i-1][j -1];
+	}
+	return ans;
+}
+```
 ---
 
 ### 2. Estruturas (`struct`) e Cálculo de Notas

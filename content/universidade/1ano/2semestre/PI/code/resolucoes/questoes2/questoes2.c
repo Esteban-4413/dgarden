@@ -161,6 +161,36 @@ LInt parteAmeio (LInt *l){
     return y;
 }
 
+int removeAll(LInt *lista, int x)
+{
+    LInt ant = NULL;
+    LInt l = (*lista);
+    int conta = 0;
+    while(l != NULL)
+    {
+        if(l->valor == x)
+        {
+            if(ant == NULL)
+            {
+                *lista = l->prox;
+                free(l);
+                l = *lista;
+            } else 
+            {
+            ant->prox = l->prox;
+            l->prox = NULL;
+            free(l);
+            l = ant->prox;
+            }
+            conta++;
+        } else 
+        {
+        ant = l;
+        l = l->prox;
+        }
+    }
+}
+
 int main(){
     return 0;
 }

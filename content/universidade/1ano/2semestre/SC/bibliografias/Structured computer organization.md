@@ -1,3 +1,3 @@
-![[universidade/1ano/2semestre/SC/bibliografias/biblio2.pdf|biblio2MD]]
+![[universidade/1ano/2semestre/SC/bibliografias/biblio2SC.pdf|biblio2SC]]
 
-- [[biblio2MD.pdf]]
+- [[biblio2SC.pdf]]
