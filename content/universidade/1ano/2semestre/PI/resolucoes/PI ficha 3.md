@@ -5,7 +5,8 @@ tags:
 excalidraw-open-md: true
 date: "2026-03-02"
 ---
-1. [[ficha3pi1.excalidraw]]
+1. ![[ficha3pi1.excalidraw]]
+
 2. ...
 ```c
 int swapM (int *x, int *y){
@@ -115,11 +116,12 @@ void pascal(int p[], int n){
 ```
 
 
+
 >[!CODE] Código fuente
 >Puedes ver el archivo original aquí: [ficha3.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha3/ficha3.c)
 
 ## Links 
-- [[universidade/1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
+- [[universidade/1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha3]]
 
 
 

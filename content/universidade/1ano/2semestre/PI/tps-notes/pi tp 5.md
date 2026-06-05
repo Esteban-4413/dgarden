@@ -64,9 +64,9 @@ Esta técnica usa dois índices (`i` e `j`) que percorrem a string simultaneamen
 ```c
 int retiraVogais2(char s[]){
 	int i, j = 0;
-	for (i = 0; s[i] != '\o'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 		if (! eVogal(s[i])) s[j++] = s[i];
-	s[j] = '\o';
+	s[j] = '\0';
 	return j;
 }
 ```
@@ -79,7 +79,7 @@ Este exercício é o oposto do anterior: a string vai **crescer**. Se tentarmos 
 ```c 
 int dupVogais(char s[]){
 	int i, j = 0, conta;
-	for(i = 0; s[i] = '\o'; i ++){
+	for(i = 0; s[i] = '\0'; i ++){
 		if(eVogal(s[i])){ conta ++;
 			for(j = strlen(s) + 1; j != i; j --)
 				s[j + 1] = s[j];
@@ -96,14 +96,14 @@ int dupVogais(char s[]){
 int dupVogais2(char[s]){
 	int i, l;
 	// 1ª Passagem: Calcular o novo tamanho necessário
-	for (i = l = 0; s[i] != '\o'; i ++; l ++)
+	for (i = l = 0; s[i] != '\0'; i ++; l ++)
 		if (eVogal(s[i])) l ++;
 		
 	char r[l + 1]; // Buffer com o tamanho exato
 	int j = 0;
 	
 	// 2ª Passagem: Preencher o buffer duplicando onde necessário
-	for (i = l = 0; s[i] != '\o'; i ++){
+	for (i = l = 0; s[i] != '\0'; i ++){
 		if (eVogal(s[i])){
 			r[j++] = s[i];
 			r[j++] = s[i];
@@ -135,7 +135,7 @@ int ordenado(int v[], int N){
 Este algoritmo é a base do _MergeSort_. Assume que `a` e `b` já estão ordenados e junta-os num vetor `r`.
 ```c
 void merge(int a[], int na, int b[], int nb, int r[]){
-	int ia, ib, r;
+	int ia, ib, ir;
 	for(ia = ib = ir = 0; ia < na && ib < nb; ir ++){
 		if(a[ia] < b[ib]) r[ir] = a[ia++];
 		else r[ir] = rb[ib++];
@@ -145,7 +145,6 @@ void merge(int a[], int na, int b[], int nb, int r[]){
 }
 ```
 
-
 O bloco de comparação: 
 ```c
 for(ia = ib = ir = 0; ia < na && ib < nb; ir ++){
@@ -153,6 +152,7 @@ for(ia = ib = ir = 0; ia < na && ib < nb; ir ++){
 		else r[ir] = rb[ib++];
 	}
 ```
+
 pode ser simplificado com o operador ternário:
 ```c
 r[ir] = (a[ia] < b[ib]) ? a[ia ++] : b[ib ++];
