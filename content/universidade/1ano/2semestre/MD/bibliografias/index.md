@@ -1,9 +1,5 @@
-## pdf
-- [[universidade/1ano/2semestre/MD/bibliografias/apontamentos.pdf|apontamentos]]
-- [[biblio1MD.pdf]]
-- [[teoriaDeGrafos.pdf]]
+---
+title: "bibliografias"
+---
 
-## Markdown
-- [[Sebenta]]
-- [[Teoría de grafos]]
-- [[Elementary Number Theory]]
+Here you'll find:

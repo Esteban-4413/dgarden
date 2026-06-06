@@ -1,11 +1,5 @@
 ---
-title: " Week1"
+title: "Week1"
 ---
 
-# Contenido de Week1
-
-### Subcarpetas
-- [[slides/index|slides]]
-
-### Archivos y Notas
-- [Scratch.md](Scratch.md)
+Here you'll find:

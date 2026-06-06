@@ -1,5 +1,5 @@
-## pdf
-- [[Informacoes.pdf]]
+---
+title: "info"
+---
 
-## markdown 
-- [[universidade/1ano/2semestre/AM/info/Info]]
+Here you'll find:
