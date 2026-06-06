@@ -165,3 +165,21 @@ h3 {
     filter: invert(0.85) hue-rotate(180deg) !important;
   }
 }
+
+// 10. VISUALIZACIÓN DE PDFs (Efecto "Hoja de Papel" vertical)
+.internal-embed[src$=".pdf"], 
+iframe[src$=".pdf"] {
+  width: 100%;
+  
+  // Esta es la magia: Proporción de una hoja real (1 de ancho por 1.4 de alto)
+  aspect-ratio: 1 / 1.4; 
+  
+  // Una altura mínima de seguridad por si acaso
+  min-height: 700px; 
+  
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  
+  // Un ligero sombreado extra para que la página parezca flotar sobre el fondo
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); 
+}
