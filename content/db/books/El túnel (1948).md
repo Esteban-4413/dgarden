@@ -1,27 +1,27 @@
 ---
-autor: Ernesto Sabato
-género:
-calificación: ⭐⭐⭐⭐⭐
-tags:
-  - lectura
-  - libbabel
-  - alejandría
+pdf:
+type: book
+title: El túnel
+englishTitle: El túnel
+year: 1948
+dataSource: OpenLibraryAPI
+url: https://openlibrary.org/works/OL617847W
+id: /works/OL617847W
+author:
+  - Ernesto Sabato
+pages: unknown
+image: https://covers.openlibrary.org/b/OLID/undefined-L.jpg
+isbn: unknown
+isbn13: unknown
+released: true
+tags: mediaDB/book
 ---
-
-#  El túnel
-
-> [!info] Ficha Técnica
-> **Autor:** Ernesto Sabato
- > **Calificación:** 5 / 5
-
----
-
 ##  Citas favoritas
 ### I
 > "En realidad, siempre he pensado que no hay memoria colectiva, lo que quizá sea una forma de defensa de la especie human. La frase frase ‹‹todo tiempo pasado fue mejor›› no indica que antes sucedieran menos cosas malas, sino que —felizmente— la gente las echa al olvido."
 > — *Página 9*
 
-### II
+### II 
 > "Me hacen reír esos señores que salen con la modestia de Einstein o gente por el estilo; respuesta: *es fácil ser modesto cuando se es célebre*; quiero decir *parecer ser modesto*. Aun cuando se imagina que no existe en absoluto, se la descubre de pronto en su forma más sutil: la vanidad de la modestia."
 > — *Página 11*
 
@@ -31,18 +31,18 @@ tags:
 > "Existió una persona que podría entenderme.*Pero fue, precisamente, la persona que maté.*"
 > — *Página 13*
 
-### IX
+### IX 
 > "¿Hasta qué punto se puede decir que la mirada de un ser humano es algo físico?"
 > — *Página 40*
 
 > "¿Toda nuestra vida sería una serie de gritos anónimos en un desierto de astros indiferentes?"
 > — *Página 44*
 
-### XX
+### XX 
 > "¡Cuántas veces esta maldita división de mi consciencia ha sido culpable de hechos atroces! Mientras una parte me lleva a tomar una hermosa actitud, la otra denuncia el fraude, la hipocresía y la falsa generosidad; mientras una me lleva a insultar a un ser humano, la otra se conduele con él y me acusa a mí mismo de lo que denuncio en los otros; mientras una me hace ver la belleza del mundo, la otra me señala su fealdad y la ridiculez de todo sentimiento de felicidad."
 > — *Página 87-88*
 
-### XXI
+### XXI 
 > "Generalmente, esa sensación de estar solo en el mundo aparece mezclada a un orgulloso sentimiento de superioridad: desprecio a los hombres, los veo sucios, feos, incapaces, ávidos, groseros, mezquinos; mi soledad no me asusta, es casi olímpica."
 > — *Página 90*
 
@@ -79,6 +79,7 @@ tags:
 > "Sólo existió un ser que entendía mi pintura. Mientras tanto, estos cuadros deben de confirmarlos cada vez más en su estúpido punto de vista. Y los muros de este infierno serán así, cada día más herméticos."
 > — *Página 156*
 
+
 ---
 
 ## Ernesto Sabato sobre *El Túnel*
@@ -94,7 +95,25 @@ tags:
 > "Pero me parece que el hombre, al final, se inclina más por la esperanza que por la desesperanza. De otro modo, todos nos habríamos ya disparado un tiro en la cabeza. Los terremotos, las guerras, los campos de concentración, las desilusiones, la miseria humana, la envidia, el resentimiento, la deslealtad, la traición, la derrota, la humillación: nada nos arredra, nada nos lleva a la muerte sino muy raramente. Todos esperamos algo, después de todo y a pesar de todo."
 > — *Página 162*
 
+
+
+
+
+
+
+##  Citas Favoritas
+
+> "[Escribe aquí la cita que más te gustó]"
+> — *Página XX*
+
+> "[Segunda cita]"
+> — *Capítulo X*
+
+---
+
+##  Reflexiones Personales
+
+
 ##  Conexiones
 
 - **Temas relacionados:** [[ ]]
-- **Palabras nuevas encontradas:** [[ ]]

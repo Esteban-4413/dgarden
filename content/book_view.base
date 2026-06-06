@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.inFolder("db/books")
+    order:
+      - file.name
+      - author
+      - year
+      - title
+    imageFit: contain
+    image: note.image
