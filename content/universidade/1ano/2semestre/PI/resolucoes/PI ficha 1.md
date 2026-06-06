@@ -66,6 +66,7 @@ int circulo(int r) {
 >[triangulo.c](/universidade/1ano/2semestre/PI/code/resolucoes/ficha1/triangulo.c)
 ## Links 
 - [[/universidade/1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
+- [[pi tp 2]]
 
 ---
 %%

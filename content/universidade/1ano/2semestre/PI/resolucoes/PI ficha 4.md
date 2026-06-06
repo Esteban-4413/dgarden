@@ -178,3 +178,7 @@ int main(){
     return 0;
 }
 ```
+
+## Links
+- [[universidade/1ano/2semestre/PI/fichas/Ficha4.pdf|Ficha4]]
+- [[pi tp 5]]

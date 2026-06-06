@@ -85,3 +85,4 @@ long fib2 (int n){
 
 ## Links 
 - [[1ano/2semestre/PI/fichas/Ficha2.pdf|Ficha2]]
+- [[pi tp 3]]

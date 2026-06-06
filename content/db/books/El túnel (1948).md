@@ -94,26 +94,3 @@ tags: mediaDB/book
 
 > "Pero me parece que el hombre, al final, se inclina más por la esperanza que por la desesperanza. De otro modo, todos nos habríamos ya disparado un tiro en la cabeza. Los terremotos, las guerras, los campos de concentración, las desilusiones, la miseria humana, la envidia, el resentimiento, la deslealtad, la traición, la derrota, la humillación: nada nos arredra, nada nos lleva a la muerte sino muy raramente. Todos esperamos algo, después de todo y a pesar de todo."
 > — *Página 162*
-
-
-
-
-
-
-
-##  Citas Favoritas
-
-> "[Escribe aquí la cita que más te gustó]"
-> — *Página XX*
-
-> "[Segunda cita]"
-> — *Capítulo X*
-
----
-
-##  Reflexiones Personales
-
-
-##  Conexiones
-
-- **Temas relacionados:** [[ ]]

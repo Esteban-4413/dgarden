@@ -122,6 +122,7 @@ void pascal(int p[], int n){
 
 ## Links 
 - [[universidade/1ano/2semestre/PI/fichas/Ficha3.pdf|Ficha3]]
+- [[pi tp 4]]
 
 
 

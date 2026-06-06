@@ -78,7 +78,6 @@ typedef struct aluno {
 
 #### Cálculo da Nota Final
 A fórmula segue uma lógica condicional: a média dos mini-testes (m) deve ser ≥8 para que o teste final conte. $$Nota = m \times 0.2 + teste \times 0.8$$
-
 ```c
 int nota(Aluno a){
 	int i, r = 0;
@@ -99,14 +98,18 @@ int nota(Aluno a){
 int procuraNum (int num, Aluno t[], int N){
 	int r = -1, i = 0, s = N - 1, m;
 	while (r == -1 && i <= s){
-	m = (i + s) / 2;
-	if (t[m].numero == num) r = m;
-	else if (t[m].numero > x) s = m - 1;
-	else i = m + 1;
+		m = (i + s) / 2;
+		if (t[m].numero == num) r = m;
+		else if (t[m].numero > num) s = m - 1;
+		else i = m + 1;
 	}
 	return r; // Retorna o índice ou -1 se não encontrar
 }
 ```
+
+
+### 4. Ordenação: Direta vs. Indireta
+Aqui comparamos o **Bubble Sort** aplicado de duas formas.
 
 ```c
 void swapA(Aluno v[], int i, int j){
@@ -115,10 +118,6 @@ void swapA(Aluno v[], int i, int j){
 	v[j] = x;
 }
 ```
-
-### 4. Ordenação: Direta vs. Indireta
-Aqui comparamos o **Bubble Sort** aplicado de duas formas.
-
 #### Ordenação Direta (Move os dados)
 Troca os alunos de lugar no vetor. É pesado se a `struct` for muito grande.
 ```c

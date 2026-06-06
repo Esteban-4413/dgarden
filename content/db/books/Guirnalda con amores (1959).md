@@ -25,25 +25,3 @@ tags: mediaDB/book
 
 > "Me excuso de relatar pormenores como éstos; indudablemente, son un poco ridículos, pero quedan en la memoria de un hombre y cuando reconoce que a pesar de todo en la vida hubo dulzuras y que vivirla valió la pena, ténganlo por seguro, está pensando en ellos."
 > — *Página 18*
-
-
-
-
-
-
-##  Citas Favoritas
-
-> "[Escribe aquí la cita que más te gustó]"
-> — *Página XX*
-
-> "[Segunda cita]"
-> — *Capítulo X*
-
----
-
-##  Reflexiones Personales
-
-
-##  Conexiones
-
-- **Temas relacionados:** [[ ]]
