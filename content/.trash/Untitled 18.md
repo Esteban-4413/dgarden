@@ -1,5 +1,0 @@
----
-author:
-year:
-title:
----

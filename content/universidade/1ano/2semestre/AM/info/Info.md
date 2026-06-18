@@ -1,3 +1,0 @@
-![[Informacoes.pdf]]
-
-- [[Informacoes.pdf]]
