@@ -35,32 +35,32 @@ const config: QuartzConfig = {
         body: "Inter, sans-serif",
         code: "JetBrains Mono, monospace",
       },
-      colors: {
-        lightMode: {
-          light: "#f4f2f8",         // Fondo 
-          lightgray: "#e5def1",     // Bordes y UI un poco más definidos
-          gray: "#8e81ad",          // Texto secundario más suave
-          darkgray: "#3c344d",      // Texto principal 
-          dark: "#281a42",          // Títulos 
-          secondary: "#6d28d9",     // Links 
-          tertiary: "#9061f9",      // Acento secundario
-          highlight: "rgba(109, 40, 217, 0.08)", // Resaltado sutil
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#1a1625",         // Fondo "Deep Space" morado
-          lightgray: "#2d283e",     // Bordes y UI (gris morado)
-          gray: "#8071a1",          // Texto secundario
-          darkgray: "#dcd7e8",      // Texto principal (lavanda muy claro)
-          dark: "#f3f0ff",          // Títulos (casi blanco con tinte morado)
-          secondary: "#b794f4",     // Links (púrpura neón suave)
-          tertiary: "#805ad5",      // Acento secundario (amatista)
-          highlight: "rgba(183, 148, 244, 0.15)", // Resaltado de líneas
-          textHighlight: "#b3aa0288",
-        },
-      },
+		colors: {
+			lightMode: {
+				light: "#eff1f5",
+				lightgray: "#e6e9ef",
+				gray: "#bcc0cc",
+				darkgray: "#4c4f69",
+				dark: "#5c5f77",
+				secondary: "#1e66f5",
+				tertiary: "#7287fd",
+				highlight: "rgba(30, 102, 245, 0.15)",
+				textHighlight: "#fff23688",
+			},
+			darkMode: {
+				light: "#1e1e2e",        // Catppuccin Mocha Base
+				lightgray: "#313244",    // Catppuccin Mocha Surface0
+				gray: "#a6adc8",         // Catppuccin Mocha Subtext0
+				darkgray: "#cdd6f4",     // Texto principal de alto contraste
+				dark: "#bac2de",         // Títulos
+				secondary: "#89b4fa",    // Links
+				tertiary: "#b4befe",     // Acento secundario
+				highlight: "rgba(137, 180, 250, 0.15)",
+				textHighlight: "#b3aa0288",
+			},
+		},
     },
-  },
+    },
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
