@@ -4,7 +4,7 @@ date: 2026-02-13
 course:
 tags:
   - Universidade
-  - calculus
+  - math/calculus
   - math
 excalidraw-plugin: parsed
 excalidraw-open-md: true
@@ -18,7 +18,7 @@ excalidraw-open-md: true
 - [ ] Ficha 6
 ---
 
-***TEMA 4: Límites y continuidad  #Cálculo1 #Límites #Continuidad 
+***TEMA 4: Límites y continuidad  #math/calculus #math/calculus #math/calculus/Continuidad 
 
 Definición de un límite: 
 ![[Pasted image 20251208132649.png]]
@@ -32,7 +32,7 @@ si no existe tal L entonces se dice que f diverge o simplemente que el límite n
 
 4.2 
 La propiedad que es realmente verdadera es $$\lim_{x \to x_{0}}f(x)=2 \times \\lim_{x \to x_{0}} f(2x)$$
-4.5 #TeoremaDelSandwich #TeoremaDoEnquadramento
+4.5 #math/calculus/TeoremaDelSandwich #math/calculus/TeoremaDoEnquadramento
 
 Se usa el Teorema del sandwich o teorema del encuadramiento 
 
@@ -40,11 +40,11 @@ Se usa el Teorema del sandwich o teorema del encuadramiento
 $$\forall_{\epsilon} > 0 \text{ }  \exists \varphi \text{ } \forall_{x} \in X \text{ } \text{ } \text{ } \text{ } \text{ }|x \ - x_{0}| <\varphi \rightarrow |f(x) - f(x_{0})|<\epsilon   $$
 a) y b) ??????
 
-4.9 #Dirichlet y #Thomae 
+4.9 #math/calculus/Dirichlet y #math/calculus/Thomae 
 
 Dirichlet y Thomae (funciones raras) 
 
-4.10 #Heaviside
+4.10 #math/calculus/Heaviside
 b) 
 
 función de heaviside 

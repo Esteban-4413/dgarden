@@ -6,6 +6,8 @@ views:
     filters:
       and:
         - file.inFolder("db/books")
+        - not:
+            - file.name == "index"
     order:
       - file.name
       - author

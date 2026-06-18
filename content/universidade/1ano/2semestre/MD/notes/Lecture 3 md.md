@@ -5,7 +5,7 @@ course: Matemática Discreta
 tags:
   - Universidade
   - math
-  - matematicaDiscreta
+  - math/matematica-discreta
 ---
 # Lecture 3: Máximo Divisor Comum e Mínimo Múltiplo Comum
 

@@ -5,7 +5,7 @@ course: Matemática Discreta
 tags:
   - Universidade
   - math
-  - matematicaDiscreta
+  - math/matematica-discreta
 ---
 # Lecture 5: O Teorema Fundamental da Aritmética e Números Primos
 

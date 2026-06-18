@@ -1,8 +1,8 @@
 ---
 title: "Teoria de Números: Teoremas"
 tags:
-  - matematica-discreta
-  - teoria-de-numeros
+  - math/matematica-discreta
+  - math/teoria-de-numeros
   - estudo
 ---
 

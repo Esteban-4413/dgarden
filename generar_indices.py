@@ -23,8 +23,7 @@ def plantar_indices_quartz():
             f.write(f"---\ntitle: \"{nombre_carpeta}\"\n---\n\n")
             f.write("Here you'll find:\n")
 
-    print(f"✨ Semillas de index.md plantadas en todo {CONTENT_DIR}.")
-    print("¡Deja que Quartz haga su magia en el próximo build!")
+    print(f"index.md en todo {CONTENT_DIR}.")
 
 if __name__ == "__main__":
     plantar_indices_quartz()

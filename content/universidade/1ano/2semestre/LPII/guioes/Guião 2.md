@@ -4,9 +4,9 @@ date: 2026-02-24
 course: LPII
 tags:
   - Universidade
-  - guioes
-  - C
-  - programming
+  - LPII/guioes
+  - computer-science/programming/C
+  - computer-science/programming
   - LPII
 ---
 # Guião 2

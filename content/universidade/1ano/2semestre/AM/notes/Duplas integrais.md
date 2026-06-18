@@ -4,9 +4,9 @@ date: 2026-03-29
 course: Análise Matemática
 tags:
   - Universidade
-  - analiseMatematica
+  - math/calculus
   - math
-  - Integrales
+  - math/calculus
 excalidraw-open-md: false
 excalidraw-plugin: parsed
 ---

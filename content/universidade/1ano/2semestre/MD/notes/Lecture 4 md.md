@@ -5,7 +5,7 @@ course: Matemática Discreta
 tags:
   - Universidade
   - math
-  - matematicaDiscreta
+  - math/matematica-discreta
 ---
 # Lecture 4: O Algoritmo de Euclides
 

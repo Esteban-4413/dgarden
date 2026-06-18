@@ -4,7 +4,7 @@ date: 2026-02-02
 course: Matemática Discreta
 tags:
   - Universidade
-  - matematicaDiscreta
+  - math/matematica-discreta
   - math
 ---
 # Información General

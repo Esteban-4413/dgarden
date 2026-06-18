@@ -4,8 +4,8 @@ date: 2026-02-11
 course: Sistemas de Computação
 tags:
   - Universidade
-  - sistemasDeComputação
-  - computation
+  - computer-science/sistemasDeComputação
+  - computer-science
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---

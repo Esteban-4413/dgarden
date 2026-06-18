@@ -4,9 +4,9 @@ date: 2026-02-24
 course: Matemática Discreta
 tags:
   - Universidade
-  - matematica
   - math
-  - matematicaDiscreta
+  - math
+  - math/matematica-discreta
 ---
 # Lecture 6: Introdução às Congruências (Aritmética Modular)
 

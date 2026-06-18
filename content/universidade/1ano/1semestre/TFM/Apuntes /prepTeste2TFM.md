@@ -4,7 +4,7 @@ tags:
   - excalidraw
   - math
   - Universidade
-  - TópicosFundamentaisDeMatemática
+  - math/TópicosFundamentaisDeMatemática
 excalidraw-open-md: true
 date: 2026-01-06
 ---

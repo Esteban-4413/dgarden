@@ -4,9 +4,9 @@ date: 2026-03-21
 course: Matemática Discreta
 tags:
   - Universidade
-  - md
-  - matematica
-  - matematicaDiscreta
+  - math/matematica-discreta
+  - math
+  - math/matematica-discreta
 ---
 # Lecture 6: Congruências Lineares e Inversos Modulares
 

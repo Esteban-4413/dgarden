@@ -4,8 +4,8 @@ date: 2026-02-19
 course: Análise Matemática
 tags:
   - Universidade
-  - analiseMatematica
-  - calculus
+  - math/calculus
+  - math/calculus
   - math
 ---
 # Análise Matemática: O Espaço $\mathbb{R}^n$ e Topologia

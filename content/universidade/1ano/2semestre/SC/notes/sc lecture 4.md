@@ -4,9 +4,9 @@ date: 2026-02-12
 course: Sistemas de Computação
 tags:
   - Universidade
-  - sistemasDeComputação
-  - representationOfInformation
-  - computation
+  - computer-science/sistemasDeComputação
+  - computer-science/sistemasDeComputação/representationOfInformation
+  - computer-science
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---

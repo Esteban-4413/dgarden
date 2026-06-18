@@ -5,7 +5,7 @@ course: Tópicos Fundamentais de Matemática
 tags:
   - Universidade
   - math
-  - TópicosFundamentaisDeMatemática
+  - math/TópicosFundamentaisDeMatemática
 ---
 # Cardinalidade (conceito básicos) 
 

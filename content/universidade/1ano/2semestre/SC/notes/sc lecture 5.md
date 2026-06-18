@@ -4,9 +4,9 @@ date: 2026-02-18
 course: Sistemas de Computação
 tags:
   - Universidade
-  - sistemasDeComputação
-  - representationOfNumbers
-  - computation
+  - computer-science/sistemasDeComputação
+  - computer-science/sistemasDeComputação/representationOfNumbers
+  - computer-science
 ---
 # Chapter 3: Representation of numbers
 

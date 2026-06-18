@@ -1,6 +1,6 @@
 ---
 tags:
-  - matematica
+  - math
   - libbabel
   - math
   - alejandría

@@ -2,9 +2,9 @@
 excalidraw-plugin: parsed
 tags:
   - excalidraw
-  - Cálculo1
+  - math/calculus
   - Universidade
-  - calculus
+  - math/calculus
   - math
 excalidraw-open-md: true
 date: 2026-01-16

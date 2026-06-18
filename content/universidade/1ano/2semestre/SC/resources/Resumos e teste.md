@@ -22,3 +22,7 @@
 
 ![[teste.jpeg]]
 ![[testep2.jpeg]]
+
+## Links
+- [[biblio2SC.pdf]]
+- [[universidade/1ano/2semestre/SC/bibliografias/Essentials of computing systems|Essentials of computing systems]]

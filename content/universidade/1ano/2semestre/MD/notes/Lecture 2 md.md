@@ -5,7 +5,7 @@ course: Matemática Discreta
 tags:
   - Universidade
   - math
-  - matematicaDiscreta
+  - math/matematica-discreta
 ---
 # Lecture 2: Divisibilidade e Números Primos
 

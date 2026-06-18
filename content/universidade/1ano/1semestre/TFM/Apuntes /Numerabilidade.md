@@ -4,9 +4,9 @@ date: 2025-12-11
 course: Tópicos Fundamentais de Matemática
 tags:
   - Universidade
-  - "#TópicosFundamentaisDeMatemática"
-  - "#Numerabilidade"
-  - "#TeoremaDoCantor"
+  - "#math/TópicosFundamentaisDeMatemática"
+  - "#math/TópicosFundamentaisDeMatemática/Numerabilidade"
+  - "#math/TópicosFundamentaisDeMatemática/TeoremaDoCantor"
   - math
 ---
 # Numerabilidade 

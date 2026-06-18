@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780687092.77561 "/Users/estebanyepezorozco/vault/universidade/1ano/2semestre/MdC/work/firstTex.tex" "firstTex.pdf" "firstTex" 1780687093.20065 0
-  "/Users/estebanyepezorozco/vault/universidade/1ano/2semestre/MdC/work/firstTex.tex" 1780687092.60687 21814 e7e6dc05caba0a3ef98425e4ec0dc2b5 ""
+["pdflatex"] 1780919940.94838 "/Users/estebanyepezorozco/vault/universidade/1ano/2semestre/MdC/work/firstTex.tex" "firstTex.pdf" "firstTex" 1780919941.4232 0
+  "/Users/estebanyepezorozco/vault/universidade/1ano/2semestre/MdC/work/firstTex.tex" 1780919940.76135 21815 ff66e972402e0ef2fc5defc88333c45a ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -116,9 +116,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1778325294 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1778325241 3636769 ca3137695a7d5723399202f67e9e425d ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "firstTex.aux" 1780687093.15559 2735 c060e32892de1191de16a0299583fa45 "pdflatex"
-  "firstTex.out" 1780687093.1562 2106 2660e4f65257d84c07ef8ac1db8efb04 "pdflatex"
-  "firstTex.tex" 1780687092.60687 21814 e7e6dc05caba0a3ef98425e4ec0dc2b5 ""
+  "firstTex.aux" 1780919941.37415 2735 c060e32892de1191de16a0299583fa45 "pdflatex"
+  "firstTex.out" 1780919941.37468 2106 2660e4f65257d84c07ef8ac1db8efb04 "pdflatex"
+  "firstTex.tex" 1780919940.76135 21815 ff66e972402e0ef2fc5defc88333c45a ""
   (generated)
   "firstTex.aux"
   "firstTex.log"

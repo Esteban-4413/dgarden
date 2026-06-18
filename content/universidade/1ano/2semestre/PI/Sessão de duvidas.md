@@ -37,3 +37,9 @@ int parentesco(ABin a, int x, int y){
 	}
 }
 ```
+
+```c title:"Verifica"
+int verifica(ABin a, int n){
+	return -1;
+}
+```

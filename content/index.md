@@ -1,5 +1,3 @@
----
-title: "Liláx"
----
+# Lilaxx
 
-Here you'll find a lot of stuff that I hope is helpful.
+Hope you find some of the stuff that is here, useful lol.

@@ -4,8 +4,8 @@ date: 2025-12-15
 course: Cálculo
 tags:
   - Universidade
-  - "#SeriesDeTaylor"
-  - calculus
+  - "#math/calculus/SeriesDeTaylor"
+  - math/calculus
   - math
 ---
 ## Dúvidas 

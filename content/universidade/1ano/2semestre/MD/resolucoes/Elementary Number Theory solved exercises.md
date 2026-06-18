@@ -5,9 +5,9 @@ course: Matemática Discreta
 tags:
   - Universidade
   - math
-  - english
-  - matematica
-  - matematicaDiscreta
+  - vocabulario/english
+  - math
+  - math/matematica-discreta
 ---
 # Solved exercises
 

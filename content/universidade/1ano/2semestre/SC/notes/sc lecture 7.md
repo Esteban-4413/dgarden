@@ -4,9 +4,9 @@ date: 2026-02-25
 course: Sistemas de Computação
 tags:
   - Universidade
-  - computation
   - computer-science
-  - representationOfNumbers
+  - computer-science
+  - computer-science/sistemasDeComputação/representationOfNumbers
 ---
 # sc lecture 7
 

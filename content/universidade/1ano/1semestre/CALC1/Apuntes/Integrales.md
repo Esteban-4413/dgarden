@@ -2,9 +2,9 @@
 excalidraw-plugin: parsed
 tags:
   - excalidraw
-  - Integrales
+  - math/calculus
   - math
-  - calculus
+  - math/calculus
 excalidraw-open-md: true
 date: 2026-01-14
 ---

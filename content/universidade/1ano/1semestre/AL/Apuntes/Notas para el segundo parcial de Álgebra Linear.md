@@ -5,7 +5,7 @@ course:
 tags:
   - Universidade
   - math
-  - linearAlgebra
+  - math/linearAlgebra
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---

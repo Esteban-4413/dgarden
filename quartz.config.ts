@@ -16,8 +16,16 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US", 
+	ignorePatterns: [
+		"private",
+		".git",
+		".obsidian",
+		"obsidian",
+		"daily",
+		"universidade/necc",
+		"TaskNotes"
+	],
     baseUrl: "esteban-4413.github.io/dgarden",
-    ignorePatterns: ["private", "templates", ".obsidian",],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
