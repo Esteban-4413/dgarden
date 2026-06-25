@@ -10,3 +10,9 @@ private/
 .replit
 replit.nix
 content/**/.git
+
+# Proyectos locales de C y materiales pesados
+content/universidade/1ano/2semestre/LPII/project/fase2LP2/
+content/universidade/1ano/2semestre/LPII/project/fase3/patience/
+content/universidade/1ano/2semestre/LPII/project/lpII/
+content/universidade/necc/materialCurso/Material-Do-Curso/
