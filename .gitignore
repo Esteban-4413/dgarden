@@ -16,3 +16,18 @@ content/universidade/1ano/2semestre/LPII/project/fase2LP2/
 content/universidade/1ano/2semestre/LPII/project/fase3/patience/
 content/universidade/1ano/2semestre/LPII/project/lpII/
 content/universidade/necc/materialCurso/Material-Do-Curso/
+
+# Ignorar la papelera interna de Obsidian
+**/.trash/
+
+# Ignorar repositorios anidados y proyectos paralelos
+**/guessing_game/
+**/410game/
+**/whatIsTheCode/
+**/wordle/
+**/2025l1g145/
+
+# Ignorar librerías de assets pesados (juegos)
+**/AssetsLib/
+
+**/hello_cargo/

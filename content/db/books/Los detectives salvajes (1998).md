@@ -69,6 +69,14 @@ tags: mediaDB/book
 
 ### 2.  
 
+*Perla Avilés, calle Leonardo Da Vinci, Colonia Mixcoac, México DF, mayo de 1976*
+> "Muy poco tiempo, realmente, lo que demuestra la relatividad de nuestra memoria que magnifica o empequeñece a discreción, un lenguaje que creemos conocer y que en verdad no conocemos."
+> – *Página 195*
+
+*Luis Sebastián Rosado, fiesta en casa de los Moore, más de veinte personas, jardín con luces a ras de césped, colonia Las Lomas, México DF, julio de 1976*
+> "Nuestra relación se iba apagando con la velocidad ¿de que?, de algo que se apaga muy rápido, las luces de un edificio de oficinas, por ejemplo, presurosas de integrarse en el anonimato de la noche"
+> – *Página 209*
+
 
 
 

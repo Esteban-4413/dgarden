@@ -417,7 +417,7 @@ caminho (xi, yi) (xf, yf)
 -- > hasLoops (0,0) [Norte, Norte, Este, Sul, Oeste, Sul, Este, Norte, Este] == True
 -- > hasLoops (2,1) [Sul, Este, Sul, Oeste, Norte, Este, Sul] == False
 hasLoops :: (Int, Int) -> [Movimento] -> Bool
-hasLoops inicio movimientos = aux [inicio] inicio movimientos
+hasLoops inicio = aux [inicio] inicio
   where
     aux _ _ [] = False
     aux visitados (x, y) (m : ms) =
