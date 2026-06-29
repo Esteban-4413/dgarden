@@ -27,7 +27,7 @@ int capitaliza(char txt[]){
 ```
 
 # 2. Arrays (3 valores)
-Defina uma função `int maxSomaK (int a[], int N, int k)` que, dado um array `a` com `N` elementos e um número `k` $(1 <= k <= N)$, calcula a máxima soma que é possível obter com `k` elementos consecutivos do array. Por exemplo, para o array `{1, 3, -1, 7, 5, -2, 8, 3, 4}` com 10 elementos, a invocação da função para `4 = 4` como resultado 14 correspondendo à soma dos elementos {5, -2, 8, 3}
+Defina uma função `int maxSomaK (int a[], int N, int k)` que, dado um array `a` com `N` elementos e um número `k` $(1 \leq k \leq N)$, calcula a máxima soma que é possível obter com `k` elementos consecutivos do array. Por exemplo, para o array `{1, 3, -1, 7, 5, -2, 8, 3, 4}` com 10 elementos, a invocação da função para `4 = 4` como resultado 14 correspondendo à soma dos elementos {5, -2, 8, 3}
 
 ```c title:"A minha solução (1 valor)" 
 int maxSomaK(int a[], int N, int k){
@@ -199,7 +199,8 @@ int removeMuitos(LInt *l, int v[], int N){
 Relembre a definição (recursiva) da função `ABin insere(ABin a, int x)` de inserção de um elementos numa árvore binária de procura. Considere agora que em cada nodo das árvores é ainda armazenada a altura da árvore que se inicia (i.e., que tem raiz) nesse nodo. A árvore em baixo exemplifica uma destas árvores (em cada nodo aparece `valor; altura`)
 Adapte a função de inserção de um novo elementos para esta nova definição de árvores binárias de procura. Note que esta inserção pode ter que alterar a informação (campo `altura`) de alguns nodos da árvore. Por exemplo, a inserção de 10 não altera os outros nodos da árvore. Por outro lado, a inserção de 7 irá alterar a informação de 4 dos nodos da árvore (12, 6, 9 e 8).
 
-![árvore exemplo](imgs/arvore.png)
+<!-- ![árvore exemplo](imgs/arvore.png) -->
+![[arvore.png]]
 
 ```c title:"Árvore struct"
 typedef struct abin{

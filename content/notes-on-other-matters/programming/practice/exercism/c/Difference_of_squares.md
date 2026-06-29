@@ -41,7 +41,7 @@ unsigned int difference_of_squares(unsigned int number){
 
 # A more efficient way:
 1. The sum of the first $n$ natural numbers is $$\frac{n(n+1)}{2}$$
-so the square of the sum of the first $n$ numbers is $$\left(\frac{n(n+1){2}}\right)^2$$ 
+so the square of the sum of the first $n$ numbers is $$\left(\frac{n(n+1)}{2} \right)^2$$ 
 2. The sum of the squares of the first $n$ numbers is $$\frac{n(n+1)(2n+1)}{6}$$
 ```c title:"A more efficient way using math"
 #include "difference_of_squares.h"

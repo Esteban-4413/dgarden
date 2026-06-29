@@ -104,7 +104,7 @@ void rev (int v[], int N){
 ```c
 #include <string.h> // Necessário para strlen()
 
-reverse (char s[]){
+void reverse (char s[]){
 	int inicio = 0; 
 	int	fim = strlen(s) - 1; // Aponta para o último caractere antes do '\0'
 	char t;
