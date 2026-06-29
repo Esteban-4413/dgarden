@@ -16,6 +16,7 @@ views:
         - file.inFolder("db/books")
         - not:
             - file.name == "index"
+        - file.name != "book_view.base"
     order:
       - file.name
       - author
