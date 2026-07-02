@@ -2,6 +2,7 @@
 
 ## Basic syntax
 Comments:
+
 ```python title:"Comments"
 #this is a single line comment
 
@@ -12,6 +13,7 @@ to use the three "s.
 ```
 
 The basic math operation:
+
 ```python title:"Math"
 1 + 1 # => 2
 
@@ -44,6 +46,7 @@ The basic math operation:
 ```
 
 Booleans:
+
 ```python title:"Boolean operations"
 # Boolean values are primitives (Note: the capitalization)
 True   # => True
@@ -113,6 +116,7 @@ bool(2)   # => True
 ```
 
 Lists and strings:
+
 ```python title:"Lists and strings"
 # (is vs. ==) is checks if two variables refer to the same object, but == checks
 # if the objects pointed to have the same values.

@@ -176,7 +176,7 @@ You can write integer literals in any of the forms that are shown in the followi
 | Binary           | `0b1111_0000` |
 | Byte (`u8` only) | `b'A'`        |
 
-Note that number literals can use `_` as a visual separator to make the number easier to read (e.g., `1_000` is the same as `1000`). You can also add a type suffix, like `57u8`, to explicitly designate the type.
+	Note that number literals can use `_` as a visual separator to make the number easier to read (e.g., `1_000` is the same as `1000`). You can also add a type suffix, like `57u8`, to explicitly designate the type.
 
 #### Floating-point types
  Rust’s floating-point types are `f32` and `f64`, which are 32 bits and 64 bits in size, respectively. 
