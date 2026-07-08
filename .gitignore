@@ -20,12 +20,13 @@ content/universidade/necc/materialCurso/Material-Do-Curso/
 # Ignorar la papelera interna de Obsidian
 **/.trash/
 
-# Ignorar repositorios anidados y proyectos paralelos
-**/guessing_game/
-**/410game/
-**/whatIsTheCode/
-**/wordle/
-**/2025l1g145/
+# Ignorar carpetas enteras de código y proyectos
+**/projects/
+**/code-rust/
+**/code-c/
+**/code-python/
+**/code-haskell/
+**/practice/
 
 # Ignorar librerías de assets pesados (juegos)
 **/AssetsLib/

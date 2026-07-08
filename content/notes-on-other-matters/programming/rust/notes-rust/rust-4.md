@@ -2,6 +2,53 @@
 
 ## What is ownership?
 
+### Ownership rules
+1. Each value in Rust has a variable that's its owner.
+2. There can only be one owner at a time.
+3. When the owner goes out of scope, the value will be dropped.
+
+Example: Each value in Rust has a variable that's its owner.
+
+```Rust
+fn main(){
+	let s1 = String::from("Rust");
+	let len = calculate_length(&s1);
+	println("Length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &String) -> usize {
+	s.len()
+}
+```
+
+Example: There can be only one owner at a time.
+
+```Rust
+fn main(){
+	let s1 = String::from("Rust");
+	let s2 = s1;
+	println!("{}", s2); // if we use s1 here we would get a compiler error because s1 does not hold ownership of the string anymore.
+}
+```
+
+Example: When the owner goes out of scope, the value will be dropped.
+
+```Rust
+fn main(){
+	let s1 = String::from("Rust");
+	let len = calculate_length(&s1);
+	println!("Length of '{}' is {}.", s1, len);
+} // s1 goes out of scope and its value will be dropped
+
+fn printLosts(s: &string){
+	println!("{}", &s1);
+} // This function will cause a compiler error because its using a variable that it is not in scope anymore.
+
+fn calculate_length(s: &String) -> usize{
+	s.len() 
+}
+```
+
 ### Safety is the absence of undefined behavior
 A foundational goal of Rust is to ensure that your program never have undefined behaviour. Undefined behavior is especially dangerous for low-level programs with direct access to memory. 
 
@@ -182,7 +229,66 @@ fn add_suffix(mut name: String) -> String {
 - Heap data can only be accessed through it current owner, not a previous owner.
 
 ## References and borrowing 
-Ownership, boxes, and moves provide a foundation for safely programming with the heap. However, move-only APIs can be inconvenient to use. 
+Ownership, boxes, and moves provide a foundation for safely programming with the heap. However, move-only APIs can be inconvenient to use. References allow you to borrow values without taking ownership and they are created by adding the ampersand symbol before the variable("&");
+
+```Rust 
+fn main(){
+	let _x: i32 = 5;
+	let _r: &i32 = &x;
+	*_r += ;
+	println!("Value of _x : {}", _x)
+}
+```
+In the example above you will get a compiler error because `_r` is a `&` reference, so the data it refers to cannot be overwritten. This will change if we use the keyword `mut` when we create the reference.
+
+```Rust
+fn main(){
+	let mut _x: i32 = 5;
+	let _r: &mut i32 = &mut _x;
+	*_r += 1;
+	println!("Value of _x : {}", _x);
+}
+```
+
+### One mutable reference or many immutable references
+A little demonstration:
+
+```Rust 
+fn main(){
+	let mut account : BankAccount = BankAccount{
+		owner: "Alice".to_string(),
+		balance:150.55,
+	};
+	//Immutable borrow to check the balance
+	account.check_balance();
+
+	//Mutable borrow to withdraw money
+	account.withdraw(45.5);
+
+	// Immutable borrow to check the balance again
+	account.check_balance();
+}
+
+struct BankAccount{
+	owner: String,
+	balance: f64,
+}
+
+impl BankAccount {
+	fn withdraw(&mut self, amount: f64){
+		prinln!("Withdrawing {} from acount owned by {}", amount, self.owner);
+		self.balance -= amount;
+	}
+
+	fn check_balance(&self){
+		println!("Account owned by {} has a balance of {}", self.owner, self.balance);
+	}
+}
+```
+
+>[!NOTE] What is a struct?
+> A struct is a data structure that allows you to group multiple fields together under one name.
+
 
 ```Rust
 fn main(){
