@@ -9,7 +9,7 @@
 
 Example: Each value in Rust has a variable that's its owner.
 
-```Rust
+```rust
 fn main(){
 	let s1 = String::from("Rust");
 	let len = calculate_length(&s1);
@@ -23,7 +23,7 @@ fn calculate_length(s: &String) -> usize {
 
 Example: There can be only one owner at a time.
 
-```Rust
+```rust
 fn main(){
 	let s1 = String::from("Rust");
 	let s2 = s1;
@@ -33,7 +33,7 @@ fn main(){
 
 Example: When the owner goes out of scope, the value will be dropped.
 
-```Rust
+```rust
 fn main(){
 	let s1 = String::from("Rust");
 	let len = calculate_length(&s1);
@@ -58,7 +58,7 @@ Rust provides a particular way to think about memory. Ownership is a discipline 
 ### Variables live in the stack
 Variables live in frames. A frame is a mapping from variables to values within a single scope, such as a function. For example:
 
-```Rust
+```rust
 fn main() {
 	let n = 5; // L1
 	let y = plus_one(n); //L3
@@ -80,7 +80,7 @@ Frames are organized into a stack of currently-called-functions. After a functio
 
 When an expression reads a variable, the variable's value is copied from it's slot in the stack frame.
 
-```Rust
+```rust
 let a = 5; //L1
 let mut b = a; // L2
 b += 1; //L3
@@ -93,7 +93,7 @@ The value of `a` is copied into `b`, and `a` is left unchanged, even after chang
 ### Boxes live in the heap
 But copying data can take up a lot of memory. So to transfer access to data without copying it, Rust uses pointers. The value that a pointer points-to is called its pointee. One common way to make a pointer is to allocate memory in the heap. Heap data is not tied to a specific stack frame. Rust provides a construct calles `Box` for putting data on the heap. For example:
 
-```Rust
+```rust
 let a = Box::new([0; 1_000_000]); // L1
 let b = a; // L2
 ```
@@ -114,7 +114,7 @@ Rust automatically frees a box's heap memory.
 
 for example:
 
-```Rust
+```rust
 fn main(){
 	let a_num = 4; // L1
 	make_and_drop();
@@ -131,7 +131,7 @@ At L1, before calling `make_and_drop`, the state of memory is just the stack fra
 
 But to avoid the situation in which the boxed array is bound to two variables as in the following example:
 
-```Rust
+```rust
 let a = Box::new([0;1_000_000]);
 let b = a;
 ```
@@ -147,7 +147,7 @@ In the example above, `b` own the boxed array. Therefore when the scope ends, Ru
 ### Collection use boxes
 Boxes are used by Rust data structures to hold a variable number of elements. For example:
 
-```Rust
+```rust
 fn main() {
 	let first = String::from("Ferris"); // L1
 	let full = add_suffix(first); //L4
@@ -172,7 +172,7 @@ If you move a variable, Rust will stop you from using that variable later.
 
 > [!info] moved data principle: If a variable `x` moves ownership of heap to another variable `y`, then `x` cannot be used after the move.
 
-```Rust
+```rust
 fn main(){
 	let first = String::from("Ferris");
 	let full = add_suffix(first);
@@ -206,7 +206,7 @@ Moving ownership of heap data avoids undefined behavior from reading deallocated
 ### Cloning avoid moves
 One way to avoid data is to clone it using the `.clone()` method.
 
-```Rust
+```rust
 fn main(){
 	let first = String::from("Ferris");
 	let first_clone = first.clone(); // L1
@@ -231,7 +231,7 @@ fn add_suffix(mut name: String) -> String {
 ## References and borrowing 
 Ownership, boxes, and moves provide a foundation for safely programming with the heap. However, move-only APIs can be inconvenient to use. References allow you to borrow values without taking ownership and they are created by adding the ampersand symbol before the variable("&");
 
-```Rust 
+```rust 
 fn main(){
 	let _x: i32 = 5;
 	let _r: &i32 = &x;
@@ -241,7 +241,7 @@ fn main(){
 ```
 In the example above you will get a compiler error because `_r` is a `&` reference, so the data it refers to cannot be overwritten. This will change if we use the keyword `mut` when we create the reference.
 
-```Rust
+```rust
 fn main(){
 	let mut _x: i32 = 5;
 	let _r: &mut i32 = &mut _x;
@@ -253,7 +253,7 @@ fn main(){
 ### One mutable reference or many immutable references
 A little demonstration:
 
-```Rust 
+```rust 
 fn main(){
 	let mut account : BankAccount = BankAccount{
 		owner: "Alice".to_string(),
@@ -290,7 +290,7 @@ impl BankAccount {
 > A struct is a data structure that allows you to group multiple fields together under one name.
 
 
-```Rust
+```rust
 fn main(){
 	let m1 = String::from("Hello");
 	let m2 = String::from("World");
@@ -315,7 +315,7 @@ error[E0382]: borrow of moved value: `m1`
 
 This is inconvenient so as an alternative, `greet` could return ownership of the strings:
 
-```Rust
+```rust
 fn main(){
 	let m1 = String::from("Hello");
 	let m2 = String::from("World"); // L1
@@ -336,7 +336,7 @@ This clearly is not very optimal so Rust provides a concise style of reading and
 ### References are non-owning pointers
 A reference is a kind of pointer.
 
-```Rust
+```rust
 fn main(){
 	let m1 = String::new("Hello");
 	let m2 = String::new("World"); // L1
@@ -360,7 +360,7 @@ References are not-owning pointers, because they do not own the data they point 
 ### Dereferencing a pointer accesses its data
 This is a program that uses dereferences in multiple ways:
 
-```Rust
+```rust
 let mut x: Box<i32> = Box::new(1);
 let a: i32 = *x; // *x reads the heap value, so a = 1
 *x += 1;	// *x on the left-side modifies the heap value,
@@ -377,7 +377,7 @@ let c: i32 = *r2; //(L1) so only one dereference i needed to read it
 
 The dereference operator is not used very often because Rust implicitly insert dereferences and references in certain cases, such as calling a method with the dot operator.
 
-```Rust
+```rust
 fn main()  {
 	let x: Box<i32> = Box::new(-1);
 	let x_abs1 = i32::abs(*x); // explicit dereference
@@ -407,7 +407,7 @@ Pointers are powerful and dangerous because they enable aliasing. Aliasing is ac
 - By mutating the aliased data, invalidating runtime properties expected by the other variable. 
 - By concurrently mutating the aliased data, causing a data race with nondeterministic behavior for another variable.
 
-```Rust
+```rust
 fn main(){
 	let mut v: Vec<i32> = vec![1, 2, 3];
 	v.push(4);
@@ -426,7 +426,7 @@ Notice that the vector has a length (`len`) of 3 and a capacity (`cap`) of 3. Th
 
 This causes a problem. For example, when create a references to a vector's heap data because then that reference can be invalidated by a push.
 
-```Rust
+```rust
 fn main(){
 	let mut v: Vec<i32> = vec![1, 2, 3];
 	let num: &i32 = &v[2];
@@ -455,7 +455,7 @@ Borrow checkers is how Rust ensures the safety of references. The core idea behi
 These permissions do not exist at runtime, only within the compiler. They describe how the compiler "thinks" about your program before the program is executed.
 By default, a variable has read/own permissions on its data. If a variable is annotated with `let mut`, then it also has the write permission. The key idea is that references can temporarily remove these permissions. 
 
-```Rust 
+```rust 
 fn main() {
 	let mut v: Vec<i32> = vec![1, 2, 3];
 	let num: &i32 = &v[2];

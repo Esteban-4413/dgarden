@@ -1,9 +1,9 @@
 # Common programming concepts 
 ## Variables and mutability
-By default variables are immutable in Rust. This is because Rust prioritizes safety, so once a value is bound to a name, you can't change that value unless you explicitly ask for permission However, you still have the option to make them mutable. 
+By default variables are immutable in Rust. This is because rust prioritizes safety, so once a value is bound to a name, you can't change that value unless you explicitly ask for permission However, you still have the option to make them mutable. 
 So, for example the following code will generate a error message regarding an immutability error:
 
-```Rust
+```rust
 fn main(){
 	let x = 5;
 	println!("The value of x is: {x}");
@@ -37,7 +37,7 @@ error: could not compile `variables` (bin "variables") due to 1 previous error
 
 Although immutability is the default, you don't have to jump through functional programming hoops if you just need a standard counter or changing a state. You can opt-in to C-style mutability simply by adding `mut` in front of the variable name:
 
-```Rust
+```rust
 fn main() {
     let mut x = 5;
     println!("The value of x is: {x}");
@@ -56,7 +56,7 @@ Like immutable variables, constants are values that are bound to a name and are 
 ## Shadowing
 In C, if you try to declare a variable with the same name twice in the same scope, the compiler will yell at you. In Rust, you are allowed to declare a new variable with the same name as a previous one. The first variable is shadowed by the second, which means that the second variable is what the compiler will see when you use the name of the variable. We can shadow a variable by using the same variable's name and repeating the use of the `let` keyword as follows:
 
-```Rust
+```rust
 fn main(){
 	let x = 5;
 	let x = x + 1;
@@ -81,14 +81,14 @@ The value of x is: 6
 
 Shadowing is vastly different from marking a variable as `mut`. Since we are effectively creating a brand-new variable when we use `let`, we can change the type of the value but reuse the same name. This save us from having to invent dummy names like `spaces_str` and `spaces_num`. 
 
-```Rust
+```rust
 let spaces = "   ";
 let spaces = spaces.len();
 ```
 
 The first `spaces` variable is a string type, and the second `spaces` variable is a number type. However, if we try to use `mut` for this, as shown here, we'll get a compile-time error:
 
-```Rust 
+```rust 
 let mut spaces = "   ";
 spaces = spaces.len();
 ```
@@ -115,7 +115,7 @@ Like Haskell, Rust is a *statically typed language* with highly capable type inf
 
 However, in cases where many types are possible (like converting a string to a number), we must give the compiler a hint using a type annotation:
 
-```Rust
+```rust
 let guess: u32 = "42".parse().expect("Not a number!");
 ```
 
@@ -184,7 +184,7 @@ You can write integer literals in any of the forms that are shown in the followi
 ##### Numeric operations
 Rust supports the basic mathematical operations you’d expect for all the number types: addition, subtraction, multiplication, division, and remainder. Integer division truncates toward zero to the nearest integer.
 
-```Rust 
+```rust 
 fn main() {
     // addition
     let sum = 5 + 10;
@@ -207,7 +207,7 @@ fn main() {
 #### The boolean type 
 A boolean type in Rust has two possible value: `true` and `false`. Booleans are one byte in size.
 
-```Rust
+```rust
 fn main() {
     let t = true;
 
@@ -219,7 +219,7 @@ The main way to use Boolean values is through conditionals, such as an `if` expr
 #### The character type
 Rust's `char` type is the language's most primitive alphabetic type.
 
-```Rust
+```rust
 fn main() {
     let c = 'z';
     let z: char = 'ℤ'; // with explicit type annotation
@@ -245,13 +245,13 @@ A tuple groups together a number of values with a variety of different types. Th
 
 We crete a tuple by writing a comma-separated list of values inside parentheses: 
 
-```Rust 
+```rust 
 fn main() {
 	let tup: (i32, f64, u8) = (500, 6.4, 1);
 }
 ```
 
-```Rust
+```rust
 fn main(){
 	let tup = (500, 6.4, 1);
 	let (x, y, z) = tup;
@@ -269,7 +269,7 @@ This program creates a tuple and binds it to the variable `tup`. It then uses a 
 
 We can also access a tuple directly by using a period (`.`) followed by the index of the value we want to access.
 
-```Rust
+```rust
 fn main() {
 	let x : (i32, f64, u8) = (500, 6.4, 1);
 	let five_hundred = x.0;
@@ -282,7 +282,7 @@ A tuple without any values has a especial name, *unit*. This value and its corre
 
 Additionally, we can modify individual elements of a mutable tuple.
 
-```Rust
+```rust
 fn main() {
 	let mut x : (i32, i32) = (1, 2);
 	x.0 = 0;
@@ -295,7 +295,7 @@ Unlike tuples, every element of an array must have the same type. Arrays have a 
 
 Arrays are written as a comma-separated list inside square brackets. Like this:
 
-```Rust
+```rust
 fn main() {
     let a = [1, 2, 3, 4, 5];
 }
@@ -306,20 +306,20 @@ fn main() {
 
 You write an array's type using square brackets with the type of each element, a semicolon, and then the number of elements in the array.
 
-```Rust
+```rust
 let a : [132; 5] = [1, 2, 3, 4, 5]
 ```
 
 You can also initialize an array to contain the same value for each element by specifying the initial vale, followed by a semicolon, and then the length of the array in square brackets.
 
-```Rust
+```rust
 let a = [3; 5]; // [3, 3, 3, 3, 3]
 ```
 
 ##### Array element access
 You can access elements of an array using indexing. 
 
-```Rust
+```rust
 fn main() {
 	let a = [1, 2, 3, 4, 5];
 	let first = a[0];
@@ -333,7 +333,7 @@ We define a function using the `fn` keyword. Rust doesn't care where you define 
 ### Parameters (also called arguments)
 Just like in C, you must explicitly declare the type of each parameter in the function signature.
 
-```Rust
+```rust
 fn main() {
     another_function(5);
 }
@@ -356,7 +356,7 @@ We must declare the return type after an arrow (`->`). Because Rust is highly ex
 
 You can use the `return` keyword to return early (like in C), but most idiomatic Rust functions just leave the las expression without semicolon.
 
-```Rust
+```rust
 fn five() -> i32 {
     5
 }
@@ -371,7 +371,7 @@ fn main() {
 ## Comments 
 In Rust, he idiomatic comment style starts a comment with two slashes, and the comment continues until the end of the line. For comments that extend beyond a single line, you’ll need to include `//` on each line, like this:
 
-```Rust
+```rust
 // So we're doing something complicated here, long enough that we need
 // multiple lines of comments to do it! Whew! Hopefully, this comment will
 // explain what's going on.
@@ -379,7 +379,7 @@ In Rust, he idiomatic comment style starts a comment with two slashes, and the c
 
 Or you can use the multiline comment syntax with `/*` and `*/`:
 
-```Rust
+```rust
 /* So we’re doing something complicated here, long enough that we need
    multiple lines of comments to do it! Whew! Hopefully, this comment will
    explain what’s going on. */
@@ -389,7 +389,7 @@ Or you can use the multiline comment syntax with `/*` and `*/`:
 ### If expressions 
 You provide a condition and branch your code.
 
-```Rust
+```rust
 fn main() {
     let number = 3;
 
@@ -405,7 +405,7 @@ fn main() {
 #### Handling multiple conditions with `else if`
 You can use multiple conditions by combining if and else in an else if expression.
 
-```Rust
+```rust
 fn main() {
     let number = 6;
 
@@ -424,7 +424,7 @@ fn main() {
 #### Using `if` in a `let` statement 
 `if` is an expression so we can use it on the right side of a `let` statement to assign the outcome to a variable like this:
 
-```Rust
+```rust
 fn main() {
     let condition = true;
     let number = if condition { 5 } else { 6 };
@@ -434,7 +434,7 @@ fn main() {
 ```
 
 #### Repetition with loops
-Rust has three kinds of loops: `lopp`, `while`, and `for`
+rust has three kinds of loops: `loop`, `while`, and `for`
 
 ##### Repeating code with loop 
 The `loop` keyword executes a block of code forever. You use `break` to stop the loop, and `continue` to skip to the next iteration.
@@ -442,7 +442,7 @@ The `loop` keyword executes a block of code forever. You use `break` to stop the
 ##### Returning values from loops 
 One really cool feature is returning values from loops. You can add the value you want to return right after the `break` expression:
 
-```Rust
+```rust
 fn main() {
     let mut counter = 0;
 
@@ -461,7 +461,7 @@ fn main() {
 ##### Disambiguating with loops labels
 If you have nested loops, you can specify a loop label (which must begin with a single quote `'`) sp that your `break` or `continue` applies to that specific outer loop instead of the innermost one.
 
-```Rust
+```rust
 fn main() {
     let mut count = 0;
     'counting_up: loop {
@@ -488,7 +488,7 @@ fn main() {
 ##### Streamlining conditional loops with while
 Just like in C, the loop runs while the condition evaluates to `true`.
 
-```Rust
+```rust
 fn main() {
     let mut number = 3;
 
@@ -505,7 +505,7 @@ fn main() {
 ##### Looping through a collection with `for`
 You can use a `for` loop and execute some code for each item in a collection. Like this: 
 
-```Rust
+```rust
 fn main() {
     let a = [10, 20, 30, 40, 50];
 
@@ -527,7 +527,7 @@ fn main() {
 ## 1.
 Convert temperature between Fahrenheit and Celsius
 
-```Rust
+```rust
 fn f_to_c(){
     println!("Please enter the temperature in Fahrenheit");
 
@@ -572,7 +572,7 @@ fn converter(){
 ## 2.
 Generate the $n^{th}$ fibonacci number
 
-```Rust
+```rust
 fn nth_fibonacci(n : u32) -> u32 {
     if n == 0{
        return 0; 
@@ -696,7 +696,7 @@ Two turtle doves and
 A partridge in a pear tree
 ```
 
-```Rust 
+```rust 
 fn song() {
     for i in 1..=12 {
 
@@ -745,7 +745,7 @@ fn song() {
 
 ## The main program:
 
-```Rust
+```rust
 fn main() {
     loop {
         println!("What do you wanna do?");
