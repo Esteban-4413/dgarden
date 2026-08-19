@@ -104,3 +104,7 @@ tags:
 >[!quote]
 > "A programming language is for thinking about programs, not for expressing programs you've already thought of. It should be a pencil, not a pen"
 > — *Paul Graham*
+
+>[!quote]
+> “Nothing in the world can take the place of persistence.” 
+> — Calvin Coolidge

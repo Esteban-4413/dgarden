@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       LinkedIn: "https://www.linkedin.com/in/esteban-yepez-orozco-3899623ab",
       Instagram: "https://www.instagram.com/esteban_ypz23/",
       GitHub: "https://github.com/Esteban-4413/",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      Discord: "https://discord.gg/cRFFHYye7t",
     },
   }),
 }
@@ -47,7 +47,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.RecentNotes({
-      title: "Últimas Novedades",
+      title: "Novedades",
       limit: 5,
       showTags: false,
       filter: (f) => f.slug !== "index",

@@ -23,7 +23,8 @@ const config: QuartzConfig = {
 		"obsidian",
 		"daily",
 		"universidade/necc",
-		"TaskNotes"
+		"TaskNotes",
+    "docs"
 	],
     baseUrl: "esteban-4413.github.io/dgarden",
     defaultDateType: "modified",
@@ -31,7 +32,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "New York, Georgia, serif", // Tu fuente de Obsidian
+        header: "New York, Georgia, serif", 
         body: "Inter, sans-serif",
         code: "JetBrains Mono, monospace",
       },
