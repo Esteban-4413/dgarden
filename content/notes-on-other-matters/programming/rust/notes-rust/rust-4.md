@@ -187,7 +187,7 @@ fn add_suffix(mut name: String) -> String {
 
 Output:
 
-```Bash
+```bash
 error[E0382]: borrow of moved value: `first`
  --> test.rs:4:35
   |
@@ -307,7 +307,7 @@ fn greet (g1: String, g2: String){
 
 In this example, calling `greet` moves the data from `m1` and `m2` into the parameters of `greet`. Both strings are dropped at the end of `greet`, and therefore cannot be used within `main`. 
 
-```Bash
+```bash
 error[E0382]: borrow of moved value: `m1`
  --> test.rs:5:30
  (...rest of the error...)

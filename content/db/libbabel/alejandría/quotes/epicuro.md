@@ -99,5 +99,8 @@ tags:
 > "Somo people care more about the money than the poor: the rich"
 > — **Oscar Wilde**
 
-
 ---
+
+>[!quote]
+> "A programming language is for thinking about programs, not for expressing programs you've already thought of. It should be a pencil, not a pen"
+> — *Paul Graham*

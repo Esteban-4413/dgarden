@@ -14,7 +14,7 @@ fn main(){
 
 Output:
 
-```Bash
+```bash
 $ cargo run
    Compiling variables v0.1.0 (file:///projects/variables)
 error[E0384]: cannot assign twice to immutable variable `x`
@@ -70,7 +70,7 @@ fn main(){
 
 Output:
 
-```Bash
+```bash
 $ cargo run
    Compiling variables v0.1.0 (file:///projects/variables)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.31s
@@ -95,7 +95,7 @@ spaces = spaces.len();
 
 Output:
 
-```Bash
+```bash
 $ cargo run
    Compiling variables v0.1.0 (file:///projects/variables)
 error[E0308]: mismatched types
@@ -261,7 +261,7 @@ fn main(){
 
 Output:
 
-```Bash
+```bash
 The value of y is: 6.4
 ```
 
