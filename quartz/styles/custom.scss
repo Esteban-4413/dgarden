@@ -204,41 +204,56 @@ iframe[src$=".pdf"] {
 }
 
 /* ==========================================
-   CUSTOM NAV CARDS FOR HOMEPAGE
+   CUSTOM NAV CARDS FOR HOMEPAGE (CALLOUT VERSION)
    ========================================== */
 
 .cards-grid {
   display: grid;
-  /* Esto hace que las tarjetas sean responsivas (se apilan en el celular) */
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
-.nav-card {
-  padding: 1.5rem;
+/* Modificamos específicamente nuestro callout personalizado 'navcard' */
+.callout[data-callout="navcard"] {
+  margin: 0 !important; /* Para que encaje bien en el Grid */
+  border-radius: 12px !important;
+  border-left-width: 0px !important; /* Quitamos la raya lateral típica de los callouts */
   border: 1px solid var(--lightgray);
-  border-radius: 12px;
-  text-decoration: none !important; /* Quita el subrayado feo de los links */
-  color: inherit;
-  background-color: var(--light);
-  transition: all 0.3s ease; /* Animación suave */
+  background-color: var(--light) !important;
+  transition: all 0.3s ease;
+  padding: 1.2rem;
   
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    color: var(--tertiary);
+  /* El título (ej. 🎓 Universidad) */
+  .callout-title {
+    color: var(--tertiary) !important;
     font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    
+    /* Ocultamos el icono por defecto porque ya pusimos un emoji */
+    .callout-icon {
+      display: none;
+    }
   }
 
-  p {
-    margin: 0;
-    font-size: 0.95rem;
+  /* El contenido interno */
+  .callout-content {
     color: var(--gray);
+    font-size: 0.95rem;
     line-height: 1.4;
+    
+    /* Estilizamos el enlace que pusimos adentro para que no resalte feo */
+    a {
+       display: block;
+       margin-bottom: 0.5rem;
+       font-weight: bold;
+       color: var(--secondary);
+       text-decoration: none;
+    }
   }
 
-  /* El efecto al pasar el mouse */
+  /* Efecto Hover estilo Apple */
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);

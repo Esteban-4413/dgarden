@@ -11,24 +11,25 @@ I originally set this up simply to have my own study notes, algorithms, and proj
 
 Make yourself at home, explore the links.
 
-
 ### Map of the Garden
 Here is a quick breakdown of how things are organized around here:
 
 <div class="cards-grid">
-  <a href="/universidade/" class="nav-card">
-    <h3> Universidad</h3>
-    <p>My formal academic journey. Here you'll find notes on Mathematics, CS courses, schedules, and NECC stuff.</p>
-  </a>
-  <a href="/notes-on-other-matters/" class="nav-card">
-    <h3>Other Matters</h3>
-    <p>The self-taught rabbit holes.</p>
-  </a>
-  <a href="/db/" class="nav-card">
-    <h3>The Database</h3>
-    <p>My personal library and knowledge vault.</p>
-  </a>
+
+>[!navcard]  Universidad
+> [universidade](/universidade/)
+> My formal academic journey. Here you'll find notes on Mathematics, CS courses, , and much more I hope.
+
+>[!navcard]  Other Matters
+> [notes-on-other-matters](/notes-on-other-matters/)
+> The self-taught rabbit holes.
+
+>[!navcard]  The Database
+> [db](/db/)
+> My personal library and knowledge vault.
+
 </div>
+
 
 ### Links to some other stuff I have:
 - **YouTube:** [estebanquitoman](https://www.youtube.com/@estebanquitoman)
