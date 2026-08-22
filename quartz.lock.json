@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "default": {
+      "source": "github:quartz-themes/default",
+      "resolved": "https://github.com/quartz-themes/default.git",
+      "commit": "562600990a7957895a593dd0ffecdc02e4b33b7d",
+      "installedAt": "2026-08-22T09:19:53.534Z"
+    },
+    "obsidian-flavored-markdown": {
+      "source": "github:quartz-community/obsidian-flavored-markdown",
+      "resolved": "https://github.com/quartz-community/obsidian-flavored-markdown.git",
+      "commit": "dc9256d44b903d6188ef432626dd620090b88c3b",
+      "installedAt": "2026-08-22T09:19:41.920Z"
+    },
+    "syntax-highlighting": {
+      "source": "github:quartz-community/syntax-highlighting",
+      "resolved": "https://github.com/quartz-community/syntax-highlighting.git",
+      "commit": "071bdbd9b164be42018456c53e86a245c977649c",
+      "installedAt": "2026-08-22T09:19:48.335Z"
+    }
+  }
+}
