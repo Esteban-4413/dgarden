@@ -88,7 +88,7 @@ graph TD
     [ 10 ]"]
     
     Root -- "<= 5" --> L1
-    Root -- "> 5" --> L2
+    Root -- " > 5" --> L2
 ```
 
 5. Splitting the root (3 levels)
