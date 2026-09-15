@@ -1,3 +1,10 @@
+---
+tags:
+  - computer-science/programming/C
+  - computer-science
+  - computer-science/DataBases
+---
+
 # Part 3: An in-memory, append-only, single-table database
 
 The look of the hard-coded table structure:
@@ -269,3 +276,9 @@ main(int argc, char *argv[]) {
 	}
 }
 ```
+
+Next 
+-> [[part-4]]
+## Links
+- [[part-1]]
+- [[part-2]]

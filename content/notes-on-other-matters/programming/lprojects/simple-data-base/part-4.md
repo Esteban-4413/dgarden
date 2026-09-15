@@ -1,3 +1,8 @@
+---
+tags:
+  - computer-science/DataBases
+  - computer-science/programming/C
+---
 
 # Part 4: Fixing some bugs
 
@@ -133,3 +138,10 @@ int main(int argc, char *argv[]) {
 	}
 }
 ```
+
+# Next 
+-> [[part-5]]
+## Links 
+- [[part-1]]
+- [[part-2]]
+- [[part-3]]

@@ -241,3 +241,11 @@ Hex dump output:
   - Explanation: The ASCII string "esteban@gmail.com", followed by its null terminator and zero padding for the rest of the 256 allocated bytes.
 
 The exact same structure is repeated at offset `00000120` (approx 291 bytes later) for the second row containing ID `2` (`0200 0000`), username "who" (`7768 6f00`), and email "foo@bar.com" (`666f 6f40 6261 722e 636f 6d00`).
+
+# Next 
+-> [[part-6]]
+## Links 
+- [[part-1]]
+- [[part-2]]
+- [[part-3]]
+- [[part-4]]

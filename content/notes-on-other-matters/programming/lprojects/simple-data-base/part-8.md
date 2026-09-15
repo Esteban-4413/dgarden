@@ -1,3 +1,9 @@
+---
+tags:
+  - computer-science
+  - computer-science/programming/C
+  - computer-science/DataBases
+---
 
 # Part 8: B-Tree Leaf Node Format
 
@@ -32,7 +38,7 @@ The tutorial defines the memory offsets byte by byte. A "cell" represents a sing
 | Byte range | Field | Size | Description |
 | --- | --- | --- | --- |
 | 0 | `node_type` | 1 byte | Enum: `NODE_INTERNAL` or `NODE_LEAF` | 
-| 1 | `is_root | 1 byte | Boolean flag (using a full byte for simplicity) |
+| 1 | `is_root` | 1 byte | Boolean flag (using a full byte for simplicity) |
 | 2 - 5 | `parent_pointer` | 4 bytes | Points to the parent page number |
 | 6 - 9 | `num_cells` | 4 bytes | How many key/value pairs are currently in this node |
 | 10 - 13 | `key 0` | 4 bytes | the ID of the first row (`uint32_t`) |
@@ -102,3 +108,13 @@ void leaf_node_insert(Cursor* cursor, uint32_t key, Row* value) {
 ## Current limitations (to be fixed)
 1. No Splitting: If more than 13 rows are inserted, the program currently halts because leaf node splitting hasn't been implemented yet.
 2. Unsorted Data: Because `execute_insert()` still opens a cursor using `table_end()`, the new rows are blindly appended to the end of the node. The data is still unsorted.
+# Next 
+-> [[part-9.md]]
+## Links 
+- [[part-1]]
+- [[part-2]]
+- [[part-3]]
+- [[part-4]]
+- [[part-5]]
+- [[part-6]]
+- [[part-7]]

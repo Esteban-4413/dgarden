@@ -1,3 +1,9 @@
+---
+tags:
+  - computer-science/programming/C
+  - computer-science
+  - computer-science/DataBases
+---
 
 # Part 1: Introduction and Architecture
 ## Database Architecture
@@ -63,3 +69,5 @@ ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 Currently, the database recognizes a single meta-command:
 
 - `.exit`: Frees the allocated InputBuffer memory and terminates the program successfully (EXIT_SUCCESS).
+# Next 
+-> [[part-2]]

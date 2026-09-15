@@ -101,3 +101,12 @@ ExecuteResult execute_select(Statement* statement, Table* table) {
 }
 ```
 With this refactor complete, the virtual machine is effectively decoupled from the underlying storage mechanism, leaving us with a clean slate to begin building the B-Tree structure.
+
+# Next
+- [[part-7]]
+## Links 
+- [[part-1]]
+- [[part-2]]
+- [[part-3]]
+- [[part-4]]
+- [[part-5]]

@@ -87,8 +87,8 @@ graph TD
     L2["Right Child (Leaf)
     [ 10 ]"]
     
-    Root -- "<= 5" --> L1
-    Root -- " > 5" --> L2
+    Root -- "less or equal than 5" --> L1
+    Root -- " greater than 5" --> L2
 ```
 
 5. Splitting the root (3 levels)
@@ -126,3 +126,12 @@ graph TD
 
 >[!note] Key takeaway
 > The depth of the tree only increases when the root node splits, Because of this, every single leaf node will always be at the exact same depth, guaranteeing that the tree remains perfectly balanced.
+# Next 
+-> [[part-8]]
+## Links 
+- [[part-1]]
+- [[part-2]]
+- [[part-3]]
+- [[part-4]]
+- [[part-5]]
+- [[part-6]]

@@ -1,7 +1,7 @@
 # Azulejos
 
->[!warning] 🚧 CAUTION: This place is still under construction 🚧
-> **Hard hat required.** This digital garden is currently under heavy construction. You might step on some half-finished code, broken links, or unfiltered thoughts. Be safe out there!
+>[!warning] CAUTION: This place is still under construction
+> This digital garden is currently under construction. You might step on some half-finished code, broken links, or unfiltered thoughts.
 
 Hi, I'm Esteban!
 

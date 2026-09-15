@@ -3,7 +3,6 @@ title: "Teoria de Números: Teoremas"
 tags:
   - math/matematica-discreta
   - math/teoria-de-numeros
-  - estudo
 ---
 
 # Matemática Discreta: Teoremas de Congruências

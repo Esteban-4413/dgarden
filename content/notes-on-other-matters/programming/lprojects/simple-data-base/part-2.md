@@ -1,3 +1,9 @@
+---
+tags:
+  - computer-science
+  - computer-science/programming/C
+  - computer-science/DataBases
+---
 
 # Part 2: SQL Compiler and Virtual Machine
 
@@ -131,3 +137,8 @@ void execute_statement(Statement* statement) {
   }
 }
 ```
+
+# Next 
+-> [[part-3]]
+## Links
+- [[part-1]]
