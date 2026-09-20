@@ -16,22 +16,19 @@ Here is a quick breakdown of how things are organized around here:
 
 <div class="cards-grid">
 
-> [!navcard]
-> > Universidade
+> [!navcard] Universidade
 > > [[universidade]]
 >
 > **My formal academic journey.** Here you'll find notes on Mathematics, CS courses, and university projects. 
 > <br>
 > *Esta colecção não deve ser usada como substituto às aulas e material disponibilizado pelos professores. A sua intenção é servir apenas como um complemento ao estudo.*
 
-> [!navcard]
-> > The Database
+> [!navcard] The Database
 > > [[db]]
 >
 > **My personal library and knowledge vault.** A curated space for my favorite book quotes, future film reviews, random reflections, and any fragment of thought worth preserving.
 
-> [!navcard]
-> > Rabbit Hole
+> [!navcard] Rabbit Hole
 > > [[rabbit-hole]]
 >
 > **The self-taught rabbit holes.** Independent explorations, deep dives into new technologies, and any technical obsession I decide to pursue outside of the university curriculum.

@@ -1,16 +1,13 @@
 ---
 pdf:
 ---
+# My opinion
+*coming soon*
+
 # Notes
+*coming soon*
 
 ## Citas
 
-> "{...}"
-> — *pg x*
-
-> "{...}"
-> — *pg x*
-
----
 
 ## Links

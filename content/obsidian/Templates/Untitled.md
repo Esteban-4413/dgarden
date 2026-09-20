@@ -1,4 +1,5 @@
 ---
+tags:
 ---
 > [!info] Section map
 > Here you'll find
