@@ -260,3 +260,40 @@ iframe[src$=".pdf"] {
     border-color: var(--tertiary);
   }
 }
+/* ==========================================
+   ZOOTTELKEEPER INDEX GRID
+   ========================================== */
+.index-grid ul {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  list-style: none !important;
+  margin-top: 1.5rem;
+}
+
+.index-grid li {
+  background-color: var(--light) !important;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 0 !important;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    border-color: var(--tertiary);
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondary) !important;
+    display: block;
+    font-size: 1.1rem;
+  }
+}
+
+

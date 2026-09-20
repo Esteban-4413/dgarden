@@ -16,12 +16,6 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
-
-
-
-
-
-
 #  Citas Favoritas
 
 ## I. Mexicanos perdidos en México (1975)

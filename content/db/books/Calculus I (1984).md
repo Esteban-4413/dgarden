@@ -17,25 +17,3 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
-![[universidade/1ano/1semestre/CALC1/Bibliografías /biblio2.pdf|biblio2]]
-
-
-
-
-
-##  Citas Favoritas
-
-> "[Escribe aquí la cita que más te gustó]"
-> — *Página XX*
-
-> "[Segunda cita]"
-> — *Capítulo X*
-
----
-
-##  Reflexiones Personales
-
-
-##  Conexiones
-
-- **Temas relacionados:** [[ ]]

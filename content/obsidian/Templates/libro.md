@@ -1,12 +1,9 @@
 ---
 pdf:
 ---
+# Notes
 
-
-
-
-
-# CItas
+## Citas
 
 > "{...}"
 > — *pg x*
@@ -16,7 +13,4 @@ pdf:
 
 ---
 
-# New words
-....
-
-# Links
+## Links

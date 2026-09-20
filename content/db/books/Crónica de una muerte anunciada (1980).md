@@ -20,21 +20,3 @@ tags: mediaDB/book
 ---
 
 
-
-
-
-
-# CItas
-
-> "{...}"
-> — *pg x*
-
-> "{...}"
-> — *pg x*
-
----
-
-# New words
-....
-
-# Links

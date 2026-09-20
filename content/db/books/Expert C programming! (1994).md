@@ -17,24 +17,3 @@ released: true
 tags: mediaDB/book
 ---
 ![[Expert_C_Programming-_Deep_C_Secrets.pdf]]
-
-
-
-
-
-##  Citas Favoritas
-
-> "[Escribe aquí la cita que más te gustó]"
-> — *Página XX*
-
-> "[Segunda cita]"
-> — *Capítulo X*
-
----
-
-##  Reflexiones Personales
-
-
-##  Conexiones
-
-- **Temas relacionados:** [[ ]]

@@ -17,4 +17,3 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
-![[biblio1AM.pdf]]

@@ -22,4 +22,3 @@ lastRead: ""
 personalRating: 0
 tags: mediaDB/book
 ---
-![[biblio1MD.pdf]]

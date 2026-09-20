@@ -16,12 +16,3 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
-# Key notes
-
-> "{...}"
-> — *pg x*
-
-> "{...}"
-> — *pg x*
-
----

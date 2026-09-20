@@ -16,4 +16,3 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
-![[universidade/1ano/1semestre/AL/Bibliografías/biblio1.pdf|biblio1]]
