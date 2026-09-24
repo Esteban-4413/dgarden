@@ -24,7 +24,7 @@ const config: QuartzConfig = {
 		"daily",
 		"universidade/1ano/2semestre/MdC/work",
 		"TaskNotes",
-    "docs"
+    "docs",
     "universidade/necc"
 	],
     baseUrl: "esteban-4413.github.io/dgarden",
