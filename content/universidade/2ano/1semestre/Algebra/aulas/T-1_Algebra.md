@@ -1,6 +1,6 @@
 # Elementos da teoria de grupos
 
-## 1.1 Grupóides, semigrupos e Monoides
+## 1. Grupóides, semigrupos e Monoides
 
 ```mermaid
 flowchart TD
@@ -17,12 +17,14 @@ flowchart TD
         end
     end
 ```
+$\text$
 
-$\textbf{Definição 1.1.1}$ Seja $X$ um conjunto. **Uma operação binária** (interna) em X é uma função $*: X \times X \to X \text{, } \, (x, y) \mapsto x * y$. Uma operação binária $*$ em $X$ diz-se:
+
+$\textbf{Definição}$ Seja $X$ um conjunto. **Uma operação binária** (interna) em X é uma função $*: X \times X \to X \text{, } \, (x, y) \mapsto x * y$. Uma operação binária $*$ em $X$ diz-se:
 - **Associativa** se para cada três elementos $x, y, z \in X \text{, } \, (x*y)*z = x * (y * z).$
 - **Comutativa** se para cada dois elementos $x, y \in X \text{,} \, x * y = y * x$.
 
-$\textbf{Exemplo 1.1.2}$ 
+$\textbf{Exemplo}$ 
 - (i) A adição $+$ e a multiplicação $\cdot$ são operações associativas e comutativas em $\mathbb{N}, \, \mathbb{Z}, \, \mathbb{Q}, \, e \, \mathbb{R}$.
 - (ii) A substração $-$, não sendo nem associativa nem comutativa, é uma operação binária em $\mathbb{Z}$, $\mathbb{Q}$, e $\mathbb{R}$, mas não em $\mathbb{N}$.
 - (iii) $a*b = |a - b|$ em $\mathbb{N}$ é comutativa mas não associativa.
@@ -52,4 +54,5 @@ $\textbf{Exemplo}$. A tabela de Cayley da reunião no conjunto potência de um c
 | $X$         | $X$         | $X$ |
 
 
-$\textbf{Definição}$. Um **grupóide** é
+$\textbf{Definição}$. Um **grupóide** é um par $(X, *)$ em que $X$ é um conjunto não vazio e $*$ é uma operação binária em $X$. Um **semigrupo** é um grupóide associativo, isto é, um grupóide cuja operação é associativa.
+  - $X$ é chamado o **conjunto serpente** de grupoide
