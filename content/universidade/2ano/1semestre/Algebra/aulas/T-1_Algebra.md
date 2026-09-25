@@ -17,7 +17,9 @@ flowchart TD
         end
     end
 ```
-$\text$
+
+
+%%$\textbf{Definição}$ TO-DO!%%
 
 
 $\textbf{Definição}$ Seja $X$ um conjunto. **Uma operação binária** (interna) em X é uma função $*: X \times X \to X \text{, } \, (x, y) \mapsto x * y$. Uma operação binária $*$ em $X$ diz-se:

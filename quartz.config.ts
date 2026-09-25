@@ -33,9 +33,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "New York, Georgia, serif", 
-        body: "Inter, sans-serif",
-        code: "JetBrains Mono, monospace",
+        header: "Lora", 
+        body: "Lora",
+        code: "JetBrains Mono",
       },
 		colors: {
 			lightMode: {

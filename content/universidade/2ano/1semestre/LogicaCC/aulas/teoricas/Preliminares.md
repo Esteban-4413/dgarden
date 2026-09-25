@@ -1,12 +1,18 @@
 # Preliminares de Lógica: Definições Indutivas e Linguagens
 
 ## Definições Indutivas de Conjuntos
-* Uma definição indutiva é um mecanismo útil para definir conjuntos, de uso frequente em Ciências da Computação.
+* Uma definição indutiva é um mecanismo para definir conjuntos.
 * Para definir um conjunto indutivo sobre um conjunto suporte $X$, precisamos de:
   * Uma **base** $B$, que é um subconjunto não vazio de $X$.
   * Um **conjunto de operações** $O$ em $X$ (funções do tipo $X^n \rightarrow X$).
 * Um subconjunto $I$ de $X$ é considerado indutivo se contém a base ($B \subseteq I$) e é fechado para as operações de $O$ (a aplicação das operações a elementos de $I$ produz elementos que também pertencem a $I$).
 * O **conjunto definido indutivamente** (ou gerado) é o *menor* conjunto indutivo de base $B$ e conjunto de operações $O$.
+
+$\textbf{Exemplo}$: Seja $C$ o menor subconjunto de $\mathbb{N}_0$ que satisfaz as seguintes condições:
+  1. $0 \in C$
+  2. $\forall_{n \in \mathbb{N}_0}$, se $n \in C$, então $n + 2 \in C$.
+
+
 
 ## Alfabetos e Linguagens
 * **Alfabeto**: É um conjunto de símbolos, sendo os seus elementos chamados de letras.
