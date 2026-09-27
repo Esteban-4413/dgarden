@@ -72,7 +72,7 @@ max3 :: Ord p => p -> p -> p -> p
 max3 x y z = max2 (max2 x y) z
 ```
 
-## 2) Defina as seguintes funções sobre polinómios de 2º grau:
+### 2) Defina as seguintes funções sobre polinómios de 2º grau:
 
 a) A função nRaizes que recebe os (3) coeficientes de um polinómio de 2º grau e que calcula o número de raízes (reais) desse polinómio.
 
@@ -98,7 +98,7 @@ raizes a b c
           (x1,x2) = (((-b) + sqrt delta)/ (2*a), ((-b) - sqrt delta)/ (2*a))
 ```
 
-## 3) Vamos representar horas por um par de números inteiros:
+### 3) Vamos representar horas por um par de números inteiros:
 
  `type Hora = (Int,Int)`
 
@@ -146,7 +146,7 @@ addMins :: Hora -> Int -> Hora
 addMins (h, m) min = min2hour (hour2min (h, m) + min)
 ```
 
-## 4) Repita o exercício anterior assumindo agora que as horas são representadas por um novo tipo de dados:
+### 4) Repita o exercício anterior assumindo agora que as horas são representadas por um novo tipo de dados:
 
 `data Hora = H Int Int deriving (Show,Eq)`
 
@@ -194,7 +194,7 @@ addMins :: Hora -> Int -> Hora
 addMins (h, m) min = min2hour (hour2min (h, m) + min)
 ```
 
-## 5) Considere o seguinte tipo de dados para representar os possíveis estados de um semáforo:
+### 5) Considere o seguinte tipo de dados para representar os possíveis estados de um semáforo:
 
  `data Semaforo = Verde | Amarelo | Vermelho deriving (Show, Eq)`
 
@@ -221,11 +221,11 @@ safe :: Semaforo -> Semaforo -> Bool
 safe s1 s2 = s1 == Vermelho || s2 == Vermelho
 ```
 
-## 6) Um ponto num plano pode ser representado por um sistema de coordenadas Cartesiano (distâncias aos eixos vertical e horizontal) ou por um sistema de coordenadas Polar (distância à origem e ângulo do respetivo vector com o eixo horizontal).
+### 6) Um ponto num plano pode ser representado por um sistema de coordenadas Cartesiano (distâncias aos eixos vertical e horizontal) ou por um sistema de coordenadas Polar (distância à origem e ângulo do respetivo vector com o eixo horizontal).
 
  `data Ponto = Cartesiano Double Double | Polar Double Double deriving (Show,Eq)`
 
-## Com este tipo o ponto Cartesiano (-1) 0 pode alternativamente ser representado por Polar 1 pi. Defina as seguintes funções:
+Com este tipo o ponto Cartesiano (-1) 0 pode alternativamente ser representado por Polar 1 pi. Defina as seguintes funções:
 
 a) `posx :: Ponto -> Double` que calcula a distância de um ponto ao eixo vertical.
 
@@ -269,7 +269,7 @@ dist :: Ponto -> Ponto -> Double
 dist ponto1 ponto2 = sqrt (((posx ponto1 - posx ponto2) ^ 2) + (posy ponto1 - posy ponto2) ^ 2)
 ```
 
-## 7) Considere o seguinte tipo de dados para representar figuras geométricas num plano.
+### 7) Considere o seguinte tipo de dados para representar figuras geométricas num plano.
 
 ```hs
 data Figura = Circulo Ponto Double
@@ -331,7 +331,7 @@ perimetro (Retangulo p1 p2) = 2 * abs (posx p2 - posx p1) + 2 * abs (posy p2 - p
 perimetro (Triangulo p1 p2 p3) = dist p1 p2 + dist p2 p3 + dist p1 p3
 ```
 
-## 8) Utilizando as funções `ord :: Char -> Int` e `chr :: Int -> Char` do módulo Data.Char, defina as seguintes funções (note que todas estas funções já estão também pré-definidas nesse módulo):
+### 8) Utilizando as funções `ord :: Char -> Int` e `chr :: Int -> Char` do módulo Data.Char, defina as seguintes funções (note que todas estas funções já estão também pré-definidas nesse módulo):
 
  a) `isLower :: Char -> Bool`, que testa se um `Char` é uma minúscula.
 

@@ -22,7 +22,6 @@ const config: QuartzConfig = {
 		".obsidian",
 		"obsidian",
 		"daily",
-		"universidade/1ano/2semestre/MdC/work",
 		"TaskNotes",
     "docs",
     "universidade/necc"
