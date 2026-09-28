@@ -17,14 +17,14 @@ Secretário:
 
 # Departamentos 
 
-## Pedagógico
+### Pedagógico
 Diretor: Pedro Rosa
 Co-diretor: Pedro Gomes
 Integrantes:
   - Bonifácio 
   - Gonçalo Sousa
 
-## Comunicação
+### Comunicação
 Diretor: Rafaela
 Co-diretor: Artur
 Integrantes:
@@ -32,17 +32,40 @@ Integrantes:
   - Inês Rebelo
   - David Lobo
 
-## Desenvolvimento 
+### Desenvolvimento 
 Diretor: Carlos 
-Co-diretor: Taveira
+Co-diretor: Nizzo 
 Integrantes:
   - Pedro Silva
+  - Taveira
+  - Mossi
 
-## Recreativo
+### Recreativo
 Diretor: Ze novais
-Co-diretor: Nizzo
+Co-diretor: Martim  
 Integrantes:
-  - Martim
   - Nuno
 
-total de membros: 26
+total de membros: 27
+
+# Colaboradores
+
+## Desenvolvimento
+- Pietro
+- Salvador
+- Pedro Lemos
+- Fábio
+- Rafael Cação
+- Roberto Esteves
+
+## Comunicação 
+- João Lemos
+- Beatriz Mouta 
+
+## Recreativo
+- Heitor 
+
+## Pedagógico
+- Gabriel Rocha
+
+total de colaboradores: 10

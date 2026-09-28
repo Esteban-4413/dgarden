@@ -1,5 +1,5 @@
 # Elementos da teoria de grupos — Aula 1 (16/09)
-
+Introdução à teoría de grupos em [[Group_theory]]
 ## 1. Grupóides e Semigrupos
 
 ```mermaid

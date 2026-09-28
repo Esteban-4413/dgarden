@@ -94,6 +94,6 @@ Repare-se que não é preciso provar que $(b^{-1}a^{-1})(ab) = 1_G$
  
 ## Exemplos extra
  
-1. **Em $\mathbb{Z}_6 = \{0,1,2,3,4,5\}$** (aditivo, mod 6): o simétrico de $2$ é $4$ (pois $2+4=0$); o simétrico de $0$ é $0$. Confere com (ii): $-(-2) = -4 = 2$. ✓
-2. **Em $GL_2(\mathbb{R})$** (multiplicativo, visto na Aula 3): sejam $A = \begin{pmatrix}1&1\\0&1\end{pmatrix}$, $B=\begin{pmatrix}2&0\\0&1\end{pmatrix}$. Calcula-se $(AB)^{-1}$ diretamente e compara-se com $B^{-1}A^{-1}$ — confirma (iii) num grupo **não abeliano**.
-3. **Em $S_3$** (grupo simétrico, visto na Aula 3): sejam $\sigma = (1\,2)$, $\tau=(1\,2\,3)$. Como $S_3$ não é abeliano, $(\sigma\tau)^{-1} = \tau^{-1}\sigma^{-1} \neq \sigma^{-1}\tau^{-1}$ em geral — bom exemplo para ver porque a ordem em (iii)/(iv) importa de verdade (não é só decoração).
+1. Em $\mathbb{Z}_6 = \{0,1,2,3,4,5\}$** (aditivo, mod 6): o simétrico de $2$ é $4$ (pois $2+4=0$); o simétrico de $0$ é $0$. Confere com (ii): $-(-2) = -4 = 2$. ✓
+2. Em $GL_2(\mathbb{R})$ (multiplicativo, visto na Aula 3): sejam $A = \begin{pmatrix}1&1\\0&1\end{pmatrix}$, $B=\begin{pmatrix}2&0\\0&1\end{pmatrix}$. Calcula-se $(AB)^{-1}$ diretamente e compara-se com $B^{-1}A^{-1}$ — confirma (iii) num grupo **não abeliano**.
+3. Em $S_3$ (grupo simétrico, visto na Aula 3): sejam $\sigma = (1\,2)$, $\tau=(1\,2\,3)$. Como $S_3$ não é abeliano, $(\sigma\tau)^{-1} = \tau^{-1}\sigma^{-1} \neq \sigma^{-1}\tau^{-1}$ em geral — bom exemplo para ver porque a ordem em (iii)/(iv) importa de verdade (não é só decoração).

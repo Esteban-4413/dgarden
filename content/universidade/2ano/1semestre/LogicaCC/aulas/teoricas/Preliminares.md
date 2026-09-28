@@ -134,7 +134,7 @@ Repara no padrão: nos casos indutivos, o valor da função em algo *construído
 
 ### Exemplo — recursão sobre $C$
 
-Existe uma única $f: C \to \mathbb{N}_0$ tal que $f(0)=0$ e $f(n+2) = 1+f(n)$ para todo $n \in C$. Prova-se (por indução estrutural em $C$) que $f(n) = n/2$ para todo $n \in C$.
+	Existe uma única $f: C \to \mathbb{N}_0$ tal que $f(0)=0$ e $f(n+2) = 1+f(n)$ para todo $n \in C$. Prova-se (por indução estrutural em $C$) que $f(n) = n/2$ para todo $n \in C$.
 
 ## 6. Quando a recursão falha: definições indutivas não deterministas
 
