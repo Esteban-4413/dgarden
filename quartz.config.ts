@@ -37,31 +37,31 @@ const config: QuartzConfig = {
         code: "JetBrains Mono",
       },
 		colors: {
-			lightMode: {
-				light: "#eff1f5",
-				lightgray: "#e6e9ef",
-				gray: "#bcc0cc",
-				darkgray: "#4c4f69",
-				dark: "#5c5f77",
-				secondary: "#1e66f5",
-				tertiary: "#7287fd",
-				highlight: "rgba(30, 102, 245, 0.15)",
-				textHighlight: "#fff23688",
-			},
-			darkMode: {
-				light: "#1e1e2e",        // Catppuccin Mocha Base
-				lightgray: "#313244",    // Catppuccin Mocha Surface0
-				gray: "#a6adc8",         // Catppuccin Mocha Subtext0
-				darkgray: "#cdd6f4",     // Texto principal de alto contraste
-				dark: "#bac2de",         // Títulos
-				secondary: "#89b4fa",    // Links
-				tertiary: "#b4befe",     // Acento secundario
-				highlight: "rgba(137, 180, 250, 0.15)",
-				textHighlight: "#b3aa0288",
-			},
-		},
+        lightMode: {
+          light: "#eff1f5",        // Catppuccin Latte Base
+          lightgray: "#ccd0da",    // Catppuccin Latte Surface0 (bordes)
+          gray: "#6c6f85",         // Catppuccin Latte Subtext0 (metadatos)
+          darkgray: "#4c4f69",     // Texto principal
+          dark: "#8839ef",         // Catppuccin Latte Mauve (Títulos H1/H2)
+          secondary: "#1e66f5",    // Catppuccin Latte Blue (Links)
+          tertiary: "#179299",     // Catppuccin Latte Teal (Hover)
+          highlight: "rgba(30, 102, 245, 0.15)",
+          textHighlight: "#df8e1d88", // Catppuccin Latte Yellow (Resaltado)
+        },
+        darkMode: {
+          light: "#1e1e2e",        // Catppuccin Mocha Base
+          lightgray: "#313244",    // Catppuccin Mocha Surface0 (bordes)
+          gray: "#a6adc8",         // Catppuccin Mocha Subtext0 (metadatos)
+          darkgray: "#cdd6f4",     // Texto principal
+          dark: "#cba6f7",         // Catppuccin Mocha Mauve (Títulos H1/H2)
+          secondary: "#89b4fa",    // Catppuccin Mocha Blue (Links)
+          tertiary: "#94e2d5",     // Catppuccin Mocha Teal (Hover)
+          highlight: "rgba(137, 180, 250, 0.15)",
+          textHighlight: "#f9e2af88", // Catppuccin Mocha Yellow (Resaltado limpio)
+        },
+      },
     },
-    },
+  },
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
@@ -97,7 +97,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Plugin.CustomOgImages(), // Desactivado para evitar errores de despliegue
+      Plugin.CustomOgImages(),
     ],
   },
 }
