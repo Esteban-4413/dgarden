@@ -93,3 +93,5 @@ Pede-se:
 1. Apresente um invariante adequado para o ciclo.
 2. Escreva os triplos de Hoare correspondentes à inicialização, preservação, e utilidade do invariante, e argumente informalmente que são válidos 
 
+# Reference:
+- [[../../resources/C1.pdf]]

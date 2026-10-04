@@ -71,7 +71,9 @@ $\textbf{Proposição.}$ Seja $(M, \cdot)$ um monóide e seja $a \in M$ um eleme
 
 $\textbf{Demonstração.}$ Tem-se $$ax=b \implies a^{-1}(ax) = a^{-1}b \implies x=a{-1}b$$ Logo $a^{-1}b$ é a única solução da equação $ax = b$. Analogamente, $ba^{-1}$ é a única solução da equação $ya = b.$
 
-Resolução do exercício 1.23 da [[folha-1_algebra.pdf | folha 1]]
+Resolução do exercício 1.23 da 
+>[!navcard]- Folha 1
+> ![[folha-1_algebra.pdf | folha 1]]
 
 | $\cdot$ | a   | b   | c   |
 | ------- | --- | --- | --- |
