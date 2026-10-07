@@ -3,7 +3,7 @@ topic: Algoritmo de Euclides
 date: 2026-02-13
 course: Matemática Discreta
 tags:
-  - Universidade
+  - universidade
   - math
   - math/matematica-discreta
 ---

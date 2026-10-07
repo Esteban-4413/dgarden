@@ -3,14 +3,14 @@ topic:
 date: 2026-02-13
 course:
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming
   - computer-science/programming/haskell
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---
 # Ficha 2
-
+[[ficha2-PF.pdf]]
 
 ## Ficha 2: Funções recursivas sobre listas
 1) Indique como é que o interpretador de Haskell avalia as expressões das alíneas que se seguem, apresentando a cadeia de redução de cada uma dessas expressões (i.e., os vários passos intermédios até se chegar ao valor final)

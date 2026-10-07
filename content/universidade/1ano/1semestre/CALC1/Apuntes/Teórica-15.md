@@ -3,7 +3,7 @@ topic: Primitivas
 date: 2025-12-15
 course: Cálculo
 tags:
-  - Universidade
+  - universidade
   - "#math/calculus/SeriesDeTaylor"
   - math/calculus
   - math

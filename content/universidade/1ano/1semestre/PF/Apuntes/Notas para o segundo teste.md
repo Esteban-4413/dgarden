@@ -3,7 +3,7 @@ topic:
 date: 2026-02-13
 course:
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming
   - computer-science/programming/haskell
 excalidraw-plugin: parsed

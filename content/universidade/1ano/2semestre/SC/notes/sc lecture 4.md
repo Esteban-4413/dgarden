@@ -3,7 +3,7 @@ topic: Representations of information
 date: 2026-02-12
 course: Sistemas de Computação
 tags:
-  - Universidade
+  - universidade
   - computer-science/sistemasDeComputação
   - computer-science/sistemasDeComputação/representationOfInformation
   - computer-science

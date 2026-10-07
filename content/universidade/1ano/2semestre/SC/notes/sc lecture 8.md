@@ -3,7 +3,7 @@ topic: Representation of numbers
 date: 2026-02-26
 course: Sistemas de Computação
 tags:
-  - Universidade
+  - universidade
 ---
 # sc lecture 8
 

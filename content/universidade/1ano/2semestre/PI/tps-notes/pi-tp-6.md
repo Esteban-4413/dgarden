@@ -3,7 +3,7 @@ topic: C
 date: 2026-03-17
 course:
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming/C
   - computer-science
   - computer-science/pi

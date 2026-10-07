@@ -3,7 +3,7 @@ excalidraw-plugin: parsed
 tags:
   - excalidraw
   - math
-  - Universidade
+  - universidade
   - math/TópicosFundamentaisDeMatemática
 excalidraw-open-md: true
 date: 2026-01-06

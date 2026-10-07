@@ -3,7 +3,7 @@ topic: Congruencias
 date: 2026-03-21
 course: Matemática Discreta
 tags:
-  - Universidade
+  - universidade
   - math/matematica-discreta
   - math
   - math/matematica-discreta

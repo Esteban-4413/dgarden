@@ -1,3 +1,6 @@
+# Ficha 3
+[[ficha3-PF.pdf]]
+
 1. Assumindo que uma hora é representada por um par de inteiros, uma viagem pode ser representada por uma sequência de etapas, onde cada etapa é representada por um par de horas (partida, chegada):
 
 ```hs

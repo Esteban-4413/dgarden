@@ -3,7 +3,7 @@ topic: Funções de varias variaveis
 date: 2026-02-19
 course: Análise Matemática
 tags:
-  - Universidade
+  - universidade
   - math/calculus
   - math/calculus
 ---

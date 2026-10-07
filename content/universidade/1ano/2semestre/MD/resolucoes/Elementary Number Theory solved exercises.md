@@ -3,7 +3,7 @@ topic: Divisibilidade
 date: 2026-02-21
 course: Matemática Discreta
 tags:
-  - Universidade
+  - universidade
   - math
   - vocabulario/english
   - math

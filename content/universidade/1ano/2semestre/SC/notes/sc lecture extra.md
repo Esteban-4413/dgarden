@@ -3,7 +3,7 @@ topic: Sistemas de computação
 date: 2026-02-19
 course: Sistemas de Computação
 tags:
-  - Universidade
+  - universidade
   - computer-science/sistemasDeComputação
   - computer-science
 ---

@@ -1,5 +1,5 @@
 ---
-pdf: "[[Expert_C_Programming-_Deep_C_Secrets.pdf]]"
+pdf:
 type: book
 title: Expert C programming!
 englishTitle: Expert C programming!
@@ -17,3 +17,13 @@ released: true
 tags: mediaDB/book
 ---
 ![[Expert_C_Programming-_Deep_C_Secrets.pdf]]
+# My opinion
+*coming soon*
+
+# Notes
+*coming soon*
+
+## Citas
+
+
+## Links

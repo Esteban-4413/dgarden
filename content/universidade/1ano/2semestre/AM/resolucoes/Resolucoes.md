@@ -3,7 +3,7 @@ topic: Cálculo
 date: 2026-03-27
 course: Análise Matemática
 tags:
-  - Universidade
+  - universidade
   - math
   - math
   - math/calculus

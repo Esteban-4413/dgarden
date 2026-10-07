@@ -3,7 +3,7 @@ topic:
 date: 2026-02-13
 course:
 tags:
-  - Universidade
+  - universidade
   - math
   - math/linearAlgebra
 excalidraw-plugin: parsed

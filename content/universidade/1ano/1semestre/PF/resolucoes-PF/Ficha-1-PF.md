@@ -3,13 +3,14 @@ topic:
 date: 2026-02-13
 course:
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming
   - computer-science/programming/haskell
 excalidraw-plugin: parsed
 excalidraw-open-md: true
 ---
 # Ficha 1
+[[ficha1-PF.pdf]]
 Usando as seguintes funções pré-definidas do Haskell:
 
 - `length l`: o número de elementos da lista `l`

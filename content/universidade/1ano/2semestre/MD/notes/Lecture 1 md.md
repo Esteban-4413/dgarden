@@ -3,7 +3,7 @@ topic: Introduction
 date: 2026-02-02
 course: Matemática Discreta
 tags:
-  - Universidade
+  - universidade
   - math/matematica-discreta
   - math
 ---

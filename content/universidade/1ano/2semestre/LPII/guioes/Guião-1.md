@@ -3,7 +3,7 @@ topic: C
 date: 2026-02-13
 course: LPII
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming
   - computer-science/programming/C
   - LPII/guioes

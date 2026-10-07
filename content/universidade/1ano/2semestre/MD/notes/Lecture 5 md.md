@@ -3,7 +3,7 @@ topic: Teorema fundamental da aritmética
 date: 2026-02-24
 course: Matemática Discreta
 tags:
-  - Universidade
+  - universidade
   - math
   - math/matematica-discreta
 ---

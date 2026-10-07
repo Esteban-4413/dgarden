@@ -3,7 +3,7 @@ topic: Computer Systems
 date: 2026-02-11
 course: Sistemas de Computação
 tags:
-  - Universidade
+  - universidade
   - computer-science/sistemasDeComputação
   - computer-science
 excalidraw-plugin: parsed

@@ -3,7 +3,7 @@ topic: Duplas Integrais
 date: 2026-03-29
 course: Análise Matemática
 tags:
-  - Universidade
+  - universidade
   - math/calculus
   - math
   - math/calculus

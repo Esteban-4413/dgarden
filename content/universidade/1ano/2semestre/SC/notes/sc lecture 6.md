@@ -3,7 +3,7 @@ topic: Representation of numbers
 date: 2026-02-19
 course: Sistemas de Computação
 tags:
-  - Universidade
+  - universidade
   - computer-science
   - computer-science/sistemasDeComputação/representationOfNumbers
 ---

@@ -3,7 +3,7 @@ topic: C
 date: 2026-02-25
 course: Programação Imperativa
 tags:
-  - Universidade
+  - universidade
   - computer-science/programming/C
   - computer-science/programming
   - computer-science/pi

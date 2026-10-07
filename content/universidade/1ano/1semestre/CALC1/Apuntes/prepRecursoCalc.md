@@ -3,7 +3,7 @@ excalidraw-plugin: parsed
 tags:
   - excalidraw
   - math/calculus
-  - Universidade
+  - universidade
   - math/calculus
   - math
 excalidraw-open-md: true
