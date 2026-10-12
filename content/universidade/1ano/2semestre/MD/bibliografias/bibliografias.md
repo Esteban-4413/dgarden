@@ -10,3 +10,6 @@ tags: [MOC]
  ![[universidade/1ano/2semestre/MD/bibliografias/apontamentos-MD.pdf|apontamentos-MD.pdf]]
  ![[universidade/1ano/2semestre/MD/bibliografias/Teoría de grafos|Teoría de grafos]]
  ![[universidade/1ano/2semestre/MD/bibliografias/teoriaDeGrafos.pdf|teoriaDeGrafos.pdf]]
+
+Extra resources:
+[[Elementary number theory (1998).md]]

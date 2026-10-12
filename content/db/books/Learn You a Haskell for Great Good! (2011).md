@@ -16,3 +16,7 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
+
+# Book
+[Learn You a Haskell for Great Good!](https://learnyouahaskell.github.io/chapters.html)
+

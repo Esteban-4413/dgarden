@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "My notes", 
+    pageTitle: "notes", 
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -25,6 +25,7 @@ const config: QuartzConfig = {
 		"TaskNotes",
     "docs",
     "universidade/necc"
+    "vault/db/books/pdfs"
 	],
     baseUrl: "esteban-4413.github.io/dgarden",
     defaultDateType: "modified",

@@ -1,5 +1,5 @@
 ---
-pdf: "[[universidade/1ano/1semestre/AL/Bibliografías/biblio1.pdf|biblio1]]"
+pdf:
 type: book
 title: Basic linear algebra
 englishTitle: Basic linear algebra
@@ -16,3 +16,14 @@ isbn13: unknown
 released: true
 tags: mediaDB/book
 ---
+
+# My opinion
+*coming soon*
+
+# Notes
+*coming soon*
+
+## Citas
+
+
+## Links
