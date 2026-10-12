@@ -24,7 +24,7 @@ const config: QuartzConfig = {
 		"daily",
 		"TaskNotes",
     "docs",
-    "universidade/necc"
+    "universidade/necc",
     "vault/db/books/pdfs"
 	],
     baseUrl: "esteban-4413.github.io/dgarden",
