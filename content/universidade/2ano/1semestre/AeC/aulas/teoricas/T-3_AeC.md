@@ -143,14 +143,3 @@ $$I \equiv result = S(i, n-1) \wedge 0 \leq i \leq n$$
 > O invariante diz sempre **"o que já foi processado"**: `result` é a soma da parte do array já visitada. O que muda entre versões é **qual é essa parte** ($[0,i-1]$, $[0,i]$ ou $[i,n-1]$) e o intervalo permitido para $i$.
  
 ---
- 
-## Terminação
-*(O texto da aula acaba aqui, cortado: "Terminação d...". Pega o resto e completo.)*
- 
-Ideia já vista: variante $V$ inteiro que **decresce estritamente** e **nunca desce de um valor fixo**.
- 
-| Programa | Variante |
-|---|---|
-| `while (i<=n)` com $i$ a subir | $n - i + 1$ |
-| `while (i<n)` com $i$ a subir | $n - i$ |
-| `while (i>0)` com $i$ a descer | $i$ |
