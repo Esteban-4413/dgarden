@@ -1,299 +1,139 @@
 @use "./base.scss";
 
-// 1. VARIABLES DE ENTORNO Y BREAKPOINTS
-$mobile-breakpoint: 750px; 
 
 :root {
-  --border-radius: 16px; // anp-border-radius
-  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.12); // anp-card-shadows
-  --bold-weight: 700;    // bold-weight
+  // Latte
+  --ctp-rosewater: #dc8a78;
+  --ctp-pink: #ea76cb;
+  --ctp-mauve: #8839ef;
+  --ctp-red: #d20f39;
+  --ctp-maroon: #e64553;
+  --ctp-peach: #fe640b;
+  --ctp-yellow: #df8e1d;
+  --ctp-green: #40a02b;
+  --ctp-teal: #179299;
+  --ctp-sky: #04a5e5;
+  --ctp-sapphire: #209fb5;
+  --ctp-blue: #1e66f5;
+  --ctp-lavender: #7287fd;
+  --ctp-overlay1: #8c8fa1;
+  --ctp-surface1: #bcc0cc;
+  --ctp-mantle: #e6e9ef;
+  --on-accent: #eff1f5;
 }
 
-// 2. TIPOGRAFÍA (Headers)
-h1 {
-  font-weight: 900 !important; // h1-weight
-  line-height: 1.2;
-  margin-top: 2rem;
-  border-bottom: 1px solid var(--lightgray); // anp-h1-divider
-  padding-bottom: 0.5rem;
-  font-family: "New York", Georgia, serif; // anp-editor-font-lp
+:root[saved-theme="dark"] {
+  // Mocha
+  --ctp-rosewater: #f5e0dc;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+  --ctp-overlay1: #7f849c;
+  --ctp-surface1: #45475a;
+  --ctp-mantle: #181825;
+  --on-accent: #1e1e2e;
 }
 
-h2 {
-  font-weight: 100 !important; // h2-weight
-  font-size: 1.9rem;            // h2-size
-  font-family: "New York", Georgia, serif;
+// --- Tipografía: Obsidian usa monoespaciada en todo ------------
+body {
+  line-height: 1.7;
 }
 
-h3 {
-  font-weight: 700 !important; // h3-weight
-  font-size: 1.6rem;            // h3-size
-  color: var(--secondary) !important; // Acento Teal
-}
-
-// 3. DISEÑO DE TARJETAS (Card Layout)
-.center {
-  & > article {
-    background-color: var(--light);
-    border: 1px solid var(--lightgray);
-    border-radius: var(--border-radius);
-    padding: 2.5rem;
-    margin-top: 1.5rem;
-    box-shadow: var(--card-shadow);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-    @media all and (max-width: $mobile-breakpoint) {
-      padding: 1.5rem;
-      border-radius: 8px;
-    }
+// --- Títulos: lavender (accent), el título de página en texto normal
+article {
+  & h1, & h2, & h3, & h4, & h5, & h6 {
+    color: var(--ctp-lavender);
+    font-weight: 700;
   }
-}
 
-// 4. EXPLORADOR CON CARPETAS NEUTRAS
-.explorer {
-  .folder-container {
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    margin: 2px 0;
-    transition: background-color 0.2s ease;
+  & > h1.article-title,
+  & .article-title {
+    color: var(--darkgray);
+  }
 
-    .folder-icon {
-      margin-right: 8px;
-    }
+  // **negrita** = sapphire, *cursiva* = green, ~~tachado~~ = maroon
+  & strong { color: var(--ctp-sapphire); font-weight: 600; }
+  & em { color: var(--ctp-green); }
+  & strong > em, & em > strong { color: var(--ctp-teal); }
+  & del { color: var(--ctp-maroon); }
+
+  // ==resaltado== = rosewater
+  & .text-highlight, & mark {
+    background-color: var(--ctp-rosewater);
+    color: var(--on-accent);
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+
+  // listas y citas
+  & ul > li::marker { color: var(--ctp-sapphire); }
+  & ol > li::marker { color: var(--ctp-sapphire); }
+
+  & blockquote:not(.callout) {
+    border-left: 2px solid var(--ctp-lavender);
+    color: var(--ctp-rosewater);
+    background: transparent;
+    padding-left: 1rem;
+  }
+
+  & hr {
+    background-color: var(--ctp-blue);
+    height: 1px;
+  }
+
+  // Links internos: texto azul simple, sin "píldora" de fondo
+  & a.internal {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    color: var(--ctp-blue);
 
     &:hover {
-      background-color: var(--highlight) !important;
+      color: var(--ctp-teal);
+      text-decoration: underline;
     }
-  }
-
-  // Ciclo de 3 Colores Neutros (Teal, Rose, Lavender)
-  li:nth-of-type(3n+1) > .folder-outer > .folder-container {
-    background-color: rgba(26, 125, 164, 0.12); 
-    .folder-icon { color: var(--secondary); }
-  }
-
-  li:nth-of-type(3n+2) > .folder-outer > .folder-container {
-    background-color: rgba(215, 130, 126, 0.12); 
-    .folder-icon { color: var(--tertiary); }
-  }
-
-  li:nth-of-type(3n+3) > .folder-outer > .folder-container {
-    background-color: rgba(186, 187, 241, 0.12); 
-    .folder-icon { color: #babbf1; }
   }
 }
 
-// 5. CALLOUTS MATEMÁTICOS (Sleek Style)
+// --- Callouts: borde fino + fondo 10% (como en Obsidian) -------
+// (Quartz los renderiza como <blockquote>, de ahí el borde grueso
+// a la izquierda que se ve ahora: lo quitamos)
 .callout {
-  border-radius: 8px !important;
-  border-left-width: 5px !important;
-  background-color: var(--highlight) !important;
+  --color: var(--ctp-blue);
+  border: 1px solid color-mix(in srgb, var(--color) 40%, transparent);
+  border-left: 1px solid color-mix(in srgb, var(--color) 40%, transparent);
+  background-color: color-mix(in srgb, var(--color) 10%, transparent);
+  border-radius: 6px;
+  padding: 0 1.25rem;
 
-  &[data-callout="teorema"] {
-    --color: #a6d189; // Green
-    border-left-color: var(--color) !important;
-    .callout-title { color: var(--color) !important; font-weight: 900; }
-  }
+  &[data-callout="abstract"] { --color: var(--ctp-sky); }
+  &[data-callout="info"],
+  &[data-callout="todo"]     { --color: var(--ctp-blue); }
+  &[data-callout="tip"]      { --color: var(--ctp-teal); }
+  &[data-callout="success"]  { --color: var(--ctp-green); }
+  &[data-callout="question"] { --color: var(--ctp-yellow); }
+  &[data-callout="warning"]  { --color: var(--ctp-peach); }
+  &[data-callout="failure"],
+  &[data-callout="danger"],
+  &[data-callout="bug"]      { --color: var(--ctp-red); }
+  &[data-callout="example"]  { --color: var(--ctp-mauve); }
+  &[data-callout="quote"]    { --color: var(--ctp-overlay1); }
 
-  &[data-callout="demostracion"] {
-    --color: #babbf1; // Lavender
-    border-left-color: var(--color) !important;
-    font-style: italic;
-    .callout-title { color: var(--color) !important; }
-  }
+  & .callout-title { color: var(--color); }
+  & .callout-content { color: var(--darkgray); }
 }
 
-// 6. ETIQUETAS (Tags)
-.tag {
-  background-color: var(--highlight) !important;
-  color: var(--secondary) !important;
-  border-radius: 2px !important; // tag-radius
-  padding: 0.1rem 0.4rem;
-  font-weight: 600;
+// --- Código inline ---------------------------------------------
+code:not(pre > code) {
+  background: var(--ctp-mantle);
+  color: var(--darkgray);
 }
-
-// 7. MATEMÁTICAS (LaTeX)
-.katex-display {
-  padding: 1rem;
-  overflow-x: auto;
-  background: rgba(var(--secondary), 0.03);
-  border-radius: 8px;
-}
-
-// 8. IMÁGENES EMBUTIDAS (Excalidraw, OneNote SVGs e Imagens Gerais)
-.internal-embed {
-  border: none !important;
-  background-color: transparent !important;
-
-  svg, img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 1.5rem auto;
-    border-radius: 12px;
-    background-color: transparent !important; // Remove fundos brancos rígidos
-    transition: all 0.3s ease-in-out;
-    cursor: zoom-in; // Cursor de lupa para o ImageZoom
-    border: 1px solid var(--lightgray);
-    
-    // Efeito de elevação e sombra morada ao passar o rato
-    &:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 20px rgba(124, 58, 237, 0.2); 
-      border-color: var(--secondary);
-    }
-  }
-}
-
-// Estilo para quando se visualiza em pantalla completa (Lightbox)
-.medium-zoom-overlay {
-  background: var(--light) !important;
-  opacity: 0.9 !important;
-}
-
-.medium-zoom-image--opened {
-  z-index: 999;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-// 9. ADAPTACIÓN AUTOMÁTICA A MODO OSCURO (A prueba de balas)
-[saved-theme="dark"] {
-  // El *= garantiza que atrape el SVG incluso si Quartz le añade parámetros al link
-  img[src*=".svg"] {
-    // Inversión al 85% para ese gris suave y rotación de color
-    filter: invert(0.85) hue-rotate(180deg) !important;
-  }
-}
-
-// 10. VISUALIZACIÓN DE PDFs (Efecto "Hoja de Papel" vertical)
-.internal-embed[src$=".pdf"], 
-iframe[src$=".pdf"] {
-  width: 100%;
-  
-  // Esta es la magia: Proporción de una hoja real (1 de ancho por 1.4 de alto)
-  aspect-ratio: 1 / 1.4; 
-  
-  // Una altura mínima de seguridad por si acaso
-  min-height: 700px; 
-  
-  border-radius: 8px;
-  border: 1px solid var(--lightgray);
-  
-  // Un ligero sombreado extra para que la página parezca flotar sobre el fondo
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); 
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* La proporción mágica para 16:9 */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px; /* Un toque de bordes redondeados para que combine mejor */
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-/* ==========================================
-   CUSTOM NAV CARDS FOR HOMEPAGE (CALLOUT VERSION)
-   ========================================== */
-
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-/* Modificamos específicamente nuestro callout personalizado 'navcard' */
-.callout[data-callout="navcard"] {
-  margin: 0 !important; /* Para que encaje bien en el Grid */
-  border-radius: 12px !important;
-  border-left-width: 0px !important; /* Quitamos la raya lateral típica de los callouts */
-  border: 1px solid var(--lightgray);
-  background-color: var(--light) !important;
-  transition: all 0.3s ease;
-  padding: 1.2rem;
-  
-  /* El título (ej. 🎓 Universidad) */
-  .callout-title {
-    color: var(--tertiary) !important;
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    
-    /* Ocultamos el icono por defecto porque ya pusimos un emoji */
-    .callout-icon {
-      display: none;
-    }
-  }
-
-  /* El contenido interno */
-  .callout-content {
-    color: var(--gray);
-    font-size: 0.95rem;
-    line-height: 1.4;
-    
-    /* Estilizamos el enlace que pusimos adentro para que no resalte feo */
-    a {
-       display: block;
-       margin-bottom: 0.5rem;
-       font-weight: bold;
-       color: var(--secondary);
-       text-decoration: none;
-    }
-  }
-
-  /* Efecto Hover estilo Apple */
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-    border-color: var(--tertiary);
-  }
-}
-/* ==========================================
-   ZOOTTELKEEPER INDEX GRID
-   ========================================== */
-.index-grid ul {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-  padding: 0;
-  list-style: none !important;
-  margin-top: 1.5rem;
-}
-
-.index-grid li {
-  background-color: var(--light) !important;
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
-  padding: 1rem;
-  text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin: 0 !important;
-  
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-    border-color: var(--tertiary);
-  }
-
-  a {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--secondary) !important;
-    display: block;
-    font-size: 1.1rem;
-  }
-}
-
-
