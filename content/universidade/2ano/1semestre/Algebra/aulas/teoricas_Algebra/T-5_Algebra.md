@@ -3,17 +3,17 @@ $\textbf{Lema.}$ Seja $(M, \cdot)$ um monóide e $a \in M$. Se $a$ é invertíve
 $\textbf{Teorema.}$ Seja $G$ um semigrupo. As seguintes condições são equivalentes:
   1. $G$ é grupo;
   2. As equações $ax = b$ e $ya = b$ são solúveis para quaisquer $a, b \in G$;
-  3. 
+  3.
     i) $\exists_{e \in G} \forall_{a \in G} ea = a$;
     ii) $\forall_{a \in G} \exists_{a' \in G}a'a = e$;
-  4. 
+  4.
     i) $\exists_{e \in G} \forall_{a \in G} ae = a$;
     ii) $\forall_{a \in G} \exists_{a' \in G} aa' = e;$
 
 $\textbf{Definição.}$ Seja $(G, \cdot)$ um grupóide e seja $A \subseteq G$. Diz-se que $A$ é fechado para $*$ se $$\forall_{a, b \in A} a * b \in A$$
 
 Exemplos:
-  1) Consideremos o semigrupo $(\mathbb{N}, \cdot)$. Então 
+  1) Consideremos o semigrupo $(\mathbb{N}, \cdot)$. Então
     $$
     \begin{array}
     P = \{n \in \mathbb{N}: n \text{ é par}\}\\
@@ -21,7 +21,7 @@ Exemplos:
     \end{array}
     $$
     são fechados para $*$.
-  2) $P$ é fechado em $\mathbb{N}, +)$ mas $I$ não é fechado
+  2) $P$ é fechado em $(\mathbb{N}, +)$ mas $I$ não é fechado
 
 $\textbf{Definição.}$ Seja $(G, \cdot)$ um grupo e seja $A \subseteq G$. Diz-se que $A$ é um subgrupo de $G$, se
   1. $A$ é fechado para $\cdot$, ou seja, $$\forall_{a, b \in A}a \cdot b \in A$$
