@@ -47,9 +47,12 @@ Critério I (de subgrupo)
   ii) $\forall_{a, b \in H} a \cdot b \in H$;
   iii) $\forall_a \in H a \cdot b^{-1} \in H$.
 
+
 Resolução de exercício
 
 Ficha 1
+[[folha-1_algebra.pdf]]
+
 1.32) Pelo critério I de subgrupos, $Ca \leq G$ se e só se
 i) $1_G \in Ca$
 $1_G \in Ca$ se $1_G \cdot a = a \cdot 1_G$, da definição de identidade.
