@@ -61,7 +61,7 @@ $\textbf{Exemplos.}$
 $$H = \langle a^4 \rangle = \{1_G, a^4, a^8, a^2, a^6\} = \langle a^2 \rangle$$
 
 >[!note]-
->$\{1_G, a^4, a^8, a^2, a^6\} = \langle a^2 \rangle \quad$ pois, $2$ é o menor $k \in \mathbb{N}$ tal que $a^k \iin H$.
+>$\{1_G, a^4, a^8, a^2, a^6\} = \langle a^2 \rangle \quad$ pois, $2$ é o menor $k \in \mathbb{N}$ tal que $a^k \in H$.
 
 Note-se que $\lvert H \rvert = 5$ e que
 $\lvert H \rvert = \frac{O(a)}{2} = \frac{\lvert G \rvert}{2}$
