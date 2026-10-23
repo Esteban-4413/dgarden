@@ -1,14 +1,3 @@
----
-topic:
-date: 2026-02-13
-course:
-tags:
-  - universidade
-  - computer-science/programming
-  - computer-science/programming/haskell
-excalidraw-plugin: parsed
-excalidraw-open-md: true
----
 # Ficha 2
 [[ficha2-PF.pdf]]
 

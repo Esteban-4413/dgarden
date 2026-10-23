@@ -1,34 +1,3 @@
----
-topic:
-date: 2026-02-13
-course:
-tags:
-  - universidade
-  - computer-science/programming
-  - computer-science/programming/haskell
-excalidraw-plugin: parsed
-excalidraw-open-md: true
----
-# Notas para o segundo teste
-
-## Key Concepts
-
-
-## Important Details
-
-
-## Examples
-
-
-## Questions
-- 
-
-## Summary
-
-
-## Related Topics
-- [[]]## Preguntas
-
 
 ```haskell
 multThree :: (Num a) => a -> a -> a -> a  

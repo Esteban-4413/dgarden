@@ -5,7 +5,6 @@ tags:
 excalidraw-open-md: true
 date: "2026-03-02"
 ---
-1. ![[ficha3pi1.excalidraw]]
 
 2. ...
 ```c
