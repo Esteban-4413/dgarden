@@ -34,7 +34,7 @@ x &\longmapsto 1_G \\
 $$
 é um homomorfismo
 
-2) 
+		1) 
 $$
 \begin{align}
 f: (\mathbb{Z}, +) &\longrightarrow (\mathbb{Z}, +) \\
