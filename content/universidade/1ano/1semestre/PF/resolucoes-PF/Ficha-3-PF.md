@@ -105,3 +105,85 @@ calcTempTotal v =
 ```hs
 type Poligonal = [Ponto]
 ```
+
+O tipo Ponto é idêntico ao definido na Ficha 1. Nas resolução das alíneas seguintes pode utilizar funções definidas nessa ficha.
+
+a) Defina a função para calcular o comprimento de uma linha poligonal
+
+```hs
+comprimento :: Poligonal -> Double
+comprimento (p1:p2:t) = dist p1 p2 + comprimento (p2:t)
+comprimento _ = 0
+```
+
+b) Defina uma função para testar se uma dada linha poligonal é ou não fechada.
+
+```hs
+linhaFechada :: Poligonal -> Bool
+linhaFechada p = length p >= 3 && head p == last p
+```
+
+c) Defina a função triangula :: Poligonal -> [Figura] que, dada uma linha poligonal fechada e convexa, calcule uma lista de triângulos cuja soma das áreas seja igual à àrea delimitada pela linha poligonal. O tipo Figura é idêntico ao definido na Ficha 1.
+
+```hs
+triangula :: Poligonal -> [Figura]
+triangula (p1:p2:p3:ps)
+    | p1 == p3 = []
+    | otherwise = Triangulo p1 p2 p3 : triangula (p1:p3:ps)
+triangula _ = []
+```
+
+3. Para armazenar uma agenda de contactos telefónicos e de correio electrónico definiram-se os seguintes tipos de dados. Não existem nomes repetidos na agenda e para cada nome existe uma lista de contactos. 
+
+```hs
+data Contacto = Casa Integer
+              | Trab Integer
+              | Tlm Integer
+              | Email String
+              deriving Show
+
+type Nome = String
+type Agenda = [(Nome, [Contacto])]
+```
+
+a) Defina a função `acrescEmail :: Nome -> String -> Agenda -> Agenda` que, dado um nome, um email e uma agenda, acrescenta essa informação à agenda.
+
+```hs
+acresEmail :: Nome -> String -> Agenda -> Agenda
+acresEmail a b [] = [(a, [Email b])]
+acresEmail a b ((x, y) : resto) =
+  if (a == x)
+    then ((x, (Email b) : y)) : resto
+    else (x, y) : (acresEmail a b resto)
+```
+
+b) Defina a função `verEmails :: Nome -> Agenda -> Maybe [String]` que, dado um nome e uma agenda, retorna a lista dos emails associados a esse nome. Se esse nome não existir na agenda a função deve retornar `Nothing`.
+
+```hs
+verEmails :: Nome -> Agenda -> Maybe [String]
+verEmails _ [] = Nothing
+verEmails a ((x, y) : resto)
+  | a == x = Just [e | Email e <- y]
+  | a /= x = verEmails a resto
+
+```
+
+c) Defina a função `consTelefs :: [Contacto] -> [Integer]` que, dada uma lista de contactos, retorna a lista de todos os números de telefone dessa lista (tanto telefones fixos como telemóveis).
+
+```hs
+consTelefs :: [Contacto] -> [Integer]
+consTelefs [] = [0]
+consTelefs contactos = [nums | Tlm nums <- contactos] ++ [telefone | Casa telefone <- contactos]
+```
+
+d) Defina a função `casa :: Nome -> Agenda -> Maybe Integer` que, dado um nome e uma agenda, retorna o número de telefone de casa (caso exista).
+
+```hs
+casa :: Nome -> Agenda -> Maybe Integer
+casa _ [] = Nothing
+casa nome ((x, y) : resto)
+  | nome == x = case [num | Casa num <- y] of
+      [] -> Nothing
+      [z] -> Just z
+  | otherwise = casa nome resto
+```
