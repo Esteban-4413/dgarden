@@ -1,17 +1,4 @@
----
-topic: C
-date: 2026-04-21
-course: Programação Imperativa
-tags:
-  - universidade
-  - computer-science/programming/C
-  - computer-science/pi
-  - computer-science/programming
----
 # pi tp 10
-
-**Tópicos:** Conversões entre Arrays e Listas Ligadas, Inversão in-place, e Inserção Ordenada.
-
 ---
 
 ## 1. Converter Lista Ligada para Array (`list2array`)

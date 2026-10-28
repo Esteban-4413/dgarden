@@ -89,3 +89,8 @@ Resolução do exercício 1.23 da
 | g       | g   | h   | e   | f   |
 | h       | h   | g   | f   | e   |
 
+
+# Links
+[[T1_Algebra.md]]
+[[T2_Algebra.md]]
+[[T3_Algebra.md]]

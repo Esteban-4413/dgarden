@@ -105,3 +105,11 @@ int main(){
 
 ## Links 
 - [[1ano/2semestre/PI/fichas/Ficha1.pdf|Ficha1]]
+- [[pi tp 2]]
+- [[pi tp 3]]
+- [[pi tp 4]]
+- [[pi tp 5]]
+- [[pi tp 6]]
+- [[pi tp 7]]
+- [[pi tp 8]]
+- [[pi tp 9]]

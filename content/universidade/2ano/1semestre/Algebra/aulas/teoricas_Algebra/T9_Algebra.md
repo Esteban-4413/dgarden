@@ -59,3 +59,13 @@ a^{-16} &= a^4 \quad (-16 \pmod 5 = 4)
 $$
 Em particular,
 $$\forall_{n \in \mathbb{Z}}(a^n = 1_G \iff k | n)$$
+
+# Links
+[[T1_Algebra.md]]
+[[T2_Algebra.md]]
+[[T3_Algebra.md]]
+[[T4_Algebra.md]]
+[[T5_Algebra.md]]
+[[T6_Algebra.md]]
+[[T7_Algebra.md]]
+[[T8_Algebra.md]]

@@ -1,13 +1,3 @@
----
-topic: C
-date: 2026-04-28
-course: Programação Imperativa
-tags:
-  - universidade
-  - computer-science/programming/C
-  - computer-science
-  - computer-science/programming
----
 # pi tp 11
 
 **Tópicos:** Árvores Binárias (ABin) e Árvores Binárias de Procura (BST/ABB).

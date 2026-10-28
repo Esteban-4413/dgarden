@@ -86,3 +86,5 @@ $\textbf{Exemplo}$
 > Convenção prática: na tabela de Cayley de um grupóide finito **com** elemento neutro, costuma ordenar-se os elementos de modo que o elemento neutro seja o primeiro.
 
 
+# Links
+[[T1_Algebra.md]]
