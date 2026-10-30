@@ -1,5 +1,6 @@
 # Ficha 2 - Interpolação polinomial
 [[ExerciciosInterpolacao.pdf]]
+[[tp4.m]]
 Exercícios resolvidos: **1; 3; 4**
 
 
