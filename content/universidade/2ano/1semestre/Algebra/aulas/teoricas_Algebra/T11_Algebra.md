@@ -84,6 +84,7 @@ $\therefore \, \varphi(1_G)$ é idempotente
 $\therefore \varphi(1_G) = 1_{G'}$
 
 2) 
+
 $$
 \begin{align*}
 \varphi(a^{-1}) &= \varphi(a^{-1}) \quad \text{pois, } 1_G \in H \text{ já que } H \leq G \\
@@ -96,10 +97,13 @@ $\therefore \varphi(a^{-1} = \varphi(a^{-1})$
 
 3)
 i) $1_{G'} = \varphi(1_G) \in \varphi(H)$ pois, $1_G \in H$ já que $H \leq G$. 
+
 ii) Sejam $a, b \in \varphi(H)$. Então 
-$$a = \varphi(x) \quad e \quad b = \varphi(H)$$
-para alguns $x, y \in \varphi(H)$
+
+$$a = \varphi(x) \quad e \quad b = \varphi(H) \quad \text{para alguns } x, y \in \varphi(H)$$
+
 Logo,
+
 $$
 \begin{align}
 ab^{-1} &= \varphi(x)\varphi(y)^{-1} \\
@@ -107,10 +111,13 @@ ab^{-1} &= \varphi(x)\varphi(y)^{-1} \\
 &= \varphi(xy^{-1]}) \quad \text{pois } \varphi \text{ é homomorfismo}
 \end{align}
 $$
+
 Dado que $xy^{-1} \in H$ por $H$ ser subgrupo de $G$, conclui-se que $ab^{-1} \in \varphi(H)$. Por i) e ii), deduz-se do critério II de subgrupo que $\varphi(H) \leq G'$
 
 **Exercicio 1.52**
+
 [[folha-1_algebra.pdf]]
+
 Consideremos $\varphi_n$ com $z \in \mathbb{Z}$. Tem-se: 
 $$\varphi(x + y) = x + y + n$$
 $$\varphi(x) + \varphi(y) = (x + n) + (y + n) = (x + y) + 2n$$

@@ -2,6 +2,7 @@ Uma permutação é uma aplicação bijetiva
 $$f : A \longrightarrow A$$
 de um conjunto $A \neq \emptyset$ nele mesmo.
 Denota-se $\mathcal{S}_A$ ao conjunto destas permutações. Em particular, se $A = \{1, 2, \dots, n\}$ então $\mathcal{S}_A$ denota-se por $\mathcal{S}_n$.
+
 **Proposição**. O par $(\mathcal{S}_A, \circ)$ com a operação $\circ$ de composição de aplicação é um grupo, chamado o grupo das permutações de $A$.
 Em particular $\mathcal{S}_n$ diz-se o grupo simétrico de grau $n$
 
