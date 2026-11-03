@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle:  Azulejos
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -12,34 +12,35 @@ configuration:
     - private
     - templates
     - .obsidian
+    - docs
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: "JetBrains Mono"
+      body: "JetBrains Mono"
+      code: "JetBrains Mono"
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#eff1f5"
+        lightgray: "#ccd0da"
+        gray: "#6c6f85"
+        darkgray: "#4c4f69"
+        dark: "#7287fd"
+        secondary: "#1e66f5"
+        tertiary: "#179299"
+        highlight: "rgba(30, 102, 245, 0.15)"
+        textHighlight: "#df8e1d88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1e1e2e"
+        lightgray: "#313244"
+        gray: "#a6adc8"
+        darkgray: "#cdd6f4"
+        dark: "#b4befe"
+        secondary: "#89b4fa"
+        tertiary: "#94e2d5"
+        highlight: "rgba(137, 180, 250, 0.15)"
+        textHighlight: "#f9e2af88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -54,29 +55,10 @@ plugins:
     enabled: true
     options:
       theme:
-        light: github-light
-        dark: github-dark
+        light: catppuccin-latte
+        dark: catppuccin-mocha
       keepBackground: false
     order: 20
-  - source: "@quartz-community/obsidian-flavored-markdown"
-    enabled: true
-    options:
-      comments: true
-      highlight: true
-      wikilinks: true
-      callouts: true
-      mermaid: true
-      parseTags: true
-      parseArrows: true
-      parseBlockReferences: true
-      enableInHtmlEmbed: false
-      enableYouTubeEmbed: true
-      enableVideoEmbed: true
-      enableCheckbox: true
-    order: 30
-  - source: "@quartz-community/github-flavored-markdown"
-    enabled: true
-    order: 40
   - source: "@quartz-community/table-of-contents"
     enabled: true
     order: 50
@@ -94,7 +76,7 @@ plugins:
   - source: "@quartz-community/latex"
     enabled: true
     options:
-      renderEngine: katex
+      renderEngine: mathjax
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
@@ -109,9 +91,9 @@ plugins:
     enabled: false
     order: 92
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
+    enabled: false
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: default
       mode: both
@@ -236,7 +218,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
@@ -301,7 +283,7 @@ plugins:
       tokenClassification: true
     order: 20
   - source: github:quartz-themes/default
-    enabled: true
+    enabled: false
     options: {}
     order: 50
 layout:
