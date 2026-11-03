@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: azulejos.github.io/quartz
+  baseUrl: esteban-4413.github.io/quartz
   ignorePatterns:
     - private
     - templates
