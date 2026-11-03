@@ -12,3 +12,31 @@ replit.nix
 .quartz/
 quartz/cli/tui/dist/
 .turbo/
+
+content/rabbit-hole/programming/rust/code-rust/challenges/
+
+# Proyectos locales de C y materiales pesados
+content/vault/universidade/1ano/2semestre/LPII/project/fase2LP2/
+content/vault/universidade/1ano/2semestre/LPII/project/fase3/patience/
+content/vault/universidade/1ano/2semestre/LPII/project/lpII/
+content/vault/universidade/db/books/pdfs/
+
+# Ignorar la papelera interna de Obsidian
+**/.trash/
+
+# Ignorar carpetas enteras de código y proyectos
+**/projects/
+**/code-rust/
+**/code-c/
+**/code-python/
+**/code-haskell/
+**/practice/
+
+# Ignorar librerías de assets pesados (juegos)
+**/AssetsLib/
+
+**/hello_cargo/
+**/code-rust/
+
+**/manim/
+**/manimations/
