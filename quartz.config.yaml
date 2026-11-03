@@ -13,6 +13,7 @@ configuration:
     - templates
     - .obsidian
     - docs
+    - rabbit-hole/programming/rust/code-rust/challenges
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
