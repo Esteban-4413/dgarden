@@ -1,3 +1,7 @@
+---
+noteId: 1793662140648
+---
+
 $\textbf{Definição.}$ Um grupo é um par ordenado $(G, *)$ onde $G$ é um conjunto não vazio, chamado o suporte do grupo, e $*: G \times G \to G$ é uma operação binária
   (i) $\forall_{a, b, c \in G} (a * b) * c = a * (b * c)$
   (ii) $exists_{e \in G} \forall_{a \in G} e * a = a * e = a$

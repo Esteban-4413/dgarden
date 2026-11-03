@@ -1,3 +1,7 @@
+---
+noteId: 1793662140348
+---
+
 Resolução do exercício 1.38 da ficha 1
 [[folha-1_algebra.pdf]]
 

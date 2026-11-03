@@ -1,3 +1,7 @@
+---
+noteId: 1793662140448
+---
+
 # Links
 [[T10_Algebra.md]]
 [[T11_Algebra.md]]

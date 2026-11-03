@@ -1,3 +1,7 @@
+---
+noteId: 1793662140499
+---
+
 Uma permutação é uma aplicação bijetiva
 $$f : A \longrightarrow A$$
 de um conjunto $A \neq \emptyset$ nele mesmo.

@@ -1,3 +1,7 @@
+---
+noteId: 1793662140747
+---
+
 $\textbf{Lema.}$ Seja $(M, \cdot)$ um monóide e $a \in M$. Se $a$ é invertível então, para todo $b \in M$, as equações
 
 $$ax = b \quad \text{e} \quad ya = b$$

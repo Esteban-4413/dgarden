@@ -1,3 +1,7 @@
+---
+noteId: 1793662140949
+---
+
 $\textbf{Teorema.}$ Seja $G$ um grupo e seja $a \in G$. As condições seguintes são equivalentes se $\langle a \rangle$ é finito
 1) $\langle a \rangle$ é finito;
 2) $\exists_{m, n\in \mathbb{Z}}, \; m \neq n, \; a^m = a^n$;

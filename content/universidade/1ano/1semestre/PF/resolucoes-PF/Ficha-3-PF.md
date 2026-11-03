@@ -1,3 +1,8 @@
+---
+flashcards:
+  q-mfpq: { nid: 1793662309333, hash: ugvqur58, sync: qh7bkiqp }
+---
+
 # Ficha 3
 [[ficha3-PF.pdf]]
 1. Assumindo que uma hora é representada por um par de inteiros, uma viagem pode ser representada por uma sequência de etapas, onde cada etapa é representada por um par de horas (partida, chegada):
@@ -124,6 +129,7 @@ linhaFechada p = length p >= 3 && head p == last p
 ```
 
 c) Defina a função triangula :: Poligonal -> [Figura] que, dada uma linha poligonal fechada e convexa, calcule uma lista de triângulos cuja soma das áreas seja igual à àrea delimitada pela linha poligonal. O tipo Figura é idêntico ao definido na Ficha 1.
+^q-mfpq
 
 ```hs
 triangula :: Poligonal -> [Figura]

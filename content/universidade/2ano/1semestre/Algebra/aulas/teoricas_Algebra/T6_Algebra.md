@@ -1,3 +1,7 @@
+---
+noteId: 1793662140798
+---
+
 $\textbf{Definição.}$
   Seja $(G, \cdot)$ um grupo e seja $H \subseteq D$. Diz-se que o $H$ é subgrupo de $G$, e escreve-se $H \leq G$, se
   1) $\forall_{a, b \in H}a \cdot b \in H$ ($H$ é estável ou fechado para $\cdot$)

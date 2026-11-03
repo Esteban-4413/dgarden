@@ -1,3 +1,7 @@
+---
+noteId: 1793662140397
+---
+
 # Homomorfismos
 
 **Definição.** Sejam $(G, \cdot)$ e $(H, *)$ grupos. Uma aplicação $\varphi: G \to H$ diz-se um homomorfismo se 

@@ -1,3 +1,7 @@
+---
+noteId: 1793662140600
+---
+
 # Elementos da teoria de grupos — Aula 2 (17/09)
 
 ```mermaid

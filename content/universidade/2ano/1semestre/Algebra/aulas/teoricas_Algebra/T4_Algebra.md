@@ -1,3 +1,7 @@
+---
+noteId: 1793662140698
+---
+
 $\textbf{Proposição.}$ (aula anterior)
 
 $\textbf{Demonstração.}$
