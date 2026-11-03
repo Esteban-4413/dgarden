@@ -1,3 +1,0 @@
-![[grafos.pdf]]
-
-![[maisgrafos.pdf]]

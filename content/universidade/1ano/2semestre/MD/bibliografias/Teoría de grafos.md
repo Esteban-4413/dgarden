@@ -1,3 +1,0 @@
-![[teoriaDeGrafos.pdf]]
-
-[[teoriaDeGrafos.pdf]]
