@@ -13,6 +13,8 @@ configuration:
     - templates
     - .obsidian
     - docs
+    - TaskNotes
+    - obsidian
     - rabbit-hole/programming/rust/code-rust/challenges
   theme:
     fontOrigin: googleFonts
