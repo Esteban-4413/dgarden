@@ -26,21 +26,54 @@ flowchart TD
 *Exemplos (grupos):*
 - **Ordem 1** — chama-se $\mathbb{Z}_1$:
 
+$$
+\begin{array}{c|c}
++ & 0 \\
+\hline
+0 & 0
+\end{array}
+$$
+
+%%
 
 |     | $0$ |
 | --- | --- |
 | $0$ | $0$ |
 
+%%
 - **Ordem 2** — chama-se $\mathbb{Z}_2$, é o mod $2$:
 
+$$
+\begin{array}{c|cc}
++ & 0 & 1 \\
+\hline
+0 & 0 & 1 \\
+1 & 1 & 0
+\end{array}
+$$
+
+%%
 
 |     | $0$ | $1$ |
 | --- | --- | --- |
 | $0$ | $0$ | $1$ |
 | $1$ | $1$ | $0$ |
 
+%%
+
 - **Ordem 3** — $\mathbb{Z}_3$:
 
+$$
+\begin{array}{c|ccc}
++ & 0 & 1 & 2 \\
+\hline
+0 & 0 & 1 & 2 \\
+1 & 1 & 2 & 0 \\
+2 & 2 & 0 & 1
+\end{array}
+$$
+
+%%
 
 |     | $0$ | $1$ | $2$ |
 | --- | --- | --- | --- |
@@ -48,6 +81,7 @@ flowchart TD
 | $1$ | $1$ | $2$ | $0$ |
 | $2$ | $2$ | $0$ | $1$ |
 
+%%
 
 ## 2. Elemento neutro
 

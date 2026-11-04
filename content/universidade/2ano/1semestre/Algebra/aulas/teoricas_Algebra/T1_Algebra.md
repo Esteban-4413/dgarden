@@ -53,6 +53,20 @@ flowchart TD
 
 Um grupóide $(X, *)$ finito pode ser identificado por uma **tabela de Cayley**:
 
+$$
+\begin{array}{c|cccccc}
+* & x_1 & x_2 & \cdots & x_j & \cdots & x_n \\
+\hline
+x_1 & x_1*x_1 & x_1*x_2 & \cdots & x_1*x_j & \cdots & x_1*x_n \\
+x_2 & x_2*x_1 & x_2*x_2 & \cdots & x_2*x_j & \cdots & x_2*x_n \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+x_i & x_i*x_1 & x_i*x_2 & \cdots & x_i*x_j & \cdots & x_i*x_n \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \ddots & \vdots \\
+x_n & x_n*x_1 & x_n*x_2 & \cdots & x_n*x_j & \cdots & x_n*x_n
+\end{array}
+$$
+
+%%
 
 |            | $x_1$ | $x_2$ | ⋯ | $x_j$ | ⋯ | $x_n$ |
 | ---------- | ----- | ----- | - | ----- | - | ----- |
@@ -63,15 +77,29 @@ Um grupóide $(X, *)$ finito pode ser identificado por uma **tabela de Cayley**:
 | ⋮          | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
 | $x_n$      | $x_n*x_1$ | $x_n*x_2$ | ⋯ | $x_n*x_j$ | ⋯ | $x_n*x_n$ |
 
+%%
 
 *Exemplo:* É a tabela de Cayley de um grupóide de suporte $\{a,b,c\}$:
 
+$$
+\begin{array}{c|ccc}
+* & a & b & c \\
+\hline
+a & a & a & b \\
+b & c & a & b \\
+c & b & a & c
+\end{array}
+$$
+
+%%
 
 |     | $a$ | $b$ | $c$ |
 | --- | --- | --- | --- |
 | $a$ | $a$ | $a$ | $b$ |
 | $b$ | $c$ | $a$ | $b$ |
 | $c$ | $b$ | $a$ | $c$ |
+
+%%
 
 > [!info] Truque prático
 > Para verificar se um grupóide finito é **comutativo**, basta verificar se a tabela é **simétrica em relação à diagonal principal**.

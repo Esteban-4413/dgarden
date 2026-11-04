@@ -77,14 +77,37 @@ Provam-se assim que $a$ é simplificável à esquerda. De forma simétrica, prov
 
 *exercício 1.23* 
 
+$$
+\begin{array}{c|ccc}
+\cdot & a & b & c \\
+\hline
+a & a & b & c \\
+b & b & c & a \\
+c & c & a & b
+\end{array}
+$$
+
+%%
 
 | $\cdot$ | a   | b   | c   |
 | ------- | --- | --- | --- |
 | a       | a   | b   | c   |
 | b       | b   | c   | a   |
 | c       | c   | a   | b   |
+%%
 
+$$
+\begin{array}{c|cccc}
+\cdot & e & f & g & h \\
+\hline
+e & e & f & g & h \\
+f & f & e & h & g \\
+g & g & h & e & f \\
+h & h & g & f & e
+\end{array}
+$$
 
+%%
 
 | $\cdot$ | e   | f   | g   | h   |
 | ------- | --- | --- | --- | --- |
@@ -93,6 +116,7 @@ Provam-se assim que $a$ é simplificável à esquerda. De forma simétrica, prov
 | g       | g   | h   | e   | f   |
 | h       | h   | g   | f   | e   |
 
+%%
 
 # Links
 [[T1_Algebra.md]]
