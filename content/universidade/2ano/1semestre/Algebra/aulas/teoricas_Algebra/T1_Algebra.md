@@ -53,6 +53,7 @@ $\textbf{Exemplo}$
 
 Um grupóide $(X, *)$ finito pode ser identificado por uma **tabela de Cayley**:
 
+
 |            | $x_1$ | $x_2$ | ⋯ | $x_j$ | ⋯ | $x_n$ |
 | ---------- | ----- | ----- | - | ----- | - | ----- |
 | $x_1$      | $x_1*x_1$ | $x_1*x_2$ | ⋯ | $x_1*x_j$ | ⋯ | $x_1*x_n$ |
@@ -63,6 +64,7 @@ Um grupóide $(X, *)$ finito pode ser identificado por uma **tabela de Cayley**:
 | $x_n$      | $x_n*x_1$ | $x_n*x_2$ | ⋯ | $x_n*x_j$ | ⋯ | $x_n*x_n$ |
 
 $\textbf{Exemplo}$. É a tabela de Cayley de um grupóide de suporte $\{a,b,c\}$:
+
 
 |     | $a$ | $b$ | $c$ |
 | --- | --- | --- | --- |
