@@ -2,7 +2,7 @@
 noteId: 1793662140348
 ---
 
-Resolução do exercício 1.38 da ficha 1
+*exercício 1.38*
 [[folha-1_algebra.pdf]]
 
 >[!reminder]- 
@@ -40,26 +40,36 @@ $$
 $$
 Logo $a^{-1}$ tem ordem finita e, portanto $a^{-1} \in T_G$
 
-$\textbf{Teorema.}$ Todo o subgrupo de um grupo cíclico ainda é cíclico.
+**Teorema:** Todo o subgrupo de um grupo cíclico ainda é cíclico.
 Mais precisamente, se $G = \langle a \rangle$ e $H \leq G$, então $H = \{1_g\} = \langle 1_G \rangle$ ou $H = \langle a^k \rangle$ onde $k$ é o menor natural tal que $a^k \in H$.
 
-$\textbf{Demonstração.}$ Sejam $G = \langle a \rangle$ um grupo cíclico, $H$ um subgrupo não trivial de $G$ e $k$ o menor natural tal que $a^k \in H$. Provemos que 
+*Demonstração:* Sejam $G = \langle a \rangle$ um grupo cíclico, $H$ um subgrupo não trivial de $G$ e $k$ o menor natural tal que $a^k \in H$. Provemos que 
+
 $$H = \langle a^k \rangle$$
+
 Por definição de $\langle a^k \rangle$, tem-se que $\langle a^k \rangle \subseteq H$ pois $H \leq G$, $a^k \in H$ e $\langle a^k \rangle$ é o menor subgrupo de $G$ que contém $a^k$. Para provar a inclusão $H \subseteq \langle a^k \rangle$, consideremos um elemento genérico $x \in H$. Como $G = \langle a \rangle$, tem-se
+
 $$x = a^n$$
+
 para algum $n \in \mathbb{Z}$
 Pelo algoritmo da divisão 
+
 $$\exists_{q \in \mathbb{Z}} \; \exists_{r \in \{0, 1, \dots, k - 1\}} n = kq + r$$
+
 Logo, 
+
 $$x = a^n = a^{kq}a^r$$
+
 donde
+
 $$a^r = a^{n-kq}$$
+
 com $n - kq = r \geq 0$ e $r < k$.
 Como $a^{n - qk - r} = 1_G$ deduz-se que $r = 0$.
 Portanto $a^n = (a^k)^q \in \langle a^k \rangle$.
 Conclui-se assim que $H = \langle a^k \rangle$
 
-$\textbf{Exemplos.}$
+*Exemplos:*
 1) Todos os subgrupos do grupo cíclico $(\mathbb{Z}, +)$ são da forma $\langle n \rangle = n\mathbb{Z}$
 2) Seja $G = \langle a \rangle$ um grupo cíclico de ordem $10$ (ou seja, o elemento $a$ tem ordem $10$). Seja $H = \langle a^4 \rangle$. Tem-se
 $$H = \langle a^4 \rangle = \{1_G, a^4, a^8, a^2, a^6\} = \langle a^2 \rangle$$
@@ -70,7 +80,7 @@ $$H = \langle a^4 \rangle = \{1_G, a^4, a^8, a^2, a^6\} = \langle a^2 \rangle$$
 Note-se que $\lvert H \rvert = 5$ e que
 $\lvert H \rvert = \frac{O(a)}{2} = \frac{\lvert G \rvert}{2}$
 
-$\textbf{Proposição.}$ Seja $G = \langle a \rangle$ um grupo cíclico finito de ordem $n$ e seja $H \leq G$.
+**Proposição:** Seja $G = \langle a \rangle$ um grupo cíclico finito de ordem $n$ e seja $H \leq G$.
 Então
 1) $\lvert H \rvert$ divide $\lvert G \rvert$.
 2) Se $k$ é o menor natural tal que $a^k \in H$, então $\lvert G \rvert = k \lvert H \rvert$.

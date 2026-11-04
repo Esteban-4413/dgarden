@@ -2,9 +2,9 @@
 noteId: 1793662140698
 ---
 
-$\textbf{Proposição.}$ (aula anterior)
+**Proposição.** (aula anterior)
 
-$\textbf{Demonstração.}$
+*Demonstração.:*
 (v)
 Caso 1: $n > 0$
 $$
@@ -40,23 +40,23 @@ $$
 \end{align*}
 $$
 
-$\textbf{Definição.}$ Seja $(G, \cdot)$ um grupóide e seja $a \in G$. Diz-se que $a$ é:
+**Definição:** Seja $(G, \cdot)$ um grupóide e seja $a \in G$. Diz-se que $a$ é:
 - simplicável (ou cancelável) à esquerda se $\forall_{c, d \in G} (ac = ad \implies c = d)$
 - simplicável (ou cancelável) à direita se $\forall_{c, d \in G}(ca = da \implies c = d)$
 - simplicável (ou cancelável) se é simplicável à esquerda e à direita
 
-$\textbf{Definição.}$ Dizemos que num grupóide $(G, \cdot)$ é valida a:
+**Definição:** Dizemos que num grupóide $(G, \cdot)$ é valida a:
 - lei do corte à esquerda se todos os elementos do grupóide são caneláveis à esquerda
 - lei do corte à direita se todos os elementos do grupóide são canceláveis à direita
 - lei do corte se são válidas as leis da corte à esquerda e à direita
 
-$\textbf{Exemplos.}$
+*Exemplos:*
 1) A lei do corte é válida em $(\mathbb{N}, +)$ e em $(\mathbb{N}, \cdot)$
 2) Em $(\mathbb{N}_0, \cdot)$ e em $(\mathbb{Z}, \cdot)$ não é válida a lei do corte pois por exemplo $0 \cdot 8 = 0 \cdot 5 = 0$ e no entanto $8 \ne 5$. Portanto o $0$ não é cancelável.
 
-$\textbf{Propriedade.}$ Seja $(M, \cdot)$ um monóide. Se $a \in M$ é invertível, então $a$ é simplicável
+*Propriedade:*Seja $(M, \cdot)$ um monóide. Se $a \in M$ é invertível, então $a$ é simplicável
 
-$\textbf{Demonstração.}$ Se $a$ é invertível, então $a$ existe um elemento $a^{-1} \in M$ tal que $$a \cdot a^{-1} = a^{-1} \cdot a = 1_M$$ Logo, para quaisquer $c, d \in M$, tem-se
+*Demonstração:* Se $a$ é invertível, então $a$ existe um elemento $a^{-1} \in M$ tal que $$a \cdot a^{-1} = a^{-1} \cdot a = 1_M$$ Logo, para quaisquer $c, d \in M$, tem-se
 
 $$
 \begin{align*}
@@ -69,21 +69,21 @@ $$
 
 Provam-se assim que $a$ é simplificável à esquerda. De forma simétrica, prova-se que $a$ é simplificável à direita. Portanto, $a$ é simplicável.
 
-$\textbf{Corolario.}$ Num grupo qualquer é válida a lei do corte.
+**Corolario:** Num grupo qualquer é válida a lei do corte.
 
-$\textbf{Proposição.}$ Seja $(M, \cdot)$ um monóide e seja $a \in M$ um elemento invertível. Então, dado um $b \in M$ qualquer, as equações $$ax = b \quad \text{e} \quad ya = b$$ tem uma e uma só solução.
+**Proposição:** Seja $(M, \cdot)$ um monóide e seja $a \in M$ um elemento invertível. Então, dado um $b \in M$ qualquer, as equações $$ax = b \quad \text{e} \quad ya = b$$ tem uma e uma só solução.
 
-$\textbf{Demonstração.}$ Tem-se $$ax=b \implies a^{-1}(ax) = a^{-1}b \implies x=a{-1}b$$ Logo $a^{-1}b$ é a única solução da equação $ax = b$. Analogamente, $ba^{-1}$ é a única solução da equação $ya = b.$
+*Demonstração:* Tem-se $$ax=b \implies a^{-1}(ax) = a^{-1}b \implies x=a{-1}b$$ Logo $a^{-1}b$ é a única solução da equação $ax = b$. Analogamente, $ba^{-1}$ é a única solução da equação $ya = b.$
 
-Resolução do exercício 1.23 da 
->[!navcard]- Folha 1
-> ![[folha-1_algebra.pdf | folha 1]]
+*exercício 1.23* 
+
 
 | $\cdot$ | a   | b   | c   |
 | ------- | --- | --- | --- |
 | a       | a   | b   | c   |
 | b       | b   | c   | a   |
 | c       | c   | a   | b   |
+
 
 
 | $\cdot$ | e   | f   | g   | h   |

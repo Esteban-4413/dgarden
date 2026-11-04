@@ -23,32 +23,30 @@ flowchart TD
 
 ## 1. Exemplos de grupos, por ordem
 
-$\textbf{Exemplo}$ (grupos)
+*Exemplos (grupos):*
 - **Ordem 1** — chama-se $\mathbb{Z}_1$:
 
 
-  |     | $0$ |
-  | --- | --- |
-  | $0$ | $0$ |
-
+|     | $0$ |
+| --- | --- |
+| $0$ | $0$ |
 
 - **Ordem 2** — chama-se $\mathbb{Z}_2$, é o mod $2$:
 
 
-  |     | $0$ | $1$ |
-  | --- | --- | --- |
-  | $0$ | $0$ | $1$ |
-  | $1$ | $1$ | $0$ |
-
+|     | $0$ | $1$ |
+| --- | --- | --- |
+| $0$ | $0$ | $1$ |
+| $1$ | $1$ | $0$ |
 
 - **Ordem 3** — $\mathbb{Z}_3$:
 
 
-  |     | $0$ | $1$ | $2$ |
-  | --- | --- | --- | --- |
-  | $0$ | $0$ | $1$ | $2$ |
-  | $1$ | $1$ | $2$ | $0$ |
-  | $2$ | $2$ | $0$ | $1$ |
+|     | $0$ | $1$ | $2$ |
+| --- | --- | --- | --- |
+| $0$ | $0$ | $1$ | $2$ |
+| $1$ | $1$ | $2$ | $0$ |
+| $2$ | $2$ | $0$ | $1$ |
 
 
 ## 2. Elemento neutro
@@ -56,7 +54,7 @@ $\textbf{Exemplo}$ (grupos)
 > [!quote] Ideia central
 > Em todo grupo há sempre um **elemento neutro**, ou seja, um elemento que, operado com outro elemento, resulta no outro.
 
-$\textbf{Definição}$. Seja $(G, *)$ um grupóide.
+**Definição:** Seja $(G, *)$ um grupóide.
 - Um elemento $e \in G$ diz-se um elemento **neutro à esquerda** se $\forall a \in G,\; e*a = a$.
 - Um elemento $e \in G$ diz-se um elemento **neutro à direita** se $\forall a \in G,\; a*e = a$.
 - Um elemento de $G$ diz-se **neutro** se é simultaneamente neutro à esquerda e à direita.
@@ -64,7 +62,7 @@ $\textbf{Definição}$. Seja $(G, *)$ um grupóide.
 > [!info] **Proposição**
 > Se um grupóide $(G,*)$ tem um elemento neutro à esquerda $l \in G$ e tem um elemento neutro à direita $r \in G$, então $l = r$.
 
-> [!check]- **Demonstração**
+> [!check]- *Demonstração*
 > Tem-se
 > $$l = l * r = r$$
 > onde a primeira igualdade usa que $r$ é neutro **à direita** (aplicado a $l$), e a segunda usa que $l$ é neutro **à esquerda** (aplicado a $r$). $\blacksquare$
@@ -76,9 +74,9 @@ $\textbf{Corolário}$. Um grupóide tem **no máximo um** elemento neutro (ou id
 
 ## 3. Monóide
 
-$\textbf{Definição}$. Um **monóide** é um semigrupo com identidade.
+**Definição:** Um **monóide** é um semigrupo com identidade.
 
-$\textbf{Exemplo}$
+*Exemplo:*
 1. $(\mathbb{N}, +)$ **não** é monóide — falta o elemento neutro em $\mathbb{N} = \{1,2,\dots\}$ (se $\mathbb{N}$ não inclui o $0$).
 2. $(\mathbb{N}_0, +)$, $(\mathbb{Z}, +)$, $(\mathbb{N}, \cdot)$ são monóides.
 3. $\mathcal{M}_{n\times n}(\mathbb{R})$ (matrizes reais $n \times n$, com a multiplicação) é um monóide — o elemento neutro é a **matriz identidade**.

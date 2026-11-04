@@ -2,12 +2,12 @@
 noteId: 1793662140648
 ---
 
-$\textbf{Definição.}$ Um grupo é um par ordenado $(G, *)$ onde $G$ é um conjunto não vazio, chamado o suporte do grupo, e $*: G \times G \to G$ é uma operação binária
+**Definição:** Um grupo é um par ordenado $(G, *)$ onde $G$ é um conjunto não vazio, chamado o suporte do grupo, e $*: G \times G \to G$ é uma operação binária
   (i) $\forall_{a, b, c \in G} (a * b) * c = a * (b * c)$
   (ii) $exists_{e \in G} \forall_{a \in G} e * a = a * e = a$
   (iii) $\forall_{a \in G} \exists_{a' \in G} a * a' = a' * a = e$
 
-$\textbf{Observação.}$ 
+*Observação:*
 1. Num grupo o elemento neutro é único e cada elemento tem um e um só oposto.
 2. Um grupo comutativo, ou seja, tal que $\forall_{a, b \in G} a * b = b * a$ é dito um grupo abeliano
 
@@ -39,7 +39,7 @@ Em linguagem aditiva:
   - $-a$ o elemento oposto de $a$, e é chamado o simétrico de $a$
   - $(-n)a$ o elemento $-(na)$ com $n \in \mathbb{N}$
 
-$\textbf{Proposição.}$ Seja $(G, \cdot)$ um grupo, sejam $a, b, a_1, a_2, \dots, a_k \in G$, com $k \in \mathbb{N}$, e sejam $m, n \in \mathbb{Z}$. Então:
+**Proposição:** Seja $(G, \cdot)$ um grupo, sejam $a, b, a_1, a_2, \dots, a_k \in G$, com $k \in \mathbb{N}$, e sejam $m, n \in \mathbb{Z}$. Então:
   (i) $1_G^{-1} = 1_G$
   (ii) $(a^{-1})^{-1} = a$
   (iii) $(ab)^{-1} = b^{-1}a^{-1}$
@@ -47,8 +47,7 @@ $\textbf{Proposição.}$ Seja $(G, \cdot)$ um grupo, sejam $a, b, a_1, a_2, \dot
   (v) $(a^n)^{-1} = (a^{-1})^n$
   (vi) $a^m a^n = a^{m + n}$
 
-$\textbf{Demostração}$
-
+*Demonstração:*
 > [!check]- **(i)** $1_G^{-1} = 1_G$
 > Como $1_G$ é o elemento neutro, $1_G \cdot 1_G = 1_G$. Isto diz exatamente que $1_G$ satisfaz a condição para ser o **inverso de si próprio** ($x$ tal que $1_G \cdot x = x \cdot 1_G = 1_G$). Pela unicidade do inverso, $1_G^{-1} = 1_G$. $\blacksquare$
  

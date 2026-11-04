@@ -2,23 +2,23 @@
 noteId: 1793662140798
 ---
 
-$\textbf{Definição.}$
-  Seja $(G, \cdot)$ um grupo e seja $H \subseteq D$. Diz-se que o $H$ é subgrupo de $G$, e escreve-se $H \leq G$, se
-  1) $\forall_{a, b \in H}a \cdot b \in H$ ($H$ é estável ou fechado para $\cdot$)
-  2) $(H, \cdot)$ é grupo.
+**Definição**
+Seja $(G, \cdot)$ um grupo e seja $H \subseteq D$. Diz-se que o $H$ é subgrupo de $G$, e escreve-se $H \leq G$, se
+1) $\forall_{a, b \in H}a \cdot b \in H$ ($H$ é estável ou fechado para $\cdot$)
+2) $(H, \cdot)$ é grupo.
 
-$\textbf{Teorema.}$ (Critérios de subgrupo):
-  Seja $(G, \cdot)$ um grupo e seja $H \subseteq G$. As seguintes condições são equivalentes:
-  1) $H \leq G$;
-  2)
-    i) $1_G \in H$;
-    ii) $\forall_{a, b \in H} a \cdot b \in H$;
-    iii) $\forall_{a \in H} a^{-1} \in H$;
-  3) 
-    i) $1_G \in H$;
-    ii) $\forall_{a, b \in H} a \cdot b^{-1} \in H$; (Combinação do 2) i) e do 2) ii))
+**Teorema (Critérios de subgrupos):**
+Seja $(G, \cdot)$ um grupo e seja $H \subseteq G$. As seguintes condições são equivalentes:
+1) $H \leq G$;
+2)
+  i) $1_G \in H$;
+  ii) $\forall_{a, b \in H} a \cdot b \in H$;
+  iii) $\forall_{a \in H} a^{-1} \in H$;
+3) 
+  i) $1_G \in H$;
+  ii) $\forall_{a, b \in H} a \cdot b^{-1} \in H$; (Combinação do 2) i) e do 2) ii))
 
-$\textbf{Demonstração.}$
+*Demonstração:*
 $(1) \implies (2)$
   Assumimos como hipótese que $H \leq G$.
 A condição 2) ii) é válida pela hipótese $H \leq G$.
@@ -52,12 +52,10 @@ Critério I (de subgrupo)
   iii) $\forall_a \in H a \cdot b^{-1} \in H$.
 
 
-Resolução de exercício
-
-Ficha 1
+*exercício 1.32* 
 [[folha-1_algebra.pdf]]
 
-1.32) Pelo critério I de subgrupos, $Ca \leq G$ se e só se
+Pelo critério I de subgrupos, $Ca \leq G$ se e só se
 i) $1_G \in Ca$
 $1_G \in Ca$ se $1_G \cdot a = a \cdot 1_G$, da definição de identidade.
 ii) $\forall_{x, y \in Ca} x \cdot y \in Ca$

@@ -24,11 +24,11 @@ flowchart TD
 
 ### Operação binária
 
-$\textbf{Definição}$. Seja $X$ um conjunto. **Uma operação binária** (interna) em $X$ é uma função $*: X \times X \to X \text{, } \, (x, y) \mapsto x * y$. Uma operação binária $*$ em $X$ diz-se:
+**Definição:** Seja $X$ um conjunto. **Uma operação binária** (interna) em $X$ é uma função $*: X \times X \to X \text{, } \, (x, y) \mapsto x * y$. Uma operação binária $*$ em $X$ diz-se:
 - **Associativa** se para cada três elementos $x, y, z \in X \text{, } \, (x*y)*z = x * (y * z).$
 - **Comutativa** se para cada dois elementos $x, y \in X \text{,} \, x * y = y * x$.
 
-$\textbf{Exemplo}$ 
+*Exemplo:*
 - (i) A adição $+$ e a multiplicação $\cdot$ são operações associativas e comutativas em $\mathbb{N}, \, \mathbb{Z}, \, \mathbb{Q}, \, e \, \mathbb{R}$.
 - (ii) A subtração $-$, não sendo nem associativa nem comutativa, é uma operação binária em $\mathbb{Z}$, $\mathbb{Q}$, e $\mathbb{R}$, mas não em $\mathbb{N}$.
 - (iii) $a*b = |a - b|$ em $\mathbb{N}$ é comutativa mas não associativa.
@@ -38,13 +38,13 @@ $\textbf{Exemplo}$
 
 ### Grupóide
 
-$\textbf{Definição}$. Um **grupóide** é um par $(X, *)$ em que $X$ é um conjunto não vazio e $*$ é uma operação binária em $X$.
+**Definição:** Um **grupóide** é um par $(X, *)$ em que $X$ é um conjunto não vazio e $*$ é uma operação binária em $X$.
 - $X$ é chamado o **conjunto suporte** do grupóide.
 - O grupóide diz-se **finito** ou **infinito** conforme o conjunto $X$ o seja. No caso finito, o cardinal de $X$ diz-se a **ordem** do grupóide, e representa-se por $|X|$.
 - Habitualmente dizemos "o grupóide $X$", em vez de $(X,*)$, quando a operação estiver subentendida.
 - O grupóide $(X,*)$ diz-se **comutativo** se $*$ é comutativa, e **associativo** se $*$ é associativa.
 
-$\textbf{Exemplo}$
+*Exemplo:*
 1. $(\mathbb{R}, *)$ onde $*$ é a multiplicação usual em $\mathbb{R}$.
 2. $(\mathbb{Z}, +)$, $(\mathbb{Z}, -)$, $(\mathbb{Z}, \cdot)$ são as operações usuais da adição, subtração e multiplicação.
 3. **Não** são grupóides: $(\mathbb{Z}, /)$ (a divisão usual não é uma operação binária *interna* em $\mathbb{Z}$), $(\mathbb{N}, -)$ (a subtração pode sair de $\mathbb{N}$).
@@ -63,7 +63,8 @@ Um grupóide $(X, *)$ finito pode ser identificado por uma **tabela de Cayley**:
 | ⋮          | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
 | $x_n$      | $x_n*x_1$ | $x_n*x_2$ | ⋯ | $x_n*x_j$ | ⋯ | $x_n*x_n$ |
 
-$\textbf{Exemplo}$. É a tabela de Cayley de um grupóide de suporte $\{a,b,c\}$:
+
+*Exemplo:* É a tabela de Cayley de um grupóide de suporte $\{a,b,c\}$:
 
 
 |     | $a$ | $b$ | $c$ |
@@ -79,9 +80,9 @@ Este grupóide **não** é comutativo, pois, por exemplo: $a*b = a \neq a*c = b*
 
 ## 2. Semigrupo
 
-$\textbf{Definição}$. Um **semigrupo** é um grupóide **associativo**, isto é, um grupóide cuja operação é associativa.
+**Definição:** Um **semigrupo** é um grupóide **associativo**, isto é, um grupóide cuja operação é associativa.
 
-$\textbf{Exemplo}$
+*Exemplo:*
 1. $(\mathbb{Z}, +)$ e $(\mathbb{Z}, \cdot)$ são semigrupos.
 2. $(\mathbb{Z}, -)$ **não** é um semigrupo — a subtração não é associativa.
 
