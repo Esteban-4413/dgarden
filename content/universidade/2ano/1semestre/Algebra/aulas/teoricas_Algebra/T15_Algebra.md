@@ -43,8 +43,10 @@ $\therefore \langle a \rangle = G$
 $\therefore G$ é cíclico 
 
 *Exercício 1.61:*
+
 - $K \leq H$ pois $K \leq G$ e $k \subseteq H$
 Pelo teorema de Lagrange
+
 $$
 \begin{align}
 \lvert G \rvert &= (G : H) \lvert H \rvert \quad \text{pois } H \leq G \\
