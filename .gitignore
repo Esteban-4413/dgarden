@@ -13,6 +13,7 @@ replit.nix
 quartz/cli/tui/dist/
 .turbo/
 
+content/TaskNotes/
 content/rabbit-hole/programming/rust/code-rust/challenges/
 
 # Proyectos locales de C y materiales pesados
