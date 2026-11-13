@@ -1,13 +1,19 @@
+# Análise Numérica — Aula 2
+
 ## 1. Erros
 
 ### 1.1 Erro absoluto e erro relativo de um valor aproximado
 
 Sejam $x$ um número dado e $\tilde x$ um valor aproximado para $x$.
 
-| Conceito | Definição |
-|----------|-----------|
-| **Erro (absoluto)** de $\tilde x$ para $x$ | $E_{\tilde x}:=x-\tilde x$ |
-| **Erro relativo** de $\tilde x$ para $x$ (se $x\neq0$) | $R_{\tilde x}:=\dfrac{x-\tilde x}{x}$ |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Conceito} & \textbf{Definição} \\ \hline
+\textbf{Erro (absoluto)}\ \text{de}\ \tilde x\ \text{para}\ x & E_{\tilde x}:=x-\tilde x \\ \hline
+\begin{array}{l} \textbf{Erro relativo}\ \text{de}\ \tilde x\ \text{para}\ x\ \text{(se} \\ x\neq0\text{)} \end{array} & R_{\tilde x}:=\dfrac{x-\tilde x}{x} \\ \hline
+\end{array}
+$$
 
 **Exemplo:** $x=\dfrac13$, $\;y=\dfrac1{3000}$, $\;\tilde x=0.3333$, $\;\tilde y=0.0003$.
 
@@ -51,11 +57,15 @@ $$S=x+y,\qquad P=x\times y,\qquad Q=x/y.$$
 
 Sejam $\tilde S,\tilde P,\tilde Q$ os valores obtidos usando $\tilde x,\tilde y$ em vez de $x,y$, **admitindo que as operações são efetuadas exatamente**.
 
-| Operação | Erro absoluto | Erro relativo |
-|----------|---------------|---------------|
-| **Soma** | $E_{\tilde S}=E_{\tilde x}+E_{\tilde y}$ | $R_{\tilde S}=\dfrac{x}{x+y}R_{\tilde x}+\dfrac{y}{x+y}R_{\tilde y}$ |
-| **Produto** | $E_{\tilde P}=E_{\tilde x}\,y+E_{\tilde y}\,x-E_{\tilde x}E_{\tilde y}$ | $R_{\tilde P}=R_{\tilde x}+R_{\tilde y}-R_{\tilde x}R_{\tilde y}$ |
-| **Quociente** | $E_{\tilde Q}=\dfrac{y\,E_{\tilde x}-x\,E_{\tilde y}}{y\,\tilde y}$ | $R_{\tilde Q}=\dfrac{R_{\tilde x}-R_{\tilde y}}{1-R_{\tilde y}}$ |
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{Operação} & \textbf{Erro absoluto} & \textbf{Erro relativo} \\ \hline
+\textbf{Soma} & E_{\tilde S}=E_{\tilde x}+E_{\tilde y} & R_{\tilde S}=\dfrac{x}{x+y}R_{\tilde x}+\dfrac{y}{x+y}R_{\tilde y} \\ \hline
+\textbf{Produto} & E_{\tilde P}=E_{\tilde x}\,y+E_{\tilde y}\,x-E_{\tilde x}E_{\tilde y} & R_{\tilde P}=R_{\tilde x}+R_{\tilde y}-R_{\tilde x}R_{\tilde y} \\ \hline
+\textbf{Quociente} & E_{\tilde Q}=\dfrac{y\,E_{\tilde x}-x\,E_{\tilde y}}{y\,\tilde y} & R_{\tilde Q}=\dfrac{R_{\tilde x}-R_{\tilde y}}{1-R_{\tilde y}} \\ \hline
+\end{array}
+$$
 
 Se $|R_{\tilde x}|,|R_{\tilde y}|\ll1$, então:
 
@@ -75,21 +85,29 @@ O erro relativo passou de $10^{-6}$ para cerca de $10^{-3}$: amplificação de ~
 
 Seja $x=(-1)^s\times m_x\times10^e$ (notação normalizada, sistema decimal) e $\tilde x$ uma aproximação de $x$.
 
-| Conceito | Definição |
-|----------|-----------|
-| **$p$ casas decimais (c.d.)** corretas | $p$ é o **maior** inteiro (positivo) tal que $\;|x-\tilde x|\le0.5\times10^{-p}$ |
-| **$q$ algarismos significativos (a.s.)** corretos | $q$ é o **maior** inteiro (positivo) tal que $\;|x-\tilde x|\le0.5\times10^{-q}\times10^{e}$ |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Conceito} & \textbf{Definição} \\ \hline
+\boldsymbol{p}\ \textbf{casas decimais (c.d.)}\ \text{corretas} & \begin{array}{l} p\ \text{é o}\ \textbf{maior}\ \text{inteiro (positivo)} \\ \text{tal que}\ \;|x-\tilde x|\le0.5\times10^{-p} \end{array} \\ \hline
+\begin{array}{l} \boldsymbol{q}\ \textbf{algarismos significativos} \\ \textbf{(a.s.)}\ \text{corretos} \end{array} & \begin{array}{l} q\ \text{é o}\ \textbf{maior}\ \text{inteiro (positivo)} \\ \text{tal que}\ \;|x-\tilde x|\le0.5\times10^{-q}\times10^{e} \end{array} \\ \hline
+\end{array}
+$$
 
 (Assume-se que $\tilde x$ tem, na notação normalizada, o mesmo expoente que $x$.)
 
 **Exemplos**
 
-| $x$ | $\tilde x$ | $e$ | $\lvert x-\tilde x\rvert$ | c.d. | a.s. |
-|-----|-----------|-----|---------------------------|------|------|
-| $3.127$ | $3.123$ | $1$ | $0.4\times10^{-2}<0.5\times10^{-2}=0.5\times10^{1-3}$ | 2 | 3 |
-| $0.0003127$ | $0.0003123$ | $-3$ | $0.4\times10^{-6}<0.5\times10^{-6}=0.5\times10^{-3-3}$ | 6 | 3 |
-| $3.127$ | $3.12$ | $1$ | $0.7\times10^{-2}<0.5\times10^{-1}=0.5\times10^{1-2}$ | 1 | 2 |
-| $3.127$ | $3.13$ | $1$ | $0.3\times10^{-2}<0.5\times10^{-2}=0.5\times10^{1-3}$ | 2 | 3 |
+$$
+\begin{array}{|l|l|l|l|l|l|}
+\hline
+x & \tilde x & e & \lvert x-\tilde x\rvert & \textbf{c.d.} & \textbf{a.s.} \\ \hline
+3.127 & 3.123 & 1 & 0.4\times10^{-2}<0.5\times10^{-2}=0.5\times10^{1-3} & \text{2} & \text{3} \\ \hline
+0.0003127 & 0.0003123 & -3 & 0.4\times10^{-6}<0.5\times10^{-6}=0.5\times10^{-3-3} & \text{6} & \text{3} \\ \hline
+3.127 & 3.12 & 1 & 0.7\times10^{-2}<0.5\times10^{-1}=0.5\times10^{1-2} & \text{1} & \text{2} \\ \hline
+3.127 & 3.13 & 1 & 0.3\times10^{-2}<0.5\times10^{-2}=0.5\times10^{1-3} & \text{2} & \text{3} \\ \hline
+\end{array}
+$$
 
 **Relação entre c.d. e a.s.:** se $\tilde x$ aproxima $x$ com $p$ c.d. e $x$ tem expoente $e$ na notação normalizada, então $\tilde x$ tem $q=p+e$ a.s. (supondo $q>0$ e que o expoente de $\tilde x$ é também $e$).
 
@@ -146,13 +164,17 @@ $$\big(\sqrt{x+1}-\sqrt x\big)\big(\sqrt{x+1}+\sqrt x\big)=(x+1)-x=1.$$
 
 Mas, calculadas no Matlab:
 
-| $x$ | $f(x)$ (com subtração) | $g(x)$ (sem subtração) |
-|-----|------------------------|------------------------|
-| $10^{1}$ | $1.5434713018702029\times10^{-1}$ | $1.5434713018702051\times10^{-1}$ |
-| $10^{4}$ | $4.9998750062485442\times10^{-3}$ | $4.9998750062496093\times10^{-3}$ |
-| $10^{7}$ | $1.5811387902431306\times10^{-4}$ | $1.5811387905557208\times10^{-4}$ |
-| $10^{8}$ | $5.0000000555883162\times10^{-5}$ | $4.9999999874999996\times10^{-5}$ |
-| $10^{10}$ | $4.9999944167211652\times10^{-6}$ | $4.9999999998750004\times10^{-6}$ |
+$$
+\begin{array}{|l|l|l|}
+\hline
+x & f(x)\ \textbf{(com subtração)} & g(x)\ \textbf{(sem subtração)} \\ \hline
+10^{1} & 1.5434713018702029\times10^{-1} & 1.5434713018702051\times10^{-1} \\ \hline
+10^{4} & 4.9998750062485442\times10^{-3} & 4.9998750062496093\times10^{-3} \\ \hline
+10^{7} & 1.5811387902431306\times10^{-4} & 1.5811387905557208\times10^{-4} \\ \hline
+10^{8} & 5.0000000555883162\times10^{-5} & 4.9999999874999996\times10^{-5} \\ \hline
+10^{10} & 4.9999944167211652\times10^{-6} & 4.9999999998750004\times10^{-6} \\ \hline
+\end{array}
+$$
 
 - $f$: **cancelamento subtrativo** ✘ — quanto maior $x$, mais dígitos se perdem (para $x=10^{10}$, só coincidem uns 5 dígitos).
 - $g$: **todos os algarismos significativos** ✔.
@@ -163,10 +185,14 @@ Mas, calculadas no Matlab:
 
 Ao resolver um problema, em Análise Numérica há duas questões fundamentais:
 
-| Questão | Conceito |
-|---------|----------|
-| Quão sensível é a **solução** à forma específica do **problema**? | **Bom / mau condicionamento** do **problema** |
-| Quão sensível é o **algoritmo** que estamos a usar à precisão dos dados? | **Estabilidade / instabilidade** do **algoritmo** |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Questão} & \textbf{Conceito} \\ \hline
+\begin{array}{l} \text{Quão sensível é a}\ \textbf{solução}\ \text{à forma} \\ \text{específica do}\ \textbf{problema}\text{?} \end{array} & \begin{array}{l} \textbf{Bom / mau condicionamento}\ \text{do} \\ \textbf{problema} \end{array} \\ \hline
+\begin{array}{l} \text{Quão sensível é o}\ \textbf{algoritmo}\ \text{que} \\ \text{estamos a usar à precisão dos} \\ \text{dados?} \end{array} & \begin{array}{l} \textbf{Estabilidade / instabilidade}\ \text{do} \\ \textbf{algoritmo} \end{array} \\ \hline
+\end{array}
+$$
 
 → O condicionamento é uma propriedade do **problema**; a estabilidade é uma propriedade do **método/algoritmo**.
 
@@ -178,10 +204,14 @@ $$\begin{cases}1.01x+0.99y=2.00\\0.99x+1.01y=2.00\end{cases}\qquad\text{Sol.: }x
 
 Alterando ligeiramente o lado direito:
 
-| Lado direito | Solução |
-|--------------|---------|
-| $(2.02,\ 1.98)$ | $x=2,\ y=0$ |
-| $(1.98,\ 2.02)$ | $x=0,\ y=2$ |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Lado direito} & \textbf{Solução} \\ \hline
+(2.02,\ 1.98) & x=2,\ y=0 \\ \hline
+(1.98,\ 2.02) & x=0,\ y=2 \\ \hline
+\end{array}
+$$
 
 Uma alteração de $\pm1\%$ nos dados provoca alterações de **100%** na solução: **"pequenas" alterações nos dados ⟹ "grandes" alterações nas soluções** → **problema mal condicionado!**
 
@@ -199,28 +229,32 @@ Perturbação relativa: $\;2^{-23}/210\approx5.7\times10^{-10}$ no coeficiente $
 
 Raízes obtidas com o **Mathematica** (precisão infinita) e com o **Matlab**:
 
-| Raiz exata de $p$ | $p$ (Matlab) | $q$ (Mathematica) | $q$ (Matlab) |
-|:-:|:-:|:-:|:-:|
-| 1 | 1.0000 | 1.0000 | 1.0000 + 0.0000i |
-| 2 | 2.0000 | 2.0000 | 2.0000 + 0.0000i |
-| 3 | 3.0000 | 3.0000 | 3.0000 + 0.0000i |
-| 4 | 4.0000 | 4.0000 | 4.0000 + 0.0000i |
-| 5 | 5.0000 | 5.0000 | 5.0000 + 0.0000i |
-| 6 | 6.0000 | 6.0000 | 6.0000 + 0.0000i |
-| 7 | 7.0000 | 6.9997 | 6.9994 + 0.0000i |
-| 8 | 8.0003 | 8.0073 | 8.0153 + 0.0000i |
-| 9 | 8.9984 | 8.91725 | 8.8533 + 0.0000i |
-| 10 | 10.0061 | 10.0953 − 0.6435i | 9.9859 − 0.8088i |
-| 11 | 10.9840 | 10.0953 + 0.6435i | 9.9859 + 0.8088i |
-| 12 | 12.0334 | 11.7936 − 1.6523i | 11.6820 − 1.8654i |
-| 13 | 12.9491 | 11.7936 + 1.6523i | 11.6820 + 1.8654i |
-| 14 | 14.0653 | 13.9924 − 2.5188i | 13.9142 − 2.7966i |
-| 15 | 14.9354 | 13.9924 + 2.5188i | 13.9142 + 2.7966i |
-| 16 | 16.0483 | 16.7307 − 2.8126i | 16.7521 − 3.1418i |
-| 17 | 16.9711 | 16.7307 + 2.8126i | 16.7521 + 3.1418i |
-| 18 | 18.0112 | 19.5024 − 1.9403i | 19.6819 − 2.2103i |
-| 19 | 18.9972 | 19.5024 + 1.9403i | 19.6819 + 2.2103i |
-| 20 | 20.0003 | 20.8469 | 21.0997 + 0.0000i |
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\textbf{Raiz exata de}\ p & p\ \textbf{(Matlab)} & q\ \textbf{(Mathematica)} & q\ \textbf{(Matlab)} \\ \hline
+\text{1} & \text{1.0000} & \text{1.0000} & \text{1.0000 + 0.0000i} \\ \hline
+\text{2} & \text{2.0000} & \text{2.0000} & \text{2.0000 + 0.0000i} \\ \hline
+\text{3} & \text{3.0000} & \text{3.0000} & \text{3.0000 + 0.0000i} \\ \hline
+\text{4} & \text{4.0000} & \text{4.0000} & \text{4.0000 + 0.0000i} \\ \hline
+\text{5} & \text{5.0000} & \text{5.0000} & \text{5.0000 + 0.0000i} \\ \hline
+\text{6} & \text{6.0000} & \text{6.0000} & \text{6.0000 + 0.0000i} \\ \hline
+\text{7} & \text{7.0000} & \text{6.9997} & \text{6.9994 + 0.0000i} \\ \hline
+\text{8} & \text{8.0003} & \text{8.0073} & \text{8.0153 + 0.0000i} \\ \hline
+\text{9} & \text{8.9984} & \text{8.91725} & \text{8.8533 + 0.0000i} \\ \hline
+\text{10} & \text{10.0061} & \text{10.0953 }- \text{ 0.6435i} & \text{9.9859 }- \text{ 0.8088i} \\ \hline
+\text{11} & \text{10.9840} & \text{10.0953 + 0.6435i} & \text{9.9859 + 0.8088i} \\ \hline
+\text{12} & \text{12.0334} & \text{11.7936 }- \text{ 1.6523i} & \text{11.6820 }- \text{ 1.8654i} \\ \hline
+\text{13} & \text{12.9491} & \text{11.7936 + 1.6523i} & \text{11.6820 + 1.8654i} \\ \hline
+\text{14} & \text{14.0653} & \text{13.9924 }- \text{ 2.5188i} & \text{13.9142 }- \text{ 2.7966i} \\ \hline
+\text{15} & \text{14.9354} & \text{13.9924 + 2.5188i} & \text{13.9142 + 2.7966i} \\ \hline
+\text{16} & \text{16.0483} & \text{16.7307 }- \text{ 2.8126i} & \text{16.7521 }- \text{ 3.1418i} \\ \hline
+\text{17} & \text{16.9711} & \text{16.7307 + 2.8126i} & \text{16.7521 + 3.1418i} \\ \hline
+\text{18} & \text{18.0112} & \text{19.5024 }- \text{ 1.9403i} & \text{19.6819 }- \text{ 2.2103i} \\ \hline
+\text{19} & \text{18.9972} & \text{19.5024 + 1.9403i} & \text{19.6819 + 2.2103i} \\ \hline
+\text{20} & \text{20.0003} & \text{20.8469} & \text{21.0997 + 0.0000i} \\ \hline
+\end{array}
+$$
 
 Conclusões:
 - Os resultados do Matlab para as raízes de $p$ mostram como estas são **extremamente sensíveis ao efeito dos erros de arredondamento** (as raízes maiores já falham na 3.ª–4.ª casa decimal).
@@ -299,32 +333,3 @@ ans =
 
 > **Nota:** o uso de fórmulas que possam provocar cancelamento subtrativo é uma das grandes fontes de **instabilidade** nos algoritmos.
 
----
-
-## 3. Resumo rápido
-
-- **Erro absoluto:** $E_{\tilde x}=x-\tilde x$. **Erro relativo:** $R_{\tilde x}=\dfrac{x-\tilde x}{x}\approx\dfrac{x-\tilde x}{\tilde x}$. Além disso, $\tilde x=x(1-R_{\tilde x})$.
-- **Arredondamento:** $|R_{\text{fl}(x)}|\le\mu=\tfrac12b^{1-t}$; $\text{fl}(x)=x(1+\delta)$, $|\delta|\le\mu$. No Matlab, $\mu=2^{-53}$ → $\ge15$ a.s.
-- **Propagação:** $R_{\tilde P}\approx R_{\tilde x}+R_{\tilde y}$, $\;R_{\tilde Q}\approx R_{\tilde x}-R_{\tilde y}$; a **soma** é perigosa quando $x\approx-y$.
-- **c.d. vs a.s.:** $|x-\tilde x|\le0.5\times10^{-p}$ (c.d., erro absoluto); $|x-\tilde x|\le0.5\times10^{-q}10^e$ (a.s., erro relativo). Relação: $q=p+e$.
-  - $|R|\le0.5\times10^{-q}\Rightarrow q$ a.s. corretos; $\;q$ a.s. $\Rightarrow|R|\le0.5\times10^{1-q}$.
-- **Cancelamento subtrativo:** subtrair números muito próximos → perda de a.s. Solução: **reescrever a fórmula**.
-- **Condicionamento** ↔ **problema**; **estabilidade** ↔ **algoritmo**.
-- **Número de condição:** $\text{cond}\,f(x)=\left|\dfrac{x f'(x)}{f(x)}\right|$ — $\sqrt x$: $\tfrac12$; $\;e^x$: $|x|$.
-
----
-
-## 4. Exercícios para praticar
-
-1. Seja $x=\pi$ e $\tilde x=3.14$. Determine o número de c.d. e de a.s. corretos e o erro relativo.
-   *Solução:* $|x-\tilde x|\approx0.00159\le0.5\times10^{-2}$ → **2 c.d.**; $e=1$ → **3 a.s.**; $|R_{\tilde x}|\approx5.1\times10^{-4}$.
-2. Calcule $\text{cond}\,f(x)$ para $f(x)=x^n$ ($n\in\mathbb N$). O que conclui?
-   *Solução:* $\text{cond}\,f(x)=\left|\dfrac{x\cdot nx^{n-1}}{x^n}\right|=n$ → bem condicionada para $n$ pequeno, e o erro relativo multiplica-se por $n$.
-3. Calcule $\text{cond}\,f(x)$ para $f(x)=\ln x$ em $x=1.001$.
-   *Solução:* $\text{cond}\,f(x)=\dfrac1{|\ln1.001|}\approx1000$ → **mal condicionado**.
-4. Reescreva $f(x)=1-\cos x$ de forma a evitar o cancelamento subtrativo para $x$ próximo de $0$.
-   *Solução:* $1-\cos x=2\operatorname{sen}^2\!\left(\dfrac x2\right)$.
-5. No Matlab, compare `sqrt(x+1)-sqrt(x)` com `1/(sqrt(x+1)+sqrt(x))` para `x=10^12`. Qual é a mais fiável e porquê?
-
-# Reference
-[[slideserrosestabilidade.pdf]]

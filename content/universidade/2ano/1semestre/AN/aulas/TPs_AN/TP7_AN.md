@@ -1,11 +1,11 @@
-# Quadratura numérica 
-Ficha 3
-ex: 1; 2; 3; 4; 5
-
+# Quadratura numérica
+## Ficha 3
 [[ExerciciosQuadratura.pdf]] · [[QuadraturaALUNOS.pdf]]
+Exercícios resolvidos: **1; 2; 3; 4; 5**
 
+---
 
-## 0. Resumo teórico 
+## 0. Resumo teórico (para consulta)
 
 ### 0.1 O problema
 
@@ -29,11 +29,15 @@ $$w_i=\int_a^bL_i(x)\,dx$$
 
 ### 0.3 Regras simples
 
-| Regra | $n$ | Fórmula | Erro | Grau de exatidão |
-|---|---|---|---|---|
-| **Trapézio** | 2 | $\dfrac h2\,[f(x_1)+f(x_2)]$, $\;h=b-a$ | $-\dfrac{h^3}{12}f''(\eta)$ | 1 |
-| **Simpson** | 3 | $\dfrac h3\,[f(x_1)+4f(x_2)+f(x_3)]$, $\;h=\dfrac{b-a}2$ | $-\dfrac{h^5}{90}f^{(4)}(\eta)$ | 3 |
-| Simpson 3/8 | 4 | $\dfrac{3h}8\,[f_1+3f_2+3f_3+f_4]$ | (ver tabela dos slides) | 3 |
+$$
+\begin{array}{|l|l|l|l|l|}
+\hline
+\textbf{Regra} & n & \textbf{Fórmula} & \textbf{Erro} & \textbf{Grau de exatidão} \\ \hline
+\textbf{Trapézio} & \text{2} & \dfrac h2\,[f(x_1)+f(x_2)]\text{,}\ \;h=b-a & -\dfrac{h^3}{12}f''(\eta) & \text{1} \\ \hline
+\textbf{Simpson} & \text{3} & \begin{array}{l} \dfrac h3\,[f(x_1)+4f(x_2)+f(x_3)]\text{,} \\ \;h=\dfrac{b-a}2 \end{array} & -\dfrac{h^5}{90}f^{(4)}(\eta) & \text{3} \\ \hline
+\text{Simpson 3/8} & \text{4} & \dfrac{3h}8\,[f_1+3f_2+3f_3+f_4] & \text{(ver tabela dos slides)} & \text{3} \\ \hline
+\end{array}
+$$
 
 (com $\eta\in(a,b)$.) Para $n\ge9$ há pesos grandes e de sinais diferentes → cancelamento subtrativo → raramente usadas.
 
@@ -62,11 +66,15 @@ $$|E_{T_N}|\approx\left|\frac{T_N-T_{N/2}}{3}\right|\;(N\text{ par}),\qquad|E_{S
 
 ### 0.6 Funções Matlab da toolbox de AN
 
-| Função | O que faz |
-|---|---|
-| `regTrapezio(f,a,b,N)` | trapézio composta e, se $N$ par, estimativa do erro |
-| `regSimpson(f,a,b,N)` | Simpson composta e, se $N$ múltiplo de 4, estimativa do erro |
-| `integral(f,a,b)` | integração numérica pré-definida do Matlab |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Função} & \textbf{O que faz} \\ \hline
+\texttt{regTrapezio(f,a,b,N)} & \begin{array}{l} \text{trapézio composta e, se}\ N\ \text{par,} \\ \text{estimativa do erro} \end{array} \\ \hline
+\texttt{regSimpson(f,a,b,N)} & \begin{array}{l} \text{Simpson composta e, se}\ N\ \text{múltiplo} \\ \text{de 4, estimativa do erro} \end{array} \\ \hline
+\texttt{integral(f,a,b)} & \begin{array}{l} \text{integração numérica pré-definida} \\ \text{do Matlab} \end{array} \\ \hline
+\end{array}
+$$
 
 ---
 
@@ -105,6 +113,7 @@ Q2 = 0.8608
 Q3 = 1.3213
 ```
 
+> ⚠️ **Correção ao `TP7_AN.m`:** na linha de Simpson faltava o peso **4** no ponto central (`f(0)+f(0.5)+f(1)`), o que dava `Q3 = 0.5455`. Com os pesos corretos, $Q_3=1.3213$.
 
 ### b) Erro de cada aproximação
 
@@ -116,11 +125,16 @@ errT = abs(IntE - Q2)     % 0.4475
 errS = abs(IntE - Q3)     % 0.0130
 ```
 
+> ⚠️ No `TP7_AN.m` o valor estava escrito como `1.8250506046`; o valor do enunciado é **1.3082506046**.
 
-| Regra | Aproximação | Erro $\lvert I-Q\rvert$ |
-|---|---|---|
-| Trapézio | $0.8608$ | $0.4475$ |
-| Simpson | $1.3213$ | $0.0130$ |
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{Regra} & \textbf{Aproximação} & \textbf{Erro}\ \lvert I-Q\rvert \\ \hline
+\text{Trapézio} & 0.8608 & 0.4475 \\ \hline
+\text{Simpson} & 1.3213 & 0.0130 \\ \hline
+\end{array}
+$$
 
 **Comentário:** o erro do trapézio é enorme (≈ 34% de $I$); o de Simpson é cerca de **34 vezes menor**. Ambos usam poucos pontos, mas Simpson é muito mais precisa.
 
@@ -182,10 +196,14 @@ S = (0.25/3)*(g(0) + 4*g(0.25) + g(0.5))       % 0.8125
 
 $$I=\Big[x^4+x^2+x\Big]_0^{0.5}=0.0625+0.25+0.5=\boxed{0.8125}$$
 
-| Regra | Valor | Erro $I-Q$ |
-|---|---|---|
-| Trapézio | $0.875$ | $-0.0625$ |
-| Simpson | $0.8125$ | $0$ |
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{Regra} & \textbf{Valor} & \textbf{Erro}\ I-Q \\ \hline
+\text{Trapézio} & 0.875 & -0.0625 \\ \hline
+\text{Simpson} & 0.8125 & 0 \\ \hline
+\end{array}
+$$
 
 **Comentário:**
 
@@ -266,10 +284,14 @@ int_exato = 5*(sin(0.4) - sin(0.2));
 erro = abs(int_Aprox - int_exato)     % 3.1792e-05
 ```
 
-| | Valor |
-|---|---|
-| Estimativa do erro | $3.1793\times10^{-5}$ |
-| Erro efetivo | $3.1792\times10^{-5}$ |
+$$
+\begin{array}{|l|l|}
+\hline
+ & \textbf{Valor} \\ \hline
+\text{Estimativa do erro} & 3.1793\times10^{-5} \\ \hline
+\text{Erro efetivo} & 3.1792\times10^{-5} \\ \hline
+\end{array}
+$$
 
 A estimativa é **praticamente igual** ao erro real. Isto acontece porque $f''(x)=-\frac1{25}\cos\frac x5$ varia muito pouco em $[1,2]$ (de ≈ $-0.0392$ em $x=1$ a ≈ $-0.0368$ em $x=2$), que é exatamente a hipótese em que a estimativa se baseia.
 
@@ -302,10 +324,14 @@ abs(int_exato - S8)
 abs(int_exato - S10)
 ```
 
-| $N$ | $S_N$ | Estimativa do erro | Erro efetivo |
-|---|---|---|---|
-| 8 | $0.9537450596$ | $2.070\times10^{-9}$ | $2.070\times10^{-9}$ |
-| 10 | $0.9537450584$ | — ($N$ não é múltiplo de 4) | $8.48\times10^{-10}$ |
+$$
+\begin{array}{|l|l|l|l|}
+\hline
+N & S_N & \textbf{Estimativa do erro} & \textbf{Erro efetivo} \\ \hline
+\text{8} & 0.9537450596 & 2.070\times10^{-9} & 2.070\times10^{-9} \\ \hline
+\text{10} & 0.9537450584 & \text{— (}N\ \text{não é múltiplo de 4)} & 8.48\times10^{-10} \\ \hline
+\end{array}
+$$
 
 **Comentários:**
 
@@ -340,13 +366,17 @@ erro = abs(Iex - TN)
 razao = erro(1:end-1) ./ erro(2:end)
 ```
 
-| $N$ | $h=\frac5N$ | $T_N$ | $\lvert E_{T_N}\rvert$ | Razão $\frac{\lvert E_{T_{N/2}}\rvert}{\lvert E_{T_N}\rvert}$ |
-|---|---|---|---|---|
-| 10 | 0.5 | $8.1938545652$ | $1.0375\times10^{-2}$ | — |
-| 20 | 0.25 | $8.1860492638$ | $2.5701\times10^{-3}$ | 4.037 |
-| 40 | 0.125 | $8.1841201918$ | $6.4098\times10^{-4}$ | 4.010 |
-| 80 | 0.0625 | $8.1836393573$ | $1.6015\times10^{-4}$ | 4.002 |
-| 160 | 0.03125 | $8.1835192390$ | $4.0031\times10^{-5}$ | 4.001 |
+$$
+\begin{array}{|l|l|l|l|l|}
+\hline
+N & h=\dfrac5N & T_N & \lvert E_{T_N}\rvert & \textbf{Razão}\ \dfrac{\lvert E_{T_{N/2}}\rvert}{\lvert E_{T_N}\rvert} \\ \hline
+\text{10} & \text{0.5} & 8.1938545652 & 1.0375\times10^{-2} & \text{—} \\ \hline
+\text{20} & \text{0.25} & 8.1860492638 & 2.5701\times10^{-3} & \text{4.037} \\ \hline
+\text{40} & \text{0.125} & 8.1841201918 & 6.4098\times10^{-4} & \text{4.010} \\ \hline
+\text{80} & \text{0.0625} & 8.1836393573 & 1.6015\times10^{-4} & \text{4.002} \\ \hline
+\text{160} & \text{0.03125} & 8.1835192390 & 4.0031\times10^{-5} & \text{4.001} \\ \hline
+\end{array}
+$$
 
 **Conclusão:** se $|E_{T_N}|\approx C\,h^2$, ao **dobrar $N$** ($h\to h/2$) o erro divide-se por $2^2=4$. As razões obtidas tendem para $4$ ($4.04,\ 4.01,\ 4.002,\ 4.001$) → os resultados **confirmam a ordem $O(h^2)$** da regra do trapézio composta.
 

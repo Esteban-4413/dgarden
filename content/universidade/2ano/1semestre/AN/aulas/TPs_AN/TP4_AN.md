@@ -1,8 +1,6 @@
 # Ficha 2 - Interpolação polinomial
 [[ExerciciosInterpolacao.pdf]]
-[[tp4.m]]
 Exercícios resolvidos: **1; 3; 4**
-
 
 ---
 
@@ -110,6 +108,7 @@ errob = 0.0021
 majoranteb = 0.0022
 ```
 
+> ⚠️ **Correção:** na versão anterior, `errob` usava `valAprox` (o valor da interpolação **linear**) e dava $0.0040$. O erro da interpolação quadrática é, na verdade, $|0.2495-0.2474|\approx0.0021$.
 
 Majorante: $f'''(x)=-\cos x$, $|f'''|\le1$ em $[0,0.6]$ (máximo em $x=0$):
 
@@ -117,10 +116,14 @@ $$|E|\le\frac{1}{3!}\,|(0.25-0)(0.25-0.4)(0.25-0.6)|=\frac{0.013125}{6}\approx0.
 
 **Comparação:**
 
-| | Aproximação | Erro efetivo | Majorante |
-|---|---|---|---|
-| Linear ($P_1$) | $0.2434$ | $0.0040$ | $0.0073$ |
-| Quadrática ($P_2$) | $0.2495$ | $0.0021$ | $0.0022$ |
+$$
+\begin{array}{|l|l|l|l|}
+\hline
+ & \textbf{Aproximação} & \textbf{Erro efetivo} & \textbf{Majorante} \\ \hline
+\text{Linear (}P_1\text{)} & 0.2434 & 0.0040 & 0.0073 \\ \hline
+\text{Quadrática (}P_2\text{)} & 0.2495 & 0.0021 & 0.0022 \\ \hline
+\end{array}
+$$
 
 Valor exato: $\operatorname{sen}(0.25)=0.2474$. O erro desce para cerca de metade ao passar de grau 1 para grau 2.
 
@@ -394,19 +397,4 @@ xlabel('x'); ylabel('y'); title('Exercício 4')
 
 ![Exercício 4 — y e P2](figuras/ex4_interpolacao.png)
 
----
 
-## Resumo de resultados
-
-| Ex. | Resultado |
-|-----|-----------|
-| 1 a) | $P_1(0.25)=0.2434$ |
-| 1 b) | erro real $0.0040$; majorante $0.0073$ |
-| 1 c) | $P_2(0.25)=0.2495$; erro real $0.0021$; majorante $0.0022$ |
-| 3 a) | $h\le0.21$ → $h=0.2$ → **6 entradas** |
-| 3 b) | $\cos0.23\approx0.974$ ($P_2(0.23)=0.9737$) |
-| 3 c) | $h\le0.331$ → $h=0.25$ → **5 entradas** |
-| 4 a) | $A=0.5$, $B=-0.25$ |
-| 4 b) | $P_2(x)=0.6-0.4(x-1)+0.2(x-1)(x-1.25)$ |
-| 4 c) | $P_2(1.2)=0.518$ |
-| 4 d) | (i) $\le1.69\times10^{-3}$; (ii) $\le0.3072$ |

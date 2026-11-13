@@ -96,17 +96,7 @@ $$
 \end{array}
 $$
 
-%%
 
-| Conceito | Multiplicativa | Aditiva |
-| --- | --- | --- |
-| Elemento neutro | $1_M$ (identidade) | $0_M$ (elemento zero) |
-| Oposto de $a$ | $a^{-1}$ (inverso) | $-a$ (simétrico) |
-| "Potência" $n$-ésima | $a^n$ | $na$ |
-| Expoente $0$ | $a^0 = 1_M$ | $0a = 0_M$ |
-| Expoente negativo | $a^{-n} = (a^n)^{-1}$ | $(-n)a = -(na)$ |
-| $(ab)^{-1}$ / $-(a+b)$ | $b^{-1}a^{-1}$ | $-b + (-a) = -a-b$ (comuta, pois é abeliano) |
-%% 
 
 > [!info] Nota
 > Em linguagem aditiva assume-se **sempre** que o grupo é abeliano — por isso, na linha do produto/soma de dois elementos, $-b + (-a) = -a - b$: a ordem já não importa.

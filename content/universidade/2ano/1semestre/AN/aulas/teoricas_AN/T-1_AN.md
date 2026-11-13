@@ -1,3 +1,7 @@
+# Análise Numérica — Aula 1
+
+---
+
 ## 1. Introdução
 
 ### 1.1 O que é a Análise Numérica?
@@ -23,13 +27,17 @@ Questões típicas de um analista numérico:
 
 ### 1.3 Tipos de erro
 
-| # | Tipo | Origem |
-|---|------|--------|
-| 1 | Erros humanos | "bugs" |
-| 2 | Erros de modelação | simplificação e idealização do problema |
-| 3 | Erros nos dados | medição de quantidades físicas |
-| 4 | **Erros de truncatura** | aproximação de integrais, limites, etc. |
-| 5 | **Erros de arredondamento** | arredondamento dos dados e dos resultados das operações aritméticas, por se trabalhar num computador |
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{\#} & \textbf{Tipo} & \textbf{Origem} \\ \hline
+\text{1} & \text{Erros humanos} & \text{\textquotedblleft{}bugs\textquotedblright{}} \\ \hline
+\text{2} & \text{Erros de modelação} & \begin{array}{l} \text{simplificação e idealização do} \\ \text{problema} \end{array} \\ \hline
+\text{3} & \text{Erros nos dados} & \text{medição de quantidades físicas} \\ \hline
+\text{4} & \textbf{Erros de truncatura} & \begin{array}{l} \text{aproximação de integrais, limites,} \\ \text{etc.} \end{array} \\ \hline
+\text{5} & \textbf{Erros de arredondamento} & \begin{array}{l} \text{arredondamento dos dados e dos} \\ \text{resultados das operações} \\ \text{aritméticas, por se trabalhar num} \\ \text{computador} \end{array} \\ \hline
+\end{array}
+$$
 
 > Na UC de Análise Numérica interessam-nos especialmente os **erros de truncatura** e os **erros de arredondamento**.
 
@@ -85,12 +93,16 @@ Esta representação **existe sempre** e é **única** se excluirmos as represen
 
 Quatro parâmetros:
 
-| Parâmetro | Significado |
-|-----------|-------------|
-| $b$ | base |
-| $t$ | número de dígitos da mantissa |
-| $m$ | valor **mínimo** do expoente |
-| $M$ | valor **máximo** do expoente |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Parâmetro} & \textbf{Significado} \\ \hline
+b & \text{base} \\ \hline
+t & \text{número de dígitos da mantissa} \\ \hline
+m & \text{valor}\ \textbf{mínimo}\ \text{do expoente} \\ \hline
+M & \text{valor}\ \textbf{máximo}\ \text{do expoente} \\ \hline
+\end{array}
+$$
 
 $F$ é constituído pelo **zero** e por todos os números que se puderem escrever na forma
 
@@ -103,11 +115,15 @@ Se nada for dito em contrário, consideram-se apenas os normalizados.
 
 ### 2.3 Nível de *overflow* e nível de *underflow*
 
-| Conceito | Fórmula |
-|----------|---------|
-| Maior número de $F$ — **nível de *overflow*** | $\Omega=(1-b^{-t})\,b^M$ |
-| Menor número positivo normalizado — **nível de *underflow*** | $\omega=b^{m-1}$ |
-| Menor número positivo se houver desnormalizados | $b^{m-t}$ |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Conceito} & \textbf{Fórmula} \\ \hline
+\begin{array}{l} \text{Maior número de}\ F\ \text{—}\ \textbf{nível de} \\ \textbf{\textit{overflow}} \end{array} & \Omega=(1-b^{-t})\,b^M \\ \hline
+\begin{array}{l} \text{Menor número positivo normalizado} \\ \text{—}\ \textbf{nível de}\ \textbf{\textit{underflow}} \end{array} & \omega=b^{m-1} \\ \hline
+\begin{array}{l} \text{Menor número positivo se houver} \\ \text{desnormalizados} \end{array} & b^{m-t} \\ \hline
+\end{array}
+$$
 
 **Conjunto dos representáveis:**
 
@@ -145,13 +161,17 @@ $$|\text{fl}(x)-x|\le|y-x|\quad\forall y\in F \tag{1}$$
 
 **Exemplos em $F(10,4,-2,3)$**
 
-| $x$ | fl(x) | Regra |
-|-----|-------|-------|
-| $.75824\times10^{-2}$ | $.7582\times10^{-2}$ | — |
-| $.75826\times10^{-2}$ | $.7583\times10^{-2}$ | — |
-| $.75825\times10^{-2}$ | $.7582\times10^{-2}$ | empate → **para par** |
-| $.75825\times10^{-2}$ | $.7583\times10^{-2}$ | empate → **habitual** |
-| $.758251\times10^{-2}$ | $.7583\times10^{-2}$ | sem empate (ambas as regras) |
+$$
+\begin{array}{|l|l|l|}
+\hline
+x & \textbf{fl(x)} & \textbf{Regra} \\ \hline
+.75824\times10^{-2} & .7582\times10^{-2} & \text{—} \\ \hline
+.75826\times10^{-2} & .7583\times10^{-2} & \text{—} \\ \hline
+.75825\times10^{-2} & .7582\times10^{-2} & \text{empate }\to \ \textbf{para par} \\ \hline
+.75825\times10^{-2} & .7583\times10^{-2} & \text{empate }\to \ \textbf{habitual} \\ \hline
+.758251\times10^{-2} & .7583\times10^{-2} & \text{sem empate (ambas as regras)} \\ \hline
+\end{array}
+$$
 
 **Exemplos em $F(2,4,-2,3)$**
 
@@ -164,10 +184,14 @@ Se $x\in R_F$ tiver expoente $e$ na notação normalizada:
 
 $$|\text{fl}(x)-x|\le\tfrac12\,b\,b^{-(t+1)}\,b^e=\tfrac12\,b^{-t}\,b^e \tag{2}$$
 
-| Conceito | Definição |
-|----------|-----------|
-| **Epsilon da máquina** $\varepsilon$ | diferença entre o número de máquina imediatamente superior a $1$ e o número $1$: $\varepsilon=b^{1-t}$ |
-| **Unidade de erro de arredondamento** $\mu$ | $\mu=\tfrac12 b^{1-t}=\tfrac12\varepsilon$ |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Conceito} & \textbf{Definição} \\ \hline
+\textbf{Epsilon da máquina}\ \varepsilon & \begin{array}{l} \text{diferença entre o número de} \\ \text{máquina imediatamente superior a} \\ 1\ \text{e o número}\ 1\text{:}\ \varepsilon=b^{1-t} \end{array} \\ \hline
+\begin{array}{l} \textbf{Unidade de erro de arredondamento} \\ \mu \end{array} & \mu=\tfrac12 b^{1-t}=\tfrac12\varepsilon \\ \hline
+\end{array}
+$$
 
 ### 2.6 Operações de vírgula flutuante
 
@@ -199,12 +223,16 @@ $$(x\oplus y)\oplus z$$
 
 Sistema $F(2,\,53,\,-1021,\,1024)$:
 
-| Grandeza | Valor | Comando Matlab |
-|----------|-------|----------------|
-| $\Omega=(1-2^{-53})2^{1024}=2^{1024}-2^{971}$ | $\approx1.8\times10^{308}$ | `realmax` |
-| $\omega=2^{-1022}$ | $\approx2.2\times10^{-308}$ | `realmin` |
-| $\varepsilon=2^{-52}$ | $\approx2.2\times10^{-16}$ | `eps` |
-| $\mu=2^{-53}$ | $\approx1.1\times10^{-16}$ | — |
+$$
+\begin{array}{|l|l|l|}
+\hline
+\textbf{Grandeza} & \textbf{Valor} & \textbf{Comando Matlab} \\ \hline
+\Omega=(1-2^{-53})2^{1024}=2^{1024}-2^{971} & \approx1.8\times10^{308} & \texttt{realmax} \\ \hline
+\omega=2^{-1022} & \approx2.2\times10^{-308} & \texttt{realmin} \\ \hline
+\varepsilon=2^{-52} & \approx2.2\times10^{-16} & \texttt{eps} \\ \hline
+\mu=2^{-53} & \approx1.1\times10^{-16} & \text{—} \\ \hline
+\end{array}
+$$
 
 - Admite **números desnormalizados**: $(-1)^s(.0\,d_2\cdots d_{53})_2\times2^{-1021}$.
 - Menor número positivo do sistema: $2^{-1021}\times2^{-53}=2^{-1074}\approx4.9\times10^{-324}$.
@@ -220,34 +248,13 @@ Sistema $F(2,\,53,\,-1021,\,1024)$:
 
 **Funções do Matlab desta parte**
 
-| Categoria | Funções |
-|-----------|---------|
-| Conversão de bases | `dec2bin`, `dec2hex`, `dec2base`, `bin2dec`, `hex2dec`, `base2dec` |
-| Constantes do sistema | `realmax`, `realmin`, `eps`, `Inf`, `NaN` |
-| Arredondamento | `ceil`, `fix`, `floor`, `round` |
+$$
+\begin{array}{|l|l|}
+\hline
+\textbf{Categoria} & \textbf{Funções} \\ \hline
+\text{Conversão de bases} & \begin{array}{l} \texttt{dec2bin}\text{,}\ \texttt{dec2hex}\text{,}\ \texttt{dec2base}\text{,} \\ \texttt{bin2dec}\text{,}\ \texttt{hex2dec}\text{,}\ \texttt{base2dec} \end{array} \\ \hline
+\text{Constantes do sistema} & \begin{array}{l} \texttt{realmax}\text{,}\ \texttt{realmin}\text{,}\ \texttt{eps}\text{,}\ \texttt{Inf}\text{,} \\ \texttt{NaN} \end{array} \\ \hline
+\text{Arredondamento} & \texttt{ceil}\text{,}\ \texttt{fix}\text{,}\ \texttt{floor}\text{,}\ \texttt{round} \\ \hline
+\end{array}
+$$
 
----
-
-## 3. Resumo rápido
-
-- **Normalizado**: $x=(-1)^s(.d_1d_2\ldots)_b\,b^e$, com $d_1\neq0$.
-- **Sistema** $F(b,t,m,M)$: $\Omega=(1-b^{-t})b^M$, $\omega=b^{m-1}$, menor desnormalizado $b^{m-t}$.
-- **Epsilon**: $\varepsilon=b^{1-t}$; **unidade de erro de arredondamento**: $\mu=\tfrac12b^{1-t}$.
-- **Arredondamento**: $\text{fl}(x)=x(1+\delta)$, $|\delta|\le\mu$ *(visto no início da parte seguinte, "Erros")*.
-- **Operações de máquina**: $x\oplus y=\text{fl}(x+y)$; **não** são associativas nem distributivas.
-- **Matlab**: $F(2,53,-1021,1024)$, `eps` $=2^{-52}$, arredondamento para par, `Inf`/`NaN`.
-
----
-
-## 4. Exercícios para praticar
-
-1. Em $F(10,3,-5,5)$, calcule $\Omega$, $\omega$, $\varepsilon$ e $\mu$.
-   *Solução:* $\Omega=0.999\times10^5$, $\omega=10^{-6}$, $\varepsilon=10^{-2}$, $\mu=0.5\times10^{-2}$.
-2. Em $F(10,4,-2,3)$, calcule $\text{fl}(.12345\times10^1)$ com arredondamento para par e com arredondamento habitual.
-   *Solução:* para par → $.1234\times10^1$; habitual → $.1235\times10^1$.
-3. Em $F(2,3,-1,2)$, quais são o maior e o menor números positivos normalizados?
-   *Solução:* $\Omega=(1-2^{-3})\cdot2^2=3.5$; $\omega=2^{-2}=0.25$.
-4. Verifique no Matlab: `realmax*2`, `0/0`, `1/0`, `eps`, `1+eps/4==1`.
-
-# Reference
-- [[slideserrosestabilidade.pdf]]

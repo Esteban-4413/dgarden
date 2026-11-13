@@ -26,8 +26,8 @@ $$
 \end{align*}
 $$
 
-Caso 3: $n < 0 \\$
-Seja $n = -k$. Então $k = -n > 0 \\$
+Caso 3: $n < 0$
+Seja $n = -k$. Então $k = -n > 0$
 Tem-se 
 
 $$
@@ -54,7 +54,7 @@ $$
 1) A lei do corte é válida em $(\mathbb{N}, +)$ e em $(\mathbb{N}, \cdot)$
 2) Em $(\mathbb{N}_0, \cdot)$ e em $(\mathbb{Z}, \cdot)$ não é válida a lei do corte pois por exemplo $0 \cdot 8 = 0 \cdot 5 = 0$ e no entanto $8 \ne 5$. Portanto o $0$ não é cancelável.
 
-*Propriedade:*Seja $(M, \cdot)$ um monóide. Se $a \in M$ é invertível, então $a$ é simplicável
+*Propriedade:* Seja $(M, \cdot)$ um monóide. Se $a \in M$ é invertível, então $a$ é simplicável
 
 *Demonstração:* Se $a$ é invertível, então $a$ existe um elemento $a^{-1} \in M$ tal que $$a \cdot a^{-1} = a^{-1} \cdot a = 1_M$$ Logo, para quaisquer $c, d \in M$, tem-se
 
@@ -87,14 +87,6 @@ c & c & a & b
 \end{array}
 $$
 
-%%
-
-| $\cdot$ | a   | b   | c   |
-| ------- | --- | --- | --- |
-| a       | a   | b   | c   |
-| b       | b   | c   | a   |
-| c       | c   | a   | b   |
-%%
 
 $$
 \begin{array}{c|cccc}
@@ -107,16 +99,6 @@ h & h & g & f & e
 \end{array}
 $$
 
-%%
-
-| $\cdot$ | e   | f   | g   | h   |
-| ------- | --- | --- | --- | --- |
-| e       | e   | f   | g   | h   |
-| f       | f   | e   | h   | g   |
-| g       | g   | h   | e   | f   |
-| h       | h   | g   | f   | e   |
-
-%%
 
 # Links
 [[T1_Algebra.md]]

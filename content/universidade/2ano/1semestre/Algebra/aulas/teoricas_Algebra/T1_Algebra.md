@@ -66,18 +66,6 @@ x_n & x_n*x_1 & x_n*x_2 & \cdots & x_n*x_j & \cdots & x_n*x_n
 \end{array}
 $$
 
-%%
-
-|            | $x_1$ | $x_2$ | ⋯ | $x_j$ | ⋯ | $x_n$ |
-| ---------- | ----- | ----- | - | ----- | - | ----- |
-| $x_1$      | $x_1*x_1$ | $x_1*x_2$ | ⋯ | $x_1*x_j$ | ⋯ | $x_1*x_n$ |
-| $x_2$      | $x_2*x_1$ | $x_2*x_2$ | ⋯ | $x_2*x_j$ | ⋯ | $x_2*x_n$ |
-| ⋮          | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
-| $x_i$      | $x_i*x_1$ | $x_i*x_2$ | ⋯ | $x_i*x_j$ | ⋯ | $x_i*x_n$ |
-| ⋮          | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ | ⋮ |
-| $x_n$      | $x_n*x_1$ | $x_n*x_2$ | ⋯ | $x_n*x_j$ | ⋯ | $x_n*x_n$ |
-
-%%
 
 *Exemplo:* É a tabela de Cayley de um grupóide de suporte $\{a,b,c\}$:
 
@@ -91,15 +79,6 @@ c & b & a & c
 \end{array}
 $$
 
-%%
-
-|     | $a$ | $b$ | $c$ |
-| --- | --- | --- | --- |
-| $a$ | $a$ | $a$ | $b$ |
-| $b$ | $c$ | $a$ | $b$ |
-| $c$ | $b$ | $a$ | $c$ |
-
-%%
 
 > [!info] Truque prático
 > Para verificar se um grupóide finito é **comutativo**, basta verificar se a tabela é **simétrica em relação à diagonal principal**.
