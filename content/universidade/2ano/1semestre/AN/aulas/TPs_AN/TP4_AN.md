@@ -108,7 +108,6 @@ errob = 0.0021
 majoranteb = 0.0022
 ```
 
-> ⚠️ **Correção:** na versão anterior, `errob` usava `valAprox` (o valor da interpolação **linear**) e dava $0.0040$. O erro da interpolação quadrática é, na verdade, $|0.2495-0.2474|\approx0.0021$.
 
 Majorante: $f'''(x)=-\cos x$, $|f'''|\le1$ em $[0,0.6]$ (máximo em $x=0$):
 
